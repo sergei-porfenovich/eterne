@@ -1,0 +1,60 @@
+{% for product in collections["shop"].products %}
+
+  {% if product.metafields.arena.is_gift == "true" %}
+
+    {% unless cart.item_count == 0 or product.empty? or product.variants.first.available == false or product.metafields.arena.gift_start_date == blank or product.metafields.arena.gift_end_date == blank %}
+      {% assign start_date = product.metafields.arena.gift_start_date | date: '%s' %}
+      {% assign end_date = product.metafields.arena.gift_end_date | date: '%s' %}
+      {% assign variant_id = product.variants.first.id %}
+
+      <script>
+        (function($) {
+          var currDate = new Date();
+          currDate = currDate.toLocaleDateString("en-us");
+          var startDate = new Date({{start_date}}*1000);
+          startDate = startDate.toLocaleDateString("en-us");
+          var endDate = new Date({{end_date}}*1000);
+          endDate = endDate.toLocaleDateString("en-us");
+
+          if(currDate >= startDate && currDate <= endDate) {
+
+            var cartItems = {{ cart.items | json }},
+            qtyInTheCart = 0,
+            cartUpdates = {};
+
+            for (var i=0; i<cartItems.length; i++) {
+              if ( cartItems[i].id === {{ variant_id }} ) {
+                  qtyInTheCart = cartItems[i].quantity;
+                  break;
+              }
+            }
+
+            if ( ( cartItems.length === 1 ) && ( qtyInTheCart > 0 ) ) {
+              return;
+            }
+            else if ( ( cartItems.length >= 1 ) && ( qtyInTheCart !== 1 ) ) {
+              cartUpdates = { {{ variant_id }}: 1 }
+            }
+
+            else {
+              return;
+            }
+
+            var params = {
+              type: 'POST',
+              url: '/cart/update.js',
+              data: { updates: cartUpdates },
+              dataType: 'json',
+              success: function(stuff) { 
+                window.location.href = '/cart';
+              }
+            };
+
+            $.ajax(params);
+          }
+        })(jQuery);
+      </script>
+
+    {% endunless %}
+  {% endif %}
+{% endfor %}

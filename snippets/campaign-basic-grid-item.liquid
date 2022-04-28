@@ -1,0 +1,28 @@
+{%- if feature_image -%}
+
+  {%- assign ratio = feature_image.aspect_ratio -%}
+  {%- assign multiplier = block.settings.aspect_ratio | plus: 0 -%}  
+  {%- assign inverse_ratio = 1 | divided_by: multiplier -%}
+  {%- assign imgurl = feature_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+
+<div class="grid__item {{ grid_width_small }} {{ grid_width_medium }} {{ grid_width_large }}" >
+  
+  <div class="grid__item_frame" data-aspectratio="{{inverse_ratio}}">
+    <div class="lazy-image" style="padding-top:{{ 1 | divided_by: feature_image.aspect_ratio | times: 100}}%; background-image:  url('{{ feature_image | img_url: '1x1' }}');">
+      <img class="lazyload lazypreload fade-in campaign-grid-img"        
+        src="{{ feature_image | img_url }}"
+        data-original="{{ imgurl }}"
+        data-src="{{ imgurl }}"
+        data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048, 2450, 2700, 3000, 3350, 3750, 4100, 4480]"
+        data-aspectratio="{{  feature_image.aspect_ratio }}"
+        data-sizes="auto" />
+    </div>
+  </div>
+  
+  <noscript>    
+      <img src="{{ feature_image | img_url: '360x' }}" />    
+  </noscript>
+  
+
+</div>  
+{%- endif -%}

@@ -1,0 +1,183 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+<script src="https://www.dwin1.com/19038.js" type="text/javascript" defer="defer"></script>
+{{ '//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' | stylesheet_tag }}
+<head>
+<!-- Global site tag (gtag.js) - Google Ads: 780794742 --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-780794742"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-780794742'); </script>
+<!-- End Google Tag Manager -->
+<meta name="facebook-domain-verification" content="mo4rbu71wtgu9f4cigw5403jbogfic" />
+<meta name="google-site-verification" content="jXHP3v15J17cFUFugBHG98a5Ab80RCUtCEXPYDMVgGw" />
+{% include 'booster-seo' %}
+
+  <!-- ======================= Pipeline Theme V4.5.1 ========================= -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  {% if settings.favicon != blank %}
+    <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
+  {% endif %}
+
+  <!-- Title and description ================================================ -->
+  {% comment %}<title>
+  {{ page_title }}{% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}
+  </title>{% endcomment %}
+
+  {% if page_description %}
+  {% comment %}<meta name="description" content="{{ page_description | escape }}">{% endcomment %}
+  {% endif %}
+
+  <!-- Product meta ========================================================= -->
+  {% include 'social-meta-tags' %}
+
+  <!-- Helpers ============================================================== -->
+  <link rel="canonical" href="{{ canonical_url }}">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="{{ settings.color_primary }}">
+  <link rel="stylesheet" href="//use.typekit.net/xup3kdx.css">
+  <link rel="stylesheet" href="//unpkg.com/aos@2.3.1/dist/aos.css">
+  <script type="text/javascript" src="//unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+  {% if template contains "product" and product.tags contains "dev" %}
+  	<meta name="robots" content="noindex">
+  {% endif %}
+
+  <!-- CSS ================================================================== -->
+  {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
+
+  <!-- Vendor JS ============================================================ -->
+  {{ 'vendor.js' | asset_url | script_tag }}
+  {{ 'custom.js' | asset_url | script_tag }}
+
+  {% include 'oldIE-js' %}
+
+  <script>
+    var theme = {
+      strings: {
+        addToCart: {{ 'products.product.add_to_cart' | t | json }},
+        soldOut: {{ 'products.product.sold_out' | t | json }},
+        unavailable: {{ 'products.product.unavailable' | t | json }},
+        join: {{ 'products.product.join_membership' | t | json }}
+      },
+      moneyFormat: {{ shop.money_format | json }},
+      version: '4.5.1'
+    }
+  </script>
+
+  {% comment %}
+    If you store has customer accounts disabled, you can remove the following JS file
+  {% endcomment %}
+  {% if template contains 'customers' %}
+    {{ 'shopify_common.js' | shopify_asset_url | script_tag }}
+  {% endif %}
+
+  <!-- Header hook for plugins ============================================== -->
+  {{ content_for_header }}
+
+  <script>window.beans_cjs_id = '{{ customer.id }}'; window.beans_cjs_email = '{{ customer.email }}';</script> 
+
+ 
+
+
+  {% include 'qikify-quickview' %}
+{% include "ot-cookies" %}</head>
+
+<body id="{{ page_title | handle }}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}" data-animations="{{ settings.animations_enable }}">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5NH4RCV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  {% section 'announcement-bar' %}
+  {% section 'header' %}
+
+  <main class="main-content" role="main">
+    {{ content_for_layout }}
+  </main>
+
+  {% section 'footer' %}
+
+  <!-- Theme Javascript ============================================================== -->
+  {{ 'theme.js' | asset_url | script_tag }}
+
+  <script>
+    {% if newHash %}
+      $(function() {
+        timber.updateHash('{{ newHash }}');
+      });
+    {% endif %}
+    {% if resetPassword %}
+      $(function() {
+        timber.resetPasswordSuccess();
+      });
+    {% endif %}
+  </script>
+  <script src="//cdn.codeblackbelt.com/js/modules/frequently-bought-together/main.min.js?shop=shopeterne.myshopify.com" defer></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  <!-- Paste popup code between comments ===================================== -->
+
+  <!-- End popup ================================================== -->
+  <script>
+    AOS.init();
+  </script>
+{% include 'swymSnippet' %}
+ <!-- CleverApp CODE Start -->
+  {% if template.name == 'product'%}
+  {% include 'clever' %}
+  {% endif %}
+  <!-- CleverApp END --> 
+{% include 'giftship' %}   
+  
+ {% include 'smile-initializer' %}
+
+{% include 'subscribe-it-helper' %}</body>
+</html>

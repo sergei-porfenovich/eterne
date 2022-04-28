@@ -1,0 +1,202 @@
+{% if section.settings.message %}
+
+    <style>
+      .announcement-bar {
+        background-color: {{ section.settings.color_bg }};
+        text-align:center;
+      }
+      
+      body {
+        position:relative;
+        top: {{ section.settings.header_padding }}px !important;
+      }
+      
+      .slider {
+        height: 40px;
+        width: 100%;
+        overflow: visible;
+        position: relative;
+      }
+
+      .mask {
+        overflow: hidden;
+        height: 40px;
+      }
+      
+      .slider ul {
+        margin: 0;
+        padding: 0;
+        position: relative;
+      }
+
+      .slider li {
+        width: 100%;
+        height: 40px;
+        position: absolute;
+        list-style: none;
+        font-size: {{ section.settings.font_size }}px;
+        text-align: center;
+        color: {{ section.settings.color_text }};
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        opacity: 1;
+      }
+      
+      .slider li.anim1 {
+        -moz-animation: cycle 15s linear infinite;
+        -webkit-animation: cycle 15s linear infinite;
+        animation: cycle 15s linear infinite;
+        top: 100px;
+        opacity: 0;
+      }
+
+      .slider li.anim2 {
+        -moz-animation: cycle2 15s linear infinite;
+        -webkit-animation: cycle2 15s linear infinite;
+        animation: cycle2 15s linear infinite;
+        top: 100px;
+        opacity: 0;
+      }
+      
+      @keyframes cycle {
+        0% {
+          transform: translateY(-60px);
+          opacity: 0;
+        }
+        3% {
+          transform: translateY(-100px);
+          opacity: 1;
+        }
+        47% {
+          transform: translateY(-100px);
+          opacity: 1;
+        }
+        50% {
+          transform: translateY(-100px);
+          opacity: 0;
+        }
+         100% {
+          transform: translateY(-60px);
+          opacity: 0;
+        }
+      }
+
+      @keyframes cycle2 {
+        0% {
+          transform: translateY(-10px);
+          opacity: 0;
+        }
+        50% {
+          transform: translateY(-60px);
+          opacity: 0;
+        }
+        53%, 97% {
+          transform: translateY(-100px);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(-100px);
+          opacity: 0;
+        }
+      }
+      
+      @media only screen and (max-width: 600px) {
+        .announcement-bar {
+          padding: 10px 0px;
+        }
+      }
+
+    </style>
+
+	{% assign announcement_message = section.settings.message_text %}
+    {% assign announcement_message2 = section.settings.announcement_two %}
+
+	{% if announcement_message != blank or announcement_message2 != blank %}
+      <div class="announcement-bar">
+        <div class="slider">
+          <div class="mask">
+            <ul>
+              
+              {% if announcement_message != blank and announcement_message2 == blank %}
+               	<li>{{ announcement_message }}</li>
+              {% endif %}
+              
+              {% if announcement_message2 != blank and announcement_message == blank %}
+                <li>{{ announcement_message2 }}</li>
+              {% endif %}
+              
+              {% if announcement_message != blank and announcement_message2 != blank %}
+                <li class="anim1">{{ announcement_message }}</li>
+              	<li class="anim2">{{ announcement_message2 }}</li>
+              {% endif %}
+             
+            </ul>
+          </div>
+        </div>
+       </div>
+
+	{% endif %}
+
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Announcement bar",
+    "settings": [
+      {
+        "type": "header",
+        "content": "General"
+      },
+      {
+        "type": "checkbox",
+        "id": "message",
+        "label": "Show announcement",
+        "default": false
+      },
+      {
+        "type": "header",
+        "content": "Content"
+      },
+      {
+        "type": "textarea",
+        "id": "message_text",
+        "label": "Announcement One",
+        "default": "Announce something here"
+      },
+      {
+        "type": "textarea",
+        "id": "announcement_two",
+        "label": "Announcement Two",
+		"default": "Announce something here"
+      },
+      {
+        "type": "header",
+        "content": "Fonts and colors"
+      },
+      {
+        "type": "color",
+        "id": "color_bg",
+        "label": "Background color",
+        "default": "#333333"
+      },
+      {
+        "type": "color",
+        "id": "color_text",
+        "label": "Text color",
+        "default": "#ffffff"
+      },
+      {
+        "type":   "range",
+        "id":     "font_size",
+        "min":    8,
+        "max":    16,
+        "step":   1,
+        "unit":   "px",
+        "label":  "Font size",
+        "default":   14
+      }
+    ]
+  }
+{% endschema %}

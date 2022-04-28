@@ -1,0 +1,112 @@
+<!-- /sections/press-page.liquid -->
+
+<div class="press-page" data-section-id="{{ section.id }}" data-section-type="parallax">
+  <div class="collection sidebar--hidden" data-sidebar-toggle>    
+    <div class="wrapper">   
+      <div class="press_page_heading">
+        <h1>{{ section.settings.press_page_title }}</h1>
+        <h3>{{ section.settings.press_page_description }}</h3>
+      </div>
+             
+      <div class="grid grid--full">            
+        {% for block in section.blocks %}  
+
+          {%- assign article_logo = "" -%}
+          {%- assign article_image = "" -%}
+          {%- assign article_date = "" -%}
+          {%- assign article_title = "" -%}  
+          {%- assign article_description = "" -%}
+          {%- assign article_url = "" -%}
+
+          <div class="grid__item small--one-whole medium--one-third large--one-third product-grid-item">
+
+            {%- assign grid_width_large = 'large--one-half' -%}
+            {%- assign grid_width_medium = 'medium--one-half' -%}
+            {%- assign grid_width_small = 'small--one-whole' -%}    
+
+            {%- assign article_logo = block.settings.article_logo -%}
+            {%- assign article_image = block.settings.article_image -%}
+            {%- assign article_date = block.settings.article_date -%}
+            {%- assign article_title = block.settings.article_title -%}  
+            {%- assign article_description = block.settings.article_description -%}
+            {%- assign article_url = block.settings.article_url -%}
+
+            {% include 'press-page-block' %}
+
+          </div>
+
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+  
+<script>
+  $(document).ready(function(){
+    $('.grid__item_frame').each(function(){
+    $(this).css( "height", this.clientWidth * 1.33 ); });    
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Manage Press Page",
+  "settings": [
+      {
+      "type": "text",
+      "id": "press_page_title",
+      "label": "Press Page Title"
+      },
+      {
+      "type": "textarea",
+      "id": "press_page_description",
+      "label": "Press Page Description"
+      } 
+    ],
+    "blocks": [
+    {
+      "type": "article",	  
+      "name": "Article",
+      "settings": [ 
+		{
+          "type": "image_picker",
+          "id": "article_logo",
+          "label": "Article Logo"
+        },	
+		{
+          "type": "image_picker",
+          "id": "article_image",
+          "label": "Article Image"
+        },
+		{
+          "type": "text",
+          "id": "article_date",
+          "label": "Article Date"
+        },
+        {
+          "type": "text",
+          "id": "article_title",
+          "label": "Article Title"
+        },
+        {
+          "type": "textarea",
+          "id": "article_description",
+          "label": "Article Description"
+        },
+		{
+          "type": "url",
+          "id": "article_url",
+          "label": "Article URL"
+        }
+      ]
+    } 
+  ]
+}
+
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

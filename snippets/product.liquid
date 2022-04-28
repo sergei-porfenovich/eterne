@@ -1,0 +1,233 @@
+<div class="product-page">
+  <div class="wrapper">
+
+    {% if section.settings.product_breadcrumbs %}
+      {% include 'breadcrumb' %}
+    {% endif %}
+
+    {% assign current_variant = product.selected_or_first_available_variant %}
+    {% if product.variants.size > 1 %}
+      {% assign current_variant = product.selected %}
+    {% else %}
+      {% assign current_variant = product.first_available_variant %}
+    {% endif %}    
+
+    {%- assign product_image_width = 'large--one-half' -%}
+    {%- assign product_description_width = 'large--one-half' -%}
+
+    <div class="grid product-single">
+      <div class="grid__item {{ product_image_width }} text-center">
+        <div class="product__slides product-single__photos" id="ProductPhoto-{{ section.id }}">
+          
+          {%- assign featured_image = current_variant.featured_image | default: product.featured_image -%}
+          {%- assign img_api = featured_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+          
+          <div class="product__photo"  data-thumb="{{ featured_image.src | img_url }}">
+            
+            <div {% if featured_image.aspect_ratio < 1 and 1 == 0 %}style="width:{{ featured_image.aspect_ratio | times: 100 }}%; margin: 0 auto;"{% endif %}>
+              
+              <div class="lazy-image" style="padding-top:{{ 1 | divided_by: featured_image.aspect_ratio | times: 100}}%; background-image:  url('{{ featured_image.src | img_url: '1x1' }}');">
+                <img class="ProductImg-{{ section.id }} lazyload lazypreload"
+                  {% if section.settings.zoom_enable %}data-mfp-src="{{ featured_image | img_url: 'master' }}"{% endif %}
+                  data-image-id="{{ featured_image.id }}"
+                  alt="{{ featured_image.alt | escape }}"
+                  src="{{ featured_image.src | img_url }}"
+                  data-src="{{ img_api }}"
+                  data-original="{{ featured_image.src | img_url }}"
+                  data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048, 2450, 2700, 3000, 3350, 3750, 4100, 4480]"
+                  data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                  data-sizes="auto"/>
+                {% if featured_image.alt contains 'youtube.com' or featured_image.alt contains 'vimeo.com' %}
+                  <a href="{{ featured_image.alt }}" data-video-popup class="product__play icon-fallback-text">
+                    <span class="icon icon-play">{% include 'svg-play',  play_color: settings.product_background_color %}</span>
+                    <span class="fallback-text">&#9658;</span>
+                  </a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+
+          {% for image in product.images %}
+            {% unless image contains featured_image %}
+              {%- assign img_api = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+              <div class="product__photo{% unless forloop.first == true %} product__photo--additional{% endunless %}"  data-thumb="{{ image.src | img_url }}">
+                <div {% if image.aspect_ratio < 1 and 1==0 %}style="width:{{ image.aspect_ratio | times: 100 }}%; margin: 0 auto;"{% endif %}>
+                  <div class="lazy-image" style="padding-top:{{ 1 | divided_by: image.aspect_ratio | times: 100}}%; background-image:  url('{{ image.src | img_url: '1x1' }}');">
+                    <img class="ProductImg-{{ section.id }} lazyload lazypreload"
+                      {% if section.settings.zoom_enable %}data-mfp-src="{{  image.src | img_url: 'master' }}"{% endif %}
+                      data-image-id="{{ image.id }}"
+                      alt="{{ image.alt | escape }}"
+                      data-src="{{ img_api }}"
+                      data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048, 2450, 2700, 3000, 3350, 3750, 4100, 4480]"
+                      data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                      data-sizes="auto"/>
+                    {% if image.alt contains 'youtube.com' or image.alt contains 'vimeo.com' %}
+                      <a href="{{ image.alt }}" data-video-popup class="product__play icon-fallback-text">
+                        <span class="icon icon-play">{% include 'svg-play', play_color: settings.color_border  %}</span>
+                        <span class="fallback-text">&#9658;</span>
+                      </a>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            {% endunless %}
+          {% endfor %}
+        </div>
+        <noscript>
+          {% for image in product.images %}
+            <img src="{{ image | img_url: '900x' }}" alt="{{ image.alt | default: product.title  }}">
+          {% endfor %}
+        </noscript>
+        <div id="ProductThumbs-{{ section.id }}" class="product__thumbs--notsquare"></div>
+      </div>
+      
+
+      <div class="grid__item {{ product_description_width }}" id="productInfo-{{ section.id }}">
+        <div class="text-left">
+          
+          {%- if section.settings.show_price_above -%}
+          <h5 class="product__price uppercase h5{% if current_variant.compare_at_price > current_variant.price %} on-sale{% endif %}">
+            <span class="money"><span id="ProductPrice-{{ section.id }}">{{ current_variant.price | money }}</span></span>
+
+            <p class="small compare-at em" id="ComparePriceWrapper-{{ section.id }}" {% unless current_variant.compare_at_price > current_variant.price %}style="display: none"{% endunless %}>
+            <span class="money"><span id="ComparePrice-{{ section.id }}">{{ product.compare_at_price_max | money }}</span></span>
+            </p>
+          </h5>
+          {%- endif -%}
+
+          
+          {% if section.settings.product_show_vendor and product.vendor %}
+            <p><a href="{{ product.vendor | url_for_vendor }}" class="border-bottom-link uppercase">{{ product.vendor }}</a></p>
+          {% endif %}
+          
+          <h1 class="title text-larger">{{ product.title }}</h1>
+          
+          <p class="">
+          {% unless product.metafields.product.tagline == blank %}
+              <br/><span class="tagline">{{ product.metafields.product.tagline }}</span><br/>
+          {% endunless %}            
+            
+          {%- if section.settings.show_price_above != true -%}          
+            {% if product.price_varies %}
+            	<span class="price">From {{ product.price_min | money }} to {{ product.price_max | money }}.</span>
+            {% else %}
+            	<span class="price">{{ product.price | money }}</span>
+          	{% endif %}
+          {% endif %}            
+          </p>
+
+          {%- if section.settings.form_position == 'above' -%}
+            {% include 'product-form' %}
+          {%- endif -%}
+
+          {% comment %}
+            If the product description is over 1000 characters or contains an embed code,
+            place the description in a full width container below the image and cart button.
+          {% endcomment %}
+          {% assign description_position = '' %}
+          {%- assign product_description_content = product.metafields.product.short_description -%}
+          {%- assign has_tabs = false -%}
+          {%- for block in section.blocks -%}
+            {%- if block.type == "tab_description" -%}
+              {%- assign has_tabs = true -%}
+            {%- endif -%}
+          {%- endfor -%}
+          {%-if has_tabs -%}
+            {%- assign product_description_content = product_description_content | split: '<h6>' | first -%}
+          {%- endif -%}
+          {% if product_description_content contains '[split]' %}
+            {% assign description_position = 'both' %}
+          {% endif  %}
+
+          <div class="product-description rte">
+            {{ product_description_content | replace: '<p>[split]</p>', '[split]' | split: '[split]' | first }}
+          </div>
+
+        </div>
+
+        {%- if section.blocks.size > 0 and section.settings.tabs_position == 'sidebar'-%}
+          <div class="tabs-wrapper productTabsWrapper">
+            {% include 'product-tabs' %}
+          </div>
+        {%- endif -%}
+        {%- if section.settings.form_position == 'below' -%}
+          {% include 'product-form' %}
+        {%- endif -%}
+
+        {% if settings.product_social_enable %}
+          {% capture link %}{{ shop.url }}{{ product.url }}{% endcapture %}
+          {% capture shareTitle %}{{ product.title | url_param_escape }}{% endcapture %}
+          <div class="share" data-permalink="{{ link }}">
+            <div class="sharethis-inline-share-buttons"></div>
+            {% if settings.share_enable_facebook %}
+              <a target="_blank" href="//www.facebook.com/sharer.php?u={{ link }}" class="share__link">
+                <span class="icon icon-facebook" aria-hidden="true"></span>
+                <span class="share__text">{{ 'general.share.facebook' | t }}</span>
+              </a>
+            {% endif %}
+            {% if settings.share_enable_twitter %}
+              <a target="_blank" href="//twitter.com/share?url={{ link }}&amp;text={{ shareTitle }}" class="share__link">
+                <span class="icon icon-twitter" aria-hidden="true"></span>
+                <span class="share__text">{{ 'general.share.twitter' | t }}</span>
+              </a>
+            {% endif %}
+            {% if settings.share_enable_pinterest %}
+              <a target="_blank" href="http://pinterest.com/pin/create/button/?url={{ link }}&amp;media={{ product.featured_image | product_img_url: '1024x1024' | prepend: 'http:' }}&amp;description={{ shareTitle }}" class="share__link">
+                <span class="icon icon-pinterest" aria-hidden="true"></span>
+                <span class="share__text">{{ 'general.share.pinterest' | t }}</span>
+              </a>
+            {% endif %}
+            {% if settings.share_enable_google %}
+              <a target="_blank" href="//plus.google.com/share?url={{ link }}" class="share__link">
+                <span class="icon icon-google_plus" aria-hidden="true"></span>
+                <span class="share__text">{{ 'general.share.google' | t }}</span>
+              </a>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% if description_position == 'both' %}
+  <div class="wrapper">
+    <div class="product-description rte">
+      {{ product_description_content | replace: '<p>[split]</p>', '[split]' | split: '[split]' | last }}
+    </div>
+  </div>
+{% endif %}
+
+{%- if section.blocks.size > 0 and section.settings.tabs_position == 'below' -%}
+  <div class="wrapper tabs-wrapper productTabsWrapper">
+    {% include 'product-tabs' %}
+  </div>
+{%- endif -%}
+
+<div class="custom_bought_together"></div>
+
+{%- if section.settings.product_reviews_enable -%}
+  <div class="wrapper">
+    <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
+  </div>
+{%- endif -%}
+
+<script id="CartDrawerTemplate--{{ section.id }}" type="text/x-handlebars-template">
+  <span class="close">×</span>
+  <div class="product__add__drawer">
+    <div class="product__add__wrapper">
+      <div class="product__add__text">
+        <div class="product__add__message">{{ 'products.cart_drawer.item_added' | t }}</div>
+        <div class="product__add__buttons hidden">
+          <a href="/checkout" class="btn btn--large uppercase btn--splash">{{ "products.cart_drawer.checkout" | t }}</a>
+          <a href="/cart" class="btn btn--large uppercase btn--splash--outline">{{ "products.cart_drawer.view_cart" | t }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</script>
+
+
+<script type="application/json" id="ProductJson-{{ section.id }}">
+  {{ product | json }}
+</script>

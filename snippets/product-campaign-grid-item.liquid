@@ -1,0 +1,57 @@
+{%- assign product = all_products[handle] -%}
+
+{%- assign on_sale = false -%}
+{%- if product.compare_at_price > product.price -%}
+  {%- assign on_sale = true -%}
+{%- endif -%}
+
+{%- assign sold_out = true -%}
+{%- if product.available -%}
+  {%- assign sold_out = false -%}
+{%- endif -%}
+
+{%- assign new_product = false -%}
+{%- assign published_date = product.published_at | date: "%s"  -%}
+{%- assign now_date = 'now' | date: "%s" -%}
+{%- assign age_in_days = now_date | minus: published_date | divided_by: 60 | divided_by: 60 | divided_by: 12 -%}
+{%- if age_in_days < settings.tag_new_limit -%}
+  {%- assign new_product = true -%}
+{%- endif -%}
+
+
+{%- assign product_img = product.featured_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+{%- if feature_image -%}
+	{%- assign product_img = feature_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+{%- else -%}
+	{%- assign feature_image = product.featured_image -%}
+{%- endif -%}
+
+{%- assign ratio = feature_image.aspect_ratio -%}
+{%- assign multiplier = block.settings.product_grid_aspect_ratio | plus: 0 -%}  
+{%- assign inverse_ratio = 1 | divided_by: multiplier -%}
+
+<div class="grid__item {{handle}} {{ grid_offset }} {{ grid_width_small }} {{ grid_width_medium }} {{ grid_width_large }} product-grid-item" {% if img_offset != 0 %}style="width:{{img_offset}}%"{% endif %} >
+  
+  <div class="grid__item_frame" data-aspectratio="{{inverse_ratio}}">
+    <a href="{{ product.url }}" class="{{ product.handle }} lazy-image {% if block.settings.image_autoheight_enable %}auto-height{% endif %} " style="padding-top:{{ 1 | divided_by: feature_image.aspect_ratio | times: 100}}%; background-image:  url('{{ feature_image | img_url: '1x1' }}');">
+      <img class="lazyload lazypreload fade-in shop-grid-img"
+        alt="{{ product.title  }}"
+        src="{{ feature_image | img_url: '720x' }}"
+        data-original="{{ product_img }}"
+        data-src="{{ product_img }}"
+        data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048, 2450, 2700, 3000, 3350, 3750, 4100, 4480]"
+        data-aspectratio="{{  feature_image.aspect_ratio }}"
+        data-sizes="auto"
+        data-parent-fit="cover"
+           />
+    </a>
+  </div>
+  
+  <noscript>
+    <a href="{{ product.url }}">
+      <img src="{{ feature_image | img_url: '360x' }}" alt="{{ product.title  }}">
+    </a>
+  </noscript>
+  
+
+</div>  
