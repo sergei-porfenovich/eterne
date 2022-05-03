@@ -115,6 +115,16 @@
                           {%- assign feature_image = block.settings.shop_img1 -%}
                           {% include 'custom-collection-grid-item' %}                         
                       </div>
+                    {%- when "shop_porproducts1" -%}
+                      <div class="single_row_portrait">
+                          {%- assign grid_width_large = 'large--one-half' -%}
+                          {%- assign grid_width_medium = 'medium--one-half' -%}
+                          {%- assign grid_width_small = 'small--one-whole' -%}       
+
+                          {%- assign handle = block.settings.shop_product1p -%}
+                          {%- assign feature_image = block.settings.shop_img1p -%}
+                          {% include 'custom-collection-grid-item' %} 
+                      </div>
                     {%- when "shop_products2" -%}
                         {%- assign grid_width_large = 'large--one-half' -%}
                         {%- assign grid_width_medium = 'medium--one-half' -%}
