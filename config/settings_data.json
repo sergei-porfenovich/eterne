@@ -2077,17 +2077,6 @@
               "shop_product33": "cropped-scoop-neck-tank-heather-grey"
             }
           },
-          "35dcfb73-e0c6-4aac-b37c-b1571d708777": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "image_autoheight_enable": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "cropped-thermal-henley-black",
-              "shop_product22": "cropped-thermal-henley-heather-grey"
-            }
-          },
           "10cce77e-a8d0-4831-9ac2-ac8c93dacddb": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -2334,7 +2323,6 @@
         },
         "block_order": [
           "fb3d2396-e2ab-44d5-8767-a3c258e28669",
-          "35dcfb73-e0c6-4aac-b37c-b1571d708777",
           "10cce77e-a8d0-4831-9ac2-ac8c93dacddb",
           "e6a9a437-c035-4b91-bc8b-37a1622b894d",
           "36578b14-ecdc-476a-b234-6a63466099b2",
@@ -2368,6 +2356,27 @@
       "custom-collection-thermals": {
         "type": "custom-collection-thermals",
         "blocks": {
+          "af4df970-1750-4f41-97b3-40a9d5b527b7": {
+            "type": "shop_porproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product1p": "cropped-long-sleeve-thermal-grey"
+            }
+          },
+          "4e5db8ca-d79a-48dc-9c4f-f2453781275b": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "cropped-long-sleeve-thermal-black",
+              "shop_product22": "cropped-long-sleeve-thermal-ivory"
+            }
+          },
           "b9f0c06c-cabb-43ea-b2e7-39e6335e02be": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -2468,20 +2477,11 @@
               "shop_product21": "long-sleeve-thermal-ivory",
               "shop_product22": "long-sleeve-thermal-black"
             }
-          },
-          "4e5db8ca-d79a-48dc-9c4f-f2453781275b": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "image_autoheight_enable": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "cropped-long-sleeve-thermal-black",
-              "shop_product22": "cropped-long-sleeve-thermal-ivory"
-            }
           }
         },
         "block_order": [
+          "af4df970-1750-4f41-97b3-40a9d5b527b7",
+          "4e5db8ca-d79a-48dc-9c4f-f2453781275b",
           "b9f0c06c-cabb-43ea-b2e7-39e6335e02be",
           "2b0c7fea-d330-4d60-aa2d-80a400fa0473",
           "91414002-d351-4173-83d1-a248a0dc6743",
@@ -2490,8 +2490,7 @@
           "06a281f4-05dc-4c9e-ae57-3aebf1fb0e17",
           "41808390-6b63-45a7-abdf-a221520909aa",
           "e272acf0-6ea1-4239-b39b-6ec68005cf96",
-          "3a2712c8-6840-48a9-a5a5-e0d4974dd022",
-          "4e5db8ca-d79a-48dc-9c4f-f2453781275b"
+          "3a2712c8-6840-48a9-a5a5-e0d4974dd022"
         ],
         "settings": {
           "align_text": "text-center",
