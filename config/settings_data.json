@@ -329,86 +329,6 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
-          "ea46751e-bb71-4da0-8eab-e394c05dcc6b": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "image_autoheight_enable": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "boyfriend-pocket-t-shirt-black",
-              "shop_product22": "boyfriend-pocket-t-shirt-heather-grey"
-            }
-          },
-          "6f831200-a0a1-4d67-8c9c-0ce6f7c3faac": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "image_autoheight_enable": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_img21": "shopify:\/\/shop_images\/SHOP_PAGE_copy.jpg",
-              "shop_product21": "thermal-henley-black",
-              "shop_img22": "shopify:\/\/shop_images\/SHOP_PAGE.jpg",
-              "shop_product22": "thermal-henley-heather-grey"
-            }
-          },
-          "98b19b4f-184a-4945-bbfa-eedb66e2b59d": {
-            "type": "shop_imgproducts1",
-            "settings": {
-              "image_autoheight_enable": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product1": "cropped-ribbed-racerback-tank-black"
-            }
-          },
-          "a3797e6e-2d03-4bd6-9d38-4a42142c0fa1": {
-            "type": "shop_imgproducts4",
-            "settings": {
-              "image_autoheight_enable": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product41": "boyfriend-pocket-t-shirt-black",
-              "shop_product42": "boyfriend-tank-black",
-              "shop_product43": "",
-              "shop_product44": ""
-            }
-          },
-          "eaee6312-80fb-426e-a1db-424b7e914fc5": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "image_autoheight_enable": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "bandeau-bra",
-              "shop_product32": "boyfriend-pocket-t-shirt-heather-grey",
-              "shop_product33": "boyfriend-tank-black"
-            }
-          },
-          "47c95340-726f-4aea-8e2a-a43d3d37024c": {
-            "type": "shop_porproducts1",
-            "settings": {
-              "image_autoheight_enable": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product1p": "boyfriend-pocket-t-shirt-black"
-            }
-          },
-          "d03d7721-86af-405c-a030-1dda3b2a9fc7": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "image_autoheight_enable": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "thermal-henley-black",
-              "shop_product22": "thermal-henley-heather-grey"
-            }
-          },
           "1c0d98da-f3fd-40e8-890f-ffed914f99b2": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -899,13 +819,6 @@
           }
         },
         "block_order": [
-          "ea46751e-bb71-4da0-8eab-e394c05dcc6b",
-          "6f831200-a0a1-4d67-8c9c-0ce6f7c3faac",
-          "98b19b4f-184a-4945-bbfa-eedb66e2b59d",
-          "a3797e6e-2d03-4bd6-9d38-4a42142c0fa1",
-          "eaee6312-80fb-426e-a1db-424b7e914fc5",
-          "47c95340-726f-4aea-8e2a-a43d3d37024c",
-          "d03d7721-86af-405c-a030-1dda3b2a9fc7",
           "1c0d98da-f3fd-40e8-890f-ffed914f99b2",
           "0410459a-f174-442b-86ea-324bf0d3ad62",
           "6855b3a3-2a8b-4cc1-998b-d3773de2e931",
