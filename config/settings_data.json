@@ -329,6 +329,17 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "d03d7721-86af-405c-a030-1dda3b2a9fc7": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "thermal-henley-black",
+              "shop_product22": "thermal-henley-heather-grey"
+            }
+          },
           "1c0d98da-f3fd-40e8-890f-ffed914f99b2": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -819,6 +830,7 @@
           }
         },
         "block_order": [
+          "d03d7721-86af-405c-a030-1dda3b2a9fc7",
           "1c0d98da-f3fd-40e8-890f-ffed914f99b2",
           "0410459a-f174-442b-86ea-324bf0d3ad62",
           "6855b3a3-2a8b-4cc1-998b-d3773de2e931",
