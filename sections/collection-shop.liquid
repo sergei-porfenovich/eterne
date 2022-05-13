@@ -510,6 +510,56 @@
       ]
     },
     {
+      "type": "shop_porproducts1",	  
+      "name": "Port with Products x 1",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "image_autoheight_enable",
+          "label": "Auto Height Enabled",
+          "default": true
+        },
+        {
+          "type": "select",
+          "id": "product_grid_aspect_ratio",
+          "label": "Product Grid Aspect Ratio",
+          "default": "0.75",
+          "options": [
+            { "value": "1.33", "label": "Landscape"},
+            { "value": "0.75", "label": "Portrait"}         
+          ]
+        },  
+        {
+          "type":    "range",
+          "id":      "shop_product_margin",
+          "min":     0,
+          "max":     50,
+          "step":    1,
+          "label":   "Margin",
+          "default": 0
+        },
+        {
+          "type":    "range",
+          "id":      "shop_product_padding",
+          "min":     0,
+          "max":     50,
+          "step":    1,
+          "label":   "Padding",
+          "default": 0
+        },    
+        {
+          "type": "image_picker",
+          "id": "shop_img1p",
+          "label": "Image"
+        },  
+        {
+          "type": "product",
+          "id": "shop_product1p",
+          "label": "Product"
+        }
+      ]
+    },  
+    {
       "type": "shop_imgproducts2",	  
       "name": "Images with Products x 2",
       "settings": [
