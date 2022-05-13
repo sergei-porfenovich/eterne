@@ -114,6 +114,11 @@
                           {%- assign grid_width_small = 'small--one-whole' -%}       
 
                           {%- assign handle = block.settings.shop_product1 -%}
+                          {% for product in collections.shop.products %}
+                            {% if product.handle == handle %}
+                              {% assign product = product %}
+                            {% endif %}
+                          {% endfor %}
                           {%- assign feature_image = block.settings.shop_img1 -%}
                           {% include 'custom-collection-grid-item' %} 
                       </div>
@@ -136,6 +141,20 @@
                         {% include 'product-shop-grid-item-2' %}
                         {%- assign handle = block.settings.shop_product22 -%}                    
                         {% include 'product-shop-grid-item-2' %}
+                      {% for product in collections.shop.products %}
+                          {% if product.handle == handle %}
+                            {% assign product = product %}
+                          {% endif %}
+                        {% endfor %}
+                        {% include 'custom-collection-grid-item' %}
+                        {%- assign handle = block.settings.shop_product22 -%}
+                      {% for product in collections.shop.products %}
+                          {% if product.handle == handle %}
+                            {% assign product = product %}
+                          {% endif %}
+                        {% endfor %}
+                        {% include 'custom-collection-grid-item' %}
+                    
                     
                     {%- when "shop_imgproducts2" -%}
                         {%- assign grid_width_large = 'large--one-half' -%}
@@ -143,11 +162,21 @@
                         {%- assign grid_width_small = 'small--one-whole' -%}       
                     
                     	{%- assign handle = block.settings.shop_product21 -%}
-                    	{%- assign feature_image = block.settings.shop_img21 -%}
-                        {% include 'product-shop-grid-item-2' %}                        
-                    	{%- assign handle = block.settings.shop_product22 -%}
-                    	{%- assign feature_image = block.settings.shop_img22 -%}
-                        {% include 'product-shop-grid-item-2' %}     
+                        {% for product in collections.shop.products %}
+                          {% if product.handle == handle %}
+                            {% assign product = product %}
+                          {% endif %}
+                        {% endfor %}
+                      {%- assign feature_image = block.settings.shop_img21 -%}
+                        {% include 'custom-collection-grid-item' %}                        
+                      {%- assign handle = block.settings.shop_product22 -%}
+                        {% for product in collections.shop.products %}
+                          {% if product.handle == handle %}
+                            {% assign product = product %}
+                          {% endif %}
+                        {% endfor %}
+                      {%- assign feature_image = block.settings.shop_img22 -%}
+                        {% include 'custom-collection-grid-item' %}    
                     
                     {%- when "shop_products3" -%}
                         {%- assign grid_width_large = 'large--one-third' -%}
@@ -155,11 +184,26 @@
                         {%- assign grid_width_small = 'small--one-whole' -%}            
                     
                         {%- assign handle = block.settings.shop_product31 -%}
-                        {% include 'product-shop-grid-item-2' %}
+                      {% for product in collections.shop.products %}
+                          {% if product.handle == handle %}
+                            {% assign product = product %}
+                          {% endif %}
+                        {% endfor %}
+                        {% include 'custom-collection-grid-item' %}
                         {%- assign handle = block.settings.shop_product32 -%}
-                        {% include 'product-shop-grid-item-2' %}
+                      {% for product in collections.shop.products %}
+                          {% if product.handle == handle %}
+                            {% assign product = product %}
+                          {% endif %}
+                        {% endfor %}
+                        {% include 'custom-collection-grid-item' %}
                         {%- assign handle = block.settings.shop_product33 -%}
-                        {% include 'product-shop-grid-item-2' %}
+                      {% for product in collections.shop.products %}
+                          {% if product.handle == handle %}
+                            {% assign product = product %}
+                          {% endif %}
+                        {% endfor %}
+                        {% include 'custom-collection-grid-item' %}
                     
                     {%- when "shop_imgproducts3" -%}
                         {%- assign grid_width_large = 'large--one-third' -%}
@@ -168,13 +212,29 @@
                     
                     	{%- assign handle = block.settings.shop_product31 -%}
                     	{%- assign feature_image = block.settings.shop_img31 -%}
-                        {% include 'product-shop-grid-item-2' %}
-                    	{%- assign handle = block.settings.shop_product32 -%}
-                    	{%- assign feature_image = block.settings.shop_img32 -%} 
-                        {% include 'product-shop-grid-item-2' %}
-                    	{%- assign handle = block.settings.shop_product33 -%}
-                    	{%- assign feature_image = block.settings.shop_img33 -%}
-                        {% include 'product-shop-grid-item-2' %}
+                      {% for product in collections.shop.products %}
+                          {% if product.handle == handle %}
+                            {% assign product = product %}
+                          {% endif %}
+                        {% endfor %}
+                      {%- assign feature_image = block.settings.shop_img31 -%}
+                        {% include 'custom-collection-grid-item' %}
+                      {%- assign handle = block.settings.shop_product32 -%}
+                      {% for product in collections.shop.products %}
+                          {% if product.handle == handle %}
+                            {% assign product = product %}
+                          {% endif %}
+                        {% endfor %}
+                      {%- assign feature_image = block.settings.shop_img32 -%}                    
+                        {% include 'custom-collection-grid-item' %}
+                      {%- assign handle = block.settings.shop_product33 -%}
+                      {% for product in collections.shop.products %}
+                          {% if product.handle == handle %}
+                            {% assign product = product %}
+                          {% endif %}
+                        {% endfor %}
+                      {%- assign feature_image = block.settings.shop_img33 -%}
+                        {% include 'custom-collection-grid-item' %}
                     
                     {%- when "shop_products4" -%}
                         {%- assign grid_width_large = 'large--one-quarter' -%}
@@ -182,13 +242,33 @@
                         {%- assign grid_width_small = 'small--one-half' -%}
                     
                         {%- assign handle = block.settings.shop_product41 -%}
-                        {% include 'product-shop-grid-item-2' %}
+                      {% for product in collections.shop.products %}
+                          {% if product.handle == handle %}
+                            {% assign product = product %}
+                          {% endif %}
+                        {% endfor %}
+                        {% include 'custom-collection-grid-item' %}
                         {%- assign handle = block.settings.shop_product42 -%}
-                        {% include 'product-shop-grid-item-2' %}
+                      {% for product in collections.shop.products %}
+                          {% if product.handle == handle %}
+                            {% assign product = product %}
+                          {% endif %}
+                        {% endfor %}
+                        {% include 'custom-collection-grid-item' %}
                         {%- assign handle = block.settings.shop_product43 -%}
-                        {% include 'product-shop-grid-item-2' %}
+                      {% for product in collections.shop.products %}
+                          {% if product.handle == handle %}
+                            {% assign product = product %}
+                          {% endif %}
+                        {% endfor %}
+                        {% include 'custom-collection-grid-item' %}
                         {%- assign handle = block.settings.shop_product44 -%}
-                        {% include 'product-shop-grid-item-2' %}
+                      {% for product in collections.shop.products %}
+                          {% if product.handle == handle %}
+                            {% assign product = product %}
+                          {% endif %}
+                        {% endfor %}
+                        {% include 'custom-collection-grid-item' %}
                     
                     {%- when "shop_imgproducts4" -%}
                         {%- assign grid_width_large = 'large--one-quarter' -%}
@@ -196,17 +276,41 @@
                         {%- assign grid_width_small = 'small--one-half' -%}  
                     
                     	{%- assign handle = block.settings.shop_product41 -%}
-                    	{%- assign feature_image = block.settings.shop_img41 -%}
-                        {% include 'product-shop-grid-item-2' %}
+                      {% for product in collections.shop.products %}
+                          {% if product.handle == handle %}
+                            {% assign product = product %}
+                          {% endif %}
+                        {% endfor %}
+                      {%- assign feature_image = block.settings.shop_img41 -%}
+                        {% include 'custom-collection-grid-item' %}
                         {%- assign handle = block.settings.shop_product42 -%}
-                    	{%- assign feature_image = block.settings.shop_img42 -%}
-                        {% include 'product-shop-grid-item-2' %}
+                      {% for product in collections.shop.products %}
+                          {% if product.handle == handle %}
+                            {% assign product = product %}
+                          {% endif %}
+                        {% endfor %}
+                      {%- assign feature_image = block.settings.shop_img42 -%}
+                      {% for product in collections.shop.products %}
+                          {% if product.handle == handle %}
+                            {% assign product = product %}
+                          {% endif %}
+                        {% endfor %}
+                        {% include 'custom-collection-grid-item' %}
                         {%- assign handle = block.settings.shop_product43 -%}
-                    	{%- assign feature_image = block.settings.shop_img43 -%}
-                        {% include 'product-shop-grid-item-2' %}
+                      {% for product in collections.shop.products %}
+                          {% if product.handle == handle %}
+                            {% assign product = product %}
+                          {% endif %}
+                        {% endfor %}
+                      {%- assign feature_image = block.settings.shop_img43 -%}
+                        {% include 'custom-collection-grid-item' %}
                         {%- assign handle = block.settings.shop_product44 -%}
-                    	{%- assign feature_image = block.settings.shop_img44 -%}
-                        {% include 'product-shop-grid-item-2' %}                    
+                      {% for product in collections.shop.products %}
+                          {% if product.handle == handle %}
+                            {% assign product = product %}
+                          {% endif %}
+                        {% endfor %}
+                      {%- assign feature_image = block.settings.shop_img44 -%}             
                   {%- endcase -%}
                   </div>
             	</div>
