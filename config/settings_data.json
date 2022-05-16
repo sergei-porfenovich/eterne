@@ -244,6 +244,9 @@
           "color": "homepage--white"
         }
       },
+      "new-home-page": {
+        "type": "new-home-page"
+      },
       "related": {
         "type": "related",
         "settings": {
@@ -3027,7 +3030,7 @@
       }
     },
     "content_for_index": [
-      "index-banner-image",
+      "new-home-page",
       "index-video"
     ],
     "blocks": {
