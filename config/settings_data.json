@@ -329,6 +329,17 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "73f7e148-b3a8-4bd0-bfb0-a2bf1d80bf71": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "cropped-thermal-henley-black",
+              "shop_product22": "thermal-henley-heather-grey"
+            }
+          },
           "b4da56c3-1fce-45ca-a078-d21a2f587b6e": {
             "type": "shop_porproducts1",
             "settings": {
@@ -829,6 +840,7 @@
           }
         },
         "block_order": [
+          "73f7e148-b3a8-4bd0-bfb0-a2bf1d80bf71",
           "b4da56c3-1fce-45ca-a078-d21a2f587b6e",
           "dd244cfd-ef7e-46ad-8055-cd0a57c662a8",
           "1c0d98da-f3fd-40e8-890f-ffed914f99b2",
@@ -2356,6 +2368,17 @@
       "custom-collection-thermals": {
         "type": "custom-collection-thermals",
         "blocks": {
+          "9451b0ad-9091-42aa-991b-7a54ae8b34d0": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "thermal-henley-black",
+              "shop_product22": "thermal-henley-heather-grey"
+            }
+          },
           "af4df970-1750-4f41-97b3-40a9d5b527b7": {
             "type": "shop_porproducts1",
             "settings": {
@@ -2480,6 +2503,7 @@
           }
         },
         "block_order": [
+          "9451b0ad-9091-42aa-991b-7a54ae8b34d0",
           "af4df970-1750-4f41-97b3-40a9d5b527b7",
           "4e5db8ca-d79a-48dc-9c4f-f2453781275b",
           "b9f0c06c-cabb-43ea-b2e7-39e6335e02be",
