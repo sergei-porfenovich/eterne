@@ -290,11 +290,6 @@
                           {% endif %}
                         {% endfor %}
                       {%- assign feature_image = block.settings.shop_img42 -%}
-                      {% for product in collections.shop.products %}
-                          {% if product.handle == handle %}
-                            {% assign product = product %}
-                          {% endif %}
-                        {% endfor %}
                         {% include 'custom-collection-grid-item' %}
                         {%- assign handle = block.settings.shop_product43 -%}
                       {% for product in collections.shop.products %}
