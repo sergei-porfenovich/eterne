@@ -84,7 +84,7 @@
 
 
 <div data-section-id="{{ section.id }}" data-section-type="parallax">       
-  <div class="ev-shop-hero" style="display:none;" >
+  <div class="ev-shop-hero" >
     <img src="{{ 'shop-hero-2.jpg' | asset_url }}" alt="woman lounging" >
   </div>
   <div class="collection sidebar--hidden" data-sidebar-toggle>    
@@ -275,22 +275,18 @@
                         {%- assign grid_width_medium = 'medium--one-quarter' -%}
                         {%- assign grid_width_small = 'small--one-half' -%}  
                     
-                    	{%- assign handle = block.settings.shop_product41 -%}
-                      {% for product in collections.shop.products %}
-                          {% if product.handle == handle %}
-                            {% assign product = product %}
-                          {% endif %}
-                        {% endfor %}
+                      {%- assign handle = block.settings.shop_product41 -%}
                       {%- assign feature_image = block.settings.shop_img41 -%}
                         {% include 'custom-collection-grid-item' %}
                         {%- assign handle = block.settings.shop_product42 -%}
-                      {% for product in collections.shop.products %}
-                          {% if product.handle == handle %}
-                            {% assign product = product %}
-                          {% endif %}
-                        {% endfor %}
                       {%- assign feature_image = block.settings.shop_img42 -%}
-                        {% include 'custom-collection-grid-item' %}           
+                        {% include 'custom-collection-grid-item' %}
+                        {%- assign handle = block.settings.shop_product43 -%}
+                      {%- assign feature_image = block.settings.shop_img43 -%}
+                        {% include 'custom-collection-grid-item' %}
+                        {%- assign handle = block.settings.shop_product44 -%}
+                      {%- assign feature_image = block.settings.shop_img44 -%}
+                      {% include 'custom-collection-grid-item' %}
                   {%- endcase -%}
                   </div>
             	</div>
