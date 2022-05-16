@@ -281,20 +281,14 @@
                             {% assign product = product %}
                           {% endif %}
                         {% endfor %}
-
                       {%- assign feature_image = block.settings.shop_img41 -%}
                         {% include 'custom-collection-grid-item' %}
-
-
-
-
                         {%- assign handle = block.settings.shop_product42 -%}
                       {% for product in collections.shop.products %}
                           {% if product.handle == handle %}
                             {% assign product = product %}
                           {% endif %}
                         {% endfor %}
-
                       {%- assign feature_image = block.settings.shop_img42 -%}
                       {% for product in collections.shop.products %}
                           {% if product.handle == handle %}
@@ -302,36 +296,21 @@
                           {% endif %}
                         {% endfor %}
                         {% include 'custom-collection-grid-item' %}
-
-
-
-
                         {%- assign handle = block.settings.shop_product43 -%}
                       {% for product in collections.shop.products %}
                           {% if product.handle == handle %}
                             {% assign product = product %}
                           {% endif %}
                         {% endfor %}
-
                       {%- assign feature_image = block.settings.shop_img43 -%}
                         {% include 'custom-collection-grid-item' %}
-
-
-
-
                         {%- assign handle = block.settings.shop_product44 -%}
                       {% for product in collections.shop.products %}
                           {% if product.handle == handle %}
                             {% assign product = product %}
                           {% endif %}
                         {% endfor %}
-
                       {%- assign feature_image = block.settings.shop_img44 -%}
-                      {% for product in collections.shop.products %}
-                          {% if product.handle == handle %}
-                            {% assign product = product %}
-                          {% endif %}
-                        {% endfor %}
                         {% include 'custom-collection-grid-item' %}            
                   {%- endcase -%}
                   </div>
