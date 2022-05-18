@@ -6,8 +6,10 @@
 // EvenVision temporary addition to hide old homepage hero image via CSS
 
 .template-index .shopify-section-index-banner-image {
-    display:none;
+    display:none !important;
 }
+
+
 
 .template-index .background-size-cover.lazyloaded {
     display:none;
