@@ -245,7 +245,9 @@
         }
       },
       "new-home-page": {
-        "type": "new-home-page"
+        "type": "new-home-page",
+        "settings": {
+        }
       },
       "related": {
         "type": "related",
