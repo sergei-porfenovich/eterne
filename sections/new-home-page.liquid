@@ -24,9 +24,7 @@
                     <a href="{{ product_url }}" class="new-releases__item swiper-slide">
                         <div class="new-releases__item-wrap">
                             <div class="hidden-hover">
-                                {% for image in product.images %}
-                                    <img class="lazyload fade-in" src="{{ image.src | product_img_url: 'large' }}" alt="{{ product.title }}">
-                                {% endfor %}
+                                <img class="lazyload fade-in" src="{{ product.featured_image | img_url: 'large' }}" alt="{{product.featured_image.alt}}" />
                             </div>
                             <div class="new-releases__item_description">{{ product.title }}</div>
                         </div>
