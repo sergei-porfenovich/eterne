@@ -1,5 +1,7 @@
 {{ 'new-home-page.scss.css' | asset_url | stylesheet_tag }}
 
+{% assign collection_handle = 'new-releases' %}
+
 <div id="#shopify-section-home-page" data-section-type="parallax">
 
     {% comment %} Hero section {% endcomment %}
@@ -17,46 +19,19 @@
         <div class="home-page-title wrapper">NEW RELEASES</div>
         <div class="new-releases__slider" id="new-releases-slider">
             <div class="swiper-wrapper">
-                <a href="/collections/shop" class="new-releases__item swiper-slide">
-                    <div class="new-releases__item-wrap">
-                        <div class="hidden-hover">
-                            <img class="lazyload fade-in" src="https://cdn.shopify.com/s/files/1/0022/9235/1022/products/oversized-thermal-heather-grey-thermal-eterne-850280_720x.jpg" alt="Oversized thermal heather gray">
+                {% for product in collections[collection_handle].products %}
+                    {% assign product_url = "/collections/" | append: collection_handle | append: "/products/" | append: product.handle %}
+                    <a href="{{ product_url }}" class="new-releases__item swiper-slide">
+                        <div class="new-releases__item-wrap">
+                            <div class="hidden-hover">
+                                {% for image in product.images %}
+                                    <img class="lazyload fade-in" src="{{ image.src | product_img_url: 'large' }}" alt="{{ product.title }}">
+                                {% endfor %}
+                            </div>
+                            <div class="new-releases__item_description">{{ product.title }}</div>
                         </div>
-                        <div class="new-releases__item_description">OVERSIZED THERMAL HEATHER GRAY</div>
-                    </div>
-                </a>
-                <a href="/collections/shop" class="new-releases__item swiper-slide">
-                    <div class="new-releases__item-wrap">
-                        <div class="hidden-hover">
-                            <img class="lazyload fade-in" src="https://cdn.shopify.com/s/files/1/0022/9235/1022/products/oversized-thermal-ivory-thermal-eterne-145113_720x.jpg" alt="Oversized thermal ivory">
-                        </div>
-                        <div class="new-releases__item_description">OVERSIZED THERMAL IVORY</div>
-                    </div>
-                </a>
-                <a href="/collections/shop" class="new-releases__item swiper-slide">
-                    <div class="new-releases__item-wrap">
-                        <div class="hidden-hover">
-                            <img class="lazyload fade-in" src="https://cdn.shopify.com/s/files/1/0022/9235/1022/products/thermal-biker-short-heather-grey-bottoms-eterne-965378_720x.jpg" alt="Thermal biker short heather gray">
-                        </div>
-                        <div class="new-releases__item_description">THERMAL BIKER SHORT HEATHER GRAY</div>
-                    </div>
-                </a>
-                <a href="/collections/shop" class="new-releases__item swiper-slide">
-                    <div class="new-releases__item-wrap">
-                        <div class="hidden-hover">
-                            <img class="lazyload fade-in" src="https://cdn.shopify.com/s/files/1/0022/9235/1022/products/thermal-biker-short-black-bottoms-eterne-496971_720x.jpg?v=1627595219" alt="Thermal biker short black">
-                        </div>
-                        <div class="new-releases__item_description">THERMAL BIKER SHORT BLACK</div>
-                    </div>
-                </a>
-                <a href="/collections/shop" class="new-releases__item swiper-slide">
-                    <div class="new-releases__item-wrap">
-                        <div class="hidden-hover">
-                            <img class="lazyload fade-in" src="https://cdn.shopify.com/s/files/1/0022/9235/1022/products/oversized-thermal-black-thermal-eterne-494772_720x.jpg" alt="Oversized thermal black">
-                        </div>
-                        <div class="new-releases__item_description">OVERSIZED THERMAL BLACK</div>
-                    </div>
-                </a>
+                    </a>
+                {% endfor %}
             </div>
             <div class="swiper-button-next new-releases-next"></div>
             <div class="swiper-button-prev new-releases-prev"></div>
@@ -195,18 +170,18 @@
                     </div>
                     <div class="reviews-slider__item swiper-slide">
                         <div class="reviews-slider__description">
-                            Filled with edgy, confident, meticulously-designed staple pieces.
-                        </div>
-                        <div class="reviews-slider__sub">
-                            —The Zoe Report
-                        </div>
-                    </div>
-                    <div class="reviews-slider__item swiper-slide">
-                        <div class="reviews-slider__description">
                             All pieces are made in Los Angeles from a blend of cotton and modal—and the label already counts Emily Ratajkowski and Hailey Bieber as fans.
                         </div>
                         <div class="reviews-slider__sub">
                             —Harper's Bazaar
+                        </div>
+                    </div>
+                    <div class="reviews-slider__item swiper-slide">
+                        <div class="reviews-slider__description">
+                            Filled with edgy, confident, meticulously-designed staple pieces.
+                        </div>
+                        <div class="reviews-slider__sub">
+                            —The Zoe Report
                         </div>
                     </div>
                     <div class="reviews-slider__item swiper-slide">
@@ -230,7 +205,7 @@
                             Éterne makes elevated essentials you'll want to live in.
                         </div>
                         <div class="reviews-slider__sub">
-                            — Harper's Bazaar
+                            —Harper's Bazaar
                         </div>
                     </div>
                 </div>
@@ -252,7 +227,7 @@
                     Cut from a lightweight cotton and modal blend, our cropped v-neck t-shirt features a slightly slim fit with its flattering V neckline and vintage feel.<br><br>
                     Style with your favorite pair of jeans, leather pants, layered under an oversized blazer, or paired with Éterne’s lounge boxer short as a set.
                 </div>
-                <a href="/collections/shop" class="about-product__button">SHOP NOW</a>
+                <a href="/products/cropped-v-neck-t-shirt-ivory" class="about-product__button">SHOP NOW</a>
             </div>
         </div>
     </div>
@@ -310,12 +285,13 @@
     // reviews slider
     var swiperThree = new Swiper("#reviews-slider", {
         loop: true,
+        autoHeight: true,
+        height: 'auto',
         spaceBetween: 101,
         navigation: {
             nextEl: ".reviews-slider-next",
             prevEl: ".reviews-slider-prev",
-        }
+        },
     });
-
     AOS.init();
 </script>
