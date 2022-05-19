@@ -997,6 +997,22 @@
             justify-content: center;
             flex-flow: column;
 
+            .reviews-slider__description {
+                min-height: 118px;
+
+                @media (min-width: 481px) {
+                    min-height: 155px;
+                }
+
+                @media (min-width: 576px) {
+                    min-height: 125px;
+                }
+
+                @media (min-width: 768px) {
+                    min-height: 132px;
+                }
+            }
+
             .reviews-slider__description,
             .reviews-slider__sub {
                 font-size: 14px;
