@@ -1,0 +1,153 @@
+{{ 'shop-the-look.scss.css' | asset_url | stylesheet_tag }}
+
+{%- for block in section.blocks -%}
+    {%- assign block_page = pages[block.settings.block_page] -%}
+
+    {%- if block_page.handle == page.handle -%}
+        <div class="shop-the-look wrapper" data-section-type="parallax">
+            {% if block.settings.title %}
+                {% unless block.settings.title == '' %}<h1 class="shop-the-look__title">{{ block.settings.title | escape }}</h1>{% endunless %}
+            {% endif %}
+            <div class="shop-the-look__wrapper">
+                <div class="shop-the-look__top-block">
+
+                    {%- if block.settings.image -%}
+                        {%- assign img_api = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                    {%- else -%}
+                        {%- assign img_api = 'blank.svg' | asset_url -%}
+                    {%- endif -%}
+
+                    {%- if block.settings.image -%}
+                        <div class="shop-the-look__image {% if block.settings.width %}w-100{% endif %}">
+                            <div class="lazy-image"
+                                 style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%; background-image: url('{{ block.settings.image | img_url: '1x1' }}');">
+                                <img class="lazyload fade-in"
+                                     alt="{{ block.settings.image.alt | default: shop.name }}"
+                                     data-src="{{ img_api }}"
+                                     data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048, 2450, 2700, 3000, 3350, 3750, 4100, 4480]"
+                                     data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                                     data-parent-fit="cover"
+                                     data-sizes="auto"/>
+                            </div>
+                        </div>
+                    {%- endif -%}
+
+                    {% if block.settings.description %}
+                        <div class="shop-the-look__description {{ block.settings.text_align }}">
+                            {% unless block.settings.description == '' %}{{ block.settings.description }}{% endunless %}
+                        </div>
+                    {% endif %}
+                </div>
+                <div class="shop-the-look__bottom-block aos-init aos-animate" data-aos="fade-up">
+                    {%- assign product_list = block.settings.product_list -%}
+
+                    {% for product in product_list %}
+
+                        {%- if product.featured_image -%}
+                            {%- assign img_api = product.featured_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                        {%- else -%}
+                            {%- assign img_api = 'blank.svg' | asset_url -%}
+                        {%- endif -%}
+
+                        {%- assign sold_out = true -%}
+                        {%- if product.available -%}
+                            {%- assign sold_out = false -%}
+                        {%- endif -%}
+
+                        <div class="shop-the-look__card">
+                            <a href="{{ product.url | within: collection }}" class="hidden-hover">
+                                <div class="lazy-image"
+                                     style="padding-top:{{ 1 | divided_by: product.featured_image.aspect_ratio | times: 100 }}%; background-image: url('{{ product.featured_image | img_url: '1x1' }}');">
+                                    <img class="lazyload fade-in"
+                                         alt="{{ product.featured_image.alt | default: shop.name }}"
+                                         data-src="{{ img_api }}"
+                                         data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048, 2450, 2700, 3000, 3350, 3750, 4100, 4480]"
+                                         data-aspectratio="{{ product.featured_image.aspect_ratio }}"
+                                         data-parent-fit="cover"
+                                         data-sizes="auto"/>
+                                </div>
+                                <span>{{ product.title }}</span>
+                            </a>
+                            <div class="shop-the-look__add">
+                                {% form 'product', product %}
+                                    <div class="add-to-cart__wrapper">
+                                        <button type="submit" name="add" data-add-to-cart id="AddToCart-{{ block.id }}"
+                                                class="btn btn--large btn--full btn--clear uppercase addToCart{% if sold_out %} disabled{% endif %}"
+                                                {% if sold_out %}disabled="true"{% endif %}>
+                                            <span id="AddToCartText-{{ block.id }}">{% if sold_out %}{{ 'products.product.sold_out' | t }}{% else %}{{ 'products.product.add_to_cart' | t }}{% endif %}</span>
+                                        </button>
+                                        <div id="smartwishlist" data-product="{{ product.id }}"
+                                             data-variant="{{ product.variants.first.id }}"></div>
+                                    </div>
+                                {% endform %}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    {%- endif -%}
+{%- endfor -%}
+
+<script>
+    AOS.init();
+</script>
+
+{% schema %}
+{
+    "name": "Section",
+    "blocks": [
+        {
+            "type": "page_block",
+            "name": "Section",
+            "settings": [
+                {
+                    "label": "Page",
+                    "id": "block_page",
+                    "type": "page"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title",
+                    "default": "Shop The Look"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                },
+                {
+                    "type": "checkbox",
+                    "id": "width",
+                    "label": "No width limit for image",
+                    "default": false
+                },
+                {
+                    "type": "textarea",
+                    "id": "description",
+                    "label": "Description",
+                    "default": "This area is used to describe your store."
+                },
+                {
+                    "type": "select",
+                    "id": "text_align",
+                    "label": "Alignment",
+                    "default": "text-center",
+                    "options": [
+                        { "value": "text-left", "label": "Align Left"},
+                        { "value": "text-center", "label": "Align Center"},
+                        { "value": "text-right", "label": "Align Right"}
+                    ]
+                },
+                {
+                    "type": "product_list",
+                    "id": "product_list",
+                    "label": "Products",
+                    "limit": 6
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}
