@@ -84,7 +84,7 @@
 
 
 <div data-section-id="{{ section.id }}" data-section-type="parallax">       
-  <div class="ev-shop-hero" >
+  <div class="ev-shop-hero" style="display:none;">
     <img src="{{ 'shop-hero-2.jpg' | asset_url }}" alt="woman lounging" >
   </div>
   <div class="collection sidebar--hidden" data-sidebar-toggle>    
@@ -310,7 +310,8 @@
                             {% assign product = product %}
                           {% endif %}
                         {% endfor %}
-                      {%- assign feature_image = block.settings.shop_img44 -%}             
+                      {%- assign feature_image = block.settings.shop_img44 -%}
+                        {% include 'custom-collection-grid-item' %}            
                   {%- endcase -%}
                   </div>
             	</div>
