@@ -7,7 +7,7 @@
 <script src="https://www.dwin1.com/19038.js" type="text/javascript" defer="defer"></script>
 {{ '//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' | stylesheet_tag }}
 <head>
-  
+
 <!-- Google Tag Manager - Installed 4/22/2022 by Fat Earth -->
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -17,10 +17,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-5NH4RCV');</script>
 <!-- End Google Tag Manager -->
 <!-- End of Google Tag Manager - Installed 4/22/2022 by Fat Earth -->
-  
-  
-  
-  
+
+
+
+
 <!-- Global site tag (gtag.js) - Google Ads: 780794742 -->
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-780794742"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-780794742'); </script>
@@ -60,17 +60,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="//unpkg.com/aos@2.3.1/dist/aos.css">
   <script type="text/javascript" src="//unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  
+
   {% if template contains "product" and product.tags contains "dev" %}
   	<meta name="robots" content="noindex">
   {% endif %}
 
   <!-- CSS ================================================================== -->
   {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
+  {{ 'swiper.css' | asset_url | stylesheet_tag }}
 
   <!-- Vendor JS ============================================================ -->
   {{ 'vendor.js' | asset_url | script_tag }}
   {{ 'custom.js' | asset_url | script_tag }}
+  {{ 'swiper.js' | asset_url | script_tag }}
 
   {% include 'oldIE-js' %}
 
@@ -131,52 +133,52 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     {% endif %}
   </script>
   <script src="//cdn.codeblackbelt.com/js/modules/frequently-bought-together/main.min.js?shop=shopeterne.myshopify.com" defer></script>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <!-- Paste popup code between comments ===================================== -->
 
@@ -189,9 +191,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   {% if template.name == 'product'%}
   {% include 'clever' %}
   {% endif %}
-  <!-- CleverApp END --> 
-{% include 'giftship' %}   
-  
+  <!-- CleverApp END -->
+{% include 'giftship' %}
+
  {% include 'smile-initializer' %}
 
 {% include 'subscribe-it-helper' %}</body>

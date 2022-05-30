@@ -1,0 +1,311 @@
+{{ 'new-home-page.scss.css' | asset_url | stylesheet_tag }}
+
+{% assign collection_handle = 'new-releases' %}
+
+<div id="#shopify-section-home-page" data-section-type="parallax">
+
+    {% comment %} Hero section {% endcomment %}
+    <div class="hero aos-init aos-animate lazyload fade-in" data-aos="fade-up" style="background-image:url('{{ 'Miranda-min.jpg' |  asset_url }}')">
+        <div class="wrapper">
+            <div class="hero__text">
+                <div class="hero__text_title">EVERYDAY ELEVATED ESSENTIALS</div>
+                <a href="/collections/shop" class="hero__text_button">SHOP NOW</a>
+            </div>
+        </div>
+    </div>
+
+    {% comment %} New releases section {% endcomment %}
+    <div class="new-releases aos-init aos-animate" data-aos="fade-up">
+        <div class="home-page-title wrapper">NEW RELEASES</div>
+        <div class="new-releases__slider" id="new-releases-slider">
+            <div class="swiper-wrapper">
+                {% for product in collections[collection_handle].products %}
+                    {% assign product_url = "/collections/" | append: collection_handle | append: "/products/" | append: product.handle %}
+                    <a href="{{ product_url }}" class="new-releases__item swiper-slide">
+                        <div class="new-releases__item-wrap">
+                            <div class="hidden-hover">
+                                <img class="lazyload fade-in" src="{{ product.featured_image | img_url: 'large' }}" alt="{{product.featured_image.alt}}" />
+                            </div>
+                            <div class="new-releases__item_description">{{ product.title }}</div>
+                        </div>
+                    </a>
+                {% endfor %}
+            </div>
+            <div class="swiper-button-next new-releases-next"></div>
+            <div class="swiper-button-prev new-releases-prev"></div>
+        </div>
+    </div>
+
+    {% comment %} New releases shop look section {% endcomment %}
+    <div class="new-releases-shop-look wrapper aos-init aos-animate" data-aos="fade-up">
+        <div class="new-releases-shop-look__top">
+            <div class="new-releases-shop-look__card">
+                <a href="/pages/shop-the-look-1" class="new-releases-shop-look__link">
+                    <div class="hidden-hover">
+                        <img class="img lazyload fade-in" src="https://cdn.shopify.com/s/files/1/0022/9235/1022/files/DAY_02_SHOT_22_0049_copy_1220x.jpg?v=1619034345" alt="shop the look">
+                    </div>
+                    <div class="new-releases-shop-look__button">SHOP THE LOOK</div>
+                </a>
+            </div>
+            <div class="new-releases-shop-look__card">
+                <a href="/pages/shop-the-look-2" class="new-releases-shop-look__link">
+                    <div class="hidden-hover">
+                        <img class="img lazyload fade-in" src="{{ 'shop-the-look2.jpg' |  asset_url }}" alt="shop the look">
+                    </div>
+                    <div class="new-releases-shop-look__button">SHOP THE LOOK</div>
+                </a>
+            </div>
+        </div>
+        <div class="new-releases-shop-look__bottom">
+            <div class="new-releases-shop-look__card">
+                <a href="/pages/shop-the-look-3" class="new-releases-shop-look__link">
+                    <div class="hidden-hover">
+                        <img class="img lazyload fade-in" src="https://cdn.shopify.com/s/files/1/0022/9235/1022/files/DAY_02_SHOT_11_0086_copy_820x.jpg?v=1619035658" alt="shop the look">
+                    </div>
+                    <div class="new-releases-shop-look__button">SHOP THE LOOK</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    {% comment %} New releases shop loungewear section {% endcomment %}
+    <div class="new-releases-shop-loungewear aos-init aos-animate" data-aos="fade-up" style="background-image: url('https://cdn.shopify.com/s/files/1/0022/9235/1022/files/DAY_02_SHOT_10_0080_copy_1512x.jpg?v=1619036660')">
+        <div class="wrapper">
+            <div class="new-releases-shop-loungewear__text">
+                <div class="new-releases-shop-loungewear__text_title">BESTSELLING LOUNGEWEAR</div>
+                <a href="/collections/loungewear" class="new-releases-shop-loungewear__text_button">SHOP NOW</a>
+            </div>
+        </div>
+    </div>
+
+    {% comment %} Styles slider section {% endcomment %}
+    <div class="styles-slider aos-init aos-animate" data-aos="fade-up">
+        <div class="home-page-title wrapper">STYLES</div>
+        <div class="styles-slider__wrapper" id="styles-slider">
+            <div class="swiper-wrapper">
+                <a href="/collections/t-shirts-tanks" class="styles-slider__item swiper-slide">
+                    <div class="styles-slider__item-wrap">
+                        <div class="hidden-hover">
+                            <img class="img lazyload fade-in" src="https://cdn.shopify.com/s/files/1/0022/9235/1022/products/the-short-sleeve-boyfriend-tee-heather-grey-shirts-eterne-187550_360x.jpg?v=1620761147" alt="T-shirts">
+                        </div>
+                        <div class="styles-slider__item_description">T-shirts</div>
+                    </div>
+                </a>
+                <a href="/collections/bodysuits" class="styles-slider__item swiper-slide">
+                    <div class="styles-slider__item-wrap">
+                        <div class="hidden-hover">
+                            <img class="img lazyload fade-in" src="https://cdn.shopify.com/s/files/1/0022/9235/1022/products/long-sleeve-deep-v-bodysuit-black-bodysuit-eterne-257624_360x.png?v=1610601809" alt="Bodysuits">
+                        </div>
+                        <div class="styles-slider__item_description">Bodysuits</div>
+                    </div>
+                </a>
+                <a href="/collections/bra-underwear" class="styles-slider__item swiper-slide">
+                    <div class="styles-slider__item-wrap">
+                        <div class="hidden-hover">
+                            <img class="img lazyload fade-in" src="https://cdn.shopify.com/s/files/1/0022/9235/1022/products/low-rise-thong-white-intimates-eterne-959623_720x.jpg?v=1605212786" alt="Bra Underwear">
+                        </div>
+                        <div class="styles-slider__item_description">Bra + Underwear</div>
+                    </div>
+                </a>
+                <a href="/collections/thermals" class="styles-slider__item swiper-slide">
+                    <div class="styles-slider__item-wrap">
+                        <div class="hidden-hover">
+                            <img class="img lazyload fade-in" src="https://cdn.shopify.com/s/files/1/0022/9235/1022/products/oversized-thermal-black-thermal-eterne-494772_360x.jpg?v=1650069739" alt="Thermals">
+                        </div>
+                        <div class="styles-slider__item_description">Thermals</div>
+                    </div>
+                </a>
+                <a href="/collections/bottoms" class="styles-slider__item swiper-slide">
+                    <div class="styles-slider__item-wrap">
+                        <div class="hidden-hover">
+                            <img class="img lazyload fade-in" src="https://cdn.shopify.com/s/files/1/0022/9235/1022/products/lounge-pant-heather-grey-bottoms-eterne-470321_360x.jpg?v=1627595226" alt="Lounge Pant">
+                        </div>
+                        <div class="styles-slider__item_description">Lounge Pant</div>
+                    </div>
+                </a>
+                <a href="/collections/accessories" class="styles-slider__item swiper-slide">
+                    <div class="styles-slider__item-wrap">
+                        <div class="hidden-hover">
+                            <img class="img lazyload fade-in" src="https://cdn.shopify.com/s/files/1/0022/9235/1022/products/eterne-mask-intimates-eterne-578050_360x.jpg?v=1616622268" alt="Accessories">
+                        </div>
+                        <div class="styles-slider__item_description">Accessories</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="swiper-button-next styles-slider-next"></div>
+        <div class="swiper-button-prev styles-slider-prev"></div>
+    </div>
+
+    {% comment %} Éterne girls section {% endcomment %}
+    <div class="eterne-girls wrapper aos-init aos-animate" data-aos="fade-up">
+        <div class="home-page-title wrapper">ÉTERNE GIRLS</div>
+        <div class="eterne-girls__wrapper">
+            <div class="eterne-girls__left">
+                <a href="#" class="eterne-girls__top-img">
+                    <div class="hidden-hover">
+                        <img class="img lazyload fade-in" src="{{ 'eterne-girls-1.jpg' |  asset_url }}" alt="">
+                    </div>
+                </a>
+                <a href="#" class="eterne-girls__bottom-img">
+                    <div class="hidden-hover">
+                        <img class="img lazyload fade-in" src="{{ 'eterne-girls-3.jpeg' |  asset_url }}" alt="">
+                    </div>
+                </a>
+            </div>
+            <div class="eterne-girls__right">
+                <a href="#" class="eterne-girls__top-img">
+                    <div class="hidden-hover">
+                        <img class="img lazyload fade-in" src="{{ 'eterne-girls-2.jpg' |  asset_url }}" alt="">
+                    </div>
+                </a>
+                <a href="#" class="eterne-girls__bottom-img">
+                    <div class="hidden-hover">
+                        <img class="img lazyload fade-in" src="{{ 'eterne-girls-4.jpg' |  asset_url }}" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    {% comment %} Reviews slider section {% endcomment %}
+    <div class="reviews-slider wrapper aos-init aos-animate" data-aos="fade-up">
+        <div class="reviews-slider__mw">
+            <div class="quote">“</div>
+            <div class="reviews-slider__wrapper" id="reviews-slider">
+                <div class="swiper-wrapper">
+                    <div class="reviews-slider__item swiper-slide">
+                        <div class="reviews-slider__description">
+                            Bartoli’s designs are simple and straightforward, and they’re definitely the kind of pieces everyone wants to wear right now.
+                        </div>
+                        <div class="reviews-slider__sub">
+                            —VOGUE
+                        </div>
+                    </div>
+                    <div class="reviews-slider__item swiper-slide">
+                        <div class="reviews-slider__description">
+                            All pieces are made in Los Angeles from a blend of cotton and modal—and the label already counts Emily Ratajkowski and Hailey Bieber as fans.
+                        </div>
+                        <div class="reviews-slider__sub">
+                            —Harper's Bazaar
+                        </div>
+                    </div>
+                    <div class="reviews-slider__item swiper-slide">
+                        <div class="reviews-slider__description">
+                            Filled with edgy, confident, meticulously-designed staple pieces.
+                        </div>
+                        <div class="reviews-slider__sub">
+                            —The Zoe Report
+                        </div>
+                    </div>
+                    <div class="reviews-slider__item swiper-slide">
+                        <div class="reviews-slider__description">
+                            This is some more fashion-forward comfort wear. The cuts are everything.
+                        </div>
+                        <div class="reviews-slider__sub">
+                            —NYMag
+                        </div>
+                    </div>
+                    <div class="reviews-slider__item swiper-slide">
+                        <div class="reviews-slider__description">
+                            Sophisticated in their simplicity, these are items made to be worn day or night.
+                        </div>
+                        <div class="reviews-slider__sub">
+                            —Forbes
+                        </div>
+                    </div>
+                    <div class="reviews-slider__item swiper-slide">
+                        <div class="reviews-slider__description">
+                            Éterne makes elevated essentials you'll want to live in.
+                        </div>
+                        <div class="reviews-slider__sub">
+                            —Harper's Bazaar
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next reviews-slider-next"></div>
+            <div class="swiper-button-prev reviews-slider-prev"></div>
+        </div>
+    </div>
+
+    {% comment %} About product section {% endcomment %}
+    <div class="about-product wrapper aos-init aos-animate" data-aos="fade-up">
+        <div class="about-product__wrapper">
+            <div class="about-product__left">
+                <img class="img lazyload fade-in" src="https://cdn.shopify.com/s/files/1/0022/9235/1022/files/DAY_02_SHOT_16_0020_color_720x.jpg?v=1619035793" alt="Lounge Boxer Short Ivory">
+            </div>
+            <div class="about-product__right">
+                <div class="about-product__title">CROPPED V-NECK T-SHIRT IVORY</div>
+                <div class="about-product__description">
+                    Cut from a lightweight cotton and modal blend, our cropped v-neck t-shirt features a slightly slim fit with its flattering V neckline and vintage feel.<br><br>
+                    Style with your favorite pair of jeans, leather pants, layered under an oversized blazer, or paired with Éterne’s lounge boxer short as a set.
+                </div>
+                <a href="/products/cropped-v-neck-t-shirt-ivory" class="about-product__button">SHOP NOW</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // New releases slider
+    var swiper = new Swiper("#new-releases-slider", {
+        loop: true,
+        spaceBetween: 22,
+        watchSlidesVisibility: true,
+        centeredSlides: true,
+        initialSlide : 1,
+        slidesPerView: 'auto',
+        navigation: {
+            nextEl: ".new-releases-next",
+            prevEl: ".new-releases-prev",
+        },
+        breakpoints: {
+            // when window width is >= 768px
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 22,
+                initialSlide : 1,
+            },
+
+            // when window width is >= 991px
+            991: {
+                slidesPerView: 3,
+                spaceBetween: 29,
+                initialSlide : 1
+            }
+        }
+    });
+
+    // styles slider
+    var swiperTwo = new Swiper("#styles-slider", {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        watchSlidesVisibility: true,
+        centeredSlides: true,
+        initialSlide : 1,
+        navigation: {
+            nextEl: ".styles-slider-next",
+            prevEl: ".styles-slider-prev",
+        },
+        breakpoints: {
+            // when window width is >= 991px
+            991: {
+                spaceBetween: 5
+            }
+        }
+    });
+
+    // reviews slider
+    var swiperThree = new Swiper("#reviews-slider", {
+        loop: true,
+        autoHeight: true,
+        height: 'auto',
+        spaceBetween: 101,
+        navigation: {
+            nextEl: ".reviews-slider-next",
+            prevEl: ".reviews-slider-prev",
+        },
+    });
+    AOS.init();
+</script>
