@@ -3062,14 +3062,13 @@
             "settings": {
               "block_page": "shop-the-look-1",
               "title": "Shop The Look",
-              "image": "shopify:\/\/shop_images\/SHOP_PAGE.jpg",
+              "image": "shopify:\/\/shop_images\/Shop_the_Look_top_left.jpg",
               "width": false,
-              "description": "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+              "description": "Luxury, comfort and versatility—these are the foundations of which Eterne is built. A sleek bodysuit, the ultimate day to night piece, elevates lounge pants for the perfect combination of effortless style.",
               "text_align": "text-center",
               "product_list": [
-                "90s-brief-black",
-                "90s-brief-ivory",
-                "bandeau-bra"
+                "halter-bodysuit-black",
+                "thermal-lounge-pant-heather-grey"
               ]
             }
           }
