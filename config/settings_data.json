@@ -3053,6 +3053,32 @@
           "shop_margin_top": 0,
           "shop_margin_bottom": 25
         }
+      },
+      "shop-the-look": {
+        "type": "shop-the-look",
+        "blocks": {
+          "646f2b4f-c678-4df8-b511-59eb345d4eb3": {
+            "type": "page_block",
+            "settings": {
+              "block_page": "",
+              "title": "Shop The Look",
+              "image": "shopify:\/\/shop_images\/SHOP_PAGE.jpg",
+              "width": false,
+              "description": "This area is used to describe your store.",
+              "text_align": "text-center",
+              "product_list": [
+                "90s-brief-black",
+                "90s-brief-ivory",
+                "bandeau-bra"
+              ]
+            }
+          }
+        },
+        "block_order": [
+          "646f2b4f-c678-4df8-b511-59eb345d4eb3"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
