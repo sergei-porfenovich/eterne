@@ -3077,12 +3077,13 @@
             "settings": {
               "block_page": "shop-the-look-2",
               "title": "Shop The Look",
-              "image": "shopify:\/\/shop_images\/long-sleeve-hoodie-t-shirt-ivory-shirts-eterne-164536_1296x_7cd59b01-3157-4cbc-9b04-292024a8c90a.jpg",
+              "image": "shopify:\/\/shop_images\/DAY_01_SHOT_30_0049_color.jpg",
               "width": false,
               "description": "The ultimate lounge set in the softest cotton—a slightly oversized thermal and pant pair perfectly for easy weekend wear.",
               "text_align": "text-left",
               "product_list": [
-                "thermal-lounge-pant-ivory"
+                "thermal-lounge-pant-ivory",
+                "long-sleeve-hoodie-t-shirt-ivory"
               ]
             }
           }
