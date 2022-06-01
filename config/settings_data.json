@@ -3071,10 +3071,25 @@
                 "thermal-lounge-pant-heather-grey"
               ]
             }
+          },
+          "5eb49b9c-0c60-46f6-94f6-d7c68a549a6b": {
+            "type": "page_block",
+            "settings": {
+              "block_page": "shop-the-look-2",
+              "title": "Shop The Look",
+              "image": "shopify:\/\/shop_images\/long-sleeve-hoodie-t-shirt-ivory-shirts-eterne-164536_1296x_7cd59b01-3157-4cbc-9b04-292024a8c90a.jpg",
+              "width": false,
+              "description": "The ultimate lounge set in the softest cotton—a slightly oversized thermal and pant pair perfectly for easy weekend wear.",
+              "text_align": "text-left",
+              "product_list": [
+                "thermal-lounge-pant-ivory"
+              ]
+            }
           }
         },
         "block_order": [
-          "646f2b4f-c678-4df8-b511-59eb345d4eb3"
+          "646f2b4f-c678-4df8-b511-59eb345d4eb3",
+          "5eb49b9c-0c60-46f6-94f6-d7c68a549a6b"
         ],
         "settings": {
         }
