@@ -3065,7 +3065,7 @@
               "image": "shopify:\/\/shop_images\/Shop_the_Look_top_left.jpg",
               "width": false,
               "description": "Luxury, comfort and versatility—these are the foundations of which Eterne is built. A sleek bodysuit, the ultimate day to night piece, elevates lounge pants for the perfect combination of effortless style.",
-              "text_align": "text-center",
+              "text_align": "text-left",
               "product_list": [
                 "halter-bodysuit-black",
                 "thermal-lounge-pant-heather-grey"
