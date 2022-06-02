@@ -42,20 +42,20 @@
             }
 
             &.w-100 {
-                max-width: 100%;
+                max-width: 530px;
                 height: auto;
             }
         }
 
         .shop-the-look__description {
-            display: none;
+            display: block;
+            font-size: 16px;
+            line-height: 22.4px;
+            max-width: 648px;
+            width: 100%;
+            margin-top: 45px;
 
             @media (min-width: 481px) {
-                display: block;
-                font-size: 16px;
-                line-height: 22.4px;
-                max-width: 648px;
-                width: 100%;
                 margin-top: 60px;
             }
         }
@@ -104,7 +104,7 @@
                     transition: all 1.5s ease-in-out;
                 }
 
-                span {
+                .shop-the-look__product-title {
                     text-transform: uppercase;
                     font-size: 14px;
                     line-height: 16px;
@@ -126,6 +126,10 @@
                     @media (min-width: 481px) {
                         margin: 22px auto 0;
                         max-width: 212px;
+                    }
+
+                    #smartwishlist {
+                        display: none !important;
                     }
 
                     .addToCart {
