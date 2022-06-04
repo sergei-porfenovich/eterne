@@ -162,7 +162,7 @@
           "show_description_below": false,
           "description_font_size": "rte",
           "show_image": true,
-          "image_height": "use_screen_one_half",
+          "image_height": "use_screen_two_thirds",
           "overlay_opacity": 0,
           "text_color": "homepage--dark",
           "parallax": true,
