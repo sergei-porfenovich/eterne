@@ -3516,8 +3516,8 @@
             "settings": {
               "image_autoheight_enable": true,
               "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 35,
-              "shop_product_padding": 35,
+              "shop_product_margin": 15,
+              "shop_product_padding": 15,
               "shop_img11": "shopify:\/\/shop_images\/18.jpg",
               "shop_product11": ""
             }
