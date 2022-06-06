@@ -3145,8 +3145,8 @@
             "settings": {
               "image_autoheight_enable": true,
               "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 26,
-              "shop_product_padding": 19,
+              "shop_product_margin": 9,
+              "shop_product_padding": 6,
               "shop_img11": "shopify:\/\/shop_images\/3_-_S37_0058_cropped.jpg",
               "shop_product11": ""
             }
@@ -3182,8 +3182,8 @@
             "settings": {
               "image_autoheight_enable": false,
               "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 34,
-              "shop_product_padding": 34,
+              "shop_product_margin": 12,
+              "shop_product_padding": 6,
               "shop_img11": "shopify:\/\/shop_images\/8_-_S99_0023_cropped.jpg",
               "shop_product11": ""
             }
