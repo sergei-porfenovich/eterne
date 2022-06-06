@@ -3123,6 +3123,69 @@
         ],
         "settings": {
         }
+      },
+      "paige-campaign-shop": {
+        "type": "paige-campaign-shop",
+        "blocks": {
+          "6ade93fd-ce04-413c-98ab-ed6a79c9de4d": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img21": "shopify:\/\/shop_images\/1.jpg",
+              "shop_product21": "",
+              "shop_img22": "shopify:\/\/shop_images\/2_-_S42_0040.jpg",
+              "shop_product22": ""
+            }
+          },
+          "6996e902-5121-4e16-ac9b-b380f5025ad0": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img11": "shopify:\/\/shop_images\/3_-_S37_0058_cropped.jpg",
+              "shop_product11": ""
+            }
+          },
+          "3150d629-62da-462d-8a91-5e11cc59ffe7": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img21": "shopify:\/\/shop_images\/4.jpg",
+              "shop_product21": "",
+              "shop_img22": "shopify:\/\/shop_images\/5.jpg",
+              "shop_product22": ""
+            }
+          },
+          "7853c5ea-d89c-4906-8964-6260e5a843aa": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "",
+              "shop_product22": ""
+            }
+          }
+        },
+        "block_order": [
+          "6ade93fd-ce04-413c-98ab-ed6a79c9de4d",
+          "6996e902-5121-4e16-ac9b-b380f5025ad0",
+          "3150d629-62da-462d-8a91-5e11cc59ffe7",
+          "7853c5ea-d89c-4906-8964-6260e5a843aa"
+        ],
+        "settings": {
+          "shop_margin_top": 0,
+          "shop_margin_bottom": 25
+        }
       }
     },
     "content_for_index": [
