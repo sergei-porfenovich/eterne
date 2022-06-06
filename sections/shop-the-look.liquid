@@ -68,26 +68,47 @@
                                 </div>
                                 <span class="shop-the-look__product-title">{{ product.title }}</span>
                             </a>
-                            <div class="shop-the-look__add">
-                                {% form 'product', product %}
-                                    <div class="add-to-cart__wrapper">
-                                        <button type="submit" name="add" data-add-to-cart id="AddToCart-{{ block.id }}"
-                                                class="btn btn--large btn--full btn--clear uppercase addToCart{% if sold_out %} disabled{% endif %}"
-                                                {% if sold_out %}disabled="true"{% endif %}>
-                                            <span id="AddToCartText-{{ block.id }}">{% if sold_out %}{{ 'products.product.sold_out' | t }}{% else %}{{ 'products.product.add_to_cart' | t }}{% endif %}</span>
-                                        </button>
-                                        <div id="smartwishlist" data-product="{{ product.id }}"
-                                             data-variant="{{ product.variants.first.id }}"></div>
-                                    </div>
-                                {% endform %}
+
+                            <div class="shop-the-look__add product__form custom">
+                                <div id="AddToCartForm-product" data-section="product" class="product-form-product product-form">
+                                    {% form 'product', product %}
+                                        <select name="id" id="ProductSelect-product" data-section="product" class="product-form__variants no-js">
+                                            <option selected="selected" value="42810385989882">
+                                                Default Title
+                                            </option>
+                                        </select>
+                                        <div class="add-to-cart__wrapper">
+                                            <button type="submit" name="add" data-add-to-cart id="AddToCart-{{ section.id }}" class="btn btn--large btn--full btn--clear uppercase addToCart{% if sold_out %} disabled{% endif %}" {% if sold_out %}disabled="true"{% endif %}>
+                                                <span id="AddToCartText-{{ section.id }}">{% if sold_out %}{{ 'products.product.sold_out' | t }}{% else %}{{ 'products.product.add_to_cart' | t }}{% endif %}</span>
+                                            </button>
+                                        </div>
+                                    {% endform %}
+                                    {% include 'membership-product-callbacks' %}
+                                </div>
                             </div>
                         </div>
                     {% endfor %}
                 </div>
             </div>
         </div>
+        <div id="CartDrawerWrapper--shop-the-look" class="cart-drawer">
+            <span class="close">×</span>
+            <div class="product__add__drawer">
+                <div class="product__add__wrapper">
+                    <div class="product__add__text">
+                        <div class="product__add__message">Item added to cart</div>
+                        <div class="product__add__buttons hidden">
+                            <a href="/checkout" class="btn btn--large uppercase btn--splash">Checkout</a>
+                            <a href="/cart" class="btn btn--large uppercase btn--splash--outline">View Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     {%- endif -%}
 {%- endfor -%}
+
+{{ 'custom-add-to-cart.js' | asset_url | script_tag }}
 
 <script>
     AOS.init();
