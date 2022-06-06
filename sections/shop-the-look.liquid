@@ -71,18 +71,24 @@
 
                             <div class="shop-the-look__add product__form custom">
                                 <div id="AddToCartForm-product" data-section="product" class="product-form-product product-form">
-                                    {% form 'product', product %}
-                                        <select name="id" id="ProductSelect-product" data-section="product" class="product-form__variants no-js">
-                                            <option selected="selected" value="42810385989882">
-                                                Default Title
-                                            </option>
+                                    <form method="post" action="/cart/add" id="product_form_{{ section.id }}" accept-charset="UTF-8" class="shopify-product-form" enctype="multipart/form-data"><input type="hidden" name="form_type" value="product"><input type="hidden" name="utf8" value="✓">
+                                        <select name="id" id="ProductSelect-{{ section.id }}" data-section="{{ section.id }}" class="product-form__variants no-js">
+                                            {% for variant in product.variants %}
+                                                {% if variant.available %}
+                                                    <option {% if variant == product.selected_or_first_available_variant %} selected="selected" {% endif %} value="{{ variant.id }}">
+                                                        {{ variant.title }}
+                                                    </option>
+                                                {% else %}
+                                                    <option disabled="disabled">{{ variant.title }} - {{ 'products.product.sold_out' | t }}</option>
+                                                {% endif %}
+                                            {% endfor %}
                                         </select>
                                         <div class="add-to-cart__wrapper">
                                             <button type="submit" name="add" data-add-to-cart id="AddToCart-{{ section.id }}" class="btn btn--large btn--full btn--clear uppercase addToCart{% if sold_out %} disabled{% endif %}" {% if sold_out %}disabled="true"{% endif %}>
                                                 <span id="AddToCartText-{{ section.id }}">{% if sold_out %}{{ 'products.product.sold_out' | t }}{% else %}{{ 'products.product.add_to_cart' | t }}{% endif %}</span>
                                             </button>
                                         </div>
-                                    {% endform %}
+                                    </form>
                                     {% include 'membership-product-callbacks' %}
                                 </div>
                             </div>
