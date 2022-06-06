@@ -3374,6 +3374,69 @@
           "shop_margin_top": 0,
           "shop_margin_bottom": 25
         }
+      },
+      "miranda-campaign-shop": {
+        "type": "miranda-campaign-shop",
+        "blocks": {
+          "3b680b06-c582-484f-80d6-53e167c7b124": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img21": "shopify:\/\/shop_images\/1_5d3d10b8-5f53-48e0-8b77-f657a615ee6f.jpg",
+              "shop_product21": "",
+              "shop_img22": "shopify:\/\/shop_images\/2.jpg",
+              "shop_product22": ""
+            }
+          },
+          "44f9127d-4c58-4844-a1bd-0f880157e269": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 18,
+              "shop_product_padding": 17,
+              "shop_img11": "shopify:\/\/shop_images\/3.jpg",
+              "shop_product11": ""
+            }
+          },
+          "042e2607-ac92-412e-9373-847c6cffd4e5": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img21": "shopify:\/\/shop_images\/4_ba538841-df28-422d-a05d-493fe34d446f.jpg",
+              "shop_product21": "",
+              "shop_img22": "shopify:\/\/shop_images\/5_76364aac-e116-437f-9d45-261917a570fe.jpg",
+              "shop_product22": ""
+            }
+          },
+          "86b0c692-a0a3-401c-9110-628f4d2c76cc": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 6,
+              "shop_product_padding": 6,
+              "shop_img11": "shopify:\/\/shop_images\/6_402260fe-b15c-4ee4-a1b4-c79109c1a669.jpg",
+              "shop_product11": ""
+            }
+          }
+        },
+        "block_order": [
+          "3b680b06-c582-484f-80d6-53e167c7b124",
+          "44f9127d-4c58-4844-a1bd-0f880157e269",
+          "042e2607-ac92-412e-9373-847c6cffd4e5",
+          "86b0c692-a0a3-401c-9110-628f4d2c76cc"
+        ],
+        "settings": {
+          "shop_margin_top": 0,
+          "shop_margin_bottom": 25
+        }
       }
     },
     "content_for_index": [
