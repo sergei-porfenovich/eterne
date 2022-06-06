@@ -165,7 +165,7 @@
           "image_height": "use_screen_one_half",
           "overlay_opacity": 0,
           "text_color": "homepage--dark",
-          "parallax": true,
+          "parallax": false,
           "hide_sidebar": false,
           "collection_custom_nav_list": "",
           "collection_standard_nav": false,
