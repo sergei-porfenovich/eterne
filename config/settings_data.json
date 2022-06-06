@@ -3219,8 +3219,8 @@
             "settings": {
               "image_autoheight_enable": false,
               "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 8,
-              "shop_product_padding": 7,
+              "shop_product_margin": 15,
+              "shop_product_padding": 12,
               "shop_img11": "shopify:\/\/shop_images\/13_-_S46_0029.jpg",
               "shop_product11": ""
             }
@@ -3256,8 +3256,8 @@
             "settings": {
               "image_autoheight_enable": false,
               "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 12,
-              "shop_product_padding": 12,
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
               "shop_img11": "shopify:\/\/shop_images\/18_-_S84_0025.jpg",
               "shop_product11": ""
             }
