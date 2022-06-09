@@ -339,7 +339,7 @@
             "settings": {
               "image_autoheight_enable": false,
               "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 5,
+              "shop_product_margin": 0,
               "shop_product_padding": 0,
               "shop_product31": "long-sleeve-crewneck-dress-mini-cream",
               "shop_product32": "tank-dress-mini-cream",
@@ -2084,6 +2084,10 @@
           "184755e7-9345-48f4-8d17-96da2588524a"
         ],
         "settings": {
+          "show_image": false,
+          "image_height": "use_screen_one_third",
+          "overlay_opacity": 20,
+          "parallax": false,
           "align_text": "text-center",
           "show_title": true,
           "show_description": true,
@@ -2375,6 +2379,10 @@
           "4830f1fd-4c5b-48a1-8303-f4cd0311f1f3"
         ],
         "settings": {
+          "show_image": false,
+          "image_height": "use_screen_one_third",
+          "overlay_opacity": 20,
+          "parallax": false,
           "align_text": "text-center",
           "show_title": true,
           "show_description": true,
@@ -2535,6 +2543,10 @@
           "3a2712c8-6840-48a9-a5a5-e0d4974dd022"
         ],
         "settings": {
+          "show_image": false,
+          "image_height": "use_screen_one_third",
+          "overlay_opacity": 20,
+          "parallax": false,
           "align_text": "text-center",
           "show_title": true,
           "show_description": true,
@@ -3059,6 +3071,10 @@
           "b3c9bf05-f492-4cfc-8c6b-668de9eafb03"
         ],
         "settings": {
+          "show_image": false,
+          "image_height": "use_screen_one_third",
+          "overlay_opacity": 20,
+          "parallax": false,
           "align_text": "text-center",
           "show_title": true,
           "show_description": true,
