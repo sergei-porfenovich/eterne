@@ -337,7 +337,7 @@
           "6fd71c8c-32f7-4b9c-81f5-32357fbd5b3c": {
             "type": "shop_imgproducts2",
             "settings": {
-              "image_autoheight_enable": true,
+              "image_autoheight_enable": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
