@@ -2379,10 +2379,10 @@
           "4830f1fd-4c5b-48a1-8303-f4cd0311f1f3"
         ],
         "settings": {
-          "show_image": false,
-          "image_height": "use_screen_one_third",
+          "show_image": true,
+          "image_height": "use_screen_one_half",
           "overlay_opacity": 20,
-          "parallax": false,
+          "parallax": true,
           "align_text": "text-center",
           "show_title": true,
           "show_description": true,
