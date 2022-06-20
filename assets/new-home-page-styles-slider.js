@@ -3,7 +3,8 @@ var swiperTwo = new Swiper("#styles-slider", {
     spaceBetween: 0,
     watchSlidesVisibility: true,
     centeredSlides: true,
-    initialSlide: 1, 
+    initialSlide: 1,
+    loop: true,
     navigation: {
         nextEl: ".styles-slider-next",
         prevEl: ".styles-slider-prev",
