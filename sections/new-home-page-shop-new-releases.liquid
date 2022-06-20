@@ -1,0 +1,42 @@
+{% assign collection_handle = 'new-releases' %}
+
+
+<div class="new-releases aos-init aos-animate" data-aos="fade-up">
+    <div class="home-page-title wrapper">
+        {{ section.settings.newReleasesTitle }}
+    </div>
+    <div class="new-releases__slider" id="new-releases-slider">
+        <div class="swiper-wrapper">
+            {% for product in collections[collection_handle].products %}
+                {% assign product_url = "/collections/" | append: collection_handle | append: "/products/" | append: product.handle %}
+                <a href="{{ product_url }}" class="new-releases__item swiper-slide">
+                    <div class="new-releases__item-wrap">
+                        <div class="hidden-hover">
+                            <img class="lazyload fade-in" src="{{ product.featured_image | img_url: 'large' }}" alt="{{product.featured_image.alt}}" />
+                        </div>
+                        <div class="new-releases__item_description">{{ product.title }}</div>
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
+        <div class="swiper-button-next new-releases-next"></div>
+        <div class="swiper-button-prev new-releases-prev"></div>
+    </div>
+</div>
+
+{{ 'new-home-page-new-releases-slider.js' | asset_url | script_tag }}
+
+{% schema %}
+    {
+    "name": "NewReleases",
+    "class": "newReleases",
+    "settings": [
+        {
+            "type": "text",
+            "id": "newReleasesTitle",
+            "label": "NewReleasesTitle",
+            "default": "NEW RELEASES"
+        }
+    ]
+}
+{% endschema %}

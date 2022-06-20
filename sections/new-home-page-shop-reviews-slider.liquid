@@ -1,0 +1,48 @@
+<div class="reviews-slider wrapper aos-init aos-animate" data-aos="fade-up">
+    <div class="reviews-slider__mw">
+        <div class="quote">“</div>
+        <div class="reviews-slider__wrapper" id="reviews-slider">
+            <div class="swiper-wrapper">
+                {% for block in section.blocks %}
+                    <div class="reviews-slider__item swiper-slide">
+                        <div class="reviews-slider__description">
+                            {{ block.settings.description_review }}
+                        </div>
+                        <div class="reviews-slider__sub">
+                            —{{ block.settings.title_review }}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="swiper-button-next reviews-slider-next"></div>
+        <div class="swiper-button-prev reviews-slider-prev"></div>
+    </div>
+</div>
+
+{{ 'new-home-page-reviews-slider.js' | asset_url | script_tag }}
+
+{% schema %}
+    {
+    "name": "reviewsSlider",
+    "class": "reviewsSlider",
+    "blocks": [
+        {
+            "type": "reviewItem",
+            "name": "Review Item",
+            "settings": [
+                {
+                    "type": "textarea",
+                    "id": "description_review",
+                    "label": "Description"
+                },
+                {
+                    "type": "text",
+                    "id": "title_review",
+                    "label": "Title"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

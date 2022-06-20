@@ -244,11 +244,46 @@
           "color": "homepage--white"
         }
       },
-      "new-home-page": {
-        "type": "new-home-page",
+      "new-home-page-hero": {
+        "type": "new-home-page-hero",
         "settings": {
         }
       },
+      "new-home-page-shop-new-releases": {
+        "type": "new-home-page-shop-new-releases",
+        "settings": {
+        }
+      },
+      "new-home-page-shop-look": {
+        "type": "new-home-page-shop-look",
+        "settings": {
+        }
+      },
+      "new-home-page-shop-loungewear": {
+        "type": "new-home-page-shop-loungewear",
+        "settings": {
+        }
+      },
+      "new-home-page-shop-styles-slider": {
+        "type": "new-home-page-shop-styles-slider",
+        "settings": {
+        }
+      },
+      "new-home-page-girls-section": {
+        "type": "new-home-page-girls-section",
+        "settings": {
+        }
+      },
+      "new-home-page-shop-reviews-slider": {
+        "type": "new-home-page-shop-reviews-slider",
+        "settings": {
+        }
+      },
+      "new-home-page-shop-about-product": {
+        "type": "new-home-page-shop-about-product",
+        "settings": {
+        }
+      }, 
       "related": {
         "type": "related",
         "settings": {
@@ -3591,7 +3626,14 @@
       }
     },
     "content_for_index": [
-      "new-home-page",
+      "new-home-page-hero",
+      "new-home-page-shop-new-releases",
+      "new-home-page-shop-look",
+      "new-home-page-shop-loungewear",
+      "new-home-page-shop-styles-slider",
+      "new-home-page-girls-section",
+      "new-home-page-shop-reviews-slider",
+      "new-home-page-shop-about-product", 
       "index-video"
     ],
     "blocks": {
