@@ -1,0 +1,46 @@
+<div class="new-releases-shop-loungewear aos-init aos-animate" data-aos="fade-up" style="background-image: url({{ section.settings.imgLoungewear | img_url: 'master'}})">
+    <div class="wrapper">
+        <div class="new-releases-shop-loungewear__text">
+            <div class="new-releases-shop-loungewear__text_title">
+                {{ section.settings.releases_title }}    
+            </div>
+            <a href="{{ section.settings.releases_link }}" class="new-releases-shop-loungewear__text_button">
+                {{ section.settings.releases_text_btn }}    
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+
+{% schema %}
+    {
+    "name": "NewReleasesShopLoungewear",
+    "class": "newReleasesShopLoungewear",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "imgLoungewear",
+            "label": "Img Loungewear"
+        },
+        {
+            "type": "text",
+            "id": "releases_title",
+            "label": "New Releases Shop Loungewear Title",
+            "default": "BESTSELLING LOUNGEWEAR"
+        },
+        {
+            "type": "text",
+            "id": "releases_text_btn",
+            "label": "New Releases Text Button",
+            "default": "SHOP NOW"
+        },
+        {
+            "type": "url",
+            "id": "releases_link",
+            "label": "New Releases Link"
+        }
+    ]
+}
+{% endschema %}

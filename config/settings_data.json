@@ -244,11 +244,46 @@
           "color": "homepage--white"
         }
       },
-      "new-home-page": {
-        "type": "new-home-page",
+      "new-home-page-hero": {
+        "type": "new-home-page-hero",
         "settings": {
         }
       },
+      "new-home-page-shop-new-releases": {
+        "type": "new-home-page-shop-new-releases",
+        "settings": {
+        }
+      },
+      "new-home-page-shop-look": {
+        "type": "new-home-page-shop-look",
+        "settings": {
+        }
+      },
+      "new-home-page-shop-loungewear": {
+        "type": "new-home-page-shop-loungewear",
+        "settings": {
+        }
+      },
+      "new-home-page-shop-styles-slider": {
+        "type": "new-home-page-shop-styles-slider",
+        "settings": {
+        }
+      },
+      "new-home-page-girls-section": {
+        "type": "new-home-page-girls-section",
+        "settings": {
+        }
+      },
+      "new-home-page-shop-reviews-slider": {
+        "type": "new-home-page-shop-reviews-slider",
+        "settings": {
+        }
+      },
+      "new-home-page-shop-about-product": {
+        "type": "new-home-page-shop-about-product",
+        "settings": {
+        }
+      }, 
       "related": {
         "type": "related",
         "settings": {
@@ -334,6 +369,19 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "6fd71c8c-32f7-4b9c-81f5-32357fbd5b3c": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img21": "shopify:\/\/shop_images\/Untitled-2.jpg",
+              "shop_product21": "tank-dress-maxi-cream",
+              "shop_img22": "shopify:\/\/shop_images\/Untitled-1.jpg",
+              "shop_product22": "tank-dress-maxi-black"
+            }
+          },
           "dec54a19-cff5-4c27-b88a-9fc0f4db4561": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -341,8 +389,11 @@
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
+              "shop_img31": "shopify:\/\/shop_images\/Shop-page-1_a78027db-ab8c-44b5-b143-2ab83dc3d76c.jpg",
               "shop_product31": "long-sleeve-crewneck-dress-mini-cream",
+              "shop_img32": "shopify:\/\/shop_images\/Shop-Page-2_dabcd957-eea3-4393-82a2-eac52b2d6b41.jpg",
               "shop_product32": "tank-dress-mini-cream",
+              "shop_img33": "shopify:\/\/shop_images\/Shop-page-3_9c0ec8b1-a603-46b5-aaf3-163a150bcb17.jpg",
               "shop_product33": "long-sleeve-turtleneck-dress-mini-cream-cream"
             }
           },
@@ -857,6 +908,7 @@
           }
         },
         "block_order": [
+          "6fd71c8c-32f7-4b9c-81f5-32357fbd5b3c",
           "dec54a19-cff5-4c27-b88a-9fc0f4db4561",
           "73f7e148-b3a8-4bd0-bfb0-a2bf1d80bf71",
           "b4da56c3-1fce-45ca-a078-d21a2f587b6e",
@@ -3574,7 +3626,14 @@
       }
     },
     "content_for_index": [
-      "new-home-page",
+      "new-home-page-hero",
+      "new-home-page-shop-new-releases",
+      "new-home-page-shop-look",
+      "new-home-page-shop-loungewear",
+      "new-home-page-shop-styles-slider",
+      "new-home-page-girls-section",
+      "new-home-page-shop-reviews-slider",
+      "new-home-page-shop-about-product", 
       "index-video"
     ],
     "blocks": {
