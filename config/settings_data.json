@@ -2142,6 +2142,18 @@
       "custom-collection-2": {
         "type": "custom-collection-2",
         "blocks": {
+          "feb88805-0f1f-410f-90b0-3c52bed09bba": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "super-cropped-rib-tank-black",
+              "shop_product32": "super-cropped-rib-tank-heather-grey",
+              "shop_product33": "super-cropped-rib-tank-ivory"
+            }
+          },
           "fb3d2396-e2ab-44d5-8767-a3c258e28669": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -2399,6 +2411,7 @@
           }
         },
         "block_order": [
+          "feb88805-0f1f-410f-90b0-3c52bed09bba",
           "fb3d2396-e2ab-44d5-8767-a3c258e28669",
           "10cce77e-a8d0-4831-9ac2-ac8c93dacddb",
           "e6a9a437-c035-4b91-bc8b-37a1622b894d",
