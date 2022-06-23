@@ -333,12 +333,30 @@
               "img_style": "shopify:\/\/shop_images\/oversized-thermal-black-thermal-eterne-494772_360x_8c07e287-24e9-42b4-a6e5-3460321dc7d4.webp",
               "title_style": "Thermals"
             }
+          },
+          "00771554-9405-4761-bc67-24c0d1b48575": {
+            "type": "styleItem",
+            "settings": {
+              "url_style": "shopify:\/\/collections\/bottoms",
+              "img_style": "shopify:\/\/shop_images\/lounge-pant-heather-grey-bottoms-eterne-470321_360x_313fc88e-69f5-4784-8d77-ea0898a2c64b.webp",
+              "title_style": "Bottoms"
+            }
+          },
+          "89a5af36-543a-4348-8be3-57893ea3f16a": {
+            "type": "styleItem",
+            "settings": {
+              "url_style": "shopify:\/\/collections\/t-shirts-tanks",
+              "img_style": "shopify:\/\/shop_images\/the-short-sleeve-boyfriend-tee-heather-grey-shirts-eterne-187550_360x_d3b010b4-c376-4248-a784-e9666361f48a.webp",
+              "title_style": "Tops"
+            }
           }
         },
         "block_order": [
           "c33ad65e-83f4-4e5b-a1b0-d13b248a30d5",
           "6c4373ee-33fe-4283-9ab3-282f55a09494",
-          "75cd3f96-bfd7-43de-ae56-cfba1db630fa"
+          "75cd3f96-bfd7-43de-ae56-cfba1db630fa",
+          "00771554-9405-4761-bc67-24c0d1b48575",
+          "89a5af36-543a-4348-8be3-57893ea3f16a"
         ],
         "settings": {
           "stylesSliderTitle": "STYLES",
