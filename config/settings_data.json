@@ -339,8 +339,8 @@
             "settings": {
               "image_autoheight_enable": true,
               "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
+              "shop_product_margin": 3,
+              "shop_product_padding": 2,
               "shop_product31": "long-sleeve-crewneck-dress-mini-black",
               "shop_product32": "tank-dress-mini-black",
               "shop_product33": "long-sleeve-turtleneck-dress-mini-black-black"
