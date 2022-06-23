@@ -380,6 +380,58 @@
       },
       "new-home-page-shop-reviews-slider": {
         "type": "new-home-page-shop-reviews-slider",
+        "blocks": {
+          "b85ee91e-f962-4d6a-a679-9d74d28a0eb3": {
+            "type": "reviewItem",
+            "settings": {
+              "description_review": "Bartoli’s designs are simple and straightforward, and they’re definitely the kind of pieces everyone wants to wear right now.",
+              "title_review": "Vogue"
+            }
+          },
+          "ee91c9d8-e8b7-4d14-8b9e-bf020814cec7": {
+            "type": "reviewItem",
+            "settings": {
+              "description_review": "All pieces are made in Los Angeles from a blend of cotton and modal—and the label already counts Emily Ratajkowski and Hailey Bieber as fans.",
+              "title_review": "Harper’s Bazaar"
+            }
+          },
+          "55d5e290-a95a-41fc-983a-4015ae654b17": {
+            "type": "reviewItem",
+            "settings": {
+              "description_review": "Filled with edgy, confident, meticulously-designed staple pieces.",
+              "title_review": "The Zoe Report"
+            }
+          },
+          "d104f921-3a66-4d3f-959e-beb3c0acdb8a": {
+            "type": "reviewItem",
+            "settings": {
+              "description_review": "This is some more fashion-forward comfort wear. The cuts are everything.",
+              "title_review": "NYMag"
+            }
+          },
+          "261d68b1-7903-4ecc-bdb8-41d185acf839": {
+            "type": "reviewItem",
+            "settings": {
+              "description_review": "Sophisticated in their simplicity, these are items made to be worn day or night.",
+              "title_review": "Forbes"
+            }
+          },
+          "3fc6c12e-fe51-4f99-b09c-e94d2547398d": {
+            "type": "reviewItem",
+            "settings": {
+              "description_review": "Éterne makes elevated essentials you'll want to live in.",
+              "title_review": "Harper's Bazaar"
+            }
+          }
+        },
+        "block_order": [
+          "b85ee91e-f962-4d6a-a679-9d74d28a0eb3",
+          "ee91c9d8-e8b7-4d14-8b9e-bf020814cec7",
+          "55d5e290-a95a-41fc-983a-4015ae654b17",
+          "d104f921-3a66-4d3f-959e-beb3c0acdb8a",
+          "261d68b1-7903-4ecc-bdb8-41d185acf839",
+          "3fc6c12e-fe51-4f99-b09c-e94d2547398d"
+        ],
         "settings": {
         }
       },
