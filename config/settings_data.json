@@ -438,9 +438,10 @@
       "new-home-page-shop-about-product": {
         "type": "new-home-page-shop-about-product",
         "settings": {
+          "imgAbout": "shopify:\/\/shop_images\/DAY_02_SHOT_16_0020_color_720x_48e42f0b-0fa5-49f1-8fcb-fddd72730780.webp",
           "aboutProductTitle": "CROPPED V-NECK T-SHIRT IVORY",
-          "aboutProductDescription": "",
-          "product_link": "",
+          "aboutProductDescription": "Cut from a lightweight cotton and modal blend, our cropped v-neck t-shirt features a slightly slim fit with its flattering V neckline and vintage feel.\n\nStyle with your favorite pair of jeans, leather pants, layered under an oversized blazer, or paired with Éterne’s lounge boxer short as a set.",
+          "product_link": "shopify:\/\/products\/cropped-v-neck-t-shirt-ivory",
           "product_btn_text": "SHOP NOW"
         }
       },
