@@ -334,6 +334,18 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "62f0dcbc-2c94-4f9f-9730-297242cc1c95": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "",
+              "shop_product32": "",
+              "shop_product33": ""
+            }
+          },
           "8fa269c9-a614-4bb4-a813-a3aa9659ff11": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -885,6 +897,7 @@
           }
         },
         "block_order": [
+          "62f0dcbc-2c94-4f9f-9730-297242cc1c95",
           "8fa269c9-a614-4bb4-a813-a3aa9659ff11",
           "6fd71c8c-32f7-4b9c-81f5-32357fbd5b3c",
           "dec54a19-cff5-4c27-b88a-9fc0f4db4561",
