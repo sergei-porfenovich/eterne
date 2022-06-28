@@ -334,6 +334,21 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "38c334a8-3c5d-4314-8392-581857f81346": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img31": "shopify:\/\/shop_images\/Untitled-3.jpg",
+              "shop_product31": "long-sleeve-crewneck-dress-mini-black",
+              "shop_img32": "shopify:\/\/shop_images\/Untitled-2-1.jpg",
+              "shop_product32": "tank-dress-mini-black",
+              "shop_img33": "shopify:\/\/shop_images\/Untitled-1-1.jpg",
+              "shop_product33": "long-sleeve-turtleneck-dress-mini-black-black"
+            }
+          },
           "d0760d23-e80b-4ead-b53a-c3622ec3d285": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -885,6 +900,7 @@
           }
         },
         "block_order": [
+          "38c334a8-3c5d-4314-8392-581857f81346",
           "d0760d23-e80b-4ead-b53a-c3622ec3d285",
           "6fd71c8c-32f7-4b9c-81f5-32357fbd5b3c",
           "dec54a19-cff5-4c27-b88a-9fc0f4db4561",
