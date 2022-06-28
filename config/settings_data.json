@@ -335,22 +335,6 @@
         "type": "collection-shop",
         "blocks": {
           "d0760d23-e80b-4ead-b53a-c3622ec3d285": {
-          "62f0dcbc-2c94-4f9f-9730-297242cc1c95": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "image_autoheight_enable": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_img31": "shopify:\/\/shop_images\/Untitled-3.jpg",
-              "shop_product31": "long-sleeve-crewneck-dress-mini-black",
-              "shop_img32": "shopify:\/\/shop_images\/Untitled-2-1.jpg",
-              "shop_product32": "tank-dress-mini-black",
-              "shop_img33": "shopify:\/\/shop_images\/Untitled-1-1.jpg",
-              "shop_product33": "long-sleeve-turtleneck-dress-mini-black-black"
-            }
-          },
-          "8fa269c9-a614-4bb4-a813-a3aa9659ff11": {
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
@@ -902,8 +886,6 @@
         },
         "block_order": [
           "d0760d23-e80b-4ead-b53a-c3622ec3d285",
-          "62f0dcbc-2c94-4f9f-9730-297242cc1c95",
-          "8fa269c9-a614-4bb4-a813-a3aa9659ff11",
           "6fd71c8c-32f7-4b9c-81f5-32357fbd5b3c",
           "dec54a19-cff5-4c27-b88a-9fc0f4db4561",
           "73f7e148-b3a8-4bd0-bfb0-a2bf1d80bf71",
@@ -2148,7 +2130,6 @@
         "type": "custom-collection-2",
         "blocks": {
           "47e2f88b-770a-491d-b443-1f08d3a825b6": {
-          "feb88805-0f1f-410f-90b0-3c52bed09bba": {
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
@@ -2418,7 +2399,6 @@
         },
         "block_order": [
           "47e2f88b-770a-491d-b443-1f08d3a825b6",
-          "feb88805-0f1f-410f-90b0-3c52bed09bba",
           "fb3d2396-e2ab-44d5-8767-a3c258e28669",
           "10cce77e-a8d0-4831-9ac2-ac8c93dacddb",
           "e6a9a437-c035-4b91-bc8b-37a1622b894d",
