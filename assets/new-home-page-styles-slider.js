@@ -14,6 +14,5 @@ var swiperTwo = new Swiper("#styles-slider", {
             spaceBetween: 5
         }
     }
-
 });
 
