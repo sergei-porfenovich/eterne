@@ -1,0 +1,77 @@
+<div class="new-releases-shop-look wrapper aos-init aos-animate" data-aos="fade-up">
+    <div class="home-page-title wrapper">
+        {{ section.settings.homePageTitle }}
+    </div>
+    <div class="new-releases-shop-look__top">
+        {%- for card in section.blocks limit: 2 -%}
+        
+            <div class="new-releases-shop-look__card">
+                <a href="{{ card.settings.url_card }}" class="new-releases-shop-look__link">
+                    <div class="hidden-hover">
+                        <img class="img lazyload fade-in" src="{{ card.settings.img_card | img_url: "master" }}" alt="shop the look">
+                    </div>
+                    <div class="new-releases-shop-look__button">
+                        {{ card.settings.text_card_btn }}
+                    </div>
+                </a>
+            </div>
+        {%- endfor -%}
+    </div>
+    {%- for card in section.blocks offset: 2 -%}
+        <div class="new-releases-shop-look__bottom">
+            <div class="new-releases-shop-look__card">
+                <a href="{{ card.settings.url_card }}" class="new-releases-shop-look__link">
+                    <div class="hidden-hover">
+                        <img class="img lazyload fade-in" src="{{ card.settings.img_card | img_url: "master" }}" alt="shop the look">
+                    </div>
+                    <div class="new-releases-shop-look__button">
+                        {{ card.settings.text_card_btn }} 
+                    </div>
+                </a>
+            </div>
+        </div>
+    {%- endfor -%}
+</div>
+
+
+
+{% schema %}
+    {
+    "name": "NewReleasesShopLook",
+    "class": "newReleasesShopLook",
+    "max_blocks": 3,
+    "settings": [
+        {
+            "type": "text",
+            "id": "homePageTitle",
+            "label": "HomePageTitle",
+            "default": "SHOP THE LOOK"
+        }
+
+    ],
+    "blocks": [
+        {
+            "type": "shopLookCards",
+            "name": "Shop Look Cards",
+            "settings": [
+                {
+                    "type": "url", 
+                    "id": "url_card", 
+                    "label": "Link Card"
+                },
+                {
+                    "type": "text", 
+                    "id": "text_card_btn", 
+                    "label": "Text for button",
+                    "default": "SHOP THE LOOK"   
+                },
+                {
+                    "type": "image_picker", 
+                    "id": "img_card", 
+                    "label": "Image Card"    
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

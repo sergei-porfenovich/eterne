@@ -1,0 +1,98 @@
+<div class="eterne-girls wrapper aos-init aos-animate" data-aos="fade-up">
+    <div class="home-page-title wrapper">
+        {{ section.settings.eterneGirlsTitle }}
+    </div>
+    <div class="home-page-subtitle wrapper">
+        {{ section.settings.eterneGirlsSubtitle }}
+    </div>
+    <div class="eterne-girls__wrapper">
+        <div class="eterne-girls__left">
+            <a href="{{ section.settings.left_url_top_img }}" target="_blank" class="eterne-girls__top-img">
+                <div class="hidden-hover">
+                    <img class="img lazyload fade-in" src="{{ section.settings.left_eterne_girls_top_img | img_url: 'master'}}" alt="">
+                </div>
+            </a>
+            <a href="{{ section.settings.left_url_bottom_img }}" target="_blank" class="eterne-girls__bottom-img">
+                <div class="hidden-hover">
+                    <img class="img lazyload fade-in" src="{{ section.settings.left_eterne_girls_bottom_img | img_url: 'master'}}" alt="">
+                </div>
+            </a>
+        </div>
+        <div class="eterne-girls__right">
+            <a href="{{ section.settings.rigth_url_top_img }}" target="_blank" class="eterne-girls__top-img">
+                <div class="hidden-hover">
+                    <img class="img lazyload fade-in" src="{{ section.settings.rigth_eterne_girls_top_img | img_url: 'master'}}" alt="">
+                </div>
+            </a>
+            <a href="{{ section.settings.rigth_url_bottom_img }}" target="_blank" class="eterne-girls__bottom-img">
+                <div class="hidden-hover">
+                    <img class="img lazyload fade-in" src="{{ section.settings.rigth_eterne_girls_bottom_img | img_url: 'master'}}" alt="">
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+
+{% schema %}
+    {
+    "name": "EterneGirls",
+    "class": "eterneGirls",
+    "settings": [
+        {
+            "type": "text",
+            "id": "eterneGirlsTitle",
+            "label": "EterneGirlsTitle",
+            "default": "ÉTERNE GIRLS"
+        },
+        {
+            "type": "text",
+            "id": "eterneGirlsSubtitle",
+            "label": "EterneGirlsSubtitle",
+            "default": "On Instagram"
+        },
+        {
+            "type": "image_picker",
+            "id": "left_eterne_girls_top_img",
+            "label": "left eterne girls top img"
+        },
+        {
+            "type": "image_picker",
+            "id": "left_eterne_girls_bottom_img",
+            "label": "left eterne girls bottom img"
+        },
+        {
+            "type": "image_picker",
+            "id": "rigth_eterne_girls_top_img",
+            "label": "rigth eterne girls top img"
+        },
+        {
+            "type": "image_picker",
+            "id": "rigth_eterne_girls_bottom_img",
+            "label": "rigth eterne girls bottom img"
+        },
+        {
+            "type": "url",
+            "id": "left_url_top_img",
+            "label": "Link left top img"
+        },
+        {
+            "type": "url",
+            "id": "left_url_bottom_img",
+            "label": "Link left bottom img"
+        },
+        {
+            "type": "url",
+            "id": "rigth_url_top_img",
+            "label": "Link rigth top img"
+        },
+        {
+            "type": "url",
+            "id": "rigth_url_bottom_img",
+            "label": "Link rigth bottom img"
+        }
+    ]
+}
+{% endschema %}

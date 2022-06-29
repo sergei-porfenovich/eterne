@@ -165,7 +165,7 @@
           "image_height": "use_screen_one_half",
           "overlay_opacity": 0,
           "text_color": "homepage--dark",
-          "parallax": false,
+          "parallax": true,
           "hide_sidebar": false,
           "collection_custom_nav_list": "",
           "collection_standard_nav": false,
@@ -244,9 +244,212 @@
           "color": "homepage--white"
         }
       },
-      "new-home-page": {
-        "type": "new-home-page",
+      "new-home-page-hero": {
+        "type": "new-home-page-hero",
         "settings": {
+          "imgHero": "shopify:\/\/shop_images\/Miranda_Eterne_Jan2022_S6_00775-1-2.jpg",
+          "hero_title": "Everyday Luxury Essentials",
+          "url_btn": "shopify:\/\/collections\/shop",
+          "text_button": "SHOP NOW"
+        }
+      },
+      "new-home-page-shop-new-releases": {
+        "type": "new-home-page-shop-new-releases",
+        "settings": {
+          "newReleasesTitle": "NEW RELEASES"
+        }
+      },
+      "new-home-page-shop-look": {
+        "type": "new-home-page-shop-look",
+        "blocks": {
+          "4db115cc-bbae-4f48-91bc-9f4761d8c2cf": {
+            "type": "shopLookCards",
+            "settings": {
+              "url_card": "shopify:\/\/pages\/shop-the-look-1",
+              "text_card_btn": "SHOP THE LOOK",
+              "img_card": "shopify:\/\/shop_images\/Shop_the_Look_top_left_35d783c5-9329-4897-ae2b-42defb524938.jpg"
+            }
+          },
+          "8bafb3cb-7ffc-488e-a257-978e46374123": {
+            "type": "shopLookCards",
+            "settings": {
+              "url_card": "shopify:\/\/pages\/shop-the-look-2",
+              "text_card_btn": "SHOP THE LOOK",
+              "img_card": "shopify:\/\/shop_images\/long-sleeve-hoodie-t-shirt-ivory-shirts-eterne-164536_1296x_78de8a58-e9f4-4c43-9c4b-a6c692999bbb.jpg"
+            }
+          },
+          "46f824b8-e9da-4725-ac12-c220d37bcfd9": {
+            "type": "shopLookCards",
+            "settings": {
+              "url_card": "shopify:\/\/pages\/shop-the-look-3",
+              "text_card_btn": "SHOP THE LOOK",
+              "img_card": "shopify:\/\/shop_images\/DAY_02_SHOT_11_0086_copy-1_1080x_bd17c59d-bde8-4251-8d22-b8015d852d8f.webp"
+            }
+          }
+        },
+        "block_order": [
+          "4db115cc-bbae-4f48-91bc-9f4761d8c2cf",
+          "8bafb3cb-7ffc-488e-a257-978e46374123",
+          "46f824b8-e9da-4725-ac12-c220d37bcfd9"
+        ],
+        "settings": {
+          "homePageTitle": "SHOP THE LOOK"
+        }
+      },
+      "new-home-page-shop-loungewear": {
+        "type": "new-home-page-shop-loungewear",
+        "settings": {
+          "imgLoungewear": "shopify:\/\/shop_images\/DAY_02_SHOT_10_0080_copy_cd0ae159-81f4-44f8-a399-196f0873d91d.jpg",
+          "releases_title": "BESTSELLING LOUNGEWEAR",
+          "releases_text_btn": "SHOP NOW",
+          "releases_link": "shopify:\/\/collections\/bottoms"
+        }
+      },
+      "new-home-page-shop-styles-slider": {
+        "type": "new-home-page-shop-styles-slider",
+        "blocks": {
+          "c33ad65e-83f4-4e5b-a1b0-d13b248a30d5": {
+            "type": "styleItem",
+            "settings": {
+              "url_style": "shopify:\/\/collections\/bodysuits",
+              "img_style": "shopify:\/\/shop_images\/long-sleeve-deep-v-bodysuit-black-bodysuit-eterne-257624_360x_ef27cc2e-5743-41d5-8dee-0c03a3f0870a.webp",
+              "title_style": "Bodysuits"
+            }
+          },
+          "6c4373ee-33fe-4283-9ab3-282f55a09494": {
+            "type": "styleItem",
+            "settings": {
+              "url_style": "shopify:\/\/collections\/bra-underwear",
+              "img_style": "shopify:\/\/shop_images\/low-rise-thong-white-intimates-eterne-959623_720x_1ee8f543-d599-419a-8aed-1ca60cd1dc78.webp",
+              "title_style": "Bra + Underwear"
+            }
+          },
+          "75cd3f96-bfd7-43de-ae56-cfba1db630fa": {
+            "type": "styleItem",
+            "settings": {
+              "url_style": "shopify:\/\/collections\/thermals",
+              "img_style": "shopify:\/\/shop_images\/oversized-thermal-black-thermal-eterne-494772_360x_8c07e287-24e9-42b4-a6e5-3460321dc7d4.webp",
+              "title_style": "Thermals"
+            }
+          },
+          "00771554-9405-4761-bc67-24c0d1b48575": {
+            "type": "styleItem",
+            "settings": {
+              "url_style": "shopify:\/\/collections\/bottoms",
+              "img_style": "shopify:\/\/shop_images\/lounge-pant-heather-grey-bottoms-eterne-470321_360x_313fc88e-69f5-4784-8d77-ea0898a2c64b.webp",
+              "title_style": "Bottoms"
+            }
+          },
+          "89a5af36-543a-4348-8be3-57893ea3f16a": {
+            "type": "styleItem",
+            "settings": {
+              "url_style": "shopify:\/\/collections\/t-shirts-tanks",
+              "img_style": "shopify:\/\/shop_images\/the-short-sleeve-boyfriend-tee-heather-grey-shirts-eterne-187550_360x_d3b010b4-c376-4248-a784-e9666361f48a.webp",
+              "title_style": "Tops"
+            }
+          },
+          "575d66dc-bb20-4167-838a-2ccf4a94066a": {
+            "type": "styleItem",
+            "settings": {
+              "url_style": "shopify:\/\/collections\/dresses",
+              "img_style": "shopify:\/\/shop_images\/SHOP_PAGE_769e472a-1882-46c0-a901-cba3f15dc347.jpg",
+              "title_style": "Dresses"
+            }
+          }
+        },
+        "block_order": [
+          "c33ad65e-83f4-4e5b-a1b0-d13b248a30d5",
+          "6c4373ee-33fe-4283-9ab3-282f55a09494",
+          "75cd3f96-bfd7-43de-ae56-cfba1db630fa",
+          "00771554-9405-4761-bc67-24c0d1b48575",
+          "89a5af36-543a-4348-8be3-57893ea3f16a",
+          "575d66dc-bb20-4167-838a-2ccf4a94066a"
+        ],
+        "settings": {
+          "stylesSliderTitle": "STYLES",
+          "hero_title": "Everyday Luxury Essentials"
+        }
+      },
+      "new-home-page-girls-section": {
+        "type": "new-home-page-girls-section",
+        "settings": {
+          "eterneGirlsTitle": "ÉTERNE GIRLS",
+          "eterneGirlsSubtitle": "On Instagram",
+          "left_eterne_girls_top_img": "shopify:\/\/shop_images\/eterne-girls-1.webp",
+          "left_eterne_girls_bottom_img": "shopify:\/\/shop_images\/eterne-girls-3.jpg",
+          "rigth_eterne_girls_top_img": "shopify:\/\/shop_images\/Eterne_girls_top_right-1.jpg",
+          "rigth_eterne_girls_bottom_img": "shopify:\/\/shop_images\/eterne-girls-4.webp",
+          "left_url_top_img": "",
+          "left_url_bottom_img": "",
+          "rigth_url_top_img": "",
+          "rigth_url_bottom_img": ""
+        }
+      },
+      "new-home-page-shop-reviews-slider": {
+        "type": "new-home-page-shop-reviews-slider",
+        "blocks": {
+          "b85ee91e-f962-4d6a-a679-9d74d28a0eb3": {
+            "type": "reviewItem",
+            "settings": {
+              "description_review": "Bartoli’s designs are simple and straightforward, and they’re definitely the kind of pieces everyone wants to wear right now.",
+              "title_review": "Vogue"
+            }
+          },
+          "ee91c9d8-e8b7-4d14-8b9e-bf020814cec7": {
+            "type": "reviewItem",
+            "settings": {
+              "description_review": "All pieces are made in Los Angeles from a blend of cotton and modal—and the label already counts Emily Ratajkowski and Hailey Bieber as fans.",
+              "title_review": "Harper’s Bazaar"
+            }
+          },
+          "55d5e290-a95a-41fc-983a-4015ae654b17": {
+            "type": "reviewItem",
+            "settings": {
+              "description_review": "Filled with edgy, confident, meticulously-designed staple pieces.",
+              "title_review": "The Zoe Report"
+            }
+          },
+          "d104f921-3a66-4d3f-959e-beb3c0acdb8a": {
+            "type": "reviewItem",
+            "settings": {
+              "description_review": "This is some more fashion-forward comfort wear. The cuts are everything.",
+              "title_review": "NYMag"
+            }
+          },
+          "261d68b1-7903-4ecc-bdb8-41d185acf839": {
+            "type": "reviewItem",
+            "settings": {
+              "description_review": "Sophisticated in their simplicity, these are items made to be worn day or night.",
+              "title_review": "Forbes"
+            }
+          },
+          "3fc6c12e-fe51-4f99-b09c-e94d2547398d": {
+            "type": "reviewItem",
+            "settings": {
+              "description_review": "Éterne makes elevated essentials you'll want to live in.",
+              "title_review": "Harper's Bazaar"
+            }
+          }
+        },
+        "block_order": [
+          "b85ee91e-f962-4d6a-a679-9d74d28a0eb3",
+          "ee91c9d8-e8b7-4d14-8b9e-bf020814cec7",
+          "55d5e290-a95a-41fc-983a-4015ae654b17",
+          "d104f921-3a66-4d3f-959e-beb3c0acdb8a",
+          "261d68b1-7903-4ecc-bdb8-41d185acf839",
+          "3fc6c12e-fe51-4f99-b09c-e94d2547398d"
+        ],
+        "settings": {
+        }
+      },
+      "new-home-page-shop-about-product": {
+        "type": "new-home-page-shop-about-product",
+        "settings": {
+          "imgAbout": "shopify:\/\/shop_images\/DAY_02_SHOT_16_0020_color_720x_48e42f0b-0fa5-49f1-8fcb-fddd72730780.webp",
+          "aboutProductTitle": "CROPPED V-NECK T-SHIRT IVORY",
+          "aboutProductDescription": "Cut from a lightweight cotton and modal blend, our cropped v-neck t-shirt features a slightly slim fit with its flattering V neckline and vintage feel.\n\nStyle with your favorite pair of jeans, leather pants, layered under an oversized blazer, or paired with Éterne’s lounge boxer short as a set.",
+          "product_link": "shopify:\/\/products\/cropped-v-neck-t-shirt-ivory",
+          "product_btn_text": "SHOP NOW"
         }
       },
       "related": {
@@ -377,7 +580,7 @@
           "dec54a19-cff5-4c27-b88a-9fc0f4db4561": {
             "type": "shop_imgproducts3",
             "settings": {
-              "image_autoheight_enable": false,
+              "image_autoheight_enable": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2131,9 +2334,9 @@
         ],
         "settings": {
           "show_image": false,
-          "image_height": "use_screen_one_third",
+          "image_height": "use_screen_one_half",
           "overlay_opacity": 20,
-          "parallax": false,
+          "parallax": true,
           "align_text": "text-center",
           "show_title": true,
           "show_description": true,
@@ -2439,9 +2642,9 @@
         ],
         "settings": {
           "show_image": false,
-          "image_height": "use_screen_one_third",
+          "image_height": "use_screen_one_half",
           "overlay_opacity": 20,
-          "parallax": false,
+          "parallax": true,
           "align_text": "text-center",
           "show_title": true,
           "show_description": true,
@@ -2603,9 +2806,9 @@
         ],
         "settings": {
           "show_image": false,
-          "image_height": "use_screen_one_third",
+          "image_height": "use_screen_one_half",
           "overlay_opacity": 20,
-          "parallax": false,
+          "parallax": true,
           "align_text": "text-center",
           "show_title": true,
           "show_description": true,
@@ -3131,9 +3334,9 @@
         ],
         "settings": {
           "show_image": false,
-          "image_height": "use_screen_one_third",
+          "image_height": "use_screen_one_half",
           "overlay_opacity": 20,
-          "parallax": false,
+          "parallax": true,
           "align_text": "text-center",
           "show_title": true,
           "show_description": true,
@@ -3633,7 +3836,14 @@
       }
     },
     "content_for_index": [
-      "new-home-page",
+      "new-home-page-hero",
+      "new-home-page-shop-new-releases",
+      "new-home-page-shop-look",
+      "new-home-page-shop-loungewear",
+      "new-home-page-shop-styles-slider",
+      "new-home-page-girls-section",
+      "new-home-page-shop-reviews-slider",
+      "new-home-page-shop-about-product",
       "index-video"
     ],
     "blocks": {

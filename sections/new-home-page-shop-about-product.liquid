@@ -1,0 +1,56 @@
+<div class="about-product wrapper aos-init aos-animate" data-aos="fade-up">
+    <div class="about-product__wrapper">
+        <div class="about-product__left">
+            <img class="img lazyload fade-in" src="{{ section.settings.imgAbout | img_url: "master"}}" alt="Lounge Boxer Short Ivory">
+        </div>
+        <div class="about-product__right">
+            <div class="about-product__title">
+                {{ section.settings.aboutProductTitle }}
+            </div>
+            <div class="about-product__description">
+                {{ section.settings.aboutProductDescription }}
+            </div>
+            <a href="{{ section.settings.product_link }}" class="about-product__button">
+                {{ section.settings.product_btn_text }}
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+{% schema %}
+    {
+    "name": "AboutProduct",
+    "class": "aboutProduct",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "imgAbout",
+            "label": "ImgAbout"
+        },
+        {
+            "type": "text",
+            "id": "aboutProductTitle",
+            "label": "AboutProductTitle",
+            "default": "CROPPED V-NECK T-SHIRT IVORY"
+        },
+        {
+            "type": "textarea",
+            "id": "aboutProductDescription",
+            "label": "AboutProductDescription"
+        },
+        {
+            "type": "url",
+            "id": "product_link",
+            "label": "Product Link"
+        },
+        {
+            "type": "text",
+            "id": "product_btn_text",
+            "label": "Product Button Text",
+            "default": "SHOP NOW"
+        }
+    ]
+}
+{% endschema %}
