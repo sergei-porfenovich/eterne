@@ -280,6 +280,7 @@
           },
           "46f824b8-e9da-4725-ac12-c220d37bcfd9": {
             "type": "shopLookCards",
+            "disabled": true,
             "settings": {
               "url_card": "shopify:\/\/pages\/shop-the-look-3",
               "text_card_btn": "SHOP THE LOOK",
@@ -294,7 +295,8 @@
         ],
         "settings": {
           "homePageTitle": "SHOP THE LOOK",
-          "link_card_bottom": "",
+          "image_card_bottom": "shopify:\/\/shop_images\/DAY_02_SHOT_11_0086_copy-1_1080x_bd17c59d-bde8-4251-8d22-b8015d852d8f.webp",
+          "link_card_bottom": "shopify:\/\/pages\/shop-the-look-3",
           "text_btn_card_bottom": "SHOP THE LOOK"
         }
       },
