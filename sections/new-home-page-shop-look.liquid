@@ -3,7 +3,8 @@
         {{ section.settings.homePageTitle }}
     </div>
     <div class="new-releases-shop-look__top">
-        {%- for card in section.blocks -%}
+        {%- for card in section.blocks limit: 2 -%}
+        
             <div class="new-releases-shop-look__card">
                 <a href="{{ card.settings.url_card }}" class="new-releases-shop-look__link">
                     <div class="hidden-hover">
@@ -16,18 +17,20 @@
             </div>
         {%- endfor -%}
     </div>
-    <div class="new-releases-shop-look__bottom">
-        <div class="new-releases-shop-look__card">
-            <a href="{{ section.settings.link_card_bottom }}" class="new-releases-shop-look__link">
-                <div class="hidden-hover">
-                    <img class="img lazyload fade-in" src="{{ section.settings.image_card_bottom | img_url: "master" }}" alt="shop the look">
-                </div>
-                <div class="new-releases-shop-look__button">
-                    {{ section.settings.text_btn_card_bottom }}    
-                </div>
-            </a>
+    {%- for card in section.blocks offset: 2 -%}
+        <div class="new-releases-shop-look__bottom">
+            <div class="new-releases-shop-look__card">
+                <a href="{{ card.settings.url_card }}" class="new-releases-shop-look__link">
+                    <div class="hidden-hover">
+                        <img class="img lazyload fade-in" src="{{ card.settings.img_card | img_url: "master" }}" alt="shop the look">
+                    </div>
+                    <div class="new-releases-shop-look__button">
+                        {{ card.settings.text_card_btn }} 
+                    </div>
+                </a>
+            </div>
         </div>
-    </div>
+    {%- endfor -%}
 </div>
 
 
@@ -36,28 +39,12 @@
     {
     "name": "NewReleasesShopLook",
     "class": "newReleasesShopLook",
-    "max_blocks": 2,
+    "max_blocks": 3,
     "settings": [
         {
             "type": "text",
             "id": "homePageTitle",
             "label": "HomePageTitle",
-            "default": "SHOP THE LOOK"
-        },
-        {
-            "type": "image_picker",
-            "id": "image_card_bottom",
-            "label": "Image Card Bottom"
-        },
-        {
-            "type": "url",
-            "id": "link_card_bottom",
-            "label": "Link Card Bottom"
-        },
-        {
-            "type": "text",
-            "id": "text_btn_card_bottom",
-            "label": "Text Btn Card Bottom",
             "default": "SHOP THE LOOK"
         }
 
