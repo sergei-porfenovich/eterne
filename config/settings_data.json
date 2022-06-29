@@ -347,6 +347,14 @@
               "img_style": "shopify:\/\/shop_images\/the-short-sleeve-boyfriend-tee-heather-grey-shirts-eterne-187550_360x_d3b010b4-c376-4248-a784-e9666361f48a.webp",
               "title_style": "Tops"
             }
+          },
+          "575d66dc-bb20-4167-838a-2ccf4a94066a": {
+            "type": "styleItem",
+            "settings": {
+              "url_style": "shopify:\/\/collections\/dresses",
+              "img_style": "shopify:\/\/shop_images\/SHOP_PAGE_769e472a-1882-46c0-a901-cba3f15dc347.jpg",
+              "title_style": "Dresses"
+            }
           }
         },
         "block_order": [
@@ -354,7 +362,8 @@
           "6c4373ee-33fe-4283-9ab3-282f55a09494",
           "75cd3f96-bfd7-43de-ae56-cfba1db630fa",
           "00771554-9405-4761-bc67-24c0d1b48575",
-          "89a5af36-543a-4348-8be3-57893ea3f16a"
+          "89a5af36-543a-4348-8be3-57893ea3f16a",
+          "575d66dc-bb20-4167-838a-2ccf4a94066a"
         ],
         "settings": {
           "stylesSliderTitle": "STYLES",
