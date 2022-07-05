@@ -3833,6 +3833,36 @@
           "shop_margin_top": 0,
           "shop_margin_bottom": 25
         }
+      },
+      "gift-card-collection": {
+        "type": "gift-card-collection",
+        "blocks": {
+          "6ca4b996-e8d0-4d98-aa40-22417892752d": {
+            "type": "shop_porproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product1p": "rise-ai-giftcard"
+            }
+          }
+        },
+        "block_order": [
+          "6ca4b996-e8d0-4d98-aa40-22417892752d"
+        ],
+        "settings": {
+          "show_image": true,
+          "image_height": "use_screen_one_third",
+          "overlay_opacity": 20,
+          "parallax": false,
+          "align_text": "text-center",
+          "show_title": true,
+          "show_description": true,
+          "description_font_size": "rte rte--large",
+          "shop_margin_top": 0,
+          "shop_margin_bottom": 25
+        }
       }
     },
     "content_for_index": [
