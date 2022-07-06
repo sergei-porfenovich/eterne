@@ -537,6 +537,16 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "b1364d1f-0698-41eb-8da4-441fdb31dfdb": {
+            "type": "shop_porproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product1p": "tank-dress-maxi-heather-grey-heather-grey"
+            }
+          },
           "38c334a8-3c5d-4314-8392-581857f81346": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -1103,6 +1113,7 @@
           }
         },
         "block_order": [
+          "b1364d1f-0698-41eb-8da4-441fdb31dfdb",
           "38c334a8-3c5d-4314-8392-581857f81346",
           "d0760d23-e80b-4ead-b53a-c3622ec3d285",
           "6fd71c8c-32f7-4b9c-81f5-32357fbd5b3c",
