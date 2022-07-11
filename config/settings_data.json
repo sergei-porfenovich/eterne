@@ -145,7 +145,7 @@
           "zoom_enable": true,
           "product_reviews_enable": false,
           "info_page": "product-measurements",
-          "tabs_position": "below"
+          "tabs_position": "sidebar"
         }
       },
       "collection": {
