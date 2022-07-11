@@ -1,0 +1,72 @@
+<div class="styles-slider aos-init aos-animate" data-aos="fade-up">
+    <div class="home-page-title wrapper">
+        {{ section.settings.stylesSliderTitle }}
+        </div>
+    <div class="styles-slider__wrapper" id="styles-slider">
+        <div class="swiper-wrapper">
+
+            {% for block in section.blocks %}
+
+                <a href="{{ block.settings.url_style }}" class="styles-slider__item swiper-slide">
+                    <div class="styles-slider__item-wrap">
+                        <div class="hidden-hover">
+                            <img class="img lazyload fade-in" src="{{ block.settings.img_style | img_url: "master" }}" alt="T-shirts">
+                        </div>
+                        <div class="styles-slider__item_description">
+                            {{ block.settings.title_style }}
+                        </div>
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="swiper-button-next styles-slider-next"></div>
+    <div class="swiper-button-prev styles-slider-prev"></div>
+</div>
+
+{{ 'new-home-page-styles-slider.js' | asset_url | script_tag }}
+
+{% schema %}
+    {
+    "name": "StylesSlider",
+    "class": "stylesSlider",
+    "settings": [
+        {
+            "type": "text",
+            "id": "stylesSliderTitle",
+            "label": "StylesSliderTitle",
+            "default": "STYLES"
+        },
+        {
+            "type": "text",
+            "id": "hero_title",
+            "label": "HeroTitle", 
+            "default": "Everyday Luxury Essentials"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "styleItem",
+            "name": "Style Item",
+            "settings": [
+                {
+                    "type": "url",
+                    "id": "url_style",
+                    "label": "Link"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "img_style",
+                    "label": "Image"
+                },
+                {
+                    "type": "text",
+                    "id": "title_style",
+                    "label": "Title"
+                }
+            ]
+        }
+
+    ]
+}
+{% endschema %}
