@@ -1,5 +1,5 @@
 <div class="product-page">
-  <div class="wrapper">
+  <div class="wrapper" style="display: flex; flex-flow: column">
 
     {% if section.settings.product_breadcrumbs %}
       {% include 'breadcrumb' %}
@@ -15,7 +15,7 @@
     {%- assign product_image_width = 'large--one-half' -%}
     {%- assign product_description_width = 'large--one-half' -%}
 
-    <div class="grid product-single">
+    <div class="grid product-single" style="order: 1">
       <div class="grid__item {{ product_image_width }} text-center">
         <div class="product__slides product-single__photos" id="ProductPhoto-{{ section.id }}">
 
@@ -188,7 +188,7 @@
       </div>
     </div>
     {%- if section.blocks.size > 0 and section.settings.tabs_position == 'below' -%}
-      <div class="mt-10 tabs-wrapper productTabsWrapper">
+      <div class="mt-10 tabs-wrapper productTabsWrapper" style="order: 2">
         {% include 'product-tabs' %}
       </div>
     {%- endif -%}
