@@ -4055,10 +4055,38 @@
               "shop_product32": "tank-dress-maxi-heather-grey",
               "shop_product33": "tank-dress-maxi-cream"
             }
+          },
+          "7b682a77-7490-44da-a2e5-e22613647691": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-turtleneck-dress-mini-black-black",
+              "shop_product32": "tank-dress-mini-black",
+              "shop_product33": "long-sleeve-crewneck-dress-mini-black"
+            }
+          },
+          "6c59fee2-b434-485a-968d-47dcb70d1862": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-crewneck-dress-mini-cream",
+              "shop_product32": "tank-dress-mini-cream",
+              "shop_product33": "long-sleeve-turtleneck-dress-mini-cream-cream"
+            }
           }
         },
         "block_order": [
-          "6dcd3443-7f7a-4a70-bb58-36d89babd733"
+          "6dcd3443-7f7a-4a70-bb58-36d89babd733",
+          "7b682a77-7490-44da-a2e5-e22613647691",
+          "6c59fee2-b434-485a-968d-47dcb70d1862"
         ],
         "settings": {
           "show_image": true,
