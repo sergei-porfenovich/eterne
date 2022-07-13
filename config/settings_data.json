@@ -541,6 +541,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -553,14 +554,12 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_img31": "shopify:\/\/shop_images\/Untitled-3.jpg",
               "shop_product31": "long-sleeve-crewneck-dress-mini-black",
-              "shop_img32": "shopify:\/\/shop_images\/Untitled-2-1.jpg",
               "shop_product32": "tank-dress-mini-black",
-              "shop_img33": "shopify:\/\/shop_images\/Untitled-1-1.jpg",
               "shop_product33": "long-sleeve-turtleneck-dress-mini-black-black"
             }
           },
@@ -568,6 +567,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -580,6 +580,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -595,6 +596,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -606,6 +608,7 @@
             "type": "shop_porproducts1",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -616,6 +619,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -627,6 +631,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -639,6 +644,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -650,6 +656,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -661,6 +668,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -675,6 +683,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -689,6 +698,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -702,6 +712,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -714,6 +725,7 @@
             "type": "shop_imgproducts1",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -725,6 +737,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -736,6 +749,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -749,6 +763,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -761,6 +776,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -773,6 +789,7 @@
             "type": "shop_porproducts1",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -784,6 +801,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -796,6 +814,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -807,6 +826,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -821,6 +841,7 @@
             "type": "shop_imgproducts1",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "1.33",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -832,6 +853,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": false,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -845,6 +867,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -860,6 +883,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -875,6 +899,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -889,6 +914,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -903,6 +929,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -917,6 +944,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -930,6 +958,7 @@
             "type": "shop_imgproducts4",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -947,6 +976,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -960,6 +990,7 @@
             "type": "shop_imgproducts4",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -973,6 +1004,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -984,6 +1016,7 @@
             "type": "shop_imgproducts4",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -997,6 +1030,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -1009,6 +1043,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -1020,6 +1055,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -1032,6 +1068,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -1046,6 +1083,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -1058,6 +1096,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -1070,6 +1109,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -1082,6 +1122,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -1094,6 +1135,7 @@
             "type": "shop_porproducts1",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
