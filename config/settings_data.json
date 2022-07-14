@@ -4100,6 +4100,127 @@
           "shop_margin_top": 0,
           "shop_margin_bottom": 25
         }
+      },
+      "styled-by-chloe-campaign-shop": {
+        "type": "styled-by-chloe-campaign-shop",
+        "blocks": {
+          "e84d36de-31b1-4ffb-b5c7-c0266995f7cc": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img21": "shopify:\/\/shop_images\/1_copy.jpg",
+              "shop_product21": "tank-bodysuit-black",
+              "shop_img22": "shopify:\/\/shop_images\/2_d3fa93ce-82f6-4976-b63c-9b5abed4be08.jpg",
+              "shop_product22": "tank-bodysuit-black"
+            }
+          },
+          "b6623548-f060-4451-9056-b9f2a3d0c89f": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 6,
+              "shop_product_padding": 4,
+              "shop_img31": "shopify:\/\/shop_images\/3_130a2623-00b0-40bd-bada-abd5b5b066ea.jpg",
+              "shop_product31": "",
+              "shop_img32": "shopify:\/\/shop_images\/4_4c223873-c5c8-445d-8361-1b41f0ccd84a.jpg",
+              "shop_product32": "",
+              "shop_img33": "shopify:\/\/shop_images\/5_52b86a3f-800d-4457-b08a-bb38f8a2bf29.jpg",
+              "shop_product33": ""
+            }
+          },
+          "15d8e5f1-ccbc-45df-9d43-3d02e7cf0047": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img21": "shopify:\/\/shop_images\/6_2952e8ec-f819-465f-a6a5-c9435c0437fa.jpg",
+              "shop_product21": "long-sleeve-bodysuit-ivory",
+              "shop_img22": "shopify:\/\/shop_images\/7_copy.jpg",
+              "shop_product22": "long-sleeve-bodysuit-ivory"
+            }
+          },
+          "a7ae3665-122e-4f56-ae0e-420f5ad3891c": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 12,
+              "shop_product_padding": 8,
+              "shop_img11": "shopify:\/\/shop_images\/8_05b86d71-af26-4547-b683-b1463f224ccb.jpg",
+              "shop_product11": "cropped-rib-tank-ivory"
+            }
+          },
+          "d5af592e-85a0-4ea4-8b75-d5219f7261c7": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img11": "shopify:\/\/shop_images\/9_fcb6eb19-f311-45c6-a7f3-7f5f13c646e6.jpg",
+              "shop_product11": "cropped-rib-tank-ivory"
+            }
+          },
+          "0336827a-15f5-4912-b490-832dedd4f3f4": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 11,
+              "shop_product_padding": 7,
+              "shop_img11": "shopify:\/\/shop_images\/10_362c0970-3fe7-4e51-8100-a53e356d02eb.jpg",
+              "shop_product11": "cropped-rib-tank-ivory"
+            }
+          },
+          "833e7eec-48db-4fba-9d91-56ea5d22a45b": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img21": "shopify:\/\/shop_images\/11_copy.jpg",
+              "shop_product21": "long-biker",
+              "shop_img22": "shopify:\/\/shop_images\/12_copy.jpg",
+              "shop_product22": "long-biker"
+            }
+          },
+          "adc51c3e-0143-4023-8ab8-830c0b8b4fd2": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img31": "shopify:\/\/shop_images\/13_copy.jpg",
+              "shop_product31": "triangle-bra-black",
+              "shop_img32": "shopify:\/\/shop_images\/14_33e34e3f-89e0-4fa6-a2dc-c2e67ee71083.jpg",
+              "shop_product32": "",
+              "shop_img33": "shopify:\/\/shop_images\/15_copy.jpg",
+              "shop_product33": "cropped-rib-tank-black"
+            }
+          }
+        },
+        "block_order": [
+          "e84d36de-31b1-4ffb-b5c7-c0266995f7cc",
+          "b6623548-f060-4451-9056-b9f2a3d0c89f",
+          "15d8e5f1-ccbc-45df-9d43-3d02e7cf0047",
+          "a7ae3665-122e-4f56-ae0e-420f5ad3891c",
+          "d5af592e-85a0-4ea4-8b75-d5219f7261c7",
+          "0336827a-15f5-4912-b490-832dedd4f3f4",
+          "833e7eec-48db-4fba-9d91-56ea5d22a45b",
+          "adc51c3e-0143-4023-8ab8-830c0b8b4fd2"
+        ],
+        "settings": {
+          "shop_margin_top": 0,
+          "shop_margin_bottom": 25
+        }
       }
     },
     "content_for_index": [
