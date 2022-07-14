@@ -4107,7 +4107,7 @@
           "e84d36de-31b1-4ffb-b5c7-c0266995f7cc": {
             "type": "shop_imgproducts2",
             "settings": {
-              "image_autoheight_enable": true,
+              "image_autoheight_enable": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -4135,7 +4135,7 @@
           "15d8e5f1-ccbc-45df-9d43-3d02e7cf0047": {
             "type": "shop_imgproducts2",
             "settings": {
-              "image_autoheight_enable": true,
+              "image_autoheight_enable": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -4181,7 +4181,7 @@
           "833e7eec-48db-4fba-9d91-56ea5d22a45b": {
             "type": "shop_imgproducts2",
             "settings": {
-              "image_autoheight_enable": true,
+              "image_autoheight_enable": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -4194,7 +4194,7 @@
           "adc51c3e-0143-4023-8ab8-830c0b8b4fd2": {
             "type": "shop_imgproducts3",
             "settings": {
-              "image_autoheight_enable": true,
+              "image_autoheight_enable": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -4209,7 +4209,7 @@
           "1177e38c-3ecc-4735-8be3-398f0c1183c2": {
             "type": "shop_imgproducts2",
             "settings": {
-              "image_autoheight_enable": true,
+              "image_autoheight_enable": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 7,
               "shop_product_padding": 5,
