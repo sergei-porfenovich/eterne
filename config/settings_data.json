@@ -4205,6 +4205,87 @@
               "shop_img33": "shopify:\/\/shop_images\/15_copy.jpg",
               "shop_product33": "cropped-rib-tank-black"
             }
+          },
+          "1177e38c-3ecc-4735-8be3-398f0c1183c2": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 7,
+              "shop_product_padding": 5,
+              "shop_img21": "shopify:\/\/shop_images\/16_d3ddda6c-5cd6-4bd0-81e2-109783c52972.jpg",
+              "shop_product21": "",
+              "shop_img22": "shopify:\/\/shop_images\/17_da13d615-4e89-42a8-9992-dd383e2b1604.jpg",
+              "shop_product22": "cropped-long-sleeve-thermal-black"
+            }
+          },
+          "4bc14e7d-6ee3-4d9e-bda2-fe4fa1248004": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 3,
+              "shop_product_padding": 1,
+              "shop_img11": "shopify:\/\/shop_images\/18_b1139ecc-6049-4247-b20e-fc00a7373da8.jpg",
+              "shop_product11": "tank-dress-mini-cream"
+            }
+          },
+          "a22c386d-0473-4072-8fb4-871796bed659": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img11": "shopify:\/\/shop_images\/19_copy.jpg",
+              "shop_product11": "tank-dress-mini-cream"
+            }
+          },
+          "6e30e866-ca38-4429-854e-cf93a3bdd5c9": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img11": "shopify:\/\/shop_images\/20_25cbb493-7231-4a10-9d80-78c4b4e65b71.jpg",
+              "shop_product11": "tank-dress-mini-cream"
+            }
+          },
+          "8411176b-5878-40e5-b269-42f05211d76e": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img11": "shopify:\/\/shop_images\/21_copy.jpg",
+              "shop_product11": "long-sleeve-bodysuit-black"
+            }
+          },
+          "183a7414-a3ce-483d-b45d-4d32788efb80": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img21": "shopify:\/\/shop_images\/22_c6715eed-cbde-4742-b3f5-e496182671de.jpg",
+              "shop_product21": "short-sleeve-baby-tee-heather-grey",
+              "shop_img22": "shopify:\/\/shop_images\/23_copy.jpg",
+              "shop_product22": "short-sleeve-baby-tee-heather-grey"
+            }
+          },
+          "215f344c-5cb2-4178-b82c-33346283fd2f": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 9,
+              "shop_product_padding": 6,
+              "shop_img11": "shopify:\/\/shop_images\/24.jpg",
+              "shop_product11": "long-sleeve-boyfriend-tee-ivory"
+            }
           }
         },
         "block_order": [
@@ -4215,7 +4296,14 @@
           "d5af592e-85a0-4ea4-8b75-d5219f7261c7",
           "0336827a-15f5-4912-b490-832dedd4f3f4",
           "833e7eec-48db-4fba-9d91-56ea5d22a45b",
-          "adc51c3e-0143-4023-8ab8-830c0b8b4fd2"
+          "adc51c3e-0143-4023-8ab8-830c0b8b4fd2",
+          "1177e38c-3ecc-4735-8be3-398f0c1183c2",
+          "4bc14e7d-6ee3-4d9e-bda2-fe4fa1248004",
+          "a22c386d-0473-4072-8fb4-871796bed659",
+          "6e30e866-ca38-4429-854e-cf93a3bdd5c9",
+          "8411176b-5878-40e5-b269-42f05211d76e",
+          "183a7414-a3ce-483d-b45d-4d32788efb80",
+          "215f344c-5cb2-4178-b82c-33346283fd2f"
         ],
         "settings": {
           "shop_margin_top": 0,
