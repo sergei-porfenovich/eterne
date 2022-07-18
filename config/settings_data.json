@@ -4156,24 +4156,13 @@
               "shop_product11": "rib-tank-ivory"
             }
           },
-          "d5af592e-85a0-4ea4-8b75-d5219f7261c7": {
+          "0336827a-15f5-4912-b490-832dedd4f3f4": {
             "type": "shop_imgproducts1",
             "settings": {
               "image_autoheight_enable": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_img11": "shopify:\/\/shop_images\/9_fcb6eb19-f311-45c6-a7f3-7f5f13c646e6.jpg",
-              "shop_product11": "cropped-rib-tank-ivory"
-            }
-          },
-          "0336827a-15f5-4912-b490-832dedd4f3f4": {
-            "type": "shop_imgproducts1",
-            "settings": {
-              "image_autoheight_enable": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 11,
-              "shop_product_padding": 7,
               "shop_img11": "shopify:\/\/shop_images\/10_362c0970-3fe7-4e51-8100-a53e356d02eb.jpg",
               "shop_product11": "rib-tank-ivory"
             }
@@ -4293,7 +4282,6 @@
           "b6623548-f060-4451-9056-b9f2a3d0c89f",
           "15d8e5f1-ccbc-45df-9d43-3d02e7cf0047",
           "a7ae3665-122e-4f56-ae0e-420f5ad3891c",
-          "d5af592e-85a0-4ea4-8b75-d5219f7261c7",
           "0336827a-15f5-4912-b490-832dedd4f3f4",
           "833e7eec-48db-4fba-9d91-56ea5d22a45b",
           "adc51c3e-0143-4023-8ab8-830c0b8b4fd2",
