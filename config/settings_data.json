@@ -4175,11 +4175,11 @@
               "shop_product_margin": 6,
               "shop_product_padding": 4,
               "shop_img31": "shopify:\/\/shop_images\/3_130a2623-00b0-40bd-bada-abd5b5b066ea.jpg",
-              "shop_product31": "",
+              "shop_product31": "thermal-lounge-pant-ivory",
               "shop_img32": "shopify:\/\/shop_images\/4_4c223873-c5c8-445d-8361-1b41f0ccd84a.jpg",
-              "shop_product32": "",
+              "shop_product32": "thermal-lounge-pant-heather-grey",
               "shop_img33": "shopify:\/\/shop_images\/5_52b86a3f-800d-4457-b08a-bb38f8a2bf29.jpg",
-              "shop_product33": ""
+              "shop_product33": "thermal-lounge-pant-black"
             }
           },
           "15d8e5f1-ccbc-45df-9d43-3d02e7cf0047": {
@@ -4203,18 +4203,7 @@
               "shop_product_margin": 12,
               "shop_product_padding": 8,
               "shop_img11": "shopify:\/\/shop_images\/8_05b86d71-af26-4547-b683-b1463f224ccb.jpg",
-              "shop_product11": "cropped-rib-tank-ivory"
-            }
-          },
-          "d5af592e-85a0-4ea4-8b75-d5219f7261c7": {
-            "type": "shop_imgproducts1",
-            "settings": {
-              "image_autoheight_enable": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_img11": "shopify:\/\/shop_images\/9_fcb6eb19-f311-45c6-a7f3-7f5f13c646e6.jpg",
-              "shop_product11": "cropped-rib-tank-ivory"
+              "shop_product11": "rib-tank-ivory"
             }
           },
           "0336827a-15f5-4912-b490-832dedd4f3f4": {
@@ -4222,10 +4211,10 @@
             "settings": {
               "image_autoheight_enable": true,
               "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 11,
-              "shop_product_padding": 7,
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
               "shop_img11": "shopify:\/\/shop_images\/10_362c0970-3fe7-4e51-8100-a53e356d02eb.jpg",
-              "shop_product11": "cropped-rib-tank-ivory"
+              "shop_product11": "rib-tank-ivory"
             }
           },
           "833e7eec-48db-4fba-9d91-56ea5d22a45b": {
@@ -4251,7 +4240,7 @@
               "shop_img31": "shopify:\/\/shop_images\/13_copy.jpg",
               "shop_product31": "triangle-bra-black",
               "shop_img32": "shopify:\/\/shop_images\/14_33e34e3f-89e0-4fa6-a2dc-c2e67ee71083.jpg",
-              "shop_product32": "",
+              "shop_product32": "short-sleeve-baby-tee-heather-grey",
               "shop_img33": "shopify:\/\/shop_images\/15_copy.jpg",
               "shop_product33": "cropped-rib-tank-black"
             }
@@ -4264,7 +4253,7 @@
               "shop_product_margin": 7,
               "shop_product_padding": 5,
               "shop_img21": "shopify:\/\/shop_images\/16_d3ddda6c-5cd6-4bd0-81e2-109783c52972.jpg",
-              "shop_product21": "",
+              "shop_product21": "cropped-long-sleeve-thermal-black",
               "shop_img22": "shopify:\/\/shop_images\/17_da13d615-4e89-42a8-9992-dd383e2b1604.jpg",
               "shop_product22": "cropped-long-sleeve-thermal-black"
             }
@@ -4343,7 +4332,6 @@
           "b6623548-f060-4451-9056-b9f2a3d0c89f",
           "15d8e5f1-ccbc-45df-9d43-3d02e7cf0047",
           "a7ae3665-122e-4f56-ae0e-420f5ad3891c",
-          "d5af592e-85a0-4ea4-8b75-d5219f7261c7",
           "0336827a-15f5-4912-b490-832dedd4f3f4",
           "833e7eec-48db-4fba-9d91-56ea5d22a45b",
           "adc51c3e-0143-4023-8ab8-830c0b8b4fd2",
