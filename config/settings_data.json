@@ -4107,6 +4107,19 @@
       "dresses-collection": {
         "type": "dresses-collection",
         "blocks": {
+          "2b749d83-5d56-4dd0-a302-0dbb4ec96ba6": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-turtleneck-dress-mini-heather-grey",
+              "shop_product32": "tank-dress-mini-heather-grey",
+              "shop_product33": "long-sleeve-crewneck-dress-mini-heather-grey"
+            }
+          },
           "6dcd3443-7f7a-4a70-bb58-36d89babd733": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -4148,6 +4161,7 @@
           }
         },
         "block_order": [
+          "2b749d83-5d56-4dd0-a302-0dbb4ec96ba6",
           "6dcd3443-7f7a-4a70-bb58-36d89babd733",
           "7b682a77-7490-44da-a2e5-e22613647691",
           "6c59fee2-b434-485a-968d-47dcb70d1862"
