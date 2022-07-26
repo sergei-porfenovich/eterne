@@ -537,6 +537,19 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "a627fd29-37bf-4991-8a06-9dc1c2a304b0": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "thin-strap-fitted-tank-black",
+              "shop_product32": "thin-strap-fitted-tank-heather-grey",
+              "shop_product33": "thin-strap-fitted-tank-cream"
+            }
+          },
           "401a0de1-9886-452a-be6a-283e0db89b50": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -1167,6 +1180,7 @@
           }
         },
         "block_order": [
+          "a627fd29-37bf-4991-8a06-9dc1c2a304b0",
           "401a0de1-9886-452a-be6a-283e0db89b50",
           "d53de153-12ce-404f-ae18-257021fea4aa",
           "206d0db3-9255-4009-9804-2a77d20634f8",
