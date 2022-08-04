@@ -537,6 +537,19 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "1b7f3e50-6d1c-437f-aecd-3a7902e98cc0": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-fitted-top-cream",
+              "shop_product32": "long-sleeve-fitted-top-black",
+              "shop_product33": "long-sleeve-fitted-top-heather-grey"
+            }
+          },
           "a627fd29-37bf-4991-8a06-9dc1c2a304b0": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -1180,6 +1193,7 @@
           }
         },
         "block_order": [
+          "1b7f3e50-6d1c-437f-aecd-3a7902e98cc0",
           "a627fd29-37bf-4991-8a06-9dc1c2a304b0",
           "401a0de1-9886-452a-be6a-283e0db89b50",
           "d53de153-12ce-404f-ae18-257021fea4aa",
@@ -2428,6 +2442,19 @@
       "custom-collection-2": {
         "type": "custom-collection-2",
         "blocks": {
+          "61114cac-22b6-437f-a995-fda9833a3f30": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-fitted-top-cream",
+              "shop_product32": "long-sleeve-fitted-top-black",
+              "shop_product33": "long-sleeve-fitted-top-heather-grey"
+            }
+          },
           "8e0f476f-8612-44d6-ac49-af8db7499019": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -2745,6 +2772,7 @@
           }
         },
         "block_order": [
+          "61114cac-22b6-437f-a995-fda9833a3f30",
           "8e0f476f-8612-44d6-ac49-af8db7499019",
           "997f5e7e-137f-44e8-b60e-34abbbb9ffd0",
           "47e2f88b-770a-491d-b443-1f08d3a825b6",
