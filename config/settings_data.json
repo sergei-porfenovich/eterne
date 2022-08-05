@@ -296,6 +296,11 @@
           "homePageTitle": "SHOP THE LOOK"
         }
       },
+      "new-home-page-girls-section": {
+        "type": "new-home-page-girls-section",
+        "settings": {
+        }
+      },
       "new-home-page-shop-loungewear": {
         "type": "new-home-page-shop-loungewear",
         "settings": {
@@ -368,21 +373,6 @@
         "settings": {
           "stylesSliderTitle": "STYLES",
           "hero_title": "Everyday Luxury Essentials"
-        }
-      },
-      "new-home-page-girls-section": {
-        "type": "new-home-page-girls-section",
-        "settings": {
-          "eterneGirlsTitle": "ÉTERNE GIRLS",
-          "eterneGirlsSubtitle": "On Instagram",
-          "left_eterne_girls_top_img": "shopify:\/\/shop_images\/eterne-girls-1.webp",
-          "left_eterne_girls_bottom_img": "shopify:\/\/shop_images\/eterne-girls-3.jpg",
-          "rigth_eterne_girls_top_img": "shopify:\/\/shop_images\/Eterne_girls_top_right-1.jpg",
-          "rigth_eterne_girls_bottom_img": "shopify:\/\/shop_images\/eterne-girls-4.webp",
-          "left_url_top_img": "",
-          "left_url_bottom_img": "",
-          "rigth_url_top_img": "",
-          "rigth_url_bottom_img": ""
         }
       },
       "new-home-page-shop-reviews-slider": {
