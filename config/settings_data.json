@@ -372,7 +372,25 @@
       },
       "new-home-page-shop-styled-chloe": {
         "type": "new-home-page-shop-styled-chloe",
+        "blocks": {
+          "f5cd6290-83a0-430d-9cb5-780ce1926364": {
+            "type": "styledChloeCard",
+            "settings": {
+              "url_card": "shopify:\/\/products\/tank-bodysuit-black",
+              "image_position_left": "use_top",
+              "img_card_left": "shopify:\/\/shop_images\/416597459-1.jpg",
+              "image_position_right": "use_top",
+              "img_card_right": "shopify:\/\/shop_images\/416599468-tank-bodysuit-black-bodysuit-eterne-691584.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "f5cd6290-83a0-430d-9cb5-780ce1926364"
+        ],
         "settings": {
+          "title": "#STYLEDBYCHLOÉ",
+          "button": "SEE MORE",
+          "buttonUrl": ""
         }
       },
       "new-home-page-girls-section": {
