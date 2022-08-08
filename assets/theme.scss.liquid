@@ -8739,3 +8739,40 @@ span {
   max-width: 400px;
   width: 100%;
 }
+
+.wrapper-button-card {
+  display: flex;
+  align-items: baseline;
+
+  .v-lane {
+    margin: 0 8px;
+    color: #2b2b2b ;
+    opacity: .5;
+  }
+
+  .cartwishlist {
+    font-size: .7em !important;
+    color: #2b2b2b !important;
+    margin: 0 !important;
+    opacity: .5 !important;
+    animation: none;
+
+    &:before {
+      content: none;
+    }
+
+    &:after {
+      content:'Add to Wishlist';
+    }
+
+    &.bookmarked {
+      &:after {
+        content:'Remove from Wishlist';
+      }
+    }
+
+    .fa-heart, .fa-heart-o {
+      display: none;
+    }
+  }
+}
