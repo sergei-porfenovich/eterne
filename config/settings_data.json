@@ -382,10 +382,32 @@
               "image_position_right": "use_top",
               "img_card_right": "shopify:\/\/shop_images\/416599468-tank-bodysuit-black-bodysuit-eterne-691584.jpg"
             }
+          },
+          "bb6e6e71-4f8c-434f-824a-8c10c0e1f780": {
+            "type": "styledChloeCard",
+            "settings": {
+              "url_card": "shopify:\/\/products\/short-sleeve-baby-tee-heather-grey",
+              "image_position_left": "use_top",
+              "img_card_left": "shopify:\/\/shop_images\/416599486-short-sleeve-baby-tee-heather-grey-shirts-tops-eterne-569516.jpg",
+              "image_position_right": "use_top",
+              "img_card_right": "shopify:\/\/shop_images\/416597618-22.jpg"
+            }
+          },
+          "4acc6b8d-faf5-4a17-be05-cf248ee58b01": {
+            "type": "styledChloeCard",
+            "settings": {
+              "url_card": "shopify:\/\/products\/tank-dress-mini-cream",
+              "image_position_left": "use_top",
+              "img_card_left": "shopify:\/\/shop_images\/416597779-18.jpg",
+              "image_position_right": "use_top",
+              "img_card_right": "shopify:\/\/shop_images\/416599480-tank-dress-mini-cream-dresses-eterne-733130.jpg"
+            }
           }
         },
         "block_order": [
-          "f5cd6290-83a0-430d-9cb5-780ce1926364"
+          "f5cd6290-83a0-430d-9cb5-780ce1926364",
+          "bb6e6e71-4f8c-434f-824a-8c10c0e1f780",
+          "4acc6b8d-faf5-4a17-be05-cf248ee58b01"
         ],
         "settings": {
           "title": "#STYLEDBYCHLOÉ",
