@@ -537,7 +537,7 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
-          "1b7f3e50-6d1c-437f-aecd-3a7902e98cc0": {
+          "ce421b0d-7bfc-4d13-9833-241934813b92": {
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
@@ -1193,6 +1193,7 @@
           }
         },
         "block_order": [
+          "ce421b0d-7bfc-4d13-9833-241934813b92",
           "a627fd29-37bf-4991-8a06-9dc1c2a304b0",
           "401a0de1-9886-452a-be6a-283e0db89b50",
           "d53de153-12ce-404f-ae18-257021fea4aa",
