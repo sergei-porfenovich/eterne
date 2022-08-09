@@ -2442,11 +2442,11 @@
       "custom-collection-2": {
         "type": "custom-collection-2",
         "blocks": {
-          "61114cac-22b6-437f-a995-fda9833a3f30": {
+          "fc0c97ac-b057-4020-a6a8-719e2d7e91bc": {
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
-              "full_size_pictures": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2772,6 +2772,7 @@
           }
         },
         "block_order": [
+          "fc0c97ac-b057-4020-a6a8-719e2d7e91bc",
           "8e0f476f-8612-44d6-ac49-af8db7499019",
           "997f5e7e-137f-44e8-b60e-34abbbb9ffd0",
           "47e2f88b-770a-491d-b443-1f08d3a825b6",
