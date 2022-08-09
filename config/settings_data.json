@@ -296,13 +296,28 @@
           "homePageTitle": "SHOP THE LOOK"
         }
       },
+      "new-home-page-girls-section": {
+        "type": "new-home-page-girls-section",
+        "settings": {
+          "eterneGirlsTitle": "ÉTERNE GIRLS",
+          "eterneGirlsSubtitle": "On Instagram",
+          "left_eterne_girls_top_img": "shopify:\/\/shop_images\/eterne-girls-1.webp",
+          "left_eterne_girls_bottom_img": "shopify:\/\/shop_images\/eterne-girls-3.jpg",
+          "rigth_eterne_girls_top_img": "shopify:\/\/shop_images\/Eterne_girls_top_right-1.jpg",
+          "rigth_eterne_girls_bottom_img": "shopify:\/\/shop_images\/eterne-girls-4.webp",
+          "left_url_top_img": "https:\/\/www.instagram.com\/eterne\/",
+          "left_url_bottom_img": "https:\/\/www.instagram.com\/eterne\/",
+          "rigth_url_top_img": "https:\/\/www.instagram.com\/eterne\/",
+          "rigth_url_bottom_img": "https:\/\/www.instagram.com\/eterne\/"
+        }
+      },
       "new-home-page-shop-loungewear": {
         "type": "new-home-page-shop-loungewear",
         "settings": {
           "imgLoungewear": "shopify:\/\/shop_images\/DAY_02_SHOT_10_0080_copy_cd0ae159-81f4-44f8-a399-196f0873d91d.jpg",
           "releases_title": "BESTSELLING LOUNGEWEAR",
           "releases_text_btn": "SHOP NOW",
-          "releases_link": "shopify:\/\/collections\/bottoms"
+          "releases_link": "shopify:\/\/collections\/loungewear"
         }
       },
       "new-home-page-shop-styles-slider": {
@@ -368,21 +383,6 @@
         "settings": {
           "stylesSliderTitle": "STYLES",
           "hero_title": "Everyday Luxury Essentials"
-        }
-      },
-      "new-home-page-girls-section": {
-        "type": "new-home-page-girls-section",
-        "settings": {
-          "eterneGirlsTitle": "ÉTERNE GIRLS",
-          "eterneGirlsSubtitle": "On Instagram",
-          "left_eterne_girls_top_img": "shopify:\/\/shop_images\/eterne-girls-1.webp",
-          "left_eterne_girls_bottom_img": "shopify:\/\/shop_images\/eterne-girls-3.jpg",
-          "rigth_eterne_girls_top_img": "shopify:\/\/shop_images\/Eterne_girls_top_right-1.jpg",
-          "rigth_eterne_girls_bottom_img": "shopify:\/\/shop_images\/eterne-girls-4.webp",
-          "left_url_top_img": "",
-          "left_url_bottom_img": "",
-          "rigth_url_top_img": "",
-          "rigth_url_bottom_img": ""
         }
       },
       "new-home-page-shop-reviews-slider": {
@@ -537,18 +537,81 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "ce421b0d-7bfc-4d13-9833-241934813b92": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "cropped-long-sleeve-fitted-top-black",
+              "shop_product32": "cropped-long-sleeve-fitted-top-cream",
+              "shop_product33": "cropped-long-sleeve-fitted-top-heather-grey"
+            }
+          },
+          "a627fd29-37bf-4991-8a06-9dc1c2a304b0": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "thin-strap-fitted-tank-black",
+              "shop_product32": "thin-strap-fitted-tank-heather-grey",
+              "shop_product33": "thin-strap-fitted-tank-cream"
+            }
+          },
+          "401a0de1-9886-452a-be6a-283e0db89b50": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-turtleneck-dress-mini-heather-grey",
+              "shop_product32": "tank-dress-mini-heather-grey",
+              "shop_product33": "long-sleeve-crewneck-dress-mini-heather-grey"
+            }
+          },
+          "d53de153-12ce-404f-ae18-257021fea4aa": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "cropped-thin-strap-fitted-tank-heather-grey",
+              "shop_product32": "cropped-thin-strap-fitted-tank-black",
+              "shop_product33": "cropped-thin-strap-fitted-tank-cream"
+            }
+          },
+          "206d0db3-9255-4009-9804-2a77d20634f8": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "tank-dress-maxi-cream",
+              "shop_product32": "tank-dress-maxi-heather-grey",
+              "shop_product33": "tank-dress-maxi-black"
+            }
+          },
           "38c334a8-3c5d-4314-8392-581857f81346": {
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_img31": "shopify:\/\/shop_images\/Untitled-3.jpg",
               "shop_product31": "long-sleeve-crewneck-dress-mini-black",
-              "shop_img32": "shopify:\/\/shop_images\/Untitled-2-1.jpg",
               "shop_product32": "tank-dress-mini-black",
-              "shop_img33": "shopify:\/\/shop_images\/Untitled-1-1.jpg",
               "shop_product33": "long-sleeve-turtleneck-dress-mini-black-black"
             }
           },
@@ -556,6 +619,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -564,31 +628,16 @@
               "shop_product33": "super-cropped-rib-tank-ivory"
             }
           },
-          "6fd71c8c-32f7-4b9c-81f5-32357fbd5b3c": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "image_autoheight_enable": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_img21": "shopify:\/\/shop_images\/Untitled-2.jpg",
-              "shop_product21": "tank-dress-maxi-cream",
-              "shop_img22": "shopify:\/\/shop_images\/Untitled-1.jpg",
-              "shop_product22": "tank-dress-maxi-black"
-            }
-          },
           "dec54a19-cff5-4c27-b88a-9fc0f4db4561": {
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_img31": "shopify:\/\/shop_images\/Shop-page-1_a78027db-ab8c-44b5-b143-2ab83dc3d76c.jpg",
               "shop_product31": "long-sleeve-crewneck-dress-mini-cream",
-              "shop_img32": "shopify:\/\/shop_images\/Shop-Page-2_dabcd957-eea3-4393-82a2-eac52b2d6b41.jpg",
               "shop_product32": "tank-dress-mini-cream",
-              "shop_img33": "shopify:\/\/shop_images\/Shop-page-3_9c0ec8b1-a603-46b5-aaf3-163a150bcb17.jpg",
               "shop_product33": "long-sleeve-turtleneck-dress-mini-cream-cream"
             }
           },
@@ -596,6 +645,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -607,6 +657,7 @@
             "type": "shop_porproducts1",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -617,6 +668,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -628,6 +680,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -640,6 +693,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -651,6 +705,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -662,6 +717,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -676,6 +732,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -690,6 +747,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -703,6 +761,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -715,6 +774,7 @@
             "type": "shop_imgproducts1",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -726,6 +786,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -737,6 +798,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -750,6 +812,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -762,6 +825,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -774,6 +838,7 @@
             "type": "shop_porproducts1",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -785,6 +850,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -797,6 +863,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -808,6 +875,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -822,6 +890,7 @@
             "type": "shop_imgproducts1",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "1.33",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -833,6 +902,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": false,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -846,6 +916,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -861,6 +932,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -876,6 +948,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -890,6 +963,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -904,6 +978,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -918,6 +993,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -931,6 +1007,7 @@
             "type": "shop_imgproducts4",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -948,6 +1025,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -961,6 +1039,7 @@
             "type": "shop_imgproducts4",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -974,6 +1053,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -985,6 +1065,7 @@
             "type": "shop_imgproducts4",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -998,6 +1079,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -1010,6 +1092,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -1021,6 +1104,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -1033,6 +1117,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -1047,6 +1132,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -1059,6 +1145,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -1071,6 +1158,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -1083,6 +1171,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -1095,6 +1184,7 @@
             "type": "shop_porproducts1",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -1103,9 +1193,13 @@
           }
         },
         "block_order": [
+          "ce421b0d-7bfc-4d13-9833-241934813b92",
+          "a627fd29-37bf-4991-8a06-9dc1c2a304b0",
+          "401a0de1-9886-452a-be6a-283e0db89b50",
+          "d53de153-12ce-404f-ae18-257021fea4aa",
+          "206d0db3-9255-4009-9804-2a77d20634f8",
           "38c334a8-3c5d-4314-8392-581857f81346",
           "d0760d23-e80b-4ead-b53a-c3622ec3d285",
-          "6fd71c8c-32f7-4b9c-81f5-32357fbd5b3c",
           "dec54a19-cff5-4c27-b88a-9fc0f4db4561",
           "73f7e148-b3a8-4bd0-bfb0-a2bf1d80bf71",
           "b4da56c3-1fce-45ca-a078-d21a2f587b6e",
@@ -2348,10 +2442,50 @@
       "custom-collection-2": {
         "type": "custom-collection-2",
         "blocks": {
+          "fc0c97ac-b057-4020-a6a8-719e2d7e91bc": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "cropped-long-sleeve-fitted-top-black",
+              "shop_product32": "cropped-long-sleeve-fitted-top-cream",
+              "shop_product33": "cropped-long-sleeve-fitted-top-heather-grey"
+            }
+          },
+          "8e0f476f-8612-44d6-ac49-af8db7499019": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "thin-strap-fitted-tank-black",
+              "shop_product32": "thin-strap-fitted-tank-heather-grey",
+              "shop_product33": "thin-strap-fitted-tank-cream"
+            }
+          },
+          "997f5e7e-137f-44e8-b60e-34abbbb9ffd0": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "cropped-thin-strap-fitted-tank-heather-grey",
+              "shop_product32": "cropped-thin-strap-fitted-tank-black",
+              "shop_product33": "cropped-thin-strap-fitted-tank-cream"
+            }
+          },
           "47e2f88b-770a-491d-b443-1f08d3a825b6": {
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2364,6 +2498,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2376,6 +2511,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2388,6 +2524,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2400,6 +2537,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2412,6 +2550,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2424,6 +2563,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2436,6 +2576,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2449,6 +2590,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2460,6 +2602,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2474,6 +2617,7 @@
             "type": "shop_imgproducts1",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "1.33",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2485,6 +2629,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2498,6 +2643,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2513,6 +2659,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2526,6 +2673,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2538,6 +2686,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2550,6 +2699,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2561,6 +2711,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2573,6 +2724,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2584,6 +2736,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2596,6 +2749,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2607,6 +2761,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2617,6 +2772,9 @@
           }
         },
         "block_order": [
+          "fc0c97ac-b057-4020-a6a8-719e2d7e91bc",
+          "8e0f476f-8612-44d6-ac49-af8db7499019",
+          "997f5e7e-137f-44e8-b60e-34abbbb9ffd0",
           "47e2f88b-770a-491d-b443-1f08d3a825b6",
           "fb3d2396-e2ab-44d5-8767-a3c258e28669",
           "10cce77e-a8d0-4831-9ac2-ac8c93dacddb",
@@ -3860,6 +4018,416 @@
           "show_title": true,
           "show_description": true,
           "description_font_size": "rte rte--large",
+          "shop_margin_top": 0,
+          "shop_margin_bottom": 25
+        }
+      },
+      "collection-loungewear": {
+        "type": "collection-loungewear",
+        "blocks": {
+          "549887a8-bd4d-45e9-913d-4ccab9403df4": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "lounge-pant-heather-grey",
+              "shop_product32": "lounge-pant-ivory",
+              "shop_product33": "lounge-pant-black"
+            }
+          },
+          "4e98e1d1-eaf6-4a8e-8987-295fb311dec4": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product1": "cropped-ribbed-racerback-tank-black"
+            }
+          },
+          "bd67a400-b6fa-4e28-8d85-b0a458594117": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "cropped-ribbed-racerback-tank-heather-grey",
+              "shop_product22": "cropped-rib-racerback-tank-ivory"
+            }
+          },
+          "f74721eb-a4c9-4d19-80d6-3d023d16a10f": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img1": "shopify:\/\/shop_images\/thermal-lounge-pant-ivory-bottoms-eterne-924377.webp",
+              "shop_product1": "thermal-lounge-pant-ivory"
+            }
+          },
+          "a6ca46fd-74d2-4f0c-a2a2-4e38353c210e": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "thermal-lounge-pant-black",
+              "shop_product22": "thermal-lounge-pant-heather-grey"
+            }
+          },
+          "0aaa6f49-2136-4420-a1fa-dd6c13261323": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "cropped-oversized-thermal-heather-grey",
+              "shop_product32": "cropped-oversized-thermal-ivory",
+              "shop_product33": "cropped-oversized-thermal-black"
+            }
+          },
+          "19cfc121-0446-4cf0-9d4c-00124558bf4c": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "lounge-boxer-short-black",
+              "shop_product32": "lounge-boxer-short-ivory",
+              "shop_product33": "lounge-boxer-short-heather-grey"
+            }
+          },
+          "7c3e3cef-4fd9-4f6a-b206-388df70c722a": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "cropped-thermal-henley-heather-grey",
+              "shop_product22": "thermal-drawstring-pant-heather-grey"
+            }
+          },
+          "198d3660-39b8-4dab-a48c-38cf03fefd78": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "cropped-thermal-henley-black",
+              "shop_product22": "thermal-drawstring-pant-black"
+            }
+          }
+        },
+        "block_order": [
+          "549887a8-bd4d-45e9-913d-4ccab9403df4",
+          "4e98e1d1-eaf6-4a8e-8987-295fb311dec4",
+          "bd67a400-b6fa-4e28-8d85-b0a458594117",
+          "f74721eb-a4c9-4d19-80d6-3d023d16a10f",
+          "a6ca46fd-74d2-4f0c-a2a2-4e38353c210e",
+          "0aaa6f49-2136-4420-a1fa-dd6c13261323",
+          "19cfc121-0446-4cf0-9d4c-00124558bf4c",
+          "7c3e3cef-4fd9-4f6a-b206-388df70c722a",
+          "198d3660-39b8-4dab-a48c-38cf03fefd78"
+        ],
+        "settings": {
+          "show_image": false,
+          "image_height": "use_screen_one_third",
+          "overlay_opacity": 20,
+          "parallax": false,
+          "align_text": "text-center",
+          "show_title": true,
+          "show_description": true,
+          "description_font_size": "rte rte--large",
+          "shop_margin_top": 0,
+          "shop_margin_bottom": 25
+        }
+      },
+      "dresses-collection": {
+        "type": "dresses-collection",
+        "blocks": {
+          "2b749d83-5d56-4dd0-a302-0dbb4ec96ba6": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-turtleneck-dress-mini-heather-grey",
+              "shop_product32": "tank-dress-mini-heather-grey",
+              "shop_product33": "long-sleeve-crewneck-dress-mini-heather-grey"
+            }
+          },
+          "6dcd3443-7f7a-4a70-bb58-36d89babd733": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "tank-dress-maxi-black",
+              "shop_product32": "tank-dress-maxi-heather-grey",
+              "shop_product33": "tank-dress-maxi-cream"
+            }
+          },
+          "7b682a77-7490-44da-a2e5-e22613647691": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-turtleneck-dress-mini-black-black",
+              "shop_product32": "tank-dress-mini-black",
+              "shop_product33": "long-sleeve-crewneck-dress-mini-black"
+            }
+          },
+          "6c59fee2-b434-485a-968d-47dcb70d1862": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-crewneck-dress-mini-cream",
+              "shop_product32": "tank-dress-mini-cream",
+              "shop_product33": "long-sleeve-turtleneck-dress-mini-cream-cream"
+            }
+          }
+        },
+        "block_order": [
+          "2b749d83-5d56-4dd0-a302-0dbb4ec96ba6",
+          "6dcd3443-7f7a-4a70-bb58-36d89babd733",
+          "7b682a77-7490-44da-a2e5-e22613647691",
+          "6c59fee2-b434-485a-968d-47dcb70d1862"
+        ],
+        "settings": {
+          "show_image": true,
+          "image_height": "use_screen_one_third",
+          "overlay_opacity": 20,
+          "parallax": false,
+          "align_text": "text-center",
+          "show_title": true,
+          "show_description": true,
+          "description_font_size": "rte rte--large",
+          "shop_margin_top": 0,
+          "shop_margin_bottom": 25
+        }
+      },
+      "styled-by-chloe-campaign-shop": {
+        "type": "styled-by-chloe-campaign-shop",
+        "blocks": {
+          "e84d36de-31b1-4ffb-b5c7-c0266995f7cc": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img21": "shopify:\/\/shop_images\/1_copy.jpg",
+              "shop_product21": "tank-bodysuit-black",
+              "shop_img22": "shopify:\/\/shop_images\/2_d3fa93ce-82f6-4976-b63c-9b5abed4be08.jpg",
+              "shop_product22": "tank-bodysuit-black"
+            }
+          },
+          "b6623548-f060-4451-9056-b9f2a3d0c89f": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 6,
+              "shop_product_padding": 4,
+              "shop_img31": "shopify:\/\/shop_images\/Image_copy_2.jpg",
+              "shop_product31": "thermal-lounge-pant-ivory",
+              "shop_img32": "shopify:\/\/shop_images\/Image_copy.jpg",
+              "shop_product32": "thermal-lounge-pant-heather-grey",
+              "shop_img33": "shopify:\/\/shop_images\/Image.jpg",
+              "shop_product33": "thermal-lounge-pant-black"
+            }
+          },
+          "15d8e5f1-ccbc-45df-9d43-3d02e7cf0047": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img21": "shopify:\/\/shop_images\/6_2952e8ec-f819-465f-a6a5-c9435c0437fa.jpg",
+              "shop_product21": "long-sleeve-bodysuit-ivory",
+              "shop_img22": "shopify:\/\/shop_images\/7_copy.jpg",
+              "shop_product22": "long-sleeve-bodysuit-ivory"
+            }
+          },
+          "a7ae3665-122e-4f56-ae0e-420f5ad3891c": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 12,
+              "shop_product_padding": 8,
+              "shop_img11": "shopify:\/\/shop_images\/8_05b86d71-af26-4547-b683-b1463f224ccb.jpg",
+              "shop_product11": "rib-tank-ivory"
+            }
+          },
+          "0336827a-15f5-4912-b490-832dedd4f3f4": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img11": "shopify:\/\/shop_images\/10_362c0970-3fe7-4e51-8100-a53e356d02eb.jpg",
+              "shop_product11": "rib-tank-ivory"
+            }
+          },
+          "833e7eec-48db-4fba-9d91-56ea5d22a45b": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img21": "shopify:\/\/shop_images\/11_copy.jpg",
+              "shop_product21": "long-biker",
+              "shop_img22": "shopify:\/\/shop_images\/12_copy.jpg",
+              "shop_product22": "long-biker"
+            }
+          },
+          "adc51c3e-0143-4023-8ab8-830c0b8b4fd2": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img31": "shopify:\/\/shop_images\/13_copy.jpg",
+              "shop_product31": "triangle-bra-black",
+              "shop_img32": "shopify:\/\/shop_images\/14_33e34e3f-89e0-4fa6-a2dc-c2e67ee71083.jpg",
+              "shop_product32": "short-sleeve-baby-tee-heather-grey",
+              "shop_img33": "shopify:\/\/shop_images\/15_copy.jpg",
+              "shop_product33": "cropped-rib-tank-black"
+            }
+          },
+          "1177e38c-3ecc-4735-8be3-398f0c1183c2": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 7,
+              "shop_product_padding": 5,
+              "shop_img21": "shopify:\/\/shop_images\/16_d3ddda6c-5cd6-4bd0-81e2-109783c52972.jpg",
+              "shop_product21": "cropped-long-sleeve-thermal-black",
+              "shop_img22": "shopify:\/\/shop_images\/17_da13d615-4e89-42a8-9992-dd383e2b1604.jpg",
+              "shop_product22": "cropped-long-sleeve-thermal-black"
+            }
+          },
+          "4bc14e7d-6ee3-4d9e-bda2-fe4fa1248004": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 3,
+              "shop_product_padding": 1,
+              "shop_img11": "shopify:\/\/shop_images\/18_b1139ecc-6049-4247-b20e-fc00a7373da8.jpg",
+              "shop_product11": "tank-dress-mini-cream"
+            }
+          },
+          "a22c386d-0473-4072-8fb4-871796bed659": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img11": "shopify:\/\/shop_images\/19_copy.jpg",
+              "shop_product11": "tank-dress-mini-cream"
+            }
+          },
+          "6e30e866-ca38-4429-854e-cf93a3bdd5c9": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img11": "shopify:\/\/shop_images\/20_25cbb493-7231-4a10-9d80-78c4b4e65b71.jpg",
+              "shop_product11": "tank-dress-mini-cream"
+            }
+          },
+          "8411176b-5878-40e5-b269-42f05211d76e": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img11": "shopify:\/\/shop_images\/21_copy.jpg",
+              "shop_product11": "long-sleeve-bodysuit-black"
+            }
+          },
+          "183a7414-a3ce-483d-b45d-4d32788efb80": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img21": "shopify:\/\/shop_images\/22_c6715eed-cbde-4742-b3f5-e496182671de.jpg",
+              "shop_product21": "short-sleeve-baby-tee-heather-grey",
+              "shop_img22": "shopify:\/\/shop_images\/23_copy.jpg",
+              "shop_product22": "short-sleeve-baby-tee-heather-grey"
+            }
+          },
+          "215f344c-5cb2-4178-b82c-33346283fd2f": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 9,
+              "shop_product_padding": 6,
+              "shop_img11": "shopify:\/\/shop_images\/24.jpg",
+              "shop_product11": "long-sleeve-boyfriend-tee-ivory"
+            }
+          }
+        },
+        "block_order": [
+          "e84d36de-31b1-4ffb-b5c7-c0266995f7cc",
+          "b6623548-f060-4451-9056-b9f2a3d0c89f",
+          "15d8e5f1-ccbc-45df-9d43-3d02e7cf0047",
+          "a7ae3665-122e-4f56-ae0e-420f5ad3891c",
+          "0336827a-15f5-4912-b490-832dedd4f3f4",
+          "833e7eec-48db-4fba-9d91-56ea5d22a45b",
+          "adc51c3e-0143-4023-8ab8-830c0b8b4fd2",
+          "1177e38c-3ecc-4735-8be3-398f0c1183c2",
+          "4bc14e7d-6ee3-4d9e-bda2-fe4fa1248004",
+          "a22c386d-0473-4072-8fb4-871796bed659",
+          "6e30e866-ca38-4429-854e-cf93a3bdd5c9",
+          "8411176b-5878-40e5-b269-42f05211d76e",
+          "183a7414-a3ce-483d-b45d-4d32788efb80",
+          "215f344c-5cb2-4178-b82c-33346283fd2f"
+        ],
+        "settings": {
           "shop_margin_top": 0,
           "shop_margin_bottom": 25
         }
