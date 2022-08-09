@@ -296,6 +296,21 @@
           "homePageTitle": "SHOP THE LOOK"
         }
       },
+      "new-home-page-girls-section": {
+        "type": "new-home-page-girls-section",
+        "settings": {
+          "eterneGirlsTitle": "ÉTERNE GIRLS",
+          "eterneGirlsSubtitle": "On Instagram",
+          "left_eterne_girls_top_img": "shopify:\/\/shop_images\/eterne-girls-1.webp",
+          "left_eterne_girls_bottom_img": "shopify:\/\/shop_images\/eterne-girls-3.jpg",
+          "rigth_eterne_girls_top_img": "shopify:\/\/shop_images\/Eterne_girls_top_right-1.jpg",
+          "rigth_eterne_girls_bottom_img": "shopify:\/\/shop_images\/eterne-girls-4.webp",
+          "left_url_top_img": "https:\/\/www.instagram.com\/eterne\/",
+          "left_url_bottom_img": "https:\/\/www.instagram.com\/eterne\/",
+          "rigth_url_top_img": "https:\/\/www.instagram.com\/eterne\/",
+          "rigth_url_bottom_img": "https:\/\/www.instagram.com\/eterne\/"
+        }
+      },
       "new-home-page-shop-loungewear": {
         "type": "new-home-page-shop-loungewear",
         "settings": {
@@ -368,21 +383,6 @@
         "settings": {
           "stylesSliderTitle": "STYLES",
           "hero_title": "Everyday Luxury Essentials"
-        }
-      },
-      "new-home-page-girls-section": {
-        "type": "new-home-page-girls-section",
-        "settings": {
-          "eterneGirlsTitle": "ÉTERNE GIRLS",
-          "eterneGirlsSubtitle": "On Instagram",
-          "left_eterne_girls_top_img": "shopify:\/\/shop_images\/eterne-girls-1.webp",
-          "left_eterne_girls_bottom_img": "shopify:\/\/shop_images\/eterne-girls-3.jpg",
-          "rigth_eterne_girls_top_img": "shopify:\/\/shop_images\/Eterne_girls_top_right-1.jpg",
-          "rigth_eterne_girls_bottom_img": "shopify:\/\/shop_images\/eterne-girls-4.webp",
-          "left_url_top_img": "",
-          "left_url_bottom_img": "",
-          "rigth_url_top_img": "",
-          "rigth_url_bottom_img": ""
         }
       },
       "new-home-page-shop-reviews-slider": {
@@ -593,7 +593,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
-              "full_size_pictures": false,
+              "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
