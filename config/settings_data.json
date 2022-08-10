@@ -4375,6 +4375,19 @@
               "shop_product11": "tank-dress-mini-cream"
             }
           },
+          "61916a3e-1ba9-4b23-8de2-06ebee00d99f": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 6,
+              "shop_product_padding": 3,
+              "shop_img21": "shopify:\/\/shop_images\/IMG_7177.jpg",
+              "shop_product21": "tank-dress-mini-cream",
+              "shop_img22": "shopify:\/\/shop_images\/IMG_7192.jpg",
+              "shop_product22": "tank-dress-mini-cream"
+            }
+          },
           "8411176b-5878-40e5-b269-42f05211d76e": {
             "type": "shop_imgproducts1",
             "settings": {
@@ -4423,6 +4436,7 @@
           "4bc14e7d-6ee3-4d9e-bda2-fe4fa1248004",
           "a22c386d-0473-4072-8fb4-871796bed659",
           "6e30e866-ca38-4429-854e-cf93a3bdd5c9",
+          "61916a3e-1ba9-4b23-8de2-06ebee00d99f",
           "8411176b-5878-40e5-b269-42f05211d76e",
           "183a7414-a3ce-483d-b45d-4d32788efb80",
           "215f344c-5cb2-4178-b82c-33346283fd2f"
