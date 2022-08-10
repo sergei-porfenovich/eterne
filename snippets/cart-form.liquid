@@ -87,9 +87,13 @@
                 {%- endfor -%}
               {% endif %}
 
-              <a href="/cart/change?line={{ forloop.index }}&amp;quantity=0" class="cart__remove uppercase lighten text-smaller">
-                {{ 'cart.general.remove' | t }}
-              </a>
+              <div class="wrapper-button-card">
+                <a href="/cart/change?line={{ forloop.index }}&amp;quantity=0" class="cart__remove uppercase lighten text-smaller">
+                  {{ 'cart.general.remove' | t }}
+                </a>
+                <span class="v-lane">|</span>
+                <span class="smartwishlist cartwishlist uppercase text-smaller" data-product="{{ item.product_id }}" data-variant="{{ item.variant_id }}"></span>
+              </div>
             </div>
 
           </div>
@@ -187,19 +191,19 @@
         <span class="cart__subtotal-title uppercase">{{ 'cart.general.subtotal' | t }}</span>
         <span class="cart__subtotal money">{{ cart.total_price | money }}</span>
       </p>
-      
+
       {% comment %}
- <p class="cart__footer__text"><span class="uppercase">{{ 'cart.general.shipping_at_checkout' | t }} 
-   <br /> 
-   <br /> 
+ <p class="cart__footer__text"><span class="uppercase">{{ 'cart.general.shipping_at_checkout' | t }}
+   <br />
+   <br />
    <strong style="font-size:1.25em">ORDER BY 12/15 FOR 12/24 DELIVERY</strong></span></p>
       {% endcomment %}
-      
+
       <div class="cart__footer__buttons">
         <span class="cart__update" data-update>
           <span class="cart__update__icon">{% include 'icon-sync' %}</span>
           <input type="submit" name="update" class="text-link" value="{{ 'cart.general.update' | t }}">
-        </span>        
+        </span>
         <span><input type="submit" name="checkout" class="btn uppercase btn--large btn--splash checkout__button" value="{{ 'cart.general.checkout' | t }}"></span>
         <span><input type="button" name="shopping" class="btn uppercase btn--large continue__button" id="continue__button" onclick="window.location.href = '/collections/shop'" value="{{ 'cart.general.continue_browsing_html' | t }}"></span>
       </div>
