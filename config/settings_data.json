@@ -385,69 +385,6 @@
           "hero_title": "Everyday Luxury Essentials"
         }
       },
-<<<<<<< HEAD
-      "new-home-page-shop-styled-chloe": {
-        "type": "new-home-page-shop-styled-chloe",
-        "blocks": {
-          "f5cd6290-83a0-430d-9cb5-780ce1926364": {
-            "type": "styledChloeCard",
-            "settings": {
-              "url_card": "shopify:\/\/products\/tank-bodysuit-black",
-              "image_position_left": "use_top",
-              "img_card_left": "shopify:\/\/shop_images\/416597459-1.jpg",
-              "image_position_right": "use_top",
-              "img_card_right": "shopify:\/\/shop_images\/416599468-tank-bodysuit-black-bodysuit-eterne-691584.jpg"
-            }
-          },
-          "bb6e6e71-4f8c-434f-824a-8c10c0e1f780": {
-            "type": "styledChloeCard",
-            "settings": {
-              "url_card": "shopify:\/\/products\/short-sleeve-baby-tee-heather-grey",
-              "image_position_left": "use_top",
-              "img_card_left": "shopify:\/\/shop_images\/416599486-short-sleeve-baby-tee-heather-grey-shirts-tops-eterne-569516.jpg",
-              "image_position_right": "use_top",
-              "img_card_right": "shopify:\/\/shop_images\/416597618-22.jpg"
-            }
-          },
-          "4acc6b8d-faf5-4a17-be05-cf248ee58b01": {
-            "type": "styledChloeCard",
-            "settings": {
-              "url_card": "shopify:\/\/products\/tank-dress-mini-cream",
-              "image_position_left": "use_top",
-              "img_card_left": "shopify:\/\/shop_images\/416597779-18.jpg",
-              "image_position_right": "use_top",
-              "img_card_right": "shopify:\/\/shop_images\/416599480-tank-dress-mini-cream-dresses-eterne-733130.jpg"
-            }
-          }
-        },
-        "block_order": [
-          "f5cd6290-83a0-430d-9cb5-780ce1926364",
-          "bb6e6e71-4f8c-434f-824a-8c10c0e1f780",
-          "4acc6b8d-faf5-4a17-be05-cf248ee58b01"
-        ],
-        "settings": {
-          "title": "#STYLEDBYCHLOÉ",
-          "button": "SEE MORE",
-          "buttonUrl": "shopify:\/\/pages\/styledbychloe"
-        }
-      },
-      "new-home-page-girls-section": {
-        "type": "new-home-page-girls-section",
-        "settings": {
-          "eterneGirlsTitle": "ÉTERNE GIRLS",
-          "eterneGirlsSubtitle": "On Instagram",
-          "left_eterne_girls_top_img": "shopify:\/\/shop_images\/eterne-girls-1.webp",
-          "left_eterne_girls_bottom_img": "shopify:\/\/shop_images\/eterne-girls-3.jpg",
-          "rigth_eterne_girls_top_img": "shopify:\/\/shop_images\/Eterne_girls_top_right-1.jpg",
-          "rigth_eterne_girls_bottom_img": "shopify:\/\/shop_images\/eterne-girls-4.webp",
-          "left_url_top_img": "",
-          "left_url_bottom_img": "",
-          "rigth_url_top_img": "",
-          "rigth_url_bottom_img": ""
-        }
-      },
-=======
->>>>>>> main
       "new-home-page-shop-reviews-slider": {
         "type": "new-home-page-shop-reviews-slider",
         "blocks": {
@@ -600,29 +537,6 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
-          "a575d070-e903-4223-8cbe-76c6b4023b25": {
-            "type": "shop_imgproducts1",
-            "settings": {
-              "image_autoheight_enable": true,
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product1": "long-sleeve-crewneck-dress-maxi-heather-grey"
-            }
-          },
-          "5b364fed-5cc5-4bcf-b905-b16f56737b7c": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "image_autoheight_enable": true,
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "long-sleeve-crewneck-dress-maxi-black",
-              "shop_product22": "long-sleeve-crewneck-dress-maxi-cream"
-            }
-          },
           "ce421b0d-7bfc-4d13-9833-241934813b92": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -724,7 +638,7 @@
               "shop_product_padding": 0,
               "shop_product31": "long-sleeve-crewneck-dress-mini-cream",
               "shop_product32": "tank-dress-mini-cream",
-              "shop_product33": "long-sleeve-turtleneck-dress-mini-cream-cream"
+              "shop_product33": "long-sleeve-turtleneck-dress-mini-cream"
             }
           },
           "73f7e148-b3a8-4bd0-bfb0-a2bf1d80bf71": {
@@ -1279,8 +1193,6 @@
           }
         },
         "block_order": [
-          "a575d070-e903-4223-8cbe-76c6b4023b25",
-          "5b364fed-5cc5-4bcf-b905-b16f56737b7c",
           "ce421b0d-7bfc-4d13-9833-241934813b92",
           "a627fd29-37bf-4991-8a06-9dc1c2a304b0",
           "401a0de1-9886-452a-be6a-283e0db89b50",
@@ -4251,29 +4163,6 @@
       "dresses-collection": {
         "type": "dresses-collection",
         "blocks": {
-          "dc0f704b-81c7-4ec2-90f9-d40f90f5fa4b": {
-            "type": "shop_imgproducts1",
-            "settings": {
-              "image_autoheight_enable": true,
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product1": "long-sleeve-crewneck-dress-maxi-heather-grey"
-            }
-          },
-          "a03d7168-e41b-4907-83f3-d35ab1925272": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "image_autoheight_enable": true,
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "long-sleeve-crewneck-dress-maxi-black",
-              "shop_product22": "long-sleeve-crewneck-dress-maxi-cream"
-            }
-          },
           "2b749d83-5d56-4dd0-a302-0dbb4ec96ba6": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -4323,13 +4212,11 @@
               "shop_product_padding": 0,
               "shop_product31": "long-sleeve-crewneck-dress-mini-cream",
               "shop_product32": "tank-dress-mini-cream",
-              "shop_product33": "long-sleeve-turtleneck-dress-mini-cream-cream"
+              "shop_product33": "long-sleeve-turtleneck-dress-mini-cream"
             }
           }
         },
         "block_order": [
-          "dc0f704b-81c7-4ec2-90f9-d40f90f5fa4b",
-          "a03d7168-e41b-4907-83f3-d35ab1925272",
           "2b749d83-5d56-4dd0-a302-0dbb4ec96ba6",
           "6dcd3443-7f7a-4a70-bb58-36d89babd733",
           "7b682a77-7490-44da-a2e5-e22613647691",
@@ -4566,7 +4453,6 @@
       "new-home-page-shop-look",
       "new-home-page-shop-loungewear",
       "new-home-page-shop-styles-slider",
-      "new-home-page-shop-styled-chloe",
       "new-home-page-girls-section",
       "new-home-page-shop-reviews-slider",
       "new-home-page-shop-about-product",
