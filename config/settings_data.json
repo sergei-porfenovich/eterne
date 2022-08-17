@@ -296,21 +296,6 @@
           "homePageTitle": "SHOP THE LOOK"
         }
       },
-      "new-home-page-girls-section": {
-        "type": "new-home-page-girls-section",
-        "settings": {
-          "eterneGirlsTitle": "ÉTERNE GIRLS",
-          "eterneGirlsSubtitle": "On Instagram",
-          "left_eterne_girls_top_img": "shopify:\/\/shop_images\/eterne-girls-1.webp",
-          "left_eterne_girls_bottom_img": "shopify:\/\/shop_images\/eterne-girls-3.jpg",
-          "rigth_eterne_girls_top_img": "shopify:\/\/shop_images\/Eterne_girls_top_right-1.jpg",
-          "rigth_eterne_girls_bottom_img": "shopify:\/\/shop_images\/eterne-girls-4.webp",
-          "left_url_top_img": "https:\/\/www.instagram.com\/eterne\/",
-          "left_url_bottom_img": "https:\/\/www.instagram.com\/eterne\/",
-          "rigth_url_top_img": "https:\/\/www.instagram.com\/eterne\/",
-          "rigth_url_bottom_img": "https:\/\/www.instagram.com\/eterne\/"
-        }
-      },
       "new-home-page-shop-loungewear": {
         "type": "new-home-page-shop-loungewear",
         "settings": {
@@ -383,6 +368,66 @@
         "settings": {
           "stylesSliderTitle": "STYLES",
           "hero_title": "Everyday Luxury Essentials"
+        }
+      },
+      "new-home-page-shop-styled-chloe": {
+        "type": "new-home-page-shop-styled-chloe",
+        "blocks": {
+          "f5cd6290-83a0-430d-9cb5-780ce1926364": {
+            "type": "styledChloeCard",
+            "settings": {
+              "url_card": "shopify:\/\/products\/tank-bodysuit-black",
+              "image_position_left": "use_top",
+              "img_card_left": "shopify:\/\/shop_images\/416597459-1.jpg",
+              "image_position_right": "use_top",
+              "img_card_right": "shopify:\/\/shop_images\/416599468-tank-bodysuit-black-bodysuit-eterne-691584.jpg"
+            }
+          },
+          "bb6e6e71-4f8c-434f-824a-8c10c0e1f780": {
+            "type": "styledChloeCard",
+            "settings": {
+              "url_card": "shopify:\/\/products\/short-sleeve-baby-tee-heather-grey",
+              "image_position_left": "use_top",
+              "img_card_left": "shopify:\/\/shop_images\/416599486-short-sleeve-baby-tee-heather-grey-shirts-tops-eterne-569516.jpg",
+              "image_position_right": "use_top",
+              "img_card_right": "shopify:\/\/shop_images\/416597618-22.jpg"
+            }
+          },
+          "4acc6b8d-faf5-4a17-be05-cf248ee58b01": {
+            "type": "styledChloeCard",
+            "settings": {
+              "url_card": "shopify:\/\/products\/tank-dress-mini-cream",
+              "image_position_left": "use_top",
+              "img_card_left": "shopify:\/\/shop_images\/416597779-18.jpg",
+              "image_position_right": "use_top",
+              "img_card_right": "shopify:\/\/shop_images\/416599480-tank-dress-mini-cream-dresses-eterne-733130.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "f5cd6290-83a0-430d-9cb5-780ce1926364",
+          "bb6e6e71-4f8c-434f-824a-8c10c0e1f780",
+          "4acc6b8d-faf5-4a17-be05-cf248ee58b01"
+        ],
+        "settings": {
+          "title": "#STYLEDBYCHLOÉ",
+          "button": "SEE MORE",
+          "buttonUrl": "shopify:\/\/pages\/styledbychloe"
+        }
+      },
+      "new-home-page-girls-section": {
+        "type": "new-home-page-girls-section",
+        "settings": {
+          "eterneGirlsTitle": "ÉTERNE GIRLS",
+          "eterneGirlsSubtitle": "On Instagram",
+          "left_eterne_girls_top_img": "shopify:\/\/shop_images\/eterne-girls-1.webp",
+          "left_eterne_girls_bottom_img": "shopify:\/\/shop_images\/eterne-girls-3.jpg",
+          "rigth_eterne_girls_top_img": "shopify:\/\/shop_images\/Eterne_girls_top_right-1.jpg",
+          "rigth_eterne_girls_bottom_img": "shopify:\/\/shop_images\/eterne-girls-4.webp",
+          "left_url_top_img": "",
+          "left_url_bottom_img": "",
+          "rigth_url_top_img": "",
+          "rigth_url_bottom_img": ""
         }
       },
       "new-home-page-shop-reviews-slider": {
@@ -593,7 +638,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
-              "full_size_pictures": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2442,19 +2487,6 @@
       "custom-collection-2": {
         "type": "custom-collection-2",
         "blocks": {
-          "fc0c97ac-b057-4020-a6a8-719e2d7e91bc": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "image_autoheight_enable": true,
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "cropped-long-sleeve-fitted-top-black",
-              "shop_product32": "cropped-long-sleeve-fitted-top-cream",
-              "shop_product33": "cropped-long-sleeve-fitted-top-heather-grey"
-            }
-          },
           "8e0f476f-8612-44d6-ac49-af8db7499019": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -2772,7 +2804,6 @@
           }
         },
         "block_order": [
-          "fc0c97ac-b057-4020-a6a8-719e2d7e91bc",
           "8e0f476f-8612-44d6-ac49-af8db7499019",
           "997f5e7e-137f-44e8-b60e-34abbbb9ffd0",
           "47e2f88b-770a-491d-b443-1f08d3a825b6",
@@ -4258,11 +4289,11 @@
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 6,
               "shop_product_padding": 4,
-              "shop_img31": "shopify:\/\/shop_images\/Image_copy_2.jpg",
+              "shop_img31": "shopify:\/\/shop_images\/3_130a2623-00b0-40bd-bada-abd5b5b066ea.jpg",
               "shop_product31": "thermal-lounge-pant-ivory",
-              "shop_img32": "shopify:\/\/shop_images\/Image_copy.jpg",
+              "shop_img32": "shopify:\/\/shop_images\/4_4c223873-c5c8-445d-8361-1b41f0ccd84a.jpg",
               "shop_product32": "thermal-lounge-pant-heather-grey",
-              "shop_img33": "shopify:\/\/shop_images\/Image.jpg",
+              "shop_img33": "shopify:\/\/shop_images\/5_52b86a3f-800d-4457-b08a-bb38f8a2bf29.jpg",
               "shop_product33": "thermal-lounge-pant-black"
             }
           },
@@ -4375,19 +4406,6 @@
               "shop_product11": "tank-dress-mini-cream"
             }
           },
-          "61916a3e-1ba9-4b23-8de2-06ebee00d99f": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "image_autoheight_enable": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 6,
-              "shop_product_padding": 3,
-              "shop_img21": "shopify:\/\/shop_images\/IMG_7177.jpg",
-              "shop_product21": "tank-dress-mini-cream",
-              "shop_img22": "shopify:\/\/shop_images\/IMG_7192.jpg",
-              "shop_product22": "tank-dress-mini-cream"
-            }
-          },
           "8411176b-5878-40e5-b269-42f05211d76e": {
             "type": "shop_imgproducts1",
             "settings": {
@@ -4436,7 +4454,6 @@
           "4bc14e7d-6ee3-4d9e-bda2-fe4fa1248004",
           "a22c386d-0473-4072-8fb4-871796bed659",
           "6e30e866-ca38-4429-854e-cf93a3bdd5c9",
-          "61916a3e-1ba9-4b23-8de2-06ebee00d99f",
           "8411176b-5878-40e5-b269-42f05211d76e",
           "183a7414-a3ce-483d-b45d-4d32788efb80",
           "215f344c-5cb2-4178-b82c-33346283fd2f"
