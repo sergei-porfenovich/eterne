@@ -1,0 +1,97 @@
+<div class="styled-chloe wrapper aos-init aos-animate" data-aos="fade-up">
+    <div class="home-page-title wrapper">
+        {{ section.settings.title }}
+    </div>
+    <div class="styled-chloe-wrapper">
+        {%- for card in section.blocks limit: 3 -%}
+            <div class="styled-chloe-card">
+                <div class="styled-chloe-card-link">
+                    <a href="{{ card.settings.url_card }}"
+                        class="styled-chloe-card_left-img {% if card.settings.image_position_left == 'use_top' %}object-position-top{% endif %}{% if card.settings.image_position_left == 'use_mid' %} object-position-mid{% endif %}{% if card.settings.image_position_left == 'use_bot' %} object-position-bot{% endif %}">
+                        <img class="img lazyload fade-in" src="{{ card.settings.img_card_left | img_url: "1024x1024"}}" alt="{{ card.settings.img_card_left.alt }}">
+                    </a>
+                    <a href="{{ card.settings.url_card }}"
+                        class="styled-chloe-card_right-img {% if card.settings.image_position_right == 'use_top' %}object-position-top{% endif %}{% if card.settings.image_position_right == 'use_mid' %} object-position-mid{% endif %}{% if card.settings.image_position_right == 'use_bot' %} object-position-bot{% endif %}">
+                        <img class="img lazyload fade-in" src="{{ card.settings.img_card_right | img_url: "1024x1024" }}" alt="{{ card.settings.img_card_right.alt }}">
+                    </a>
+                </div>
+            </div>
+        {%- endfor -%}
+        <div class="styled-chloe-btn">
+            <a href="{{ section.settings.buttonUrl }}">{{ section.settings.button }}</a>
+        </div>
+    </div>
+</div>
+
+
+{% schema %}
+{
+    "name": "Styled Chloe",
+    "class": "styledChloe",
+    "max_blocks": 3,
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "#STYLEDBYCHLOÉ"
+        },
+        {
+            "type": "text",
+            "id": "button",
+            "label": "Button text",
+            "default": "SEE MORE"
+        },
+        {
+            "type": "url",
+            "id": "buttonUrl",
+            "label": "Button link"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "styledChloeCard",
+            "name": "Styled Chloe Card",
+            "settings": [
+                {
+                    "type": "url",
+                    "id": "url_card",
+                    "label": "Product link"
+                },
+                {
+                    "type": "select",
+                    "id": "image_position_left",
+                    "label": "Position for left image",
+                    "default": "use_top",
+                    "options": [
+                        { "value": "use_top", "label": "Top"},
+                        { "value": "use_mid", "label": "Middle"},
+                        { "value": "use_bot", "label": "Bottom"}
+                    ]
+                },
+                {
+                    "type": "image_picker",
+                    "id": "img_card_left",
+                    "label": "Image left"
+                },
+                {
+                    "type": "select",
+                    "id": "image_position_right",
+                    "label": "Position for right image",
+                    "default": "use_top",
+                    "options": [
+                        { "value": "use_top", "label": "Top"},
+                        { "value": "use_mid", "label": "Middle"},
+                        { "value": "use_bot", "label": "Bottom"}
+                    ]
+                },
+                {
+                    "type": "image_picker",
+                    "id": "img_card_right",
+                    "label": "Image right"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}
