@@ -586,12 +586,12 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
-              "full_size_pictures": false,
+              "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
               "shop_product31": "long-sleeve-fitted-top-cream",
-              "shop_product32": "long-sleeve-fitted-top-cream",
+              "shop_product32": "long-sleeve-fitted-top-black",
               "shop_product33": "long-sleeve-fitted-top-heather-grey"
             }
           },
@@ -603,19 +603,19 @@
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product1": ""
+              "shop_product1": "long-sleeve-crewneck-dress-maxi-heather-grey"
             }
           },
           "a364cfc1-0a43-45b0-b3b6-080cc665d4fa": {
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
-              "full_size_pictures": false,
+              "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product21": "",
-              "shop_product22": ""
+              "shop_product21": "long-sleeve-crewneck-dress-maxi-black",
+              "shop_product22": "long-sleeve-crewneck-dress-maxi-cream"
             }
           },
           "ce421b0d-7bfc-4d13-9833-241934813b92": {
@@ -2526,6 +2526,32 @@
       "custom-collection-2": {
         "type": "custom-collection-2",
         "blocks": {
+          "d8d38879-8969-463c-b02f-3cfd9c0d6626": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-fitted-top-cream",
+              "shop_product32": "long-sleeve-fitted-top-black",
+              "shop_product33": "long-sleeve-fitted-top-heather-grey"
+            }
+          },
+          "8254bcd6-db45-4a54-a05a-00c612c0a8f6": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "cropped-long-sleeve-fitted-top-black",
+              "shop_product32": "cropped-long-sleeve-fitted-top-cream",
+              "shop_product33": "cropped-long-sleeve-fitted-top-heather-grey"
+            }
+          },
           "8e0f476f-8612-44d6-ac49-af8db7499019": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -2843,6 +2869,8 @@
           }
         },
         "block_order": [
+          "d8d38879-8969-463c-b02f-3cfd9c0d6626",
+          "8254bcd6-db45-4a54-a05a-00c612c0a8f6",
           "8e0f476f-8612-44d6-ac49-af8db7499019",
           "997f5e7e-137f-44e8-b60e-34abbbb9ffd0",
           "47e2f88b-770a-491d-b443-1f08d3a825b6",
@@ -4233,6 +4261,29 @@
       "dresses-collection": {
         "type": "dresses-collection",
         "blocks": {
+          "a7eb8e27-0742-4732-9f62-fb59b2c97301": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product1": "long-sleeve-crewneck-dress-maxi-heather-grey"
+            }
+          },
+          "57d8bcd3-ab8c-45e2-8b7e-a8079464da8c": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "long-sleeve-crewneck-dress-maxi-black",
+              "shop_product22": "long-sleeve-crewneck-dress-maxi-cream"
+            }
+          },
           "2b749d83-5d56-4dd0-a302-0dbb4ec96ba6": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -4287,6 +4338,8 @@
           }
         },
         "block_order": [
+          "a7eb8e27-0742-4732-9f62-fb59b2c97301",
+          "57d8bcd3-ab8c-45e2-8b7e-a8079464da8c",
           "2b749d83-5d56-4dd0-a302-0dbb4ec96ba6",
           "6dcd3443-7f7a-4a70-bb58-36d89babd733",
           "7b682a77-7490-44da-a2e5-e22613647691",
