@@ -582,6 +582,19 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "a81a3e00-07c4-417c-ae35-265df7895799": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-fitted-top-cream",
+              "shop_product32": "long-sleeve-fitted-top-black",
+              "shop_product33": "long-sleeve-fitted-top-heather-grey"
+            }
+          },
           "a575d070-e903-4223-8cbe-76c6b4023b25": {
             "type": "shop_imgproducts1",
             "settings": {
@@ -1261,6 +1274,7 @@
           }
         },
         "block_order": [
+          "a81a3e00-07c4-417c-ae35-265df7895799",
           "a575d070-e903-4223-8cbe-76c6b4023b25",
           "5b364fed-5cc5-4bcf-b905-b16f56737b7c",
           "ce421b0d-7bfc-4d13-9833-241934813b92",
@@ -2512,6 +2526,32 @@
       "custom-collection-2": {
         "type": "custom-collection-2",
         "blocks": {
+          "7deecb4e-47b2-4da6-bf4a-fb552d78d27a": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-fitted-top-cream",
+              "shop_product32": "long-sleeve-fitted-top-black",
+              "shop_product33": "long-sleeve-fitted-top-heather-grey"
+            }
+          },
+          "5e50e4ec-7028-443d-a3bd-a38622b60810": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "cropped-long-sleeve-fitted-top-black",
+              "shop_product32": "cropped-long-sleeve-fitted-top-cream",
+              "shop_product33": "cropped-long-sleeve-fitted-top-heather-grey"
+            }
+          },
           "8e0f476f-8612-44d6-ac49-af8db7499019": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -2829,6 +2869,8 @@
           }
         },
         "block_order": [
+          "7deecb4e-47b2-4da6-bf4a-fb552d78d27a",
+          "5e50e4ec-7028-443d-a3bd-a38622b60810",
           "8e0f476f-8612-44d6-ac49-af8db7499019",
           "997f5e7e-137f-44e8-b60e-34abbbb9ffd0",
           "47e2f88b-770a-491d-b443-1f08d3a825b6",
