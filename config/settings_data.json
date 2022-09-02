@@ -582,6 +582,19 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "8f3e2068-5d6b-49bc-a574-cdf024ace162": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-turtleneck-dress-maxi-black",
+              "shop_product32": "long-sleeve-turtleneck-dress-maxi-heather-grey",
+              "shop_product33": "long-sleeve-turtleneck-dress-maxi-cream"
+            }
+          },
           "a81a3e00-07c4-417c-ae35-265df7895799": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -1274,6 +1287,7 @@
           }
         },
         "block_order": [
+          "8f3e2068-5d6b-49bc-a574-cdf024ace162",
           "a81a3e00-07c4-417c-ae35-265df7895799",
           "a575d070-e903-4223-8cbe-76c6b4023b25",
           "5b364fed-5cc5-4bcf-b905-b16f56737b7c",
