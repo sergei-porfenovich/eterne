@@ -582,6 +582,30 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "2e852a0c-de81-467a-b8ed-289923530d4d": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "shrunken-raglan-sweatshirt-black",
+              "shop_product22": "shrunken-raglan-sweatshirt-cream"
+            }
+          },
+          "c80836fe-e2f5-4814-9b33-a354ed0e11d6": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "straight-leg-sweatpant-cream",
+              "shop_product22": "straight-leg-sweatpant-black"
+            }
+          },
           "8f3e2068-5d6b-49bc-a574-cdf024ace162": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -1287,6 +1311,8 @@
           }
         },
         "block_order": [
+          "2e852a0c-de81-467a-b8ed-289923530d4d",
+          "c80836fe-e2f5-4814-9b33-a354ed0e11d6",
           "8f3e2068-5d6b-49bc-a574-cdf024ace162",
           "a81a3e00-07c4-417c-ae35-265df7895799",
           "a575d070-e903-4223-8cbe-76c6b4023b25",
