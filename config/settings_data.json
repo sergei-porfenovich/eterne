@@ -151,8 +151,8 @@
       "collection": {
         "type": "collection",
         "settings": {
-          "grid_setting_large": 3,
-          "grid_setting_medium": 3,
+          "grid_setting_large": 2,
+          "grid_setting_medium": 2,
           "grid_setting_small": 1,
           "collection_sorting": false,
           "align_text": "text-center",
@@ -419,7 +419,6 @@
         "type": "new-home-page-girls-section",
         "settings": {
           "eterneGirlsTitle": "ÉTERNE GIRLS",
-          "eterneGirlsSubtitle": "On Instagram",
           "left_eterne_girls_top_img": "shopify:\/\/shop_images\/eterne-girls-1.webp",
           "left_eterne_girls_bottom_img": "shopify:\/\/shop_images\/eterne-girls-3.jpg",
           "rigth_eterne_girls_top_img": "shopify:\/\/shop_images\/Eterne_girls_top_right-1.jpg",
@@ -490,6 +489,7 @@
       "new-home-page-shop-about-product": {
         "type": "new-home-page-shop-about-product",
         "settings": {
+          "productTitle": "FEATURED",
           "imgAbout": "shopify:\/\/shop_images\/DAY_02_SHOT_16_0020_color_720x_48e42f0b-0fa5-49f1-8fcb-fddd72730780.webp",
           "aboutProductTitle": "CROPPED V-NECK T-SHIRT IVORY",
           "aboutProductDescription": "Cut from a lightweight cotton and modal blend, our cropped v-neck t-shirt features a slightly slim fit with its flattering V neckline and vintage feel.\n\nStyle with your favorite pair of jeans, leather pants, layered under an oversized blazer, or paired with Éterne’s lounge boxer short as a set.",
