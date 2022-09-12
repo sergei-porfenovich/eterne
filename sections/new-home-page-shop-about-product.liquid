@@ -1,4 +1,7 @@
 <div class="about-product wrapper aos-init aos-animate" data-aos="fade-up">
+    <div class="home-page-title wrapper">
+        {{ section.settings.productTitle }}
+    </div>
     <div class="about-product__wrapper">
         <div class="about-product__left">
             <img class="img lazyload fade-in" src="{{ section.settings.imgAbout | img_url: "master"}}" alt="Lounge Boxer Short Ivory">
@@ -24,6 +27,12 @@
     "name": "AboutProduct",
     "class": "aboutProduct",
     "settings": [
+        {
+            "type": "text",
+            "id": "productTitle",
+            "label": "ProductTitle",
+            "default": "FEATURED"
+        },
         {
             "type": "image_picker",
             "id": "imgAbout",
