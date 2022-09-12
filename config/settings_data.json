@@ -582,11 +582,24 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
-          "7db17080-4bca-4a7d-bd3e-73b2aacb4cda": {
+          "8f3e2068-5d6b-49bc-a574-cdf024ace162": {
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
               "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-turtleneck-dress-maxi-black",
+              "shop_product32": "long-sleeve-turtleneck-dress-maxi-heather-grey",
+              "shop_product33": "long-sleeve-turtleneck-dress-maxi-cream"
+            }
+          },
+          "a81a3e00-07c4-417c-ae35-265df7895799": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -595,18 +608,18 @@
               "shop_product33": "long-sleeve-fitted-top-heather-grey"
             }
           },
-          "95c7d696-c839-4565-a389-92c8e087796c": {
+          "a575d070-e903-4223-8cbe-76c6b4023b25": {
             "type": "shop_imgproducts1",
             "settings": {
               "image_autoheight_enable": true,
-              "full_size_pictures": false,
+              "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
               "shop_product1": "long-sleeve-crewneck-dress-maxi-heather-grey"
             }
           },
-          "a364cfc1-0a43-45b0-b3b6-080cc665d4fa": {
+          "5b364fed-5cc5-4bcf-b905-b16f56737b7c": {
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
@@ -1274,9 +1287,10 @@
           }
         },
         "block_order": [
-          "7db17080-4bca-4a7d-bd3e-73b2aacb4cda",
-          "95c7d696-c839-4565-a389-92c8e087796c",
-          "a364cfc1-0a43-45b0-b3b6-080cc665d4fa",
+          "8f3e2068-5d6b-49bc-a574-cdf024ace162",
+          "a81a3e00-07c4-417c-ae35-265df7895799",
+          "a575d070-e903-4223-8cbe-76c6b4023b25",
+          "5b364fed-5cc5-4bcf-b905-b16f56737b7c",
           "ce421b0d-7bfc-4d13-9833-241934813b92",
           "a627fd29-37bf-4991-8a06-9dc1c2a304b0",
           "401a0de1-9886-452a-be6a-283e0db89b50",
@@ -2526,11 +2540,11 @@
       "custom-collection-2": {
         "type": "custom-collection-2",
         "blocks": {
-          "d8d38879-8969-463c-b02f-3cfd9c0d6626": {
+          "7deecb4e-47b2-4da6-bf4a-fb552d78d27a": {
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
-              "full_size_pictures": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2539,11 +2553,11 @@
               "shop_product33": "long-sleeve-fitted-top-heather-grey"
             }
           },
-          "8254bcd6-db45-4a54-a05a-00c612c0a8f6": {
+          "5e50e4ec-7028-443d-a3bd-a38622b60810": {
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
-              "full_size_pictures": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -2869,8 +2883,8 @@
           }
         },
         "block_order": [
-          "d8d38879-8969-463c-b02f-3cfd9c0d6626",
-          "8254bcd6-db45-4a54-a05a-00c612c0a8f6",
+          "7deecb4e-47b2-4da6-bf4a-fb552d78d27a",
+          "5e50e4ec-7028-443d-a3bd-a38622b60810",
           "8e0f476f-8612-44d6-ac49-af8db7499019",
           "997f5e7e-137f-44e8-b60e-34abbbb9ffd0",
           "47e2f88b-770a-491d-b443-1f08d3a825b6",
@@ -4261,7 +4275,20 @@
       "dresses-collection": {
         "type": "dresses-collection",
         "blocks": {
-          "a7eb8e27-0742-4732-9f62-fb59b2c97301": {
+          "d12ce08a-6c1c-4f0e-89b0-6d48648fa407": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-turtleneck-dress-maxi-black",
+              "shop_product32": "long-sleeve-turtleneck-dress-maxi-heather-grey",
+              "shop_product33": "long-sleeve-turtleneck-dress-maxi-cream"
+            }
+          },
+          "dc0f704b-81c7-4ec2-90f9-d40f90f5fa4b": {
             "type": "shop_imgproducts1",
             "settings": {
               "image_autoheight_enable": true,
@@ -4272,11 +4299,11 @@
               "shop_product1": "long-sleeve-crewneck-dress-maxi-heather-grey"
             }
           },
-          "57d8bcd3-ab8c-45e2-8b7e-a8079464da8c": {
+          "a03d7168-e41b-4907-83f3-d35ab1925272": {
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
-              "full_size_pictures": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -4338,8 +4365,9 @@
           }
         },
         "block_order": [
-          "a7eb8e27-0742-4732-9f62-fb59b2c97301",
-          "57d8bcd3-ab8c-45e2-8b7e-a8079464da8c",
+          "d12ce08a-6c1c-4f0e-89b0-6d48648fa407",
+          "dc0f704b-81c7-4ec2-90f9-d40f90f5fa4b",
+          "a03d7168-e41b-4907-83f3-d35ab1925272",
           "2b749d83-5d56-4dd0-a302-0dbb4ec96ba6",
           "6dcd3443-7f7a-4a70-bb58-36d89babd733",
           "7b682a77-7490-44da-a2e5-e22613647691",
