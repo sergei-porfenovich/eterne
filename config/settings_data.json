@@ -2656,6 +2656,18 @@
               "shop_product33": "cropped-scoop-neck-tank-heather-grey"
             }
           },
+          "bb957549-9d81-4b04-a111-840f9197359d": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "cropped-thermal-henley-black",
+              "shop_product22": "cropped-thermal-henley-heather-grey"
+            }
+          },
           "10cce77e-a8d0-4831-9ac2-ac8c93dacddb": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -2928,6 +2940,7 @@
           "997f5e7e-137f-44e8-b60e-34abbbb9ffd0",
           "47e2f88b-770a-491d-b443-1f08d3a825b6",
           "fb3d2396-e2ab-44d5-8767-a3c258e28669",
+          "bb957549-9d81-4b04-a111-840f9197359d",
           "10cce77e-a8d0-4831-9ac2-ac8c93dacddb",
           "e6a9a437-c035-4b91-bc8b-37a1622b894d",
           "36578b14-ecdc-476a-b234-6a63466099b2",
