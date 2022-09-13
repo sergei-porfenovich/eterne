@@ -151,8 +151,8 @@
       "collection": {
         "type": "collection",
         "settings": {
-          "grid_setting_large": 3,
-          "grid_setting_medium": 3,
+          "grid_setting_large": 2,
+          "grid_setting_medium": 2,
           "grid_setting_small": 1,
           "collection_sorting": false,
           "align_text": "text-center",
@@ -296,21 +296,6 @@
           "homePageTitle": "SHOP THE LOOK"
         }
       },
-      "new-home-page-girls-section": {
-        "type": "new-home-page-girls-section",
-        "settings": {
-          "eterneGirlsTitle": "ÉTERNE GIRLS",
-          "eterneGirlsSubtitle": "On Instagram",
-          "left_eterne_girls_top_img": "shopify:\/\/shop_images\/eterne-girls-1.webp",
-          "left_eterne_girls_bottom_img": "shopify:\/\/shop_images\/eterne-girls-3.jpg",
-          "rigth_eterne_girls_top_img": "shopify:\/\/shop_images\/Eterne_girls_top_right-1.jpg",
-          "rigth_eterne_girls_bottom_img": "shopify:\/\/shop_images\/eterne-girls-4.webp",
-          "left_url_top_img": "https:\/\/www.instagram.com\/eterne\/",
-          "left_url_bottom_img": "https:\/\/www.instagram.com\/eterne\/",
-          "rigth_url_top_img": "https:\/\/www.instagram.com\/eterne\/",
-          "rigth_url_bottom_img": "https:\/\/www.instagram.com\/eterne\/"
-        }
-      },
       "new-home-page-shop-loungewear": {
         "type": "new-home-page-shop-loungewear",
         "settings": {
@@ -385,6 +370,65 @@
           "hero_title": "Everyday Luxury Essentials"
         }
       },
+      "new-home-page-shop-styled-chloe": {
+        "type": "new-home-page-shop-styled-chloe",
+        "blocks": {
+          "f5cd6290-83a0-430d-9cb5-780ce1926364": {
+            "type": "styledChloeCard",
+            "settings": {
+              "url_card": "shopify:\/\/products\/tank-bodysuit-black",
+              "image_position_left": "use_top",
+              "img_card_left": "shopify:\/\/shop_images\/416597459-1.jpg",
+              "image_position_right": "use_top",
+              "img_card_right": "shopify:\/\/shop_images\/416599468-tank-bodysuit-black-bodysuit-eterne-691584.jpg"
+            }
+          },
+          "bb6e6e71-4f8c-434f-824a-8c10c0e1f780": {
+            "type": "styledChloeCard",
+            "settings": {
+              "url_card": "shopify:\/\/products\/short-sleeve-baby-tee-heather-grey",
+              "image_position_left": "use_top",
+              "img_card_left": "shopify:\/\/shop_images\/416599486-short-sleeve-baby-tee-heather-grey-shirts-tops-eterne-569516.jpg",
+              "image_position_right": "use_top",
+              "img_card_right": "shopify:\/\/shop_images\/416597618-22.jpg"
+            }
+          },
+          "4acc6b8d-faf5-4a17-be05-cf248ee58b01": {
+            "type": "styledChloeCard",
+            "settings": {
+              "url_card": "shopify:\/\/products\/tank-dress-mini-cream",
+              "image_position_left": "use_top",
+              "img_card_left": "shopify:\/\/shop_images\/416597779-18.jpg",
+              "image_position_right": "use_top",
+              "img_card_right": "shopify:\/\/shop_images\/416599480-tank-dress-mini-cream-dresses-eterne-733130.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "f5cd6290-83a0-430d-9cb5-780ce1926364",
+          "bb6e6e71-4f8c-434f-824a-8c10c0e1f780",
+          "4acc6b8d-faf5-4a17-be05-cf248ee58b01"
+        ],
+        "settings": {
+          "title": "#STYLEDBYCHLOÉ",
+          "button": "SEE MORE",
+          "buttonUrl": "shopify:\/\/pages\/styledbychloe"
+        }
+      },
+      "new-home-page-girls-section": {
+        "type": "new-home-page-girls-section",
+        "settings": {
+          "eterneGirlsTitle": "ÉTERNE GIRLS",
+          "left_eterne_girls_top_img": "shopify:\/\/shop_images\/eterne-girls-1.webp",
+          "left_eterne_girls_bottom_img": "shopify:\/\/shop_images\/eterne-girls-3.jpg",
+          "rigth_eterne_girls_top_img": "shopify:\/\/shop_images\/Eterne_girls_top_right-1.jpg",
+          "rigth_eterne_girls_bottom_img": "shopify:\/\/shop_images\/eterne-girls-4.webp",
+          "left_url_top_img": "",
+          "left_url_bottom_img": "",
+          "rigth_url_top_img": "",
+          "rigth_url_bottom_img": ""
+        }
+      },
       "new-home-page-shop-reviews-slider": {
         "type": "new-home-page-shop-reviews-slider",
         "blocks": {
@@ -445,6 +489,7 @@
       "new-home-page-shop-about-product": {
         "type": "new-home-page-shop-about-product",
         "settings": {
+          "productTitle": "FEATURED",
           "imgAbout": "shopify:\/\/shop_images\/DAY_02_SHOT_16_0020_color_720x_48e42f0b-0fa5-49f1-8fcb-fddd72730780.webp",
           "aboutProductTitle": "CROPPED V-NECK T-SHIRT IVORY",
           "aboutProductDescription": "Cut from a lightweight cotton and modal blend, our cropped v-neck t-shirt features a slightly slim fit with its flattering V neckline and vintage feel.\n\nStyle with your favorite pair of jeans, leather pants, layered under an oversized blazer, or paired with Éterne’s lounge boxer short as a set.",
@@ -537,6 +582,79 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "2e852a0c-de81-467a-b8ed-289923530d4d": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "shrunken-raglan-sweatshirt-black",
+              "shop_product22": "shrunken-raglan-sweatshirt-cream"
+            }
+          },
+          "c80836fe-e2f5-4814-9b33-a354ed0e11d6": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "straight-leg-sweatpant-cream",
+              "shop_product22": "straight-leg-sweatpant-black"
+            }
+          },
+          "8f3e2068-5d6b-49bc-a574-cdf024ace162": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-turtleneck-dress-maxi-black",
+              "shop_product32": "long-sleeve-turtleneck-dress-maxi-heather-grey",
+              "shop_product33": "long-sleeve-turtleneck-dress-maxi-cream"
+            }
+          },
+          "a81a3e00-07c4-417c-ae35-265df7895799": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-fitted-top-cream",
+              "shop_product32": "long-sleeve-fitted-top-black",
+              "shop_product33": "long-sleeve-fitted-top-heather-grey"
+            }
+          },
+          "a575d070-e903-4223-8cbe-76c6b4023b25": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product1": "long-sleeve-crewneck-dress-maxi-heather-grey"
+            }
+          },
+          "5b364fed-5cc5-4bcf-b905-b16f56737b7c": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "long-sleeve-crewneck-dress-maxi-black",
+              "shop_product22": "long-sleeve-crewneck-dress-maxi-cream"
+            }
+          },
           "ce421b0d-7bfc-4d13-9833-241934813b92": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -593,7 +711,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
-              "full_size_pictures": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -1193,6 +1311,12 @@
           }
         },
         "block_order": [
+          "2e852a0c-de81-467a-b8ed-289923530d4d",
+          "c80836fe-e2f5-4814-9b33-a354ed0e11d6",
+          "8f3e2068-5d6b-49bc-a574-cdf024ace162",
+          "a81a3e00-07c4-417c-ae35-265df7895799",
+          "a575d070-e903-4223-8cbe-76c6b4023b25",
+          "5b364fed-5cc5-4bcf-b905-b16f56737b7c",
           "ce421b0d-7bfc-4d13-9833-241934813b92",
           "a627fd29-37bf-4991-8a06-9dc1c2a304b0",
           "401a0de1-9886-452a-be6a-283e0db89b50",
@@ -2442,7 +2566,32 @@
       "custom-collection-2": {
         "type": "custom-collection-2",
         "blocks": {
-          "fc0c97ac-b057-4020-a6a8-719e2d7e91bc": {
+          "b8837ec9-2baa-4e37-8dcb-135b1b2cc72c": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "shrunken-raglan-sweatshirt-black",
+              "shop_product22": "shrunken-raglan-sweatshirt-cream"
+            }
+          },
+          "7deecb4e-47b2-4da6-bf4a-fb552d78d27a": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-fitted-top-cream",
+              "shop_product32": "long-sleeve-fitted-top-black",
+              "shop_product33": "long-sleeve-fitted-top-heather-grey"
+            }
+          },
+          "5e50e4ec-7028-443d-a3bd-a38622b60810": {
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
@@ -2505,6 +2654,18 @@
               "shop_product31": "cropped-scoop-neck-tank-ivory",
               "shop_product32": "cropped-scoop-neck-tank-black",
               "shop_product33": "cropped-scoop-neck-tank-heather-grey"
+            }
+          },
+          "bb957549-9d81-4b04-a111-840f9197359d": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "cropped-thermal-henley-black",
+              "shop_product22": "cropped-thermal-henley-heather-grey"
             }
           },
           "10cce77e-a8d0-4831-9ac2-ac8c93dacddb": {
@@ -2772,11 +2933,14 @@
           }
         },
         "block_order": [
-          "fc0c97ac-b057-4020-a6a8-719e2d7e91bc",
+          "b8837ec9-2baa-4e37-8dcb-135b1b2cc72c",
+          "7deecb4e-47b2-4da6-bf4a-fb552d78d27a",
+          "5e50e4ec-7028-443d-a3bd-a38622b60810",
           "8e0f476f-8612-44d6-ac49-af8db7499019",
           "997f5e7e-137f-44e8-b60e-34abbbb9ffd0",
           "47e2f88b-770a-491d-b443-1f08d3a825b6",
           "fb3d2396-e2ab-44d5-8767-a3c258e28669",
+          "bb957549-9d81-4b04-a111-840f9197359d",
           "10cce77e-a8d0-4831-9ac2-ac8c93dacddb",
           "e6a9a437-c035-4b91-bc8b-37a1622b894d",
           "36578b14-ecdc-476a-b234-6a63466099b2",
@@ -3401,10 +3565,23 @@
       "bottoms-collection": {
         "type": "bottoms-collection",
         "blocks": {
+          "c2239c23-553c-4161-a3d8-1ddfa67adf65": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "straight-leg-sweatpant-cream",
+              "shop_product22": "straight-leg-sweatpant-black"
+            }
+          },
           "bb753a89-fb2b-4fd8-aa4f-9a377c1fdb60": {
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -3416,6 +3593,7 @@
             "type": "shop_imgproducts1",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -3427,6 +3605,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -3438,6 +3617,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -3450,6 +3630,7 @@
             "type": "shop_imgproducts3",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -3462,6 +3643,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -3473,6 +3655,7 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -3482,6 +3665,7 @@
           }
         },
         "block_order": [
+          "c2239c23-553c-4161-a3d8-1ddfa67adf65",
           "bb753a89-fb2b-4fd8-aa4f-9a377c1fdb60",
           "2e5edc69-9d7e-4d6c-913f-da95d4c7f185",
           "a0963a42-4208-4e92-8c69-2ff7c2400383",
@@ -4163,6 +4347,42 @@
       "dresses-collection": {
         "type": "dresses-collection",
         "blocks": {
+          "d12ce08a-6c1c-4f0e-89b0-6d48648fa407": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-turtleneck-dress-maxi-black",
+              "shop_product32": "long-sleeve-turtleneck-dress-maxi-heather-grey",
+              "shop_product33": "long-sleeve-turtleneck-dress-maxi-cream"
+            }
+          },
+          "dc0f704b-81c7-4ec2-90f9-d40f90f5fa4b": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product1": "long-sleeve-crewneck-dress-maxi-heather-grey"
+            }
+          },
+          "a03d7168-e41b-4907-83f3-d35ab1925272": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "long-sleeve-crewneck-dress-maxi-black",
+              "shop_product22": "long-sleeve-crewneck-dress-maxi-cream"
+            }
+          },
           "2b749d83-5d56-4dd0-a302-0dbb4ec96ba6": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -4217,6 +4437,9 @@
           }
         },
         "block_order": [
+          "d12ce08a-6c1c-4f0e-89b0-6d48648fa407",
+          "dc0f704b-81c7-4ec2-90f9-d40f90f5fa4b",
+          "a03d7168-e41b-4907-83f3-d35ab1925272",
           "2b749d83-5d56-4dd0-a302-0dbb4ec96ba6",
           "6dcd3443-7f7a-4a70-bb58-36d89babd733",
           "7b682a77-7490-44da-a2e5-e22613647691",
@@ -4258,11 +4481,11 @@
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 6,
               "shop_product_padding": 4,
-              "shop_img31": "shopify:\/\/shop_images\/Image_copy_2.jpg",
+              "shop_img31": "shopify:\/\/shop_images\/3_130a2623-00b0-40bd-bada-abd5b5b066ea.jpg",
               "shop_product31": "thermal-lounge-pant-ivory",
-              "shop_img32": "shopify:\/\/shop_images\/Image_copy.jpg",
+              "shop_img32": "shopify:\/\/shop_images\/4_4c223873-c5c8-445d-8361-1b41f0ccd84a.jpg",
               "shop_product32": "thermal-lounge-pant-heather-grey",
-              "shop_img33": "shopify:\/\/shop_images\/Image.jpg",
+              "shop_img33": "shopify:\/\/shop_images\/5_52b86a3f-800d-4457-b08a-bb38f8a2bf29.jpg",
               "shop_product33": "thermal-lounge-pant-black"
             }
           },
@@ -4439,8 +4662,9 @@
       "new-home-page-shop-look",
       "new-home-page-shop-loungewear",
       "new-home-page-shop-styles-slider",
-      "new-home-page-girls-section",
+      "new-home-page-shop-styled-chloe",
       "new-home-page-shop-reviews-slider",
+      "new-home-page-girls-section",
       "new-home-page-shop-about-product",
       "index-video"
     ],
