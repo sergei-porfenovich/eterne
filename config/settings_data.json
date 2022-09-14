@@ -582,6 +582,19 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "f31d4567-322c-422b-80f3-0a934eaba905": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "cropped-fitted-turtleneck-top-black",
+              "shop_product32": "cropped-fitted-turtleneck-top-heather-grey",
+              "shop_product33": "cropped-fitted-turtleneck-top-cream"
+            }
+          },
           "2e852a0c-de81-467a-b8ed-289923530d4d": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1311,6 +1324,7 @@
           }
         },
         "block_order": [
+          "f31d4567-322c-422b-80f3-0a934eaba905",
           "2e852a0c-de81-467a-b8ed-289923530d4d",
           "c80836fe-e2f5-4814-9b33-a354ed0e11d6",
           "8f3e2068-5d6b-49bc-a574-cdf024ace162",
