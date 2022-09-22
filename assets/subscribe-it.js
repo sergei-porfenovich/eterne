@@ -2110,7 +2110,7 @@ function deferBisProductPageButton (callback) {
                 "position": "right-top",
                 "corner_offset": 100,
                 "background_color": "#000000",
-                "selected_selector": "product__form custom",
+                "selected_selector": "product-description rte",
                 "placement": "AFTER",
                 "text_color": "#ffffff",
                 "border_color": "#000000",
