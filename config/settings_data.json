@@ -591,6 +591,30 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "bd391724-2704-42db-b7b4-d7aa0ed593a8": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "oversized-crewneck-sweatshirt-black",
+              "shop_product22": "oversized-crewneck-sweatshirt-cream"
+            }
+          },
+          "7fa59b49-c10b-482b-b4b1-75c577b30f7e": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "classic-sweatpant-black",
+              "shop_product22": "classic-sweatpant-cream"
+            }
+          },
           "f31d4567-322c-422b-80f3-0a934eaba905": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -1333,6 +1357,8 @@
           }
         },
         "block_order": [
+          "bd391724-2704-42db-b7b4-d7aa0ed593a8",
+          "7fa59b49-c10b-482b-b4b1-75c577b30f7e",
           "f31d4567-322c-422b-80f3-0a934eaba905",
           "2e852a0c-de81-467a-b8ed-289923530d4d",
           "c80836fe-e2f5-4814-9b33-a354ed0e11d6",
@@ -2589,6 +2615,18 @@
       "custom-collection-2": {
         "type": "custom-collection-2",
         "blocks": {
+          "9b2b01f3-9d1d-4ebb-b998-24e7c92726eb": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "oversized-crewneck-sweatshirt-black",
+              "shop_product22": "oversized-crewneck-sweatshirt-cream"
+            }
+          },
           "18eb4f99-997d-48ae-ab66-8116c6ce3e0b": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -2969,6 +3007,7 @@
           }
         },
         "block_order": [
+          "9b2b01f3-9d1d-4ebb-b998-24e7c92726eb",
           "18eb4f99-997d-48ae-ab66-8116c6ce3e0b",
           "b8837ec9-2baa-4e37-8dcb-135b1b2cc72c",
           "7deecb4e-47b2-4da6-bf4a-fb552d78d27a",
@@ -3602,6 +3641,18 @@
       "bottoms-collection": {
         "type": "bottoms-collection",
         "blocks": {
+          "8d34b6cd-b361-4fd9-aa90-9bbe0d2f22c5": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "classic-sweatpant-black",
+              "shop_product22": "classic-sweatpant-cream"
+            }
+          },
           "c2239c23-553c-4161-a3d8-1ddfa67adf65": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -3702,6 +3753,7 @@
           }
         },
         "block_order": [
+          "8d34b6cd-b361-4fd9-aa90-9bbe0d2f22c5",
           "c2239c23-553c-4161-a3d8-1ddfa67adf65",
           "bb753a89-fb2b-4fd8-aa4f-9a377c1fdb60",
           "2e5edc69-9d7e-4d6c-913f-da95d4c7f185",
