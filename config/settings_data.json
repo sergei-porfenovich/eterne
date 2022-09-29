@@ -607,12 +607,12 @@
             "type": "shop_imgproducts2",
             "settings": {
               "image_autoheight_enable": true,
-              "full_size_pictures": false,
+              "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product21": "",
-              "shop_product22": ""
+              "shop_product21": "wide-leg-sweatpant-heather-brown",
+              "shop_product22": "wide-leg-sweatpant-heather-grey"
             }
           },
           "bd391724-2704-42db-b7b4-d7aa0ed593a8": {
@@ -2641,6 +2641,18 @@
       "custom-collection-2": {
         "type": "custom-collection-2",
         "blocks": {
+          "f500e0f6-a158-4e1a-8ca9-fe13a3300023": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "shrunken-raglan-sweatshirt-heather-brown",
+              "shop_product22": "shrunken-raglan-sweatshirt-heather-grey"
+            }
+          },
           "9b2b01f3-9d1d-4ebb-b998-24e7c92726eb": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -3033,6 +3045,7 @@
           }
         },
         "block_order": [
+          "f500e0f6-a158-4e1a-8ca9-fe13a3300023",
           "9b2b01f3-9d1d-4ebb-b998-24e7c92726eb",
           "18eb4f99-997d-48ae-ab66-8116c6ce3e0b",
           "b8837ec9-2baa-4e37-8dcb-135b1b2cc72c",
@@ -3667,6 +3680,18 @@
       "bottoms-collection": {
         "type": "bottoms-collection",
         "blocks": {
+          "8a3ceb85-fab9-4f2c-b7e7-c2cda0cfe305": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "wide-leg-sweatpant-heather-brown",
+              "shop_product22": "wide-leg-sweatpant-heather-grey"
+            }
+          },
           "8d34b6cd-b361-4fd9-aa90-9bbe0d2f22c5": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -3779,6 +3804,7 @@
           }
         },
         "block_order": [
+          "8a3ceb85-fab9-4f2c-b7e7-c2cda0cfe305",
           "8d34b6cd-b361-4fd9-aa90-9bbe0d2f22c5",
           "c2239c23-553c-4161-a3d8-1ddfa67adf65",
           "bb753a89-fb2b-4fd8-aa4f-9a377c1fdb60",
