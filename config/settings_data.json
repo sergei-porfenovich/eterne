@@ -591,6 +591,30 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "c1bec111-e339-40d1-b334-2b9212497d4c": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "shrunken-raglan-sweatshirt-heather-brown",
+              "shop_product22": "shrunken-raglan-sweatshirt-heather-grey"
+            }
+          },
+          "91adf259-444a-4308-ac6d-3c3aa651a8df": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "",
+              "shop_product22": ""
+            }
+          },
           "bd391724-2704-42db-b7b4-d7aa0ed593a8": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1357,6 +1381,8 @@
           }
         },
         "block_order": [
+          "c1bec111-e339-40d1-b334-2b9212497d4c",
+          "91adf259-444a-4308-ac6d-3c3aa651a8df",
           "bd391724-2704-42db-b7b4-d7aa0ed593a8",
           "7fa59b49-c10b-482b-b4b1-75c577b30f7e",
           "f31d4567-322c-422b-80f3-0a934eaba905",
