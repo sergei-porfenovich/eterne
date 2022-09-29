@@ -472,7 +472,7 @@ slate.a11y = {
  */
 
 slate.cart = {
-  
+
   /**
    * Browser cookies are required to use the cart. This function checks if
    * cookies are enabled in the browser.
@@ -1004,11 +1004,11 @@ slate.Variants = (function() {
       var variantImage = variant.featured_image || {};
       var currentVariantImage = this.currentVariant.featured_image || {};
 
-     
+
       if (!variant.featured_image || variantImage.src === currentVariantImage.src) {
         return;
       }
-     
+
 
       this.$container.trigger({
         type: 'variantImageChange',
@@ -1027,7 +1027,7 @@ slate.Variants = (function() {
       if (variant.price === this.currentVariant.price && variant.compare_at_price === this.currentVariant.compare_at_price) {
         return;
       }
-*/     
+*/
 
       this.$container.trigger({
         type: 'variantPriceChange',
@@ -2064,9 +2064,9 @@ theme.Product = (function() {
          .done(function(cart) {
            var newTotal = slate.Currency.formatMoney(cart.total_price, theme.moneyFormat);
            $('.cartCost').html("(<span class='money'>" + newTotal + "</span>)").removeClass('hidden-count');
-          
+
            var newCnt = cart.item_count;
-           $('.cartCnt').html(newCnt).removeClass('hidden-count');          
+           $('.cartCnt').html(newCnt).removeClass('hidden-count');
         });
       }
       var addError = function(object, status) {
@@ -2139,7 +2139,7 @@ theme.Product = (function() {
       var variant = evt.variant;
       var moneyFormat = theme.moneyFormat,
           membershipProduct = document.getElementById('MembershipJson-' + this.settings.sectionId);
-      
+
       if (variant) {
 
         // Select a valid variant if available
@@ -2202,9 +2202,9 @@ theme.Product = (function() {
     },
     updateImages: function(evt) {
       var variant = evt.variant;
-      
+
       if (variant && variant.featured_image) {
-        
+
         var imageId = variant.featured_image.id
 
         if (variant) {
@@ -2300,9 +2300,9 @@ theme.Product = (function() {
       })
     },
     productImageZoom: function() {
-      if (Modernizr.touch) {
-        return;
-      }
+      // if (Modernizr.touch) {
+      //   return;
+      // }
 
       $(this.selectors.productImage).magnificPopup({
         type: 'image',
@@ -2310,6 +2310,7 @@ theme.Product = (function() {
         closeOnBgClick: true,
         closeBtnInside: false,
         closeOnContentClick: true,
+        cursor: 'mfp-zoom-out-cur',
         tLoading: '',
         removalDelay: 200
       });
@@ -2823,14 +2824,14 @@ $(document).ready(function() {
 /* Hide add to cart from giftcard page */
 $(document).ready(function() {
   if($("body#digital-gift-card").length > 0) {
-   	$("#AddToCart-product").css("display", "none"); 
+   	$("#AddToCart-product").css("display", "none");
   }
 });
 
 
 /* end of hide add to cart from giftcard page */
 
-/* Hide the first p in product descriptions if there are 3 p's in total*/ 
+/* Hide the first p in product descriptions if there are 3 p's in total*/
 /*var count_elements = $('.product-description p').length;
 if (count_elements) == 3 {
   $('.product-description p:first-of-type').remove();
