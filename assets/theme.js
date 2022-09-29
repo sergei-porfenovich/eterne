@@ -2300,10 +2300,6 @@ theme.Product = (function() {
       })
     },
     productImageZoom: function() {
-      // if (Modernizr.touch) {
-      //   return;
-      // }
-
       $(this.selectors.productImage).magnificPopup({
         type: 'image',
         mainClass: 'mfp-fade',
