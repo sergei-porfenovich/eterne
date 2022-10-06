@@ -591,6 +591,18 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "ea8293dd-1b62-4658-9a0b-3d9d545e887d": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "sloane",
+              "shop_product22": "sadie"
+            }
+          },
           "c1bec111-e339-40d1-b334-2b9212497d4c": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1381,6 +1393,7 @@
           }
         },
         "block_order": [
+          "ea8293dd-1b62-4658-9a0b-3d9d545e887d",
           "c1bec111-e339-40d1-b334-2b9212497d4c",
           "91adf259-444a-4308-ac6d-3c3aa651a8df",
           "bd391724-2704-42db-b7b4-d7aa0ed593a8",
