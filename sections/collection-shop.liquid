@@ -84,9 +84,47 @@
 
 
 <div data-section-id="{{ section.id }}" data-section-type="parallax">
-  <div class="ev-shop-hero aos-init aos-animate lazyload fade-in" data-aos="fade-up" >
-    <img src="{{ 'shop-hero-2.jpg' | asset_url }}" alt="woman lounging" >
-  </div>
+  {% if collection.image and section.settings.show_image %}
+    {%- assign img_url = collection.image.src | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+    <div class="homepage-image fade-in-child preventOverflow {{ section.settings.text_color }} {{ section.settings.image_height }}" id="FeaturedImage-{{ section.id }}"
+    {% if section.settings.parallax %}
+      data-parallax-src="{{ collection.image | img_url: '18x' }}"
+      data-src="{{ img_url }}"
+      data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048, 2450, 2700, 3000, 3350, 3750, 4100, 4480]"
+      data-aspectratio="{{  collection.image.aspect_ratio }}"
+      data-sizes="auto"
+      style="background-image: url('{{ section.settings.image | img_url: '1x1' }}');"
+            {% endif %}>
+      <div class="content--centered">
+        <div class="text-center preventOverflowContent">
+          {%- if section.settings.show_title and section.settings.show_title_below == false  -%}
+            <h1 class="title--flex {{ section.settings.align_text }}">{{ collection.title }}</h1>
+          {%- endif -%}
+          {% if collection.description.size > 0 and section.settings.show_description and section.settings.show_description_below == false %}
+            <div class="{{ section.settings.description_font_size }} {{ section.settings.align_text }}">{{ collection.description }}</div>{% endif %}
+        </div>
+      </div>
+      <div class="image-overlay image-overlay-{{ section.settings.overlay_opacity }}"></div>
+      {% if section.settings.image_height == 'use_image' %}
+        <div class="lazy-image" style="padding-top:{{ 1 | divided_by: collection.image.aspect_ratio | times: 100}}%; background-image: url('{{ collection.image | img_url: '1x1' }}');">
+          <img class="lazyload fade-in" {% if section.settings.parallax %} style="opacity: 0;"{% endif %}
+               alt="{{ collection.image.alt | default: collection.title }}"
+               data-src="{{ img_url }}"
+               data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048, 2450, 2700, 3000, 3350, 3750, 4100, 4480]"
+               data-aspectratio="{{ collection.image.aspect_ratio }}"
+               data-parent-fit="cover"
+               data-sizes="auto"/>
+        </div>
+      {% endif %}
+      {% if section.settings.parallax == false and section.settings.image_height != 'use_image' %}
+        <div class="background-size-cover lazyload"  data-bgset="{% include 'bgset', image: collection.image %}"></div>
+      {% endif %}
+      <noscript>
+        <img src="{{ collection.image | img_url: '1440x' }}" alt="{{ collection.image.alt | default: collection.title }}" class="responsive-wide-image"/>
+      </noscript>
+    </div>
+  {% endif %}
+
   <div class="collection sidebar--hidden" data-sidebar-toggle>
     <div class="wrapper">
       <div class="collection__heading--below">
@@ -341,10 +379,45 @@
 {
   "name": "Shop page",
   "settings": [
-    {
-       "type": "header",
-       "content": "Layout"
-     },
+      {
+         "type": "header",
+         "content": "Layout"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_image",
+        "label": "Show feature image",
+        "default": true
+      },
+      {
+        "type": "select",
+        "id": "image_height",
+        "label": "Image height",
+        "default": "use_screen_one_third",
+        "options": [
+          { "value": "use_image", "label": "Image height"},
+          { "value": "use_screen_two_thirds", "label": "Tall"},
+          { "value": "use_screen_one_half", "label": "Medium"},
+          { "value": "use_screen_one_third", "label": "Short"},
+          { "value": "use_screen_one_fifth", "label": "Tiny"}
+        ]
+      },
+      {
+        "type":    "range",
+        "id":      "overlay_opacity",
+        "min":     0,
+        "max":     100,
+        "step":    5,
+        "label":   "Image overlay opacity",
+        "info":    "Increase contrast for legible text.",
+        "default": 20
+      },
+      {
+        "type": "checkbox",
+        "id": "parallax",
+        "default": false,
+        "label": "Enable parallax scroll"
+      },
      {
        "type": "select",
        "id": "align_text",
