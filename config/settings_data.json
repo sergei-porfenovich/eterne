@@ -4472,6 +4472,90 @@
               "shop_product21": "cropped-thermal-henley-black",
               "shop_product22": "thermal-drawstring-pant-black"
             }
+          },
+          "05a2c3b3-eb73-4451-b853-5ded1b7436a5": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "thermal-henley-black",
+              "shop_product22": "thermal-henley-heather-grey"
+            }
+          },
+          "3e4155f9-4839-4b89-8b29-8f2440298af1": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "shrunken-raglan-sweatshirt-black",
+              "shop_product22": "shrunken-raglan-sweatshirt-cream"
+            }
+          },
+          "ac9c796b-355c-4587-b439-0dec7504ee6e": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "straight-leg-sweatpant-cream",
+              "shop_product22": "straight-leg-sweatpant-black"
+            }
+          },
+          "a3c219cb-a5fa-4e07-997e-f487fd5f8c8a": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "oversized-crewneck-sweatshirt-black",
+              "shop_product22": "oversized-crewneck-sweatshirt-cream"
+            }
+          },
+          "68d5eeea-fc07-4d01-8de2-8c4f771396ce": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "classic-sweatpant-black",
+              "shop_product22": "classic-sweatpant-cream"
+            }
+          },
+          "a02222f7-e187-400c-9bbd-2d6fa6c40dcd": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "shrunken-raglan-sweatshirt-heather-brown",
+              "shop_product22": "shrunken-raglan-sweatshirt-heather-grey"
+            }
+          },
+          "931cb583-13f8-4461-893f-21ec67abfd38": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "wide-leg-sweatpant-heather-brown",
+              "shop_product22": "wide-leg-sweatpant-heather-grey"
+            }
           }
         },
         "block_order": [
@@ -4483,7 +4567,14 @@
           "0aaa6f49-2136-4420-a1fa-dd6c13261323",
           "19cfc121-0446-4cf0-9d4c-00124558bf4c",
           "7c3e3cef-4fd9-4f6a-b206-388df70c722a",
-          "198d3660-39b8-4dab-a48c-38cf03fefd78"
+          "198d3660-39b8-4dab-a48c-38cf03fefd78",
+          "05a2c3b3-eb73-4451-b853-5ded1b7436a5",
+          "3e4155f9-4839-4b89-8b29-8f2440298af1",
+          "ac9c796b-355c-4587-b439-0dec7504ee6e",
+          "a3c219cb-a5fa-4e07-997e-f487fd5f8c8a",
+          "68d5eeea-fc07-4d01-8de2-8c4f771396ce",
+          "a02222f7-e187-400c-9bbd-2d6fa6c40dcd",
+          "931cb583-13f8-4461-893f-21ec67abfd38"
         ],
         "settings": {
           "show_image": false,
