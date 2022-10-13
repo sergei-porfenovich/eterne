@@ -591,6 +591,18 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "8d62d173-c974-4462-a60b-371043e9751f": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "simone",
+              "shop_product22": "emma"
+            }
+          },
           "ea8293dd-1b62-4658-9a0b-3d9d545e887d": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1393,6 +1405,7 @@
           }
         },
         "block_order": [
+          "8d62d173-c974-4462-a60b-371043e9751f",
           "ea8293dd-1b62-4658-9a0b-3d9d545e887d",
           "c1bec111-e339-40d1-b334-2b9212497d4c",
           "91adf259-444a-4308-ac6d-3c3aa651a8df",
@@ -1456,6 +1469,10 @@
           "607c3970-00af-4f2c-ae85-fe3a2bcb393b"
         ],
         "settings": {
+          "show_image": true,
+          "image_height": "use_screen_one_third",
+          "overlay_opacity": 20,
+          "parallax": false,
           "align_text": "text-center",
           "show_title": false,
           "show_description": false,
