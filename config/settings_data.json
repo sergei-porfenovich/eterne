@@ -2597,6 +2597,7 @@
           },
           "b567f8b4-6841-4ca1-beb9-f68daae6f7c9": {
             "type": "article",
+            "disabled": true,
             "settings": {
               "article_logo": "shopify:\/\/shop_images\/Glamour_Logo.png",
               "article_image": "shopify:\/\/shop_images\/5.png",
@@ -2604,6 +2605,17 @@
               "article_title": "12 Cute Fall Outfits to Make Transitional Dressing a Breeze",
               "article_description": "Let the layering begin. It might still be summer, but mentally, we’re in sweater-weather mode thinking about all the cute fall outfits to put together as we ease into cooler temps.",
               "article_url": "https:\/\/www.glamour.com\/story\/cute-fall-outfits"
+            }
+          },
+          "86a7bbaf-e59f-4098-96bd-d40bff0e6822": {
+            "type": "article",
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/Grazia_Logo.png",
+              "article_image": "shopify:\/\/shop_images\/3_4da0a202-f4b9-42b1-a008-021be7408fda.png",
+              "article_date": "8\/4\/22",
+              "article_title": "The Best Brands For Wardrobe Staples",
+              "article_description": "The key to a chic wardrobe is high-quality basics – elevated timeless items that can be worn season after season without fail.",
+              "article_url": "https:\/\/graziamagazine.com\/us\/articles\/best-basics-brands-to-shop\/"
             }
           }
         },
@@ -2624,7 +2636,8 @@
           "34597a59-e66f-4e4f-b99a-dd4428a8fd22",
           "a3e63c3c-b116-4abb-8561-c02217be0c95",
           "90fff2a5-b50d-47b5-8347-0ff8890d60ea",
-          "b567f8b4-6841-4ca1-beb9-f68daae6f7c9"
+          "b567f8b4-6841-4ca1-beb9-f68daae6f7c9",
+          "86a7bbaf-e59f-4098-96bd-d40bff0e6822"
         ],
         "settings": {
           "press_page_title": "Press",
