@@ -2415,6 +2415,78 @@
       "press-page": {
         "type": "press-page",
         "blocks": {
+          "379e5ecf-4ba0-4b61-9f7f-fd0fa86c4332": {
+            "type": "article",
+            "disabled": true,
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/L_Officiel.png",
+              "article_image": "shopify:\/\/shop_images\/8.png",
+              "article_date": "10\/4\/22",
+              "article_title": "7 Turtlenecks to Elevate Your Wardrobe This Fall",
+              "article_description": "The turtleneck, a true fall essential, is proving to be ruling our closets this season. We all love the elegance of a classic turtleneck, but the resurgence of the iconic garment has come with a hint of flair.",
+              "article_url": "https:\/\/www.lofficielusa.com\/shopping\/turtleneck-tops-sweaters-shopping"
+            }
+          },
+          "34597a59-e66f-4e4f-b99a-dd4428a8fd22": {
+            "type": "article",
+            "disabled": true,
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/London_Times_Logo.png",
+              "article_image": "shopify:\/\/shop_images\/7.png",
+              "article_date": "9\/24\/22",
+              "article_title": "The Secret Tricks of a Stylist Who Dresses the A-List",
+              "article_description": "Kate Young is behind Hollywood’s most famous red-carpet looks. She reveals what the rest of us can learn from them, from padding your hips to ironing.",
+              "article_url": "https:\/\/www.thetimes.co.uk\/article\/the-secret-tricks-of-a-stylist-who-dresses-the-a-list-glkxz5h6d"
+            }
+          },
+          "a3e63c3c-b116-4abb-8561-c02217be0c95": {
+            "type": "article",
+            "disabled": true,
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/logo_harpersbazaar_3x_66c1bda3-7467-4562-b508-0667252236dc.png",
+              "article_image": "shopify:\/\/shop_images\/6.png",
+              "article_date": "9\/13\/22",
+              "article_title": "29 Work Outfit Ideas Approved by BAZAAR Editors",
+              "article_description": "Let the latest installment of our #FitCheck series inspire your office outfits. Telegraphing your personal style into a professional work outfit is usually easier said than done, whether you work in a casual coworking space or a true corporate setting.",
+              "article_url": "https:\/\/www.harpersbazaar.com\/fashion\/street-style\/g40050114\/work-outfit-ideas\/"
+            }
+          },
+          "90fff2a5-b50d-47b5-8347-0ff8890d60ea": {
+            "type": "article",
+            "disabled": true,
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/InStyle_Logo.png",
+              "article_image": "shopify:\/\/shop_images\/9.png",
+              "article_date": "8\/26\/22",
+              "article_title": "Hailey Bieber Wears This Basics Brand Religiously",
+              "article_description": "— and So Does the Rest of Hollywood. Sure, maybe everyone's talking about fall fashion these days, but when it comes to finding seasonless basics like tees and tanks, it can be a year-round struggle for many.",
+              "article_url": "https:\/\/www.instyle.com\/fashion\/hailey-bieber-eterne-basics"
+            }
+          },
+          "b567f8b4-6841-4ca1-beb9-f68daae6f7c9": {
+            "type": "article",
+            "disabled": true,
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/Glamour_Logo.png",
+              "article_image": "shopify:\/\/shop_images\/5.png",
+              "article_date": "8\/8\/22",
+              "article_title": "12 Cute Fall Outfits to Make Transitional Dressing a Breeze",
+              "article_description": "Let the layering begin. It might still be summer, but mentally, we’re in sweater-weather mode thinking about all the cute fall outfits to put together as we ease into cooler temps.",
+              "article_url": "https:\/\/www.glamour.com\/story\/cute-fall-outfits"
+            }
+          },
+          "86a7bbaf-e59f-4098-96bd-d40bff0e6822": {
+            "type": "article",
+            "disabled": true,
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/Grazia_Logo.png",
+              "article_image": "shopify:\/\/shop_images\/3_4da0a202-f4b9-42b1-a008-021be7408fda.png",
+              "article_date": "8\/4\/22",
+              "article_title": "The Best Brands For Wardrobe Staples",
+              "article_description": "The key to a chic wardrobe is high-quality basics – elevated timeless items that can be worn season after season without fail.",
+              "article_url": "https:\/\/graziamagazine.com\/us\/articles\/best-basics-brands-to-shop\/"
+            }
+          },
           "7d563390-7985-47c4-a133-c4648c050977": {
             "type": "article",
             "settings": {
@@ -2547,79 +2619,25 @@
               "article_url": "https:\/\/www.vogue.com\/article\/eterne-chloe-bartoli-kaia-gerber-emily-ratajkowski"
             }
           },
-          "379e5ecf-4ba0-4b61-9f7f-fd0fa86c4332": {
-            "type": "article",
-            "disabled": true,
-            "settings": {
-              "article_logo": "shopify:\/\/shop_images\/L_Officiel.png",
-              "article_image": "shopify:\/\/shop_images\/8.png",
-              "article_date": "10\/4\/22",
-              "article_title": "7 Turtlenecks to Elevate Your Wardrobe This Fall",
-              "article_description": "The turtleneck, a true fall essential, is proving to be ruling our closets this season. We all love the elegance of a classic turtleneck, but the resurgence of the iconic garment has come with a hint of flair.",
-              "article_url": "https:\/\/www.lofficielusa.com\/shopping\/turtleneck-tops-sweaters-shopping"
-            }
-          },
-          "34597a59-e66f-4e4f-b99a-dd4428a8fd22": {
-            "type": "article",
-            "disabled": true,
-            "settings": {
-              "article_logo": "shopify:\/\/shop_images\/London_Times_Logo.png",
-              "article_image": "shopify:\/\/shop_images\/7.png",
-              "article_date": "9\/24\/22",
-              "article_title": "The Secret Tricks of a Stylist Who Dresses the A-List",
-              "article_description": "Kate Young is behind Hollywood’s most famous red-carpet looks. She reveals what the rest of us can learn from them, from padding your hips to ironing.",
-              "article_url": "https:\/\/www.thetimes.co.uk\/article\/the-secret-tricks-of-a-stylist-who-dresses-the-a-list-glkxz5h6d"
-            }
-          },
-          "a3e63c3c-b116-4abb-8561-c02217be0c95": {
-            "type": "article",
-            "disabled": true,
-            "settings": {
-              "article_logo": "shopify:\/\/shop_images\/logo_harpersbazaar_3x_66c1bda3-7467-4562-b508-0667252236dc.png",
-              "article_image": "shopify:\/\/shop_images\/6.png",
-              "article_date": "9\/13\/22",
-              "article_title": "29 Work Outfit Ideas Approved by BAZAAR Editors",
-              "article_description": "Let the latest installment of our #FitCheck series inspire your office outfits. Telegraphing your personal style into a professional work outfit is usually easier said than done, whether you work in a casual coworking space or a true corporate setting.",
-              "article_url": "https:\/\/www.harpersbazaar.com\/fashion\/street-style\/g40050114\/work-outfit-ideas\/"
-            }
-          },
-          "90fff2a5-b50d-47b5-8347-0ff8890d60ea": {
-            "type": "article",
-            "disabled": true,
-            "settings": {
-              "article_logo": "shopify:\/\/shop_images\/InStyle_Logo.png",
-              "article_image": "shopify:\/\/shop_images\/9.png",
-              "article_date": "8\/26\/22",
-              "article_title": "Hailey Bieber Wears This Basics Brand Religiously",
-              "article_description": "— and So Does the Rest of Hollywood. Sure, maybe everyone's talking about fall fashion these days, but when it comes to finding seasonless basics like tees and tanks, it can be a year-round struggle for many.",
-              "article_url": "https:\/\/www.instyle.com\/fashion\/hailey-bieber-eterne-basics"
-            }
-          },
-          "b567f8b4-6841-4ca1-beb9-f68daae6f7c9": {
-            "type": "article",
-            "disabled": true,
-            "settings": {
-              "article_logo": "shopify:\/\/shop_images\/Glamour_Logo.png",
-              "article_image": "shopify:\/\/shop_images\/5.png",
-              "article_date": "8\/8\/22",
-              "article_title": "12 Cute Fall Outfits to Make Transitional Dressing a Breeze",
-              "article_description": "Let the layering begin. It might still be summer, but mentally, we’re in sweater-weather mode thinking about all the cute fall outfits to put together as we ease into cooler temps.",
-              "article_url": "https:\/\/www.glamour.com\/story\/cute-fall-outfits"
-            }
-          },
-          "86a7bbaf-e59f-4098-96bd-d40bff0e6822": {
+          "80f86170-d39d-4b08-be08-e23aaa00af7b": {
             "type": "article",
             "settings": {
-              "article_logo": "shopify:\/\/shop_images\/Grazia_Logo.png",
-              "article_image": "shopify:\/\/shop_images\/3_4da0a202-f4b9-42b1-a008-021be7408fda.png",
-              "article_date": "8\/4\/22",
-              "article_title": "The Best Brands For Wardrobe Staples",
-              "article_description": "The key to a chic wardrobe is high-quality basics – elevated timeless items that can be worn season after season without fail.",
-              "article_url": "https:\/\/graziamagazine.com\/us\/articles\/best-basics-brands-to-shop\/"
+              "article_logo": "shopify:\/\/shop_images\/logo_thezoereport_3x_9d23884d-44bd-4a31-b150-0e388508b7dd.png",
+              "article_image": "shopify:\/\/shop_images\/2_ca8e3e83-1df9-49f6-a83c-d1eccab054ca.png",
+              "article_date": "6\/8\/22",
+              "article_title": "The 5 Types of White T-shirts Every Woman Should Own",
+              "article_description": "Do you start each morning staring at a closet of clothes, but are still usually clueless on what to wear?  You might be in need of a little wardrobe TLC.",
+              "article_url": "https:\/\/www.thezoereport.com\/fashion\/best-white-tshirts"
             }
           }
         },
         "block_order": [
+          "379e5ecf-4ba0-4b61-9f7f-fd0fa86c4332",
+          "34597a59-e66f-4e4f-b99a-dd4428a8fd22",
+          "a3e63c3c-b116-4abb-8561-c02217be0c95",
+          "90fff2a5-b50d-47b5-8347-0ff8890d60ea",
+          "b567f8b4-6841-4ca1-beb9-f68daae6f7c9",
+          "86a7bbaf-e59f-4098-96bd-d40bff0e6822",
           "7d563390-7985-47c4-a133-c4648c050977",
           "da79079e-7987-4ac1-b89e-e70fa3d9b8a5",
           "f40e948f-e681-4c3c-9555-be8b262d5783",
@@ -2632,12 +2650,7 @@
           "f135cb76-bf2a-4980-8dc8-e7b98ee34f64",
           "66217d67-659d-4d69-93be-f4c7782987bd",
           "7fd3dd36-8087-42b3-8554-3ef2cade3a93",
-          "379e5ecf-4ba0-4b61-9f7f-fd0fa86c4332",
-          "34597a59-e66f-4e4f-b99a-dd4428a8fd22",
-          "a3e63c3c-b116-4abb-8561-c02217be0c95",
-          "90fff2a5-b50d-47b5-8347-0ff8890d60ea",
-          "b567f8b4-6841-4ca1-beb9-f68daae6f7c9",
-          "86a7bbaf-e59f-4098-96bd-d40bff0e6822"
+          "80f86170-d39d-4b08-be08-e23aaa00af7b"
         ],
         "settings": {
           "press_page_title": "Press",
