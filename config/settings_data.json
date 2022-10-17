@@ -2499,6 +2499,18 @@
               "article_url": "https:\/\/www.thezoereport.com\/fashion\/best-white-tshirts"
             }
           },
+          "78abca1e-4b73-44c2-959d-e090c386f2de": {
+            "type": "article",
+            "disabled": true,
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/Fashionista_Logo.png",
+              "article_image": "shopify:\/\/shop_images\/1_3c354629-acbf-4775-ab9c-5d2ceeeb55cb.png",
+              "article_date": "3\/11\/22",
+              "article_title": "In An Era of Viral Excess, How Do Quiet Brands Make Noise?",
+              "article_description": "In some cases, their success lies in the fact that they don’t. Like it or not, we’re living in the age of going viral, even when it comes to success in fashion.",
+              "article_url": "https:\/\/fashionista.com\/2022\/03\/quiet-fashion-brands-marketing-business"
+            }
+          },
           "7d563390-7985-47c4-a133-c4648c050977": {
             "type": "article",
             "settings": {
@@ -2631,15 +2643,15 @@
               "article_url": "https:\/\/www.vogue.com\/article\/eterne-chloe-bartoli-kaia-gerber-emily-ratajkowski"
             }
           },
-          "78abca1e-4b73-44c2-959d-e090c386f2de": {
+          "8cdea4d3-981c-40c4-924a-a4be3cb2db26": {
             "type": "article",
             "settings": {
-              "article_logo": "shopify:\/\/shop_images\/Fashionista_Logo.png",
-              "article_image": "shopify:\/\/shop_images\/1_3c354629-acbf-4775-ab9c-5d2ceeeb55cb.png",
-              "article_date": "3\/11\/22",
-              "article_title": "In An Era of Viral Excess, How Do Quiet Brands Make Noise?",
-              "article_description": "In some cases, their success lies in the fact that they don’t. Like it or not, we’re living in the age of going viral, even when it comes to success in fashion.",
-              "article_url": "https:\/\/fashionista.com\/2022\/03\/quiet-fashion-brands-marketing-business"
+              "article_logo": "shopify:\/\/shop_images\/logo_vogue_3x_ccf026f4-96cf-44a5-a446-44f5e78e54aa.png",
+              "article_image": "shopify:\/\/shop_images\/10.png",
+              "article_date": "1\/4\/22",
+              "article_title": "Hailey, Rosie & Kendall Are Mapping Out The New 'Countryfile' Trend",
+              "article_description": "While some rang in 2022 in super slinky party dresses that would have made Paris Hilton blush (Dua Lipa, need you ask?), other stars retreated to the countryside to show off a different kind of New Year’s style.",
+              "article_url": "https:\/\/www.vogue.co.uk\/news\/article\/country-chic-trend"
             }
           }
         },
@@ -2651,6 +2663,7 @@
           "b567f8b4-6841-4ca1-beb9-f68daae6f7c9",
           "86a7bbaf-e59f-4098-96bd-d40bff0e6822",
           "80f86170-d39d-4b08-be08-e23aaa00af7b",
+          "78abca1e-4b73-44c2-959d-e090c386f2de",
           "7d563390-7985-47c4-a133-c4648c050977",
           "da79079e-7987-4ac1-b89e-e70fa3d9b8a5",
           "f40e948f-e681-4c3c-9555-be8b262d5783",
@@ -2663,7 +2676,7 @@
           "f135cb76-bf2a-4980-8dc8-e7b98ee34f64",
           "66217d67-659d-4d69-93be-f4c7782987bd",
           "7fd3dd36-8087-42b3-8554-3ef2cade3a93",
-          "78abca1e-4b73-44c2-959d-e090c386f2de"
+          "8cdea4d3-981c-40c4-924a-a4be3cb2db26"
         ],
         "settings": {
           "press_page_title": "Press",
