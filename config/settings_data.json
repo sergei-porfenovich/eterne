@@ -2487,6 +2487,18 @@
               "article_url": "https:\/\/graziamagazine.com\/us\/articles\/best-basics-brands-to-shop\/"
             }
           },
+          "80f86170-d39d-4b08-be08-e23aaa00af7b": {
+            "type": "article",
+            "disabled": true,
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/logo_thezoereport_3x_9d23884d-44bd-4a31-b150-0e388508b7dd.png",
+              "article_image": "shopify:\/\/shop_images\/2_ca8e3e83-1df9-49f6-a83c-d1eccab054ca.png",
+              "article_date": "6\/8\/22",
+              "article_title": "The 5 Types of White T-shirts Every Woman Should Own",
+              "article_description": "Do you start each morning staring at a closet of clothes, but are still usually clueless on what to wear?  You might be in need of a little wardrobe TLC.",
+              "article_url": "https:\/\/www.thezoereport.com\/fashion\/best-white-tshirts"
+            }
+          },
           "7d563390-7985-47c4-a133-c4648c050977": {
             "type": "article",
             "settings": {
@@ -2619,15 +2631,15 @@
               "article_url": "https:\/\/www.vogue.com\/article\/eterne-chloe-bartoli-kaia-gerber-emily-ratajkowski"
             }
           },
-          "80f86170-d39d-4b08-be08-e23aaa00af7b": {
+          "78abca1e-4b73-44c2-959d-e090c386f2de": {
             "type": "article",
             "settings": {
-              "article_logo": "shopify:\/\/shop_images\/logo_thezoereport_3x_9d23884d-44bd-4a31-b150-0e388508b7dd.png",
-              "article_image": "shopify:\/\/shop_images\/2_ca8e3e83-1df9-49f6-a83c-d1eccab054ca.png",
-              "article_date": "6\/8\/22",
-              "article_title": "The 5 Types of White T-shirts Every Woman Should Own",
-              "article_description": "Do you start each morning staring at a closet of clothes, but are still usually clueless on what to wear?  You might be in need of a little wardrobe TLC.",
-              "article_url": "https:\/\/www.thezoereport.com\/fashion\/best-white-tshirts"
+              "article_logo": "shopify:\/\/shop_images\/Fashionista_Logo.png",
+              "article_image": "shopify:\/\/shop_images\/1_3c354629-acbf-4775-ab9c-5d2ceeeb55cb.png",
+              "article_date": "3\/11\/22",
+              "article_title": "In An Era of Viral Excess, How Do Quiet Brands Make Noise?",
+              "article_description": "In some cases, their success lies in the fact that they don’t. Like it or not, we’re living in the age of going viral, even when it comes to success in fashion.",
+              "article_url": "https:\/\/fashionista.com\/2022\/03\/quiet-fashion-brands-marketing-business"
             }
           }
         },
@@ -2638,6 +2650,7 @@
           "90fff2a5-b50d-47b5-8347-0ff8890d60ea",
           "b567f8b4-6841-4ca1-beb9-f68daae6f7c9",
           "86a7bbaf-e59f-4098-96bd-d40bff0e6822",
+          "80f86170-d39d-4b08-be08-e23aaa00af7b",
           "7d563390-7985-47c4-a133-c4648c050977",
           "da79079e-7987-4ac1-b89e-e70fa3d9b8a5",
           "f40e948f-e681-4c3c-9555-be8b262d5783",
@@ -2650,7 +2663,7 @@
           "f135cb76-bf2a-4980-8dc8-e7b98ee34f64",
           "66217d67-659d-4d69-93be-f4c7782987bd",
           "7fd3dd36-8087-42b3-8554-3ef2cade3a93",
-          "80f86170-d39d-4b08-be08-e23aaa00af7b"
+          "78abca1e-4b73-44c2-959d-e090c386f2de"
         ],
         "settings": {
           "press_page_title": "Press",
