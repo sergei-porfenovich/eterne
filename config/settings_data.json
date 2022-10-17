@@ -2546,6 +2546,29 @@
               "article_description": "In the absence of red carpets, celebrities and influencers have been dressing down—way down. Over the last several months of quarantines and canceled...",
               "article_url": "https:\/\/www.vogue.com\/article\/eterne-chloe-bartoli-kaia-gerber-emily-ratajkowski"
             }
+          },
+          "379e5ecf-4ba0-4b61-9f7f-fd0fa86c4332": {
+            "type": "article",
+            "disabled": true,
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/L_Officiel.png",
+              "article_image": "shopify:\/\/shop_images\/8.png",
+              "article_date": "10\/4\/22",
+              "article_title": "7 Turtlenecks to Elevate Your Wardrobe This Fall",
+              "article_description": "The turtleneck, a true fall essential, is proving to be ruling our closets this season. We all love the elegance of a classic turtleneck, but the resurgence of the iconic garment has come with a hint of flair.",
+              "article_url": ""
+            }
+          },
+          "34597a59-e66f-4e4f-b99a-dd4428a8fd22": {
+            "type": "article",
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/London_Times_Logo.png",
+              "article_image": "shopify:\/\/shop_images\/7.png",
+              "article_date": "9\/24\/22",
+              "article_title": "The Secret Tricks of a Stylist Who Dresses the A-List",
+              "article_description": "Kate Young is behind Hollywood’s most famous red-carpet looks. She reveals what the rest of us can learn from them, from padding your hips to ironing.",
+              "article_url": ""
+            }
           }
         },
         "block_order": [
@@ -2560,7 +2583,9 @@
           "e7cee9cc-ddd5-486b-9408-cc7460f501b9",
           "f135cb76-bf2a-4980-8dc8-e7b98ee34f64",
           "66217d67-659d-4d69-93be-f4c7782987bd",
-          "7fd3dd36-8087-42b3-8554-3ef2cade3a93"
+          "7fd3dd36-8087-42b3-8554-3ef2cade3a93",
+          "379e5ecf-4ba0-4b61-9f7f-fd0fa86c4332",
+          "34597a59-e66f-4e4f-b99a-dd4428a8fd22"
         ],
         "settings": {
           "press_page_title": "Press",
