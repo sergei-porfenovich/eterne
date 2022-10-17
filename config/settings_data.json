@@ -2423,7 +2423,7 @@
               "article_image": "shopify:\/\/shop_images\/8.png",
               "article_date": "10\/4\/22",
               "article_title": "7 Turtlenecks to Elevate Your Wardrobe This Fall",
-              "article_description": "The turtleneck, a true fall essential, is proving to be ruling our closets this season. We all love the elegance of a classic turtleneck, but the resurgence of the iconic garment has come with a hint of flair.",
+              "article_description": "The turtleneck, a true fall essential, is proving to be ruling our closets this season. We all love the elegance of a classic turtleneck, but the resurgence of the iconic...",
               "article_url": "https:\/\/www.lofficielusa.com\/shopping\/turtleneck-tops-sweaters-shopping"
             }
           },
@@ -2509,6 +2509,18 @@
               "article_title": "In An Era of Viral Excess, How Do Quiet Brands Make Noise?",
               "article_description": "In some cases, their success lies in the fact that they don’t. Like it or not, we’re living in the age of going viral, even when it comes to success in fashion.",
               "article_url": "https:\/\/fashionista.com\/2022\/03\/quiet-fashion-brands-marketing-business"
+            }
+          },
+          "8cdea4d3-981c-40c4-924a-a4be3cb2db26": {
+            "type": "article",
+            "disabled": true,
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/logo_vogue_3x_ccf026f4-96cf-44a5-a446-44f5e78e54aa.png",
+              "article_image": "shopify:\/\/shop_images\/10.png",
+              "article_date": "1\/4\/22",
+              "article_title": "Hailey, Rosie & Kendall Are Mapping Out The New 'Countryfile' Trend",
+              "article_description": "While some rang in 2022 in super slinky party dresses that would have made Paris Hilton blush (Dua Lipa, need you ask?), other stars retreated to the countryside to show off a different kind of New Year’s style.",
+              "article_url": "https:\/\/www.vogue.co.uk\/news\/article\/country-chic-trend"
             }
           },
           "7d563390-7985-47c4-a133-c4648c050977": {
@@ -2642,17 +2654,6 @@
               "article_description": "In the absence of red carpets, celebrities and influencers have been dressing down—way down. Over the last several months of quarantines and canceled...",
               "article_url": "https:\/\/www.vogue.com\/article\/eterne-chloe-bartoli-kaia-gerber-emily-ratajkowski"
             }
-          },
-          "8cdea4d3-981c-40c4-924a-a4be3cb2db26": {
-            "type": "article",
-            "settings": {
-              "article_logo": "shopify:\/\/shop_images\/logo_vogue_3x_ccf026f4-96cf-44a5-a446-44f5e78e54aa.png",
-              "article_image": "shopify:\/\/shop_images\/10.png",
-              "article_date": "1\/4\/22",
-              "article_title": "Hailey, Rosie & Kendall Are Mapping Out The New 'Countryfile' Trend",
-              "article_description": "While some rang in 2022 in super slinky party dresses that would have made Paris Hilton blush (Dua Lipa, need you ask?), other stars retreated to the countryside to show off a different kind of New Year’s style.",
-              "article_url": "https:\/\/www.vogue.co.uk\/news\/article\/country-chic-trend"
-            }
           }
         },
         "block_order": [
@@ -2664,6 +2665,7 @@
           "86a7bbaf-e59f-4098-96bd-d40bff0e6822",
           "80f86170-d39d-4b08-be08-e23aaa00af7b",
           "78abca1e-4b73-44c2-959d-e090c386f2de",
+          "8cdea4d3-981c-40c4-924a-a4be3cb2db26",
           "7d563390-7985-47c4-a133-c4648c050977",
           "da79079e-7987-4ac1-b89e-e70fa3d9b8a5",
           "f40e948f-e681-4c3c-9555-be8b262d5783",
@@ -2675,8 +2677,7 @@
           "e7cee9cc-ddd5-486b-9408-cc7460f501b9",
           "f135cb76-bf2a-4980-8dc8-e7b98ee34f64",
           "66217d67-659d-4d69-93be-f4c7782987bd",
-          "7fd3dd36-8087-42b3-8554-3ef2cade3a93",
-          "8cdea4d3-981c-40c4-924a-a4be3cb2db26"
+          "7fd3dd36-8087-42b3-8554-3ef2cade3a93"
         ],
         "settings": {
           "press_page_title": "Press",
