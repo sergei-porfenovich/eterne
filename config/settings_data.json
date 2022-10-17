@@ -2573,6 +2573,7 @@
           },
           "a3e63c3c-b116-4abb-8561-c02217be0c95": {
             "type": "article",
+            "disabled": true,
             "settings": {
               "article_logo": "shopify:\/\/shop_images\/logo_harpersbazaar_3x_66c1bda3-7467-4562-b508-0667252236dc.png",
               "article_image": "shopify:\/\/shop_images\/6.png",
@@ -2580,6 +2581,17 @@
               "article_title": "29 Work Outfit Ideas Approved by BAZAAR Editors",
               "article_description": "Let the latest installment of our #FitCheck series inspire your office outfits. Telegraphing your personal style into a professional work outfit is usually easier said than done, whether you work in a casual coworking space or a true corporate setting.",
               "article_url": "https:\/\/www.harpersbazaar.com\/fashion\/street-style\/g40050114\/work-outfit-ideas\/"
+            }
+          },
+          "90fff2a5-b50d-47b5-8347-0ff8890d60ea": {
+            "type": "article",
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/InStyle_Logo.png",
+              "article_image": "shopify:\/\/shop_images\/9.png",
+              "article_date": "8\/26\/22",
+              "article_title": "Hailey Bieber Wears This Basics Brand Religiously",
+              "article_description": "— and So Does the Rest of Hollywood. Sure, maybe everyone's talking about fall fashion these days, but when it comes to finding seasonless basics like tees and tanks, it can be a year-round struggle for many.",
+              "article_url": "https:\/\/www.instyle.com\/fashion\/hailey-bieber-eterne-basics"
             }
           }
         },
@@ -2598,7 +2610,8 @@
           "7fd3dd36-8087-42b3-8554-3ef2cade3a93",
           "379e5ecf-4ba0-4b61-9f7f-fd0fa86c4332",
           "34597a59-e66f-4e4f-b99a-dd4428a8fd22",
-          "a3e63c3c-b116-4abb-8561-c02217be0c95"
+          "a3e63c3c-b116-4abb-8561-c02217be0c95",
+          "90fff2a5-b50d-47b5-8347-0ff8890d60ea"
         ],
         "settings": {
           "press_page_title": "Press",
