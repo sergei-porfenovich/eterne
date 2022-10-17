@@ -2585,6 +2585,7 @@
           },
           "90fff2a5-b50d-47b5-8347-0ff8890d60ea": {
             "type": "article",
+            "disabled": true,
             "settings": {
               "article_logo": "shopify:\/\/shop_images\/InStyle_Logo.png",
               "article_image": "shopify:\/\/shop_images\/9.png",
@@ -2592,6 +2593,17 @@
               "article_title": "Hailey Bieber Wears This Basics Brand Religiously",
               "article_description": "— and So Does the Rest of Hollywood. Sure, maybe everyone's talking about fall fashion these days, but when it comes to finding seasonless basics like tees and tanks, it can be a year-round struggle for many.",
               "article_url": "https:\/\/www.instyle.com\/fashion\/hailey-bieber-eterne-basics"
+            }
+          },
+          "b567f8b4-6841-4ca1-beb9-f68daae6f7c9": {
+            "type": "article",
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/Glamour_Logo.png",
+              "article_image": "shopify:\/\/shop_images\/5.png",
+              "article_date": "8\/8\/22",
+              "article_title": "12 Cute Fall Outfits to Make Transitional Dressing a Breeze",
+              "article_description": "Let the layering begin. It might still be summer, but mentally, we’re in sweater-weather mode thinking about all the cute fall outfits to put together as we ease into cooler temps.",
+              "article_url": "https:\/\/www.glamour.com\/story\/cute-fall-outfits"
             }
           }
         },
@@ -2611,7 +2623,8 @@
           "379e5ecf-4ba0-4b61-9f7f-fd0fa86c4332",
           "34597a59-e66f-4e4f-b99a-dd4428a8fd22",
           "a3e63c3c-b116-4abb-8561-c02217be0c95",
-          "90fff2a5-b50d-47b5-8347-0ff8890d60ea"
+          "90fff2a5-b50d-47b5-8347-0ff8890d60ea",
+          "b567f8b4-6841-4ca1-beb9-f68daae6f7c9"
         ],
         "settings": {
           "press_page_title": "Press",
