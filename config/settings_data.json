@@ -591,6 +591,18 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "a0c8bc85-189f-49a2-ba16-7bc1e0b14668": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "chloe",
+              "shop_product22": "amina"
+            }
+          },
           "8d62d173-c974-4462-a60b-371043e9751f": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1402,21 +1414,10 @@
               "shop_product_padding": 0,
               "shop_product1p": "rise-ai-giftcard"
             }
-          },
-          "a0c8bc85-189f-49a2-ba16-7bc1e0b14668": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "image_autoheight_enable": true,
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "",
-              "shop_product22": ""
-            }
           }
         },
         "block_order": [
+          "a0c8bc85-189f-49a2-ba16-7bc1e0b14668",
           "8d62d173-c974-4462-a60b-371043e9751f",
           "ea8293dd-1b62-4658-9a0b-3d9d545e887d",
           "c1bec111-e339-40d1-b334-2b9212497d4c",
@@ -1478,8 +1479,7 @@
           "b9cfce59-2f8f-4314-809b-2ecba06d5956",
           "e0e66881-beda-4d26-9d00-b41983ea144a",
           "fe546ba6-e052-4bc2-bcd5-e4f5dbd1aabe",
-          "607c3970-00af-4f2c-ae85-fe3a2bcb393b",
-          "a0c8bc85-189f-49a2-ba16-7bc1e0b14668"
+          "607c3970-00af-4f2c-ae85-fe3a2bcb393b"
         ],
         "settings": {
           "show_image": true,
