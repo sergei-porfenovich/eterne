@@ -591,6 +591,18 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "a0c8bc85-189f-49a2-ba16-7bc1e0b14668": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "chloe",
+              "shop_product22": "amina"
+            }
+          },
           "8d62d173-c974-4462-a60b-371043e9751f": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1405,6 +1417,7 @@
           }
         },
         "block_order": [
+          "a0c8bc85-189f-49a2-ba16-7bc1e0b14668",
           "8d62d173-c974-4462-a60b-371043e9751f",
           "ea8293dd-1b62-4658-9a0b-3d9d545e887d",
           "c1bec111-e339-40d1-b334-2b9212497d4c",
