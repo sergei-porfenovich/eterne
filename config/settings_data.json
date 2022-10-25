@@ -499,10 +499,10 @@
         "type": "new-home-page-shop-about-product",
         "settings": {
           "productTitle": "FEATURED",
-          "imgAbout": "shopify:\/\/shop_images\/DAY_02_SHOT_16_0020_color_720x_48e42f0b-0fa5-49f1-8fcb-fddd72730780.webp",
-          "aboutProductTitle": "CROPPED V-NECK T-SHIRT IVORY",
-          "aboutProductDescription": "Cut from a lightweight cotton and modal blend, our cropped v-neck t-shirt features a slightly slim fit with its flattering V neckline and vintage feel.\n\nStyle with your favorite pair of jeans, leather pants, layered under an oversized blazer, or paired with Éterne’s lounge boxer short as a set.",
-          "product_link": "shopify:\/\/products\/cropped-v-neck-t-shirt-ivory",
+          "imgAbout": "shopify:\/\/shop_images\/S83_0016.jpg",
+          "aboutProductTitle": "LONG SLEEVE CREWNECK DRESS MAXI",
+          "aboutProductDescription": "Cut from a butter soft ribbed cotton and modal blend, our maxi crewneck is form-fitting, ultra flattering and lightweight. This maxi dress is the perfect day-to-night essential.\n\nStyle with your favorite oversized blazer and a pair of knee high boots.",
+          "product_link": "shopify:\/\/products\/long-sleeve-crewneck-dress-maxi-heather-grey",
           "product_btn_text": "SHOP NOW"
         }
       },
@@ -4047,7 +4047,7 @@
               "shop_product_margin": 0,
               "shop_product_padding": 0,
               "shop_img21": "shopify:\/\/shop_images\/1.jpg",
-              "shop_product21": "",
+              "shop_product21": "simone",
               "shop_img22": "shopify:\/\/shop_images\/2_-_S42_0040.jpg",
               "shop_product22": "tank-dress-mini-heather-grey"
             }
@@ -4123,7 +4123,7 @@
               "shop_img21": "shopify:\/\/shop_images\/11_-_S23_0047.jpg",
               "shop_product21": "90s-brief-black",
               "shop_img22": "shopify:\/\/shop_images\/12.jpg",
-              "shop_product22": ""
+              "shop_product22": "emma"
             }
           },
           "5545fe85-ef54-4f42-8894-e30fd98fbf39": {
@@ -4234,7 +4234,7 @@
               "shop_img21": "shopify:\/\/shop_images\/26_-_S31_0074.jpg",
               "shop_product21": "thin-strap-fitted-tank-heather-grey",
               "shop_img22": "shopify:\/\/shop_images\/27_-_S21_0003_1.jpg",
-              "shop_product22": ""
+              "shop_product22": "cropped-fitted-turtleneck-top-black"
             }
           },
           "7169d3af-af01-414d-adc8-af5b6738a489": {
@@ -4298,7 +4298,7 @@
               "shop_product_margin": 0,
               "shop_product_padding": 0,
               "shop_img21": "shopify:\/\/shop_images\/1_5d3d10b8-5f53-48e0-8b77-f657a615ee6f.jpg",
-              "shop_product21": "",
+              "shop_product21": "simone",
               "shop_img22": "shopify:\/\/shop_images\/2.jpg",
               "shop_product22": ""
             }
@@ -4346,9 +4346,9 @@
               "shop_product_margin": 16,
               "shop_product_padding": 8,
               "shop_img21": "shopify:\/\/shop_images\/7.jpg",
-              "shop_product21": "",
+              "shop_product21": "shrunken-raglan-sweatshirt-heather-brown",
               "shop_img22": "shopify:\/\/shop_images\/8.jpg",
-              "shop_product22": ""
+              "shop_product22": "wide-leg-sweatpant-heather-brown"
             }
           },
           "ed61592a-14ef-4ff4-aac7-ade368880730": {
@@ -4370,9 +4370,9 @@
               "shop_product_margin": 0,
               "shop_product_padding": 0,
               "shop_img21": "shopify:\/\/shop_images\/10.jpg",
-              "shop_product21": "",
+              "shop_product21": "cropped-fitted-turtleneck-top-black",
               "shop_img22": "shopify:\/\/shop_images\/11.jpg",
-              "shop_product22": ""
+              "shop_product22": "sadie"
             }
           },
           "749a1235-0317-41c1-9e48-bfc58125e519": {
@@ -4383,7 +4383,7 @@
               "shop_product_margin": 8,
               "shop_product_padding": 6,
               "shop_img11": "shopify:\/\/shop_images\/12_e3870738-6747-48be-9308-3574f5604322.jpg",
-              "shop_product11": ""
+              "shop_product11": "emma"
             }
           },
           "c37a9f70-62cf-4a34-a355-4bbab1f6ee45": {
@@ -4394,9 +4394,9 @@
               "shop_product_margin": 0,
               "shop_product_padding": 0,
               "shop_img21": "shopify:\/\/shop_images\/13.jpg",
-              "shop_product21": "",
+              "shop_product21": "cropped-fitted-turtleneck-top-black",
               "shop_img22": "shopify:\/\/shop_images\/14.jpg",
-              "shop_product22": ""
+              "shop_product22": "emma"
             }
           },
           "89e9636b-2355-4b5a-ae79-e689a8c3260c": {
@@ -4442,9 +4442,9 @@
               "shop_product_margin": 0,
               "shop_product_padding": 0,
               "shop_img21": "shopify:\/\/shop_images\/19_476d5ee9-1b1c-45d4-b946-c8ec7c96e6da.jpg",
-              "shop_product21": "",
+              "shop_product21": "simone",
               "shop_img22": "shopify:\/\/shop_images\/20.jpg",
-              "shop_product22": ""
+              "shop_product22": "sadie"
             }
           }
         },
