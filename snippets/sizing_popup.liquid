@@ -1,0 +1,10 @@
+{% assign size_page = pages[block.settings.page_view] %}
+<p class="size-guide-link">
+    <a id="toggleProductModal-{{ section.id }}" class="border-bottom-link uppercase" data-mfp-src="#ProductModal-{{ section.id }}">
+        {% comment %}{{ size_page.title }}{% endcomment %}
+        VIEW SIZE GUIDE
+    </a>
+</p>
+<div id="ProductModal-{{ section.id }}" class="product-modal mfp-hide">
+    <div class="rte">{{ size_page.content }}</div>
+</div>

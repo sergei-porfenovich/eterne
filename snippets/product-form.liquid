@@ -36,35 +36,28 @@
                     Optional size chart - controlled by Magnific Popup
                   {% endcomment %}
                   {% if product.variants.size > 1 and product.options contains "Size" %}
-                      {% for i in (1..2) %}
-                          {% comment %}{% for c in product.collections %}{% endcomment %}
-{% comment %}{% endcomment %}
-                              {% comment %}{% if c.handle == 'col' %}{% endcomment %}
-                                  {% comment %}test{% endcomment %}
-                              {% comment %}{% endif %}{% endcomment %}
-                              {% comment %}{% if c.handle == 'col-1' %}{% endcomment %}
-                                  {% comment %}test 2{% endcomment %}
-                              {% comment %}{% endif %}{% endcomment %}
-                              {% comment %}{% if c.handle == 'col-2' %}{% endcomment %}
-                                  {% comment %}test 3{% endcomment %}
-                              {% comment %}{% endif %}{% endcomment %}
-                          {% comment %}{% endfor %}{% endcomment %}
-
-                          {%- assign pageId = 'info_page_' | append: i -%}
-                          {%- assign pageToRender = section.settings[pageId] -%}
-                          {% if pageToRender != blank %}
-                              {% assign size_page = pages[pageToRender] %}
-                              <p class="size-guide-link">
-                                  <a id="toggleProductModal-{{ section.id }}" class="border-bottom-link uppercase" data-mfp-src="#ProductModal-{{ section.id }}">
-                                      {{ size_page.title }}
-                                  </a>
-                              </p>
-                              <div id="ProductModal-{{ section.id }}" class="product-modal mfp-hide">
-                                  <div class="rte">{{ size_page.content }}</div>
-                              </div>
-                              {% assign size_page = pages[section.settings.info_page] %}
+                      {% assign is_handle = false %}
+                      {% for block in section.blocks %}
+                          {% if block.type == 'view_size_page' %}
+                              {% for c in product.collections %}
+                                  {% if block.settings.handle == c.handle and block.settings.handle != 'all' and block.settings.page_view != blank %}
+                                      {% include 'sizing_popup' %}
+                                      {% assign is_handle = true %}
+                                  {% endif %}
+                                  {% break %}
+                              {% endfor %}
                           {% endif %}
                       {% endfor %}
+
+                      {% if is_handle == false %}
+                          {% for block in section.blocks %}
+                              {% if block.type == 'view_size_page' %}
+                                  {% if block.settings.handle == 'all' and block.settings.page_view != blank %}
+                                      {% include 'sizing_popup' %}
+                                  {% endif %}
+                              {% endif %}
+                          {% endfor %}
+                      {% endif %}
                   {% endif %}
               {% endif %}
 

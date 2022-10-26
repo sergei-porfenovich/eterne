@@ -39,6 +39,8 @@
           <li class="tab-link tab-link-{{ count }}" data-tab="{{ count }}" {% if forloop.index0 == 0 %} data-block-id="{{ block.id }}" {{ block.shopify_attributes }}{% endif %}>{{ item }}</li>
           {%- assign count = count | plus: 1 -%}
         {%- endfor -%}
+      {%- elsif block.type == "view_size_page" -%}
+          {% continue %}
       {%- else -%}
         <li class="tab-link tab-link-{{ count }}" data-tab="{{ count }}" data-block-id="{{ block.id }}" {{ block.shopify_attributes }}>{{ block.settings.title }}</li>
         {%- assign count = count | plus: 1 -%}
@@ -64,6 +66,8 @@
         {% endif %}
       </div>
       {%- assign count = count | plus: 1 -%}
+    {%- elsif block.type == "view_size_page" -%}
+        {% continue %}
     {%- else -%}
       <div class="rte tab-content tab-content-{{ count }}">
         {{ block.settings.raw_content }}
@@ -85,6 +89,8 @@
             {{ tab_contents[forloop.index0] }}
           </div>
         {%- endfor -%}
+      {%- elsif block.type == "view_size_page" -%}
+          {% continue %}
       {%- else -%}
         <p class="accordion-toggle" data-block-id="{{ block.id }}" {{ block.shopify_attributes }}>
           {{ block.settings.title }}
