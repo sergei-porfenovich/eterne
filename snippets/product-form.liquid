@@ -2,23 +2,23 @@
 
   {% unless product.template_suffix contains 'charge-rabbit' %}
     <div id="AddToCartForm-{{ section.id }}" data-section="{{ section.id }}" class="product-form-{{section.id}} product-form">
-      
-       
-            
-      
+
+
+
+
       {% form 'product', product %}
         {% unless product.has_only_default_variant %}
-			      
-          {% for option in product.options_with_values %}      		
+
+          {% for option in product.options_with_values %}
             <div class="selector-wrapper js {% if option.name == "Size" %}size-guide{% endif %}">
-              
-              
+
+
               {% comment %}
               <label for="SingleOptionSelector-{{ section.id }}-{{ forloop.index0 }}" class="{% if option.name == "Color" or option.name == "Colour" %}hidden{% endif %}">
                 {{ option.name }}
               </label>
               {% endcomment %}
-              
+
               <select class="single-option-selector single-option-selector-{{ section.id }}" id="SingleOptionSelector-{{ section.id }}-{{ forloop.index0 }}" data-section="{{ section.id }}" data-index="option{{ forloop.index }}" style="{% if option.name == "Color" or option.name == "Colour" %}display: none;{% endif %}">
                 {% for value in option.values %}
                   {% assign variant_avialable = true %}
@@ -30,36 +30,54 @@
                   <option value="{{ value | escape }}"{% if option.selected_value == value %} selected="selected"{% endif %}>{{ value }}</option>
                 {% endfor %}
               </select>
-            
+
               {% if option.name == "Size" %}
                   {% comment %}
                     Optional size chart - controlled by Magnific Popup
-                  {% endcomment %}      
-                  {% if product.variants.size > 1 and product.options contains "Size" %}            
-                    {% if section.settings.info_page != blank %}
-                      {% assign size_page = pages[section.settings.info_page] %}
-                      <p class="size-guide-link">
-                        <a id="toggleProductModal-{{ section.id }}" class="border-bottom-link uppercase" data-mfp-src="#ProductModal-{{ section.id }}">
-                          {{ size_page.title }}
-                        </a>
-                      </p>
-                      <div id="ProductModal-{{ section.id }}" class="product-modal mfp-hide">
-                        <div class="rte">{{ size_page.content }}</div>
-                      </div>
-                    {% endif %}      
-                  {% endif %}            
-              {% endif %}
-              
-          	</div>
-      
-          {% endfor %}
-      
-        {% endunless %}
-      
-      
+                  {% endcomment %}
+                  {% if product.variants.size > 1 and product.options contains "Size" %}
+                      {% for i in (1..2) %}
+                          {% comment %}{% for c in product.collections %}{% endcomment %}
+{% comment %}{% endcomment %}
+                              {% comment %}{% if c.handle == 'col' %}{% endcomment %}
+                                  {% comment %}test{% endcomment %}
+                              {% comment %}{% endif %}{% endcomment %}
+                              {% comment %}{% if c.handle == 'col-1' %}{% endcomment %}
+                                  {% comment %}test 2{% endcomment %}
+                              {% comment %}{% endif %}{% endcomment %}
+                              {% comment %}{% if c.handle == 'col-2' %}{% endcomment %}
+                                  {% comment %}test 3{% endcomment %}
+                              {% comment %}{% endif %}{% endcomment %}
+                          {% comment %}{% endfor %}{% endcomment %}
 
-      
-      
+                          {%- assign pageId = 'info_page_' | append: i -%}
+                          {%- assign pageToRender = section.settings[pageId] -%}
+                          {% if pageToRender != blank %}
+                              {% assign size_page = pages[pageToRender] %}
+                              <p class="size-guide-link">
+                                  <a id="toggleProductModal-{{ section.id }}" class="border-bottom-link uppercase" data-mfp-src="#ProductModal-{{ section.id }}">
+                                      {{ size_page.title }}
+                                  </a>
+                              </p>
+                              <div id="ProductModal-{{ section.id }}" class="product-modal mfp-hide">
+                                  <div class="rte">{{ size_page.content }}</div>
+                              </div>
+                              {% assign size_page = pages[section.settings.info_page] %}
+                          {% endif %}
+                      {% endfor %}
+                  {% endif %}
+              {% endif %}
+
+          	</div>
+
+          {% endfor %}
+
+        {% endunless %}
+
+
+
+
+
         <select name="id" id="ProductSelect-{{ section.id }}" data-section="{{ section.id }}" class="product-form__variants no-js">
           {% for variant in product.variants %}
             {% if variant.available %}
@@ -84,23 +102,23 @@
             <input class="text quantity js-qty__num quantity__input" name="quantity" value="1" min="1" aria-label="quantity" pattern="[0-9]*"/>
             <span class="js-qty__adjust js-qty__adjust--plus quantity__plus">+</span>
           </div>
-        {% endif %}      
-      
+        {% endif %}
+
         <div class="add-to-cart__wrapper">
           <button type="submit" name="add" data-add-to-cart id="AddToCart-{{ section.id }}" class="btn btn--large btn--full btn--clear uppercase addToCart{% if sold_out %} disabled{% endif %}" {% if sold_out %}disabled="true"{% endif %}>
             <span id="AddToCartText-{{ section.id }}">{% if sold_out %}{{ 'products.product.sold_out' | t }}{% else %}{{ 'products.product.add_to_cart' | t }}{% endif %}</span>
           </button>
           <div id="smartwishlist" data-product="{{ product.id }}" data-variant="{{ product.variants.first.id }}"></div>
         </div>
-      
-        
+
+
         {% if section.settings.enable_payment_button %}
           {{ form | payment_button }}
         {% endif %}
 
       {% endform %}
     </div>
-  
+
   {% else %}
     <form action="{{ product.metafields.charge_rabbit.subscribe_path }}" method="get" enctype="multipart/form-data" data-section="{{ section.id }}" class="product-form-{{ section.id }} charge-rabbit-product">
       <input type="hidden" name="customer_id" value="{{customer.id}}">
