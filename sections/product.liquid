@@ -61,23 +61,6 @@
       "type": "checkbox",
       "label": "Enable reviews",
       "info": "Requires the [Shopify Product Reviews app](https://apps.shopify.com/product-reviews)."
-
-    },
-    {
-      "type": "header",
-      "content": "Optional sizing popup"
-    },
-    {
-      "id": "info_page_1",
-      "type": "page",
-      "label": "Select page",
-      "info": "This popup will show on every product."
-    },
-    {
-      "id": "info_page_2",
-      "type": "page",
-      "label": "Select page collection body",
-      "info": "This popup will show on every product."
     },
     {
       "type": "header",
@@ -161,9 +144,25 @@
           "label": "Tab content"
         }
       ]
+    },
+    {
+      "type": "view_size_page",
+      "name": "Optional sizing popup",
+      "settings": [
+        {
+          "type": "text",
+          "id": "handle",
+          "label": "Collection handle",
+          "info": "Here you need to enter the required id of the collection for which your 'sizing popup' will be displayed. If you enter 'all' then this 'sizing popup' will be displayed on all products that do not have an exclusive display by collection id."
+        },
+        {
+          "type": "page",
+          "id": "page_view",
+          "label": "Select page",
+          "info": "This popup will be displayed on every product that matches the collection id."
+        }
+      ]
     }
   ]
 }
-
-
 {% endschema %}
