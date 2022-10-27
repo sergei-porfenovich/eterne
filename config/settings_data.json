@@ -591,6 +591,20 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "a0ef636f-2519-48f8-88ab-5a09d6acf968": {
+            "type": "shop_imgproducts4",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product41": "francis",
+              "shop_product42": "francis-1",
+              "shop_product43": "francis-2",
+              "shop_product44": "francis-3"
+            }
+          },
           "a0c8bc85-189f-49a2-ba16-7bc1e0b14668": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1417,6 +1431,7 @@
           }
         },
         "block_order": [
+          "a0ef636f-2519-48f8-88ab-5a09d6acf968",
           "a0c8bc85-189f-49a2-ba16-7bc1e0b14668",
           "8d62d173-c974-4462-a60b-371043e9751f",
           "ea8293dd-1b62-4658-9a0b-3d9d545e887d",
