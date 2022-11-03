@@ -591,6 +591,19 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "0d8f026a-ee1a-468d-9256-e2027e2c90de": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "theodore-3",
+              "shop_product32": "theodore-2",
+              "shop_product33": "theodore"
+            }
+          },
           "a0ef636f-2519-48f8-88ab-5a09d6acf968": {
             "type": "shop_imgproducts4",
             "settings": {
@@ -1431,6 +1444,7 @@
           }
         },
         "block_order": [
+          "0d8f026a-ee1a-468d-9256-e2027e2c90de",
           "a0ef636f-2519-48f8-88ab-5a09d6acf968",
           "a0c8bc85-189f-49a2-ba16-7bc1e0b14668",
           "8d62d173-c974-4462-a60b-371043e9751f",
