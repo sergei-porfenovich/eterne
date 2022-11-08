@@ -363,6 +363,14 @@
               "img_style": "shopify:\/\/shop_images\/classic-sweatpant-cream-sweats-eterne-340914.webp",
               "title_style": "French Terry"
             }
+          },
+          "47550d03-1196-41a5-ae22-44a0041b98ad": {
+            "type": "styleItem",
+            "settings": {
+              "url_style": "shopify:\/\/collections\/soir",
+              "img_style": "shopify:\/\/shop_images\/SP-S13_0053-2.jpg",
+              "title_style": "SOIR"
+            }
           }
         },
         "block_order": [
@@ -372,7 +380,8 @@
           "00771554-9405-4761-bc67-24c0d1b48575",
           "89a5af36-543a-4348-8be3-57893ea3f16a",
           "575d66dc-bb20-4167-838a-2ccf4a94066a",
-          "53ba0dcb-7406-41e8-8821-10c8f312d186"
+          "53ba0dcb-7406-41e8-8821-10c8f312d186",
+          "47550d03-1196-41a5-ae22-44a0041b98ad"
         ],
         "settings": {
           "stylesSliderTitle": "STYLES",
