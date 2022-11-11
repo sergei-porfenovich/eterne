@@ -609,6 +609,18 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "09820e19-67de-4aae-93c9-88364522ccf1": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "romee",
+              "shop_product22": "charlie"
+            }
+          },
           "fb960c61-bee8-4bc8-aa6f-34a4edb7ac92": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -1475,6 +1487,7 @@
           }
         },
         "block_order": [
+          "09820e19-67de-4aae-93c9-88364522ccf1",
           "fb960c61-bee8-4bc8-aa6f-34a4edb7ac92",
           "0d8f026a-ee1a-468d-9256-e2027e2c90de",
           "a0ef636f-2519-48f8-88ab-5a09d6acf968",
