@@ -247,7 +247,7 @@
       "new-home-page-hero": {
         "type": "new-home-page-hero",
         "settings": {
-          "imgHero": "shopify:\/\/shop_images\/Miranda_Eterne_Jan2022_S6_00775-1-2.jpg",
+          "imgHero": "shopify:\/\/shop_images\/Homepage_Hero.jpg",
           "hero_title": "Everyday Luxury Essentials",
           "url_btn": "shopify:\/\/collections\/shop",
           "text_button": "SHOP NOW"
@@ -267,7 +267,7 @@
             "settings": {
               "url_card": "shopify:\/\/pages\/shop-the-look-1",
               "text_card_btn": "SHOP THE LOOK",
-              "img_card": "shopify:\/\/shop_images\/Shop_the_Look_top_left_35d783c5-9329-4897-ae2b-42defb524938.jpg"
+              "img_card": "shopify:\/\/shop_images\/Shop_The_Look_1.png"
             }
           },
           "8bafb3cb-7ffc-488e-a257-978e46374123": {
@@ -275,7 +275,7 @@
             "settings": {
               "url_card": "shopify:\/\/pages\/shop-the-look-2",
               "text_card_btn": "SHOP THE LOOK",
-              "img_card": "shopify:\/\/shop_images\/long-sleeve-hoodie-t-shirt-ivory-shirts-eterne-164536_1296x_78de8a58-e9f4-4c43-9c4b-a6c692999bbb.jpg"
+              "img_card": "shopify:\/\/shop_images\/Shop_The_Look_2.png"
             }
           },
           "46f824b8-e9da-4725-ac12-c220d37bcfd9": {
@@ -283,7 +283,7 @@
             "settings": {
               "url_card": "shopify:\/\/pages\/shop-the-look-3",
               "text_card_btn": "SHOP THE LOOK",
-              "img_card": "shopify:\/\/shop_images\/DAY_02_SHOT_11_0086_copy-1_1080x_bd17c59d-bde8-4251-8d22-b8015d852d8f.webp"
+              "img_card": "shopify:\/\/shop_images\/Shop_The_Look_3.jpg"
             }
           }
         },
