@@ -265,7 +265,7 @@
           "4db115cc-bbae-4f48-91bc-9f4761d8c2cf": {
             "type": "shopLookCards",
             "settings": {
-              "url_card": "shopify:\/\/pages\/shop-the-look-1",
+              "url_card": "shopify:\/\/pages\/shop-the-look-1-weekend-wear",
               "text_card_btn": "SHOP THE LOOK",
               "img_card": "shopify:\/\/shop_images\/Shop_The_Look_1_edited.jpg"
             }
