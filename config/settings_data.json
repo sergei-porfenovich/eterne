@@ -247,7 +247,7 @@
       "new-home-page-hero": {
         "type": "new-home-page-hero",
         "settings": {
-          "imgHero": "shopify:\/\/shop_images\/Homepage_Hero.jpg",
+          "imgHero": "shopify:\/\/shop_images\/Hompage_Hero_original_file3.jpg",
           "hero_title": "Everyday Luxury Essentials",
           "url_btn": "shopify:\/\/collections\/shop",
           "text_button": "SHOP NOW"
@@ -267,7 +267,7 @@
             "settings": {
               "url_card": "shopify:\/\/pages\/shop-the-look-1",
               "text_card_btn": "SHOP THE LOOK",
-              "img_card": "shopify:\/\/shop_images\/Shop_The_Look_1.png"
+              "img_card": "shopify:\/\/shop_images\/Shop_The_Look_1_edited.jpg"
             }
           },
           "8bafb3cb-7ffc-488e-a257-978e46374123": {
