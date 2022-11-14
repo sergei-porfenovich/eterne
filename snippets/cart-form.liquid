@@ -207,6 +207,23 @@
         <span><input type="submit" name="checkout" class="btn uppercase btn--large btn--splash checkout__button" value="{{ 'cart.general.checkout' | t }}"></span>
         <span><input type="button" name="shopping" class="btn uppercase btn--large continue__button" id="continue__button" onclick="window.location.href = '/collections/shop'" value="{{ 'cart.general.continue_browsing_html' | t }}"></span>
       </div>
+
+      <!-- Klarna Cart Banner -->
+      <klarna-placement
+        data-key="credit-promotion-auto-size"
+        data-locale="en-US"
+        data-purchase-amount=""
+      ></klarna-placement>
+      <!-- end Placement -->
+
+      <!-- Klarna Payment Icons -->
+      <klarna-placement
+        data-key="footer-promotion-auto-size"
+        data-locale="en-US"
+        data-theme="dark"
+      ></klarna-placement>
+      <!-- end Placement -->
+
     </div>
   </div>
 </div>
