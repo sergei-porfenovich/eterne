@@ -609,6 +609,18 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "49eab2da-3347-406d-83a5-da7f24af6ef9": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": false,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "oversized-crewneck-sweatshirt-heather-brown",
+              "shop_product22": "classic-sweatpant-heather-brown"
+            }
+          },
           "09820e19-67de-4aae-93c9-88364522ccf1": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1487,6 +1499,7 @@
           }
         },
         "block_order": [
+          "49eab2da-3347-406d-83a5-da7f24af6ef9",
           "09820e19-67de-4aae-93c9-88364522ccf1",
           "fb960c61-bee8-4bc8-aa6f-34a4edb7ac92",
           "0d8f026a-ee1a-468d-9256-e2027e2c90de",
