@@ -250,7 +250,10 @@
           "imgHero": "shopify:\/\/shop_images\/Hompage_Hero_original_file3.jpg",
           "hero_title": "Everyday Luxury Essentials",
           "url_btn": "shopify:\/\/collections\/shop",
-          "text_button": "SHOP NOW"
+          "text_button": "SHOP NOW",
+          "position_y": "bot",
+          "position_x": "left",
+          "color": "white"
         }
       },
       "new-home-page-shop-new-releases": {
