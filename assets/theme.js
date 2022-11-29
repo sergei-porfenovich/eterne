@@ -2320,6 +2320,14 @@ theme.Product = (function() {
         closeOnContentClick: false,
         tClose: 'x',
         removalDelay: 500,
+        callbacks: {
+          beforeOpen: function() {
+            $('body').addClass('mfp-active');
+          },
+          beforeClose: function() {
+            $('body').removeClass('mfp-active');
+          }
+        }
       });
     },
     tabs: function(){
@@ -2832,3 +2840,15 @@ $(document).ready(function() {
 if (count_elements) == 3 {
   $('.product-description p:first-of-type').remove();
 }*/
+
+// Size Guild section (switcher)
+let switcher = document.querySelector('#size-switch');
+let inches = document.querySelector('#Inches');
+let centimeters = document.querySelector('#Centimeters');
+
+if (switcher) {
+  switcher.addEventListener('click', function () {
+    inches.classList.toggle('active');
+    centimeters.classList.toggle('active');
+  })
+}
