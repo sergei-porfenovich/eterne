@@ -91,6 +91,91 @@
 }
 
 // Home page section - hero + bestselling loungewear
+.hero {
+    display: flex;
+    padding: 27px 0 35px !important;
+    height: 335px;
+
+    @media (min-width: 768px) {
+        padding: 35px 0 48px !important;
+        height: 613px;
+    }
+
+    .wrapper {
+        &.y-top {
+            align-self: flex-start;
+        }
+
+        &.y-mid {
+            align-self: center;
+        }
+
+        &.y-bot {
+            align-self: flex-end;
+        }
+
+        &.a-left {
+            margin: 0;
+            justify-content: flex-start;
+
+            .hero__text {
+                align-items: flex-start;
+            }
+
+            .hero__text_title {
+                text-align: left;
+            }
+        }
+
+        &.a-right {
+            margin: 0 0 0 auto;
+            justify-content: flex-end;
+
+            .hero__text {
+                align-items: flex-end;
+            }
+
+            .hero__text_title {
+                text-align: right;
+            }
+        }
+
+        .hero__text {
+            &.white {
+                .hero__text_title {
+                    color: #fff;
+                }
+
+                .hero__text_button {
+                    color: #fff;
+                    background: #2B2B2B;
+
+                    &:hover {
+                        background: #222222;
+                        box-shadow: 0 2px 20px -2px #1b213a66;
+                    }
+                }
+            }
+
+            &.black {
+                .hero__text_title {
+                    color: #2B2B2B;
+                }
+
+                .hero__text_button {
+                    color: #2B2B2B;
+                    background: #fff;
+
+                    &:hover {
+                        background: #fff;
+                        box-shadow: 0 2px 20px -2px rgba(255, 255, 255, 0.35);
+                    }
+                }
+            }
+        }
+    }
+}
+
 .hero, .new-releases-shop-loungewear {
     background-position: center;
     background-repeat: no-repeat;
@@ -185,7 +270,7 @@
             padding: 7px 12px;
 
             @media (min-width: 481px) {
-               padding: 7.5px 8.2px;
+                padding: 7.5px 8.2px;
             }
         }
     }
@@ -1292,7 +1377,7 @@
             }
 
             .styled-chloe-card-link {
-               align-items: center;
+                align-items: center;
             }
 
             .styled-chloe-card_left-img {

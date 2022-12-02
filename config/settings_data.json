@@ -247,10 +247,13 @@
       "new-home-page-hero": {
         "type": "new-home-page-hero",
         "settings": {
-          "imgHero": "shopify:\/\/shop_images\/Miranda_Eterne_Jan2022_S6_00775-1-2.jpg",
+          "imgHero": "shopify:\/\/shop_images\/Hompage_Hero_original_file3.jpg",
           "hero_title": "Everyday Luxury Essentials",
           "url_btn": "shopify:\/\/collections\/shop",
-          "text_button": "SHOP NOW"
+          "text_button": "SHOP NOW",
+          "position_y": "bot",
+          "position_x": "left",
+          "color": "white"
         }
       },
       "new-home-page-shop-new-releases": {
@@ -265,25 +268,25 @@
           "4db115cc-bbae-4f48-91bc-9f4761d8c2cf": {
             "type": "shopLookCards",
             "settings": {
-              "url_card": "shopify:\/\/pages\/shop-the-look-1",
+              "url_card": "shopify:\/\/pages\/shop-the-look-1-weekend-wear",
               "text_card_btn": "SHOP THE LOOK",
-              "img_card": "shopify:\/\/shop_images\/Shop_the_Look_top_left_35d783c5-9329-4897-ae2b-42defb524938.jpg"
+              "img_card": "shopify:\/\/shop_images\/Shop_The_Look_1_edited.jpg"
             }
           },
           "8bafb3cb-7ffc-488e-a257-978e46374123": {
             "type": "shopLookCards",
             "settings": {
-              "url_card": "shopify:\/\/pages\/shop-the-look-2",
+              "url_card": "shopify:\/\/pages\/copy-of-shop-the-look-1-weekend-wear",
               "text_card_btn": "SHOP THE LOOK",
-              "img_card": "shopify:\/\/shop_images\/long-sleeve-hoodie-t-shirt-ivory-shirts-eterne-164536_1296x_78de8a58-e9f4-4c43-9c4b-a6c692999bbb.jpg"
+              "img_card": "shopify:\/\/shop_images\/Shop_The_Look_2.png"
             }
           },
           "46f824b8-e9da-4725-ac12-c220d37bcfd9": {
             "type": "shopLookCards",
             "settings": {
-              "url_card": "shopify:\/\/pages\/shop-the-look-3",
+              "url_card": "shopify:\/\/pages\/copy-of-shop-the-look-2-night-day",
               "text_card_btn": "SHOP THE LOOK",
-              "img_card": "shopify:\/\/shop_images\/DAY_02_SHOT_11_0086_copy-1_1080x_bd17c59d-bde8-4251-8d22-b8015d852d8f.webp"
+              "img_card": "shopify:\/\/shop_images\/Shop_The_Look_3.jpg"
             }
           }
         },
@@ -363,22 +366,6 @@
               "img_style": "shopify:\/\/shop_images\/classic-sweatpant-cream-sweats-eterne-340914.webp",
               "title_style": "French Terry"
             }
-          },
-          "47550d03-1196-41a5-ae22-44a0041b98ad": {
-            "type": "styleItem",
-            "settings": {
-              "url_style": "shopify:\/\/collections\/soir",
-              "img_style": "shopify:\/\/shop_images\/SP-S13_0053-2.jpg",
-              "title_style": "SOIR"
-            }
-          },
-          "a074d9d1-0d0d-427b-bf2b-d75f21a37b5c": {
-            "type": "styleItem",
-            "settings": {
-              "url_style": "shopify:\/\/collections\/cashmere",
-              "img_style": "shopify:\/\/shop_images\/SP_-_Look_029_1878.jpg",
-              "title_style": "Cashmere"
-            }
           }
         },
         "block_order": [
@@ -388,9 +375,7 @@
           "00771554-9405-4761-bc67-24c0d1b48575",
           "89a5af36-543a-4348-8be3-57893ea3f16a",
           "575d66dc-bb20-4167-838a-2ccf4a94066a",
-          "53ba0dcb-7406-41e8-8821-10c8f312d186",
-          "47550d03-1196-41a5-ae22-44a0041b98ad",
-          "a074d9d1-0d0d-427b-bf2b-d75f21a37b5c"
+          "53ba0dcb-7406-41e8-8821-10c8f312d186"
         ],
         "settings": {
           "stylesSliderTitle": "STYLES",
@@ -2732,7 +2717,7 @@
         ],
         "settings": {
           "press_page_title": "Press",
-          "press_page_description": ""
+          "press_page_description": "Contact press@eterne.com"
         }
       },
       "custom-collection": {
@@ -3955,45 +3940,44 @@
           "646f2b4f-c678-4df8-b511-59eb345d4eb3": {
             "type": "page_block",
             "settings": {
-              "block_page": "shop-the-look-1",
-              "title": "Loungewear Redefined",
-              "image": "shopify:\/\/shop_images\/Shop_the_Look_top_left.jpg",
+              "block_page": "shop-the-look-1-weekend-wear",
+              "title": "Weekend wear",
+              "image": "shopify:\/\/shop_images\/Shop_The_Look_1_edited.jpg",
               "width": false,
-              "description": "Luxury, comfort and versatility—these are the foundations of which Éterne is built. A sleek bodysuit, the ultimate day to night piece, elevates lounge pants for the perfect combination of effortless style.",
+              "description": "This sweat set has gotten an upgrade in luxe French Terry.  A slightly shrunken, slim fit makes these pieces flattering and comfortable.",
               "text_align": "text-left",
               "product_list": [
-                "halter-bodysuit-black",
-                "thermal-lounge-pant-heather-grey"
+                "shrunken-raglan-sweatshirt-heather-brown",
+                "wide-leg-sweatpant-heather-brown"
               ]
             }
           },
           "5eb49b9c-0c60-46f6-94f6-d7c68a549a6b": {
             "type": "page_block",
             "settings": {
-              "block_page": "shop-the-look-2",
-              "title": "Weekend Wear",
-              "image": "shopify:\/\/shop_images\/DAY_01_SHOT_30_0049_color.jpg",
+              "block_page": "copy-of-shop-the-look-1-weekend-wear",
+              "title": "Night + Day",
+              "image": "shopify:\/\/shop_images\/Shop_The_Look_2.png",
               "width": false,
-              "description": "The ultimate lounge set in the softest cotton—a slightly oversized hoodie and pant pair perfectly for easy weekend wear.",
+              "description": "Ultra-soft matte jersey is the ultimate secret weapon for day to night dressing. Comfortable and chic, these pieces are versatile, travel-friendly, and effortless.",
               "text_align": "text-left",
               "product_list": [
-                "thermal-lounge-pant-ivory",
-                "long-sleeve-hoodie-t-shirt-ivory"
+                "simone",
+                "emma"
               ]
             }
           },
           "5989c7e1-1000-486e-bd8e-3e8b7cb26bbb": {
             "type": "page_block",
             "settings": {
-              "block_page": "shop-the-look-3",
-              "title": "The Perfect Pairing",
-              "image": "shopify:\/\/shop_images\/DAY_02_SHOT_11_0086_copy-1.jpg",
+              "block_page": "copy-of-shop-the-look-2-night-day",
+              "title": "At Home In Style",
+              "image": "shopify:\/\/shop_images\/Hompage_Hero_original_file3.jpg",
               "width": true,
-              "description": "Easy-going, luxe cotton separates - Éterne's cropped thermal and boxer are the perfect pairing for relaxed and cool loungewear.",
+              "description": "The essential dress- cut from Éterne's signature cotton and modal blend- is the perfect combination of ease and style.  Perfect for both lounge and evening, this piece is versatile and effortless.",
               "text_align": "text-left",
               "product_list": [
-                "cropped-oversized-thermal-ivory",
-                "lounge-boxer-short-ivory"
+                "long-sleeve-turtleneck-dress-maxi-cream"
               ]
             }
           }
