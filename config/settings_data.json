@@ -594,6 +594,93 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "b09b5205-7171-419b-bdfa-730f3457d626": {
+            "type": "shop_porproducts1",
+            "settings": {
+              "image_autoheight_enable": false,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product1p": "georgia"
+            }
+          },
+          "49eab2da-3347-406d-83a5-da7f24af6ef9": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": false,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "oversized-crewneck-sweatshirt-heather-brown",
+              "shop_product22": "classic-sweatpant-heather-brown"
+            }
+          },
+          "09820e19-67de-4aae-93c9-88364522ccf1": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "romee",
+              "shop_product22": "charlie"
+            }
+          },
+          "fb960c61-bee8-4bc8-aa6f-34a4edb7ac92": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "james",
+              "shop_product32": "james-1",
+              "shop_product33": "james-2"
+            }
+          },
+          "0d8f026a-ee1a-468d-9256-e2027e2c90de": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "theodore-3",
+              "shop_product32": "theodore-2",
+              "shop_product33": "theodore"
+            }
+          },
+          "a0ef636f-2519-48f8-88ab-5a09d6acf968": {
+            "type": "shop_imgproducts4",
+            "settings": {
+              "image_autoheight_enable": false,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product41": "francis",
+              "shop_product42": "francis-1",
+              "shop_product43": "francis-2",
+              "shop_product44": "francis-3"
+            }
+          },
+          "a0c8bc85-189f-49a2-ba16-7bc1e0b14668": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": true,
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "chloe",
+              "shop_product22": "amina"
+            }
+          },
           "8d62d173-c974-4462-a60b-371043e9751f": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1408,6 +1495,13 @@
           }
         },
         "block_order": [
+          "b09b5205-7171-419b-bdfa-730f3457d626",
+          "49eab2da-3347-406d-83a5-da7f24af6ef9",
+          "09820e19-67de-4aae-93c9-88364522ccf1",
+          "fb960c61-bee8-4bc8-aa6f-34a4edb7ac92",
+          "0d8f026a-ee1a-468d-9256-e2027e2c90de",
+          "a0ef636f-2519-48f8-88ab-5a09d6acf968",
+          "a0c8bc85-189f-49a2-ba16-7bc1e0b14668",
           "8d62d173-c974-4462-a60b-371043e9751f",
           "ea8293dd-1b62-4658-9a0b-3d9d545e887d",
           "c1bec111-e339-40d1-b334-2b9212497d4c",
