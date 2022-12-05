@@ -1,13 +1,35 @@
 {{ 'new-home-page.scss.css' | asset_url | stylesheet_tag }}
 
+{% liquid
+    if section.settings.position_y == 'top'
+        assign hero_y = 'y-top'
+    elsif section.settings.position_y == 'mid'
+        assign hero_y = 'y-mid'
+    elsif section.settings.position_y == 'bot'
+        assign hero_y = 'y-bot'
+    endif
+
+    if section.settings.position_x == 'left'
+        assign hero_x = 'a-left'
+    else
+        assign hero_x = 'a-right'
+    endif
+
+    if section.settings.color == 'white'
+        assign color_txt = 'white'
+    else
+        assign color_txt = 'black'
+    endif
+%}
+
 <div class="hero aos-init aos-animate lazyload fade-in" data-aos="fade-up" style="background-image:url({{ section.settings.imgHero | img_url: 'master'}})">
-    <div class="wrapper">
-        <div class="hero__text">
+    <div class="wrapper {{ hero_y }} {{ hero_x }}">
+        <div class="hero__text {{ color_txt }}">
             <div class="hero__text_title">
                 {{ section.settings.hero_title }}
-                </div>
+            </div>
             <a href="{{ section.settings.url_btn }}" class="hero__text_button">
-                {{ section.settings.text_button }}          
+                {{ section.settings.text_button }}
             </a>
         </div>
     </div>
@@ -18,7 +40,7 @@
 </script>
 
 {% schema %}
-    {
+{
     "name": "Hero",
     "class": "home-hero",
     "settings": [
@@ -30,7 +52,7 @@
         {
             "type": "text",
             "id": "hero_title",
-            "label": "HeroTitle", 
+            "label": "HeroTitle",
             "default": "Everyday Luxury Essentials"
         },
         {
@@ -43,6 +65,37 @@
             "id": "text_button",
             "label": "Text for button",
             "default": "SHOP NOW"
+        },
+        {
+            "type": "select",
+            "id": "position_y",
+            "label": "Vertical Position",
+            "default": "top",
+            "options": [
+                { "value": "top", "label": "Top"},
+                { "value": "mid", "label": "Middle"},
+                { "value": "bot", "label": "Bottom"}
+            ]
+        },
+        {
+            "type": "select",
+            "id": "position_x",
+            "label": "Horizontal Position",
+            "default": "left",
+            "options": [
+                { "value": "left", "label": "Left"},
+                { "value": "right", "label": "Right"}
+            ]
+        },
+        {
+            "type": "select",
+            "id": "color",
+            "label": "Color text",
+            "default": "white",
+            "options": [
+                { "value": "white", "label": "White"},
+                { "value": "black", "label": "Black"}
+            ]
         }
     ]
 }
