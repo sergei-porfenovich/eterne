@@ -2814,6 +2814,19 @@
       "custom-collection-2": {
         "type": "custom-collection-2",
         "blocks": {
+          "c4a9d298-d4fd-4d7a-b20f-0916b837aea8": {
+            "type": "shop_imgproducts4",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product41": "oversized-crewneck-sweatshirt-heather-grey",
+              "shop_product42": "oversized-crewneck-sweatshirt-black",
+              "shop_product43": "oversized-crewneck-sweatshirt-cream",
+              "shop_product44": "oversized-crewneck-sweatshirt-heather-brown"
+            }
+          },
           "f500e0f6-a158-4e1a-8ca9-fe13a3300023": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -2823,17 +2836,6 @@
               "shop_product_padding": 0,
               "shop_product21": "shrunken-raglan-sweatshirt-heather-brown",
               "shop_product22": "shrunken-raglan-sweatshirt-heather-grey"
-            }
-          },
-          "9b2b01f3-9d1d-4ebb-b998-24e7c92726eb": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "oversized-crewneck-sweatshirt-black",
-              "shop_product22": "oversized-crewneck-sweatshirt-cream"
             }
           },
           "18eb4f99-997d-48ae-ab66-8116c6ce3e0b": {
@@ -3187,8 +3189,8 @@
           }
         },
         "block_order": [
+          "c4a9d298-d4fd-4d7a-b20f-0916b837aea8",
           "f500e0f6-a158-4e1a-8ca9-fe13a3300023",
-          "9b2b01f3-9d1d-4ebb-b998-24e7c92726eb",
           "18eb4f99-997d-48ae-ab66-8116c6ce3e0b",
           "b8837ec9-2baa-4e37-8dcb-135b1b2cc72c",
           "7deecb4e-47b2-4da6-bf4a-fb552d78d27a",
@@ -3808,6 +3810,19 @@
       "bottoms-collection": {
         "type": "bottoms-collection",
         "blocks": {
+          "0b54894c-d0a2-47ca-a2ed-3c795afc0fec": {
+            "type": "shop_imgproducts4",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product41": "classic-sweatpant-heather-grey",
+              "shop_product42": "classic-sweatpant-black",
+              "shop_product43": "classic-sweatpant-cream",
+              "shop_product44": "classic-sweatpant-heather-brown"
+            }
+          },
           "8a3ceb85-fab9-4f2c-b7e7-c2cda0cfe305": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -3817,17 +3832,6 @@
               "shop_product_padding": 0,
               "shop_product21": "wide-leg-sweatpant-heather-brown",
               "shop_product22": "wide-leg-sweatpant-heather-grey"
-            }
-          },
-          "8d34b6cd-b361-4fd9-aa90-9bbe0d2f22c5": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "classic-sweatpant-black",
-              "shop_product22": "classic-sweatpant-cream"
             }
           },
           "c2239c23-553c-4161-a3d8-1ddfa67adf65": {
@@ -3922,8 +3926,8 @@
           }
         },
         "block_order": [
+          "0b54894c-d0a2-47ca-a2ed-3c795afc0fec",
           "8a3ceb85-fab9-4f2c-b7e7-c2cda0cfe305",
-          "8d34b6cd-b361-4fd9-aa90-9bbe0d2f22c5",
           "c2239c23-553c-4161-a3d8-1ddfa67adf65",
           "bb753a89-fb2b-4fd8-aa4f-9a377c1fdb60",
           "2e5edc69-9d7e-4d6c-913f-da95d4c7f185",
