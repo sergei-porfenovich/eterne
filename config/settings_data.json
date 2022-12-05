@@ -2461,9 +2461,9 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "settings": {
-          "message": false,
-          "message_text": "<div>ESSENTIALS 3 LAUNCHING 06.07.22<\/div>",
-          "announcement_two": "FREE DOMESTIC SHIPPING ON ORDERS OVER $100",
+          "message": true,
+          "message_text": "ORDER BY 12\/13 FOR DELIVERY ON OR BEFORE 12\/24",
+          "announcement_two": "",
           "color_bg": "#000000",
           "color_text": "#ffffff",
           "font_size": 13
@@ -3968,7 +3968,7 @@
             "type": "page_block",
             "settings": {
               "block_page": "copy-of-shop-the-look-1-weekend-wear",
-              "title": "Night + Day",
+              "title": "Day To Night",
               "image": "shopify:\/\/shop_images\/Shop_The_Look_2.png",
               "width": false,
               "description": "Ultra-soft matte jersey is the ultimate secret weapon for day to night dressing. Comfortable and chic, these pieces are versatile, travel-friendly, and effortless.",
@@ -3984,7 +3984,7 @@
             "settings": {
               "block_page": "copy-of-shop-the-look-2-night-day",
               "title": "At Home In Style",
-              "image": "shopify:\/\/shop_images\/Hompage_Hero_original_file3.jpg",
+              "image": "shopify:\/\/shop_images\/Shop_The_Look_3.jpg",
               "width": true,
               "description": "The essential dress- cut from Éterne's signature cotton and modal blend- is the perfect combination of ease and style.  Perfect for both lounge and evening, this piece is versatile and effortless.",
               "text_align": "text-left",
