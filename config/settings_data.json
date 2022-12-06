@@ -130,10 +130,18 @@
             "type": "tab_description",
             "settings": {
             }
+          },
+          "28366cb8-cf07-495b-a6ff-450c767097b3": {
+            "type": "view_size_page",
+            "settings": {
+              "handle": "bodysuits",
+              "page_view": "view-size-guide-bodysuit"
+            }
           }
         },
         "block_order": [
-          "1581296068367"
+          "1581296068367",
+          "28366cb8-cf07-495b-a6ff-450c767097b3"
         ],
         "settings": {
           "product_breadcrumbs": true,
@@ -144,7 +152,6 @@
           "product_show_vendor": false,
           "zoom_enable": true,
           "product_reviews_enable": false,
-          "info_page": "product-measurements",
           "tabs_position": "below"
         }
       },
