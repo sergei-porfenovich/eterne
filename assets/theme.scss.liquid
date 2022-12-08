@@ -9073,6 +9073,25 @@ span {
   }
 }
 
+// Klarna styles fix
+.product-page .product__form.custom .add-to-cart__wrapper #gsAppContainer {
+  width: auto;
+}
+
+@media screen and (min-width: 770px) {
+  .product-section .product-page .product__form.custom .add-to-cart__wrapper {
+    margin-top: 8px;
+  }
+}
+
+.cart klarna-placement[data-key='credit-promotion-auto-size'] > div{
+  max-width: 506px;
+}
+
+.cart klarna-placement[data-key='footer-promotion-auto-size'] > div{
+  max-width: 514px;
+}
+
 .otCookiesNotification #cookies-wrapper {
   z-index: 1000000000;
 }
