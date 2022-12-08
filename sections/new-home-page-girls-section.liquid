@@ -3,35 +3,46 @@
         {{ section.settings.eterneGirlsTitle }}
     </div>
     <div class="eterne-girls__wrapper">
-        <div class="eterne-girls__left">
-            <a href="{{ section.settings.left_url_top_img }}" target="_blank" class="eterne-girls__top-img">
-                <div class="hidden-hover">
-                    <img class="img lazyload fade-in" src="{{ section.settings.left_eterne_girls_top_img | img_url: 'master'}}" alt="">
-                </div>
-            </a>
-            <a href="{{ section.settings.left_url_bottom_img }}" target="_blank" class="eterne-girls__bottom-img">
-                <div class="hidden-hover">
-                    <img class="img lazyload fade-in" src="{{ section.settings.left_eterne_girls_bottom_img | img_url: 'master'}}" alt="">
-                </div>
-            </a>
+        <div id="eterne-girls-slider">
+            <div class="swiper-wrapper">
+                {% for block in section.blocks %}
+                    <div class="eterne-girls__wrapper-card {% if block.settings.row %}row-reverse{% endif %} swiper-slide">
+                        <div class="eterne-girls__left">
+                            <a href="{{ block.settings.left_url_top_img }}" target="_blank" class="eterne-girls__top-img">
+                                <div class="hidden-hover">
+                                    <img class="img lazyload fade-in" src="{{ block.settings.left_eterne_girls_top_img | img_url: 'master'}}" alt="">
+                                </div>
+                            </a>
+                            <a href="{{ block.settings.left_url_bottom_img }}" target="_blank" class="eterne-girls__bottom-img">
+                                <div class="hidden-hover">
+                                    <img class="img lazyload fade-in" src="{{ block.settings.left_eterne_girls_bottom_img | img_url: 'master'}}" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="eterne-girls__right">
+                            <a href="{{ block.settings.rigth_url_top_img }}" target="_blank" class="eterne-girls__top-img">
+                                <div class="hidden-hover">
+                                    <img class="img lazyload fade-in" src="{{ block.settings.rigth_eterne_girls_top_img | img_url: 'master'}}" alt="">
+                                </div>
+                            </a>
+                            <a href="{{ block.settings.rigth_url_bottom_img }}" target="_blank" class="eterne-girls__bottom-img">
+                                <div class="hidden-hover">
+                                    <img class="img lazyload fade-in" src="{{ block.settings.rigth_eterne_girls_bottom_img | img_url: 'master'}}" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
         </div>
-        <div class="eterne-girls__right">
-            <a href="{{ section.settings.rigth_url_top_img }}" target="_blank" class="eterne-girls__top-img">
-                <div class="hidden-hover">
-                    <img class="img lazyload fade-in" src="{{ section.settings.rigth_eterne_girls_top_img | img_url: 'master'}}" alt="">
-                </div>
-            </a>
-            <a href="{{ section.settings.rigth_url_bottom_img }}" target="_blank" class="eterne-girls__bottom-img">
-                <div class="hidden-hover">
-                    <img class="img lazyload fade-in" src="{{ section.settings.rigth_eterne_girls_bottom_img | img_url: 'master'}}" alt="">
-                </div>
-            </a>
+        <div class="wrapper-arrow">
+            <div class="swiper-button-prev eterne-slider-prev"></div>
+            <div class="swiper-button-next eterne-slider-next"></div>
         </div>
     </div>
 </div>
 
-
-
+{{ 'new-home-page-eterne-slider.js' | asset_url | script_tag }}
 
 {% schema %}
     {
@@ -43,46 +54,59 @@
             "id": "eterneGirlsTitle",
             "label": "EterneGirlsTitle",
             "default": "ÉTERNE GIRLS"
-        },
+        }
+    ],
+    "blocks": [
         {
-            "type": "image_picker",
-            "id": "left_eterne_girls_top_img",
-            "label": "left eterne girls top img"
-        },
-        {
-            "type": "image_picker",
-            "id": "left_eterne_girls_bottom_img",
-            "label": "left eterne girls bottom img"
-        },
-        {
-            "type": "image_picker",
-            "id": "rigth_eterne_girls_top_img",
-            "label": "rigth eterne girls top img"
-        },
-        {
-            "type": "image_picker",
-            "id": "rigth_eterne_girls_bottom_img",
-            "label": "rigth eterne girls bottom img"
-        },
-        {
-            "type": "text",
-            "id": "left_url_top_img",
-            "label": "Link left top img"
-        },
-        {
-            "type": "text",
-            "id": "left_url_bottom_img",
-            "label": "Link left bottom img"
-        },
-        {
-            "type": "text",
-            "id": "rigth_url_top_img",
-            "label": "Link rigth top img"
-        },
-        {
-            "type": "text",
-            "id": "rigth_url_bottom_img",
-            "label": "Link rigth bottom img"
+            "type": "eterneGirlsCards",
+            "name": "Eterne Girls Cards",
+            "settings": [
+                {
+                    "id": "row",
+                    "type": "checkbox",
+                    "label": "Row reverse"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "left_eterne_girls_top_img",
+                    "label": "left eterne girls top img"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "left_eterne_girls_bottom_img",
+                    "label": "left eterne girls bottom img"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "rigth_eterne_girls_top_img",
+                    "label": "rigth eterne girls top img"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "rigth_eterne_girls_bottom_img",
+                    "label": "rigth eterne girls bottom img"
+                },
+                {
+                    "type": "text",
+                    "id": "left_url_top_img",
+                    "label": "Link left top img"
+                },
+                {
+                    "type": "text",
+                    "id": "left_url_bottom_img",
+                    "label": "Link left bottom img"
+                },
+                {
+                    "type": "text",
+                    "id": "rigth_url_top_img",
+                    "label": "Link rigth top img"
+                },
+                {
+                    "type": "text",
+                    "id": "rigth_url_bottom_img",
+                    "label": "Link rigth bottom img"
+                }
+            ]
         }
     ]
 }

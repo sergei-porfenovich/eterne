@@ -35,7 +35,7 @@
     max-height: 100% !important;
 }
 
-.new-releases, .styles-slider {
+.new-releases, .styles-slider, .eterne-girls {
     .swiper-button-prev, .swiper-button-next {
         top: calc(50% - 32px);
         transform: translateY(-50%);
@@ -51,6 +51,10 @@
             top: calc(50% - 24px);
             width: 25px;
             height: 25px;
+        }
+
+        &[hidden] {
+            display: none;
         }
 
         &:hover {
@@ -889,12 +893,73 @@
     }
 
     .eterne-girls__wrapper {
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
         max-width: 740px;
         width: 100%;
         margin: 0 auto;
+        position: relative;
+
+        #eterne-girls-slider {
+            overflow: hidden;
+        }
+
+        .wrapper-arrow {
+            @media (max-width: 991px) {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 30px;
+            }
+
+            .eterne-slider-prev,
+            .eterne-slider-next {
+                @media (max-width: 991px) {
+                    position: initial;
+                    display: inline-flex;
+                    transform: translate(0);
+                    margin: 0 10px;
+                }
+            }
+        }
+
+        .eterne-girls__wrapper-card {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+
+            &.row-reverse {
+                flex-flow: row-reverse;
+
+                .eterne-girls__left {
+                    margin-right: 0;
+
+                    .eterne-girls__bottom-img {
+                        padding-left: 16px;
+                        padding-right: 0;
+
+                        @media (min-width: 768px) {
+                            padding-left: 38px;
+                        }
+                    }
+                }
+
+                .eterne-girls__right {
+                    margin-right: 28px;
+
+                    @media (min-width: 768px) {
+                        margin-right: 66px;
+                    }
+
+                    .eterne-girls__top-img {
+                        padding-right: 16px;
+                        padding-left: 0;
+
+                        @media (min-width: 768px) {
+                            padding-right: 38px;
+                        }
+                    }
+                }
+            }
+        }
 
         img {
             object-fit: cover;
