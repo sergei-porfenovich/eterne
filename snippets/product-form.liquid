@@ -97,6 +97,14 @@
           </div>
         {% endif %}
 
+        <!-- Klarna Banner Product Page -->
+        <klarna-placement
+          data-key="credit-promotion-auto-size"
+          data-locale="en-US"
+          data-purchase-amount=""
+        ></klarna-placement>
+        <!-- end Placement -->
+
         <div class="add-to-cart__wrapper">
           <button type="submit" name="add" data-add-to-cart id="AddToCart-{{ section.id }}" class="btn btn--large btn--full btn--clear uppercase addToCart{% if sold_out %} disabled{% endif %}" {% if sold_out %}disabled="true"{% endif %}>
             <span id="AddToCartText-{{ section.id }}">{% if sold_out %}{{ 'products.product.sold_out' | t }}{% else %}{{ 'products.product.add_to_cart' | t }}{% endif %}</span>
