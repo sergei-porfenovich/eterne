@@ -2189,7 +2189,7 @@ function deferBisProductPageButton (callback) {
                 "countdown_timer_products": "[]"
       },
       "main_button": {
-            "main_caption": "NOTIFY WHEN AVAILABLE",
+            "main_caption": "JOIN THE WAITLIST",
             "main_css_classes": "",
             "main_button_width": "",
             "main_button_height": "",
