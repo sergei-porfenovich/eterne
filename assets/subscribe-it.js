@@ -2104,7 +2104,7 @@ function deferBisProductPageButton (callback) {
       "generic_trigger_handler": true,
       "quantity_field_enabled": false,
       "labels": {
-                "headline": "NOTIFY WHEN AVAILABLE",
+                "headline": "JOIN THE WAITLIST",
                 "email_address_label": "Email address",
                 "product_field_label": "Select product",
                 "button_label": "Notify Me",
