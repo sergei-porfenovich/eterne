@@ -1,0 +1,90 @@
+.campaign-video {
+    .campaign-video__page-title {
+        font-size: 36px;
+        line-height: 43px;
+        text-align: center;
+
+        @media (min-width: 991px) {
+            font-size: 40px;
+            line-height: 47px;
+        }
+    }
+
+    .campaign-video-wrapper {
+        .campaign-video-title {
+            margin-bottom: 30px;
+            font-size: 26px;
+            line-height: 30px;
+            text-align: center;
+
+            @media (min-width: 991px) {
+                margin-bottom: 40px;
+                font-size: 32px;
+                line-height: 38px;
+            }
+        }
+
+        .campaign-video-block {
+            margin: 60px auto 0;
+
+            @media (min-width: 991px) {
+                margin: 150px auto 0;
+            }
+
+            &:first-child {
+                margin-top: 45px;
+
+                @media (min-width: 991px) {
+                    margin-top: 100px;
+                }
+            }
+        }
+
+        .campaign-video-link {
+            &.portrait-1,
+            &.portrait-2,
+            &.landscape {
+                margin: 0 auto;
+                width: 100%;
+            }
+
+            &.portrait-1 {
+                max-width: 500px;
+                padding-bottom: 0;
+                height: 65vh;
+                max-height: 425px;
+
+                @media (min-width: 991px) {
+                    padding-bottom: 55.7%;
+                }
+            }
+
+            &.portrait-2 {
+                max-width: 500px;
+                padding-bottom: 0;
+                height: 91vh;
+                max-height: 602px;
+
+                @media (min-width: 991px) {
+                    padding-bottom: 77%;
+                    height: auto;
+                    max-height: inherit;
+                }
+            }
+
+            &.default {
+                max-width: 100%;
+                padding-bottom: 56.25%;
+            }
+
+            &.landscape {
+                max-width: 891px;
+                padding-bottom: 56.25%;
+
+                @media (min-width: 991px) {
+                    padding-bottom: 44%;
+                }
+            }
+        }
+    }
+}
