@@ -1,0 +1,91 @@
+<!-- /sections/video-section.liquid -->
+{{ 'video-section.scss.css' | asset_url | stylesheet_tag }}
+
+<div class="campaign-video">
+  {% if section.settings.title != blank %}
+    <h1 class="campaign-video__page-title">{{ section.settings.title }}</h1>
+  {% endif %}
+
+  <div class="campaign-video-wrapper">
+    {% for block in section.blocks %}
+
+      {% liquid
+        if block.settings.video_size == 'landscape'
+          assign variant = 'landscape'
+        elsif block.settings.video_size == 'portrait-1'
+          assign variant = 'portrait-1'
+        elsif block.settings.video_size == 'portrait-2'
+          assign variant = 'portrait-2'
+        elsif block.settings.video_size == 'default'
+          assign variant = 'default'
+        endif
+      %}
+
+      <div class="campaign-video-block" style="max-width: {{ block.settings.video_width }}%">
+        {% if block.settings.title_video != blank %}
+          <h3 class="campaign-video-title">{{ block.settings.title_video }}</h3>
+        {% endif %}
+        {% if block.settings.url_video != blank %}
+          <div class="campaign-video-link rte__video-wrapper {{ variant }}">
+            <iframe src="{{ block.settings.url_video }}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen ></iframe>
+          </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+
+</div>
+
+{% schema %}
+{
+  "name": "Page Video",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Campaign Videos"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "video_block",
+      "name": "Video",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title_video",
+          "label": "Video title"
+        },
+        {
+          "type": "text",
+          "id": "url_video",
+          "label": "Video url"
+        },
+        {
+          "type": "select",
+          "id": "video_size",
+          "label": "Video size options",
+          "default": "default",
+          "options": [
+            { "value": "landscape", "label": "landscape"},
+            { "value": "portrait-1", "label": "portrait-1"},
+            { "value": "portrait-2", "label": "portrait-2"},
+            { "value": "default", "label": "default"}
+          ]
+        },
+        {
+          "type":    "range",
+          "id":      "video_width",
+          "min":     0,
+          "max":     100,
+          "step":    2,
+          "label":   "Video width",
+          "default": 100,
+          "info": "Additional adjustment of the block size (If necessary). Default value '100'"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
