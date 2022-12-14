@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ locale }}" dir="{{ direction }}" class="{{ checkout_html_classes }}">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, user-scalable=0">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, user-scalable=0">
     <meta name="referrer" content="origin">
 
 <!-- Klarna Import Script -->
@@ -24,52 +25,57 @@
 
     {{ checkout_stylesheets }}
     {{ checkout_scripts }}
-  </head>
-  <body>
-    {{ skip_to_content_link }}
+    {{ 'klarna-banner-custom.scss.css' | asset_url | stylesheet_tag }}
+</head>
+<body>
+{{ skip_to_content_link }}
 
-    <header class="banner" data-header role="banner">
-      <div class="wrap">
+<header class="banner" data-header role="banner">
+    <div class="wrap">
         {{ content_for_logo }}
-      </div>
-    </header>
+    </div>
+</header>
 
-    {{ order_summary_toggle }}
-    <div class="content" data-content>
-      <div class="wrap">
+{{ order_summary_toggle }}
+<div class="content" data-content>
+    <div class="wrap">
         <div class="main">
-          <header class="main__header" role="banner">
-            {{ content_for_logo }}
-            {{ breadcrumb }}
-            
-        <!-- Klarna Banner -->
-        <klarna-placement
-          data-key="credit-promotion-auto-size"
-          data-locale="en-US"
-          data-purchase-amount=""
-        ></klarna-placement>
-        <!-- end Placement -->
+            <header class="main__header" role="banner">
+                {{ content_for_logo }}
+                {{ breadcrumb }}
 
-            {{ alternative_payment_methods }}
-          </header>
-          <main class="main__content" role="main">
-            {{ content_for_layout }}
-          </main>
-          <footer class="main__footer" role="contentinfo">
-            {{ content_for_footer }}
-          </footer>
+                <!-- Klarna Banner -->
+                <div class="klarna-banner-custom">
+                    <div class="klarna-banner-custom__img">
+                        <img width="100px" height="27px" src="{{ 'klarna_logo.png' | asset_url }}" alt="Klarna">
+                    </div>
+                    <div class="klarna-banner-custom__text">
+                        <div class="klarna-banner-custom__text-top"><b>Buy now, pay later or pay in installments with Klarna.</b></div>
+                        <div class="klarna-banner-custom__text-bot"><em>To use Klarna, continue checkout, then select Klarna at the Payment step</em></div>
+                    </div>
+                </div>
+                <!-- end Placement -->
+
+                {{ alternative_payment_methods }}
+            </header>
+            <main class="main__content" role="main">
+                {{ content_for_layout }}
+            </main>
+            <footer class="main__footer" role="contentinfo">
+                {{ content_for_footer }}
+            </footer>
         </div>
         <aside class="sidebar" role="complementary">
-          <div class="sidebar__header">
-            {{ content_for_logo }}
-          </div>
-          <div class="sidebar__content">
-            {{ content_for_order_summary }}
-          </div>
+            <div class="sidebar__header">
+                {{ content_for_logo }}
+            </div>
+            <div class="sidebar__content">
+                {{ content_for_order_summary }}
+            </div>
         </aside>
-      </div>
     </div>
+</div>
 
-    {{ tracking_code }}
-  </body>
+{{ tracking_code }}
+</body>
 </html>
