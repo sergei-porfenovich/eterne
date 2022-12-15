@@ -21,7 +21,8 @@ var swiper = new Swiper("#new-releases-slider", {
         991: {
             slidesPerView: 3,
             spaceBetween: 29,
-            initialSlide: 1
+            initialSlide: 1,
+            allowTouchMove: false
         }
     }
 });
