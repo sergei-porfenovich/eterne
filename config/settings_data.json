@@ -5007,7 +5007,7 @@
             "settings": {
               "title_video": "Miranda",
               "url_video": "https:\/\/player.vimeo.com\/video\/773957207?h=be5436b5cd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-              "video_size": "default",
+              "video_size": "portrait-1",
               "video_width": 100
             }
           },
@@ -5016,7 +5016,7 @@
             "settings": {
               "title_video": "Paige",
               "url_video": "https:\/\/player.vimeo.com\/video\/778271423?h=6a343e27a3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-              "video_size": "default",
+              "video_size": "portrait-2",
               "video_width": 100
             }
           },
@@ -5025,8 +5025,8 @@
             "settings": {
               "title_video": "Valery",
               "url_video": "https:\/\/player.vimeo.com\/video\/586794869?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=31de7dc176",
-              "video_size": "default",
-              "video_width": 80
+              "video_size": "landscape",
+              "video_width": 100
             }
           },
           "3a61eac3-5dc6-41bf-a368-2c78348a9c4c": {
@@ -5034,8 +5034,8 @@
             "settings": {
               "title_video": "Georgia",
               "url_video": "https:\/\/player.vimeo.com\/video\/591700204?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=7f1f9feb51",
-              "video_size": "default",
-              "video_width": 80
+              "video_size": "landscape",
+              "video_width": 100
             }
           }
         },
