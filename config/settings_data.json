@@ -4998,6 +4998,56 @@
           "shop_margin_top": 0,
           "shop_margin_bottom": 25
         }
+      },
+      "video-section": {
+        "type": "video-section",
+        "blocks": {
+          "d914d02b-42bd-49fb-9eb9-63e223c77e76": {
+            "type": "video_block",
+            "settings": {
+              "title_video": "Miranda",
+              "url_video": "https:\/\/player.vimeo.com\/video\/773957207?h=be5436b5cd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+              "video_size": "portrait-1",
+              "video_width": 100
+            }
+          },
+          "2334e94c-fbe6-4cd2-b7c6-5aacca8b21b1": {
+            "type": "video_block",
+            "settings": {
+              "title_video": "Paige",
+              "url_video": "https:\/\/player.vimeo.com\/video\/778271423?h=6a343e27a3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+              "video_size": "portrait-2",
+              "video_width": 100
+            }
+          },
+          "78c5a336-548a-4e82-a6b3-bfd79f79faa0": {
+            "type": "video_block",
+            "settings": {
+              "title_video": "Valery",
+              "url_video": "https:\/\/player.vimeo.com\/video\/586794869?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=31de7dc176",
+              "video_size": "landscape",
+              "video_width": 100
+            }
+          },
+          "3a61eac3-5dc6-41bf-a368-2c78348a9c4c": {
+            "type": "video_block",
+            "settings": {
+              "title_video": "Georgia",
+              "url_video": "https:\/\/player.vimeo.com\/video\/591700204?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=7f1f9feb51",
+              "video_size": "landscape",
+              "video_width": 100
+            }
+          }
+        },
+        "block_order": [
+          "d914d02b-42bd-49fb-9eb9-63e223c77e76",
+          "2334e94c-fbe6-4cd2-b7c6-5aacca8b21b1",
+          "78c5a336-548a-4e82-a6b3-bfd79f79faa0",
+          "3a61eac3-5dc6-41bf-a368-2c78348a9c4c"
+        ],
+        "settings": {
+          "title": "Campaign Videos"
+        }
       }
     },
     "content_for_index": [
