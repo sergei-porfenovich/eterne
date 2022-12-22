@@ -2852,3 +2852,15 @@ if (switcher) {
     centimeters.classList.toggle('active');
   })
 }
+
+$( document ).ready(function() {
+  if( typeof product_variants_removed != undefined ) {  // was there items to be removed?
+    var $addToCartForm = $('form[action="/cart/add"]');
+    if (window.MutationObserver && $addToCartForm.length) {
+      var config = { childList: true, subtree: true };
+      product_variants_removed.forEach(function(item){
+        $('.single-option-selector option').filter(function() { return $(this).text() === item; }).prop('disabled', true);
+      });
+    }
+  }
+});
