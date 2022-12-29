@@ -5069,9 +5069,9 @@
             "type": "shop_imgproducts1",
             "settings": {
               "image_autoheight_enable": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
+              "product_grid_aspect_ratio": "1.33",
+              "shop_product_margin": 12,
+              "shop_product_padding": 4,
               "shop_img11": "shopify:\/\/shop_images\/3_edited.jpg",
               "shop_product11": ""
             }
@@ -5088,12 +5088,24 @@
               "shop_img22": "shopify:\/\/shop_images\/5_edited.jpg",
               "shop_product22": ""
             }
+          },
+          "17a93528-70d5-4d37-85ea-bae9b88377c8": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 38,
+              "shop_product_padding": 28,
+              "shop_img11": "shopify:\/\/shop_images\/6_edited.jpg",
+              "shop_product11": ""
+            }
           }
         },
         "block_order": [
           "f9e371bd-0922-4c87-9adf-9393e4b65f09",
           "c7d86560-3a53-4e09-8f6a-9792f76b2386",
-          "328b3b66-6137-4572-80bc-214187d44211"
+          "328b3b66-6137-4572-80bc-214187d44211",
+          "17a93528-70d5-4d37-85ea-bae9b88377c8"
         ],
         "settings": {
           "shop_margin_top": 0,
