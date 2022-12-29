@@ -5094,9 +5094,9 @@
             "settings": {
               "image_autoheight_enable": false,
               "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 38,
-              "shop_product_padding": 28,
-              "shop_img11": "shopify:\/\/shop_images\/6_edited.jpg",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img11": "shopify:\/\/shop_images\/6z_edited.jpg",
               "shop_product11": ""
             }
           },
@@ -5140,9 +5140,9 @@
             "settings": {
               "image_autoheight_enable": false,
               "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 31,
-              "shop_product_padding": 21,
-              "shop_img11": "shopify:\/\/shop_images\/11z_edited.jpg",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img11": "shopify:\/\/shop_images\/11z_edited_e87cca39-6f0f-40fc-ac7e-df9ceb32914b.jpg",
               "shop_product11": ""
             }
           },
@@ -5152,7 +5152,7 @@
               "image_autoheight_enable": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
-              "shop_product_padding": 10,
+              "shop_product_padding": 0,
               "shop_img21": "shopify:\/\/shop_images\/12z_edited.jpg",
               "shop_product21": "",
               "shop_img22": "shopify:\/\/shop_images\/13z_edited.jpg",
@@ -5188,9 +5188,9 @@
             "settings": {
               "image_autoheight_enable": false,
               "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 13,
-              "shop_product_padding": 28,
-              "shop_img11": "shopify:\/\/shop_images\/17z_edited.jpg",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img11": "shopify:\/\/shop_images\/17z_edited_76c77069-b332-41c6-9a7c-e37b4347e9a0.jpg",
               "shop_product11": ""
             }
           },
@@ -5200,7 +5200,7 @@
               "image_autoheight_enable": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
-              "shop_product_padding": 11,
+              "shop_product_padding": 0,
               "shop_img11": "shopify:\/\/shop_images\/18z_edited.jpg",
               "shop_product11": ""
             }
