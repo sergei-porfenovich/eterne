@@ -2476,7 +2476,7 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "settings": {
-          "message": true,
+          "message": false,
           "message_text": "ORDER BY 12\/13 FOR DELIVERY ON OR BEFORE 12\/24",
           "announcement_two": "",
           "color_bg": "#000000",
