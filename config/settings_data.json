@@ -612,7 +612,7 @@
           "ce9cd2cc-3770-4adf-b617-694343b6a6bb": {
             "type": "shop_imgproducts3",
             "settings": {
-              "full_size_pictures": false,
+              "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
