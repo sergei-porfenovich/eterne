@@ -1,113 +1,100 @@
 <div class="mobile-wrapper">
+    <a href class="menuToggle header-hamburger"{% if nav-contents == 'mobile' %} aria-haspopup="true" aria-expanded="false" aria-controls="ariaHamburger"{% endif %}>
+        {% include 'icon-nav' %}
+    </a>
 
-  {% if section.settings.header_enable_search %}  
-  
-  <div class="mobile-search-toggle">
-    <img src="{{ 'search.svg' | asset_url }}" alt="Search" onclick="searchToggle()" />
-  </div>
-  
-  <div class="mobile-search__wrapper fold">
-    <button class="btn-close" type="button" onclick="searchToggle()"><img src="{{ "close.svg" | asset_url}}" alt="Close" /></button>
-
-    <div class="header-search__wrapper mobile--only">
-      <div class="header-search">
-        <form action="/search" method="get" class="input-group search" role="search">
-          {% if section.settings.search_only_products %}<input type="hidden" name="type" value="product">{% endif %}                
-          <input class="search-bar" type="search" name="q" placeholder="SEARCH FOR">
-          <button type="submit" class="btn search-btn"></button>
-        </form>
-      </div>
-    </div>
-  
-  </div>
-  
-  <script type="text/javascript">
-    function searchToggle() {
-        if ($('.mobile-search__wrapper').hasClass('fold')) {
-          $('.mobile-search__wrapper.fold').removeClass('fold').addClass('open');
-        } else {
-          $('.mobile-search__wrapper.open').removeClass('open').addClass('fold');
-        }      
-    }
-  </script>
-  
-  {% endif %}
-  <div id="mobile-header-flex-wrapper">
-    <div class="header-cart__wrapper">
-      <a href="/cart" class="CartToggle header-cart">
-        {% include 'icon-cart' %}      
-      </a>
-      <span class="header-cart__bubble cartCount{% if cart.item_count < 1 %} hidden-count{% endif %}">{{cart.item_count}}</span>
-    </div>
-    <div class="header-wishlist-wrapper" id="mobile-menu-wishlist-wrapper" >
-  	  <a id="header-wishlist" href="/a/wishlist"><img src="{{ 'eterne_wish_list.svg' | asset_url }}" width="33" height="33" style="vertical-align:baseline;"></a>  
-    </div>
-  </div>
-  <div class="logo-wrapper{% if section.settings.logo %} logo-wrapper--image{% endif %}">
-    {% if template.name == 'index' %}
-      <h1 class="h4 header-logo">
-    {% else %}
-      <div class="h4 header-logo">
-    {% endif %}
-        <a href="/">   
-          {% if section.settings.banner != blank %}            
-            {% capture banner_size %}x{{ section.settings.banner_max_limit }}{% endcapture %}       
-			<img src="{{ section.settings.banner | img_url: banner_size }}"
-             	 class="mobile--only"
-             	 srcset="{{ section.settings.banner | img_url: banner_size }} 1x, {{ section.settings.banner | img_url: banner_size, scale: 2 }} 2x"
-                 alt="{{ section.settings.logo.alt | default: shop.name }}" />            
-          {% endif %}
-          
-          {% if section.settings.logo != blank %}            
-            {% capture image_size %}x{{ section.settings.logo_max_limit }}{% endcapture %}       
-			<img src="{{ section.settings.logo | img_url: image_size }}"
-             	 class="logo--color desktop--only"
-             	 srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
-                 alt="{{ section.settings.logo.alt | default: shop.name }}" /> 
-          {% endif %}          
-          
-          {% if transparent_header and section.settings.transparent_logo != blank %}
-            {% capture image_size %}{{ section.settings.transparent_logo_max_limit }}x{% endcapture %}
-            <img src="{{ section.settings.transparent_logo | img_url: image_size }}"
-                 class="logo--transparent"
-                 srcset="{{ section.settings.transparent_logo | img_url: image_size }} 1x, {{ section.settings.transparent_logo | img_url: image_size, scale: 2 }} 2x"
-                 alt="{{ section.settings.transparent_logo.alt | default: shop.name }}">
-          {% endif %}
+    <div class="header-wishlist-wrapper" id="mobile-menu-wishlist-wrapper">
+        <a id="header-wishlist" href="/a/wishlist">
+            <img src="{{ 'eterne_wish_list.svg' | asset_url }}">
         </a>
-    {% if template.name == 'index' %}
-      </h1>
-    {% else %}
-      </div>
+    </div>
+
+    <div class="logo-wrapper{% if section.settings.logo %} logo-wrapper--image{% endif %}">
+        {% if template.name == 'index' %}
+            <h1 class="h4 header-logo">
+                {% else %}
+                <div class="h4 header-logo">
+                    {% endif %}
+                    <a href="/">
+                        {% if section.settings.logo != blank %}
+                            {% capture image_size %}x{{ section.settings.logo_max_limit }}{% endcapture %}
+                            <img src="{{ section.settings.logo | img_url: image_size }}"
+                                 class="mobile--only"
+                                 srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
+                                 alt="{{ section.settings.logo.alt | default: shop.name }}"/>
+                        {% endif %}
+
+                        {% if section.settings.logo != blank %}
+                            {% capture image_size %}x{{ section.settings.logo_max_limit }}{% endcapture %}
+                            <img src="{{ section.settings.logo | img_url: image_size }}"
+                                 class="logo--color desktop--only"
+                                 srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
+                                 alt="{{ section.settings.logo.alt | default: shop.name }}"/>
+                        {% endif %}
+
+                        {% if transparent_header and section.settings.transparent_logo != blank %}
+                            {% capture image_size %}{{ section.settings.transparent_logo_max_limit }}x{% endcapture %}
+                            <img src="{{ section.settings.transparent_logo | img_url: image_size }}"
+                                 class="logo--transparent"
+                                 srcset="{{ section.settings.transparent_logo | img_url: image_size }} 1x, {{ section.settings.transparent_logo | img_url: image_size, scale: 2 }} 2x"
+                                 alt="{{ section.settings.transparent_logo.alt | default: shop.name }}">
+                        {% endif %}
+                    </a>
+                    {% if template.name == 'index' %}
+            </h1>
+            {% else %}
+        </div>
+        {% endif %}
+    </div>
+
+    {% if section.settings.header_enable_search %}
+        <div class="mobile-search-toggle">
+            <img src="{{ 'search.svg' | asset_url }}" alt="Search" onclick="searchToggle()"/>
+        </div>
+        <div class="mobile-search__wrapper">
+            <form action="/search" method="get" class="input-group search" role="search">
+                {% if section.settings.search_only_products %}<input type="hidden" name="type" value="product">{% endif %}
+                <button type="submit" class="btn search-btn">SEARCH</button>
+                <input class="search-bar" type="search" name="q" placeholder="search term">
+            </form>
+        </div>
+
+        <script type="text/javascript">
+            function searchToggle() {
+                if ($('.mobile-search__wrapper')) {
+                    $('.mobile-search__wrapper').toggleClass('open');
+                }
+            }
+        </script>
+
     {% endif %}
-  </div>
-  <a href class="menuToggle header-hamburger"{% if nav-contents == 'mobile' %} aria-haspopup="true" aria-expanded="false" aria-controls="ariaHamburger"{% endif %}>
-    {% include 'icon-nav' %}
-  </a>
-  
- 
+
+    <div class="header-cart__wrapper">
+        <a href="/cart" class="CartToggle header-cart">
+            <img src="{{ 'noun-bag.svg' | asset_url }}">
+        </a>
+        <span class="header-cart__bubble cartCount{% if cart.item_count < 1 %} hidden-count{% endif %}">{{ cart.item_count }}</span>
+    </div>
 </div>
 
-  
-
-
 <div class="header-menu nav-wrapper">
-  <ul class="main-menu accessibleNav" role="navigation" aria-label="primary"{% if nav-contents == 'mobile' %} id="ariaHamburger" {% endif %}>
-    {% if section.settings.main_menu_linklist %}
-      {% assign main_menu_linklist = section.settings.main_menu_linklist %}
-    {% else %}
-      {% assign main_menu_linklist = 'main-menu' %}
-    {% endif %}
-    {% for link in linklists[main_menu_linklist].links %}
-      {% include 'nav-item' %}
-    {% endfor %}
-    <li >
-      <a id="menu-account-link" href="/account"><img src="{{ 'account.svg' | asset_url }}" style="vertical-align:baseline;">&nbsp;&nbsp;ACCOUNT</a>
-    </li>
-    <li class="cart-text-link">
-      <a href="/cart" class="CartToggle">
-        {{ 'layout.cart.title' | t }}        
-        <span class="cartCnt {% if cart.item_count <= 0 %}hidden-count{% endif %}">{{cart.item_count}}</span>
-      </a>
-    </li>
-  </ul>
+    <ul class="main-menu accessibleNav" role="navigation"
+        aria-label="primary"{% if nav-contents == 'mobile' %} id="ariaHamburger" {% endif %}>
+        {% if section.settings.main_menu_linklist %}
+            {% assign main_menu_linklist = section.settings.main_menu_linklist %}
+        {% else %}
+            {% assign main_menu_linklist = 'main-menu' %}
+        {% endif %}
+        {% for link in linklists[main_menu_linklist].links %}
+            {% include 'nav-item' %}
+        {% endfor %}
+        {% if section.settings.header_enable_account %}
+           <li class="child">
+               <a class="nav-link nav-link-account" href="/account">
+                   <img src="{{ 'account.svg' | asset_url }}">
+                   ACCOUNT
+               </a>
+           </li>
+        {% endif %}
+    </ul>
 </div>

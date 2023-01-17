@@ -2864,3 +2864,15 @@ $( document ).ready(function() {
     }
   }
 });
+
+// Open header search
+$( document ).ready(function() {
+  let btnOpenSearch = $( '.header-search-link' ),
+      inputSearch = $( '.info-bar-search');
+
+  if (btnOpenSearch && inputSearch) {
+    btnOpenSearch.click(function() {
+      inputSearch.toggleClass( "open" );
+    });
+  }
+});
