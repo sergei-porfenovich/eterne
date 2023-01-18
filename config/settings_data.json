@@ -609,6 +609,16 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "abb95276-e4fa-4e89-9bba-c531a63adac7": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product1": "long-sleeve-crewneck-dress-mini-earth"
+            }
+          },
           "ce9cd2cc-3770-4adf-b617-694343b6a6bb": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -1453,6 +1463,7 @@
           }
         },
         "block_order": [
+          "abb95276-e4fa-4e89-9bba-c531a63adac7",
           "ce9cd2cc-3770-4adf-b617-694343b6a6bb",
           "a575d070-e903-4223-8cbe-76c6b4023b25",
           "86730e6f-200e-460f-9f7c-2eec5b9abb34",
