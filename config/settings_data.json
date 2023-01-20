@@ -740,8 +740,8 @@
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product21": "wide-leg-sweatpant-heather-brown",
-              "shop_product22": "wide-leg-sweatpant-heather-grey"
+              "shop_product21": "straight-leg-sweatpant-heather-brown",
+              "shop_product22": "straight-leg-sweatpant-heather-grey"
             }
           },
           "bd391724-2704-42db-b7b4-d7aa0ed593a8": {
@@ -3845,8 +3845,8 @@
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product21": "wide-leg-sweatpant-heather-brown",
-              "shop_product22": "wide-leg-sweatpant-heather-grey"
+              "shop_product21": "straight-leg-sweatpant-heather-brown",
+              "shop_product22": "straight-leg-sweatpant-heather-grey"
             }
           },
           "c2239c23-553c-4161-a3d8-1ddfa67adf65": {
@@ -3979,7 +3979,7 @@
               "text_align": "text-left",
               "product_list": [
                 "shrunken-raglan-sweatshirt-heather-brown",
-                "wide-leg-sweatpant-heather-brown"
+                "straight-leg-sweatpant-heather-brown"
               ]
             }
           },
@@ -4333,7 +4333,7 @@
               "shop_img21": "shopify:\/\/shop_images\/7.jpg",
               "shop_product21": "shrunken-raglan-sweatshirt-heather-brown",
               "shop_img22": "shopify:\/\/shop_images\/8.jpg",
-              "shop_product22": "wide-leg-sweatpant-heather-brown"
+              "shop_product22": "straight-leg-sweatpant-heather-brown"
             }
           },
           "ed61592a-14ef-4ff4-aac7-ade368880730": {
@@ -4659,8 +4659,8 @@
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product21": "wide-leg-sweatpant-heather-brown",
-              "shop_product22": "wide-leg-sweatpant-heather-grey"
+              "shop_product21": "straight-leg-sweatpant-heather-brown",
+              "shop_product22": "straight-leg-sweatpant-heather-grey"
             }
           }
         },
