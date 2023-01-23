@@ -941,16 +941,15 @@
               "shop_product33": "super-cropped-rib-tank-ivory"
             }
           },
-          "dec54a19-cff5-4c27-b88a-9fc0f4db4561": {
-            "type": "shop_imgproducts3",
+          "7476254f-f864-4f30-97aa-1f58c15d05e3": {
+            "type": "shop_imgproducts2",
             "settings": {
               "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product31": "long-sleeve-crewneck-dress-mini-cream",
-              "shop_product32": "tank-dress-mini-cream",
-              "shop_product33": "long-sleeve-turtleneck-dress-mini-cream"
+              "shop_product21": "long-sleeve-turtleneck-dress-mini-cream",
+              "shop_product22": "tank-dress-mini-cream"
             }
           },
           "73f7e148-b3a8-4bd0-bfb0-a2bf1d80bf71": {
@@ -1493,7 +1492,7 @@
           "206d0db3-9255-4009-9804-2a77d20634f8",
           "9bcac4bf-3ec7-442f-a802-74fcd54d1f0d",
           "d0760d23-e80b-4ead-b53a-c3622ec3d285",
-          "dec54a19-cff5-4c27-b88a-9fc0f4db4561",
+          "7476254f-f864-4f30-97aa-1f58c15d05e3",
           "73f7e148-b3a8-4bd0-bfb0-a2bf1d80bf71",
           "b4da56c3-1fce-45ca-a078-d21a2f587b6e",
           "dd244cfd-ef7e-46ad-8055-cd0a57c662a8",
