@@ -609,10 +609,10 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
-          "d4bff04c-f89e-4eeb-85d8-f554895c4d97": {
-            "type": "shop_products3",
+          "7e8051f8-3352-4988-a577-06425292f429": {
+            "type": "shop_imgproducts3",
             "settings": {
-              "full_size_pictures": false,
+              "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -1465,7 +1465,7 @@
           }
         },
         "block_order": [
-          "d4bff04c-f89e-4eeb-85d8-f554895c4d97",
+          "7e8051f8-3352-4988-a577-06425292f429",
           "ce9cd2cc-3770-4adf-b617-694343b6a6bb",
           "a575d070-e903-4223-8cbe-76c6b4023b25",
           "86730e6f-200e-460f-9f7c-2eec5b9abb34",
