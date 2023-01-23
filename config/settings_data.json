@@ -4710,14 +4710,16 @@
       "dresses-collection": {
         "type": "dresses-collection",
         "blocks": {
-          "02f94683-c6e8-417c-a3fc-43ddefeea09b": {
-            "type": "shop_imgproducts1",
+          "16dbdcdb-3a7e-491a-ae70-e63ad0df36e9": {
+            "type": "shop_imgproducts3",
             "settings": {
-              "full_size_pictures": false,
+              "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product1": "long-sleeve-crewneck-dress-mini-earth"
+              "shop_product31": "long-sleeve-crewneck-dress-mini-cream",
+              "shop_product32": "long-sleeve-crewneck-dress-mini-earth",
+              "shop_product33": "long-sleeve-crewneck-dress-mini-black"
             }
           },
           "ee642edb-8665-43e3-8f49-961fce4f142a": {
@@ -4804,7 +4806,7 @@
           }
         },
         "block_order": [
-          "02f94683-c6e8-417c-a3fc-43ddefeea09b",
+          "16dbdcdb-3a7e-491a-ae70-e63ad0df36e9",
           "ee642edb-8665-43e3-8f49-961fce4f142a",
           "dc0f704b-81c7-4ec2-90f9-d40f90f5fa4b",
           "d12ce08a-6c1c-4f0e-89b0-6d48648fa407",
