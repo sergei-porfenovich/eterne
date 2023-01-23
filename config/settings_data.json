@@ -4794,12 +4794,12 @@
           "c5c5f693-37d3-4d56-8748-6800ee3143a5": {
             "type": "shop_imgproducts2",
             "settings": {
-              "full_size_pictures": false,
+              "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product21": "",
-              "shop_product22": ""
+              "shop_product21": "tank-dress-mini-cream",
+              "shop_product22": "long-sleeve-turtleneck-dress-mini-cream"
             }
           }
         },
