@@ -4780,28 +4780,26 @@
               "shop_product33": "tank-dress-maxi-cream"
             }
           },
-          "7b682a77-7490-44da-a2e5-e22613647691": {
-            "type": "shop_imgproducts3",
+          "98282f03-4a2b-48f5-9dc3-ceb9ff6a2950": {
+            "type": "shop_imgproducts2",
             "settings": {
-              "full_size_pictures": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product31": "long-sleeve-turtleneck-dress-mini-black-black",
-              "shop_product32": "tank-dress-mini-black",
-              "shop_product33": "long-sleeve-crewneck-dress-mini-black"
+              "shop_product21": "long-sleeve-turtleneck-dress-mini-black-black",
+              "shop_product22": "tank-dress-mini-black"
             }
           },
-          "6c59fee2-b434-485a-968d-47dcb70d1862": {
-            "type": "shop_imgproducts3",
+          "c5c5f693-37d3-4d56-8748-6800ee3143a5": {
+            "type": "shop_imgproducts2",
             "settings": {
-              "full_size_pictures": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product31": "long-sleeve-crewneck-dress-mini-cream",
-              "shop_product32": "tank-dress-mini-cream",
-              "shop_product33": "long-sleeve-turtleneck-dress-mini-cream"
+              "shop_product21": "",
+              "shop_product22": ""
             }
           }
         },
@@ -4812,8 +4810,8 @@
           "d12ce08a-6c1c-4f0e-89b0-6d48648fa407",
           "2b749d83-5d56-4dd0-a302-0dbb4ec96ba6",
           "6dcd3443-7f7a-4a70-bb58-36d89babd733",
-          "7b682a77-7490-44da-a2e5-e22613647691",
-          "6c59fee2-b434-485a-968d-47dcb70d1862"
+          "98282f03-4a2b-48f5-9dc3-ceb9ff6a2950",
+          "c5c5f693-37d3-4d56-8748-6800ee3143a5"
         ],
         "settings": {
           "show_image": true,
