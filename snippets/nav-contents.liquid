@@ -73,7 +73,7 @@
         <a href="/cart" class="CartToggle header-cart">
             <img src="{{ 'noun-bag.svg' | asset_url }}">
         </a>
-        <span class="header-cart__bubble cartCount{% if cart.item_count < 1 %} hidden-count{% endif %}">{{ cart.item_count }}</span>
+        <span class="header-cart__bubble cartCount cartCnt{% if cart.item_count < 1 %} hidden-count{% endif %}">{{ cart.item_count }}</span>
     </div>
 </div>
 
