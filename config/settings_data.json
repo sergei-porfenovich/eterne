@@ -75,7 +75,7 @@
         "type": "header",
         "settings": {
           "logo": "shopify:\/\/shop_images\/Eterne_Logos_-_Side_by_Side-01_425a3718-ff61-496c-8b85-4e8c20822a5b.png",
-          "logo_max_limit": 80,
+          "logo_max_limit": 65,
           "main_menu_linklist": "main-menu",
           "meganav_link": "",
           "header_sticky": "static",
