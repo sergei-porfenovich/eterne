@@ -6088,9 +6088,10 @@ label.quatity-selector{
   @extend .h6--accent;
   a,
   span {
-    display: inline-block;
+    display: inline;
     padding: ($gutter / 2) 7px ($gutter / 2) 0;
     margin-right: 7px;
+    line-height: 20px;
     text-decoration: none;
     &:first-child {
       padding-left: 0;
@@ -8552,10 +8553,6 @@ $adjusted-full: $adjusted-width + px;
 /* -- left align product description -- */
 .product-description {
   text-align:left;
-}
-/* -- breadcrumb -- */
-nav.breadcrumb {
-  white-space:nowrap;
 }
 nav.breadcrumb span {
   text-overflow: ellipsis;
