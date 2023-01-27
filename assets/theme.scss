@@ -6931,6 +6931,10 @@ html.no-js{
     transition: opacity .5s ease;
     background: rgba(46, 52, 56, 0.85);
     max-width: 276px;
+
+    @include at-query($max, $small) {
+      max-width: 100%;
+    }
   }
 
   @include at-query($max, $medium) {
