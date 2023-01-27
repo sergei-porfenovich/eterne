@@ -6906,26 +6906,31 @@ html.no-js{
   left: 50%;
   transform: translate(-50%, 0);
   top: 0;
-  z-index: 600;
+  z-index: 1000;
   width: 100%;
   opacity: 0;
   visibility: hidden;
-  transition: opacity .5s ease, visibility 0s linear .5s;
-  background: rgba(46, 52, 56, 0.85);
+  transition: opacity .5s ease;
   padding: 12px 24px;
   justify-content: center;
   align-items: center;
-  max-width: 276px;
 
   &.has-errors {
     width: 100%;
-    padding: 12px 24px;
+    padding: 0;
+    max-width: 1180px;
+    background: transparent;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity .5s ease;
   }
 
   &.is-visible {
     opacity: 1;
     visibility: visible;
-    transition: opacity .5s ease, visibility 0s linear 0s;
+    transition: opacity .5s ease;
+    background: rgba(46, 52, 56, 0.85);
+    max-width: 276px;
   }
 
   @include at-query($max, $medium) {
@@ -6947,7 +6952,7 @@ html.no-js{
     }
 
     &.has-errors {
-      padding: 26px 15px;
+      padding: 15px;
     }
   }
 
@@ -6988,8 +6993,8 @@ html.no-js{
   }
 
   .errors {
-    font-size: 10px;
-    line-height: 11px;
+    font-size: 12px;
+    line-height: 14px;
     margin-bottom: 0;
     padding: 6px;
     width: 100%;
