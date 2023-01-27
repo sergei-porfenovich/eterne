@@ -438,7 +438,7 @@
     },
     "notices": {
       "cart": {
-        "all_items_in_cart": "{{ name }} is almost out of stock. There are only {{ count }} left, and all remaining inventory of this item is already in your cart."
+        "all_items_in_cart": "{{ name }} is almost out of stock. We have only {{ count }} left, and all remaining inventory of this item is already in your cart."
       }
     }
   }
