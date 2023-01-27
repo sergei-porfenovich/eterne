@@ -2076,7 +2076,7 @@ theme.Product = (function() {
         $drawer.attr('style','');
         $drawer.empty();
         $drawer.append( errors );
-        $drawer.addClass('has-errors is-visible');
+        $drawer.addClass('has-errors');
 
         if ( $('.header__wrapper').hasClass('header--sticky') ) {
           var topPosition =  $('.site-header ').outerHeight();
