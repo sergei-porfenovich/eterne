@@ -3850,6 +3850,19 @@
       "bottoms-collection": {
         "type": "bottoms-collection",
         "blocks": {
+          "bccf4862-83ae-4522-80bb-963ee134b7fd": {
+            "type": "shop_imgproducts4",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product41": "lounge-pant-heather-grey",
+              "shop_product42": "lounge-pant-earth",
+              "shop_product43": "lounge-pant-ivory",
+              "shop_product44": "lounge-pant-black"
+            }
+          },
           "0b54894c-d0a2-47ca-a2ed-3c795afc0fec": {
             "type": "shop_imgproducts4",
             "settings": {
@@ -3966,6 +3979,7 @@
           }
         },
         "block_order": [
+          "bccf4862-83ae-4522-80bb-963ee134b7fd",
           "0b54894c-d0a2-47ca-a2ed-3c795afc0fec",
           "8a3ceb85-fab9-4f2c-b7e7-c2cda0cfe305",
           "c2239c23-553c-4161-a3d8-1ddfa67adf65",
