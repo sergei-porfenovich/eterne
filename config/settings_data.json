@@ -3020,18 +3020,6 @@
               "shop_product33": "cropped-v-neck-t-shirt-ivory"
             }
           },
-          "36578b14-ecdc-476a-b234-6a63466099b2": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "short-sleeve-baby-tee-black",
-              "shop_product32": "short-sleeve-baby-tee-heather-grey",
-              "shop_product33": "short-sleeve-baby-ivory"
-            }
-          },
           "f40aae42-d724-45c2-b1ed-b1287e180310": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -3255,7 +3243,6 @@
           "bb957549-9d81-4b04-a111-840f9197359d",
           "10cce77e-a8d0-4831-9ac2-ac8c93dacddb",
           "e6a9a437-c035-4b91-bc8b-37a1622b894d",
-          "36578b14-ecdc-476a-b234-6a63466099b2",
           "f40aae42-d724-45c2-b1ed-b1287e180310",
           "141e7144-57f3-44fc-acde-c934375aec49",
           "b0f829dd-1228-4237-96ae-41d5d15deefe",
