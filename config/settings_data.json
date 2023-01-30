@@ -2853,15 +2853,15 @@
       "custom-collection-2": {
         "type": "custom-collection-2",
         "blocks": {
-          "97c28d4a-c5ad-4092-9176-614902f514a7": {
-            "type": "shop_products4",
+          "8149a8e3-14b5-4508-9778-c4817884d9b3": {
+            "type": "shop_imgproducts4",
             "settings": {
-              "full_size_pictures": false,
+              "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product41": "short-sleeve-baby-tee-black",
-              "shop_product42": "short-sleeve-baby-tee-earth",
+              "shop_product41": "short-sleeve-baby-tee-earth",
+              "shop_product42": "short-sleeve-baby-tee-black",
               "shop_product43": "short-sleeve-baby-tee-heather-grey",
               "shop_product44": "short-sleeve-baby-ivory"
             }
@@ -3241,7 +3241,7 @@
           }
         },
         "block_order": [
-          "97c28d4a-c5ad-4092-9176-614902f514a7",
+          "8149a8e3-14b5-4508-9778-c4817884d9b3",
           "c4a9d298-d4fd-4d7a-b20f-0916b837aea8",
           "f500e0f6-a158-4e1a-8ca9-fe13a3300023",
           "18eb4f99-997d-48ae-ab66-8116c6ce3e0b",
