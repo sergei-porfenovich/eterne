@@ -609,6 +609,17 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "5f7de151-f828-46f8-abb3-07711ff8872e": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "short-sleeve-baby-tee-earth",
+              "shop_product22": "lounge-pant-earth"
+            }
+          },
           "7e8051f8-3352-4988-a577-06425292f429": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -1460,20 +1471,10 @@
               "shop_product_padding": 0,
               "shop_product1p": "rise-ai-giftcard"
             }
-          },
-          "5f7de151-f828-46f8-abb3-07711ff8872e": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "short-sleeve-baby-tee-earth",
-              "shop_product22": "lounge-pant-earth"
-            }
           }
         },
         "block_order": [
+          "5f7de151-f828-46f8-abb3-07711ff8872e",
           "7e8051f8-3352-4988-a577-06425292f429",
           "ce9cd2cc-3770-4adf-b617-694343b6a6bb",
           "a575d070-e903-4223-8cbe-76c6b4023b25",
@@ -1544,8 +1545,7 @@
           "b9cfce59-2f8f-4314-809b-2ecba06d5956",
           "e0e66881-beda-4d26-9d00-b41983ea144a",
           "fe546ba6-e052-4bc2-bcd5-e4f5dbd1aabe",
-          "607c3970-00af-4f2c-ae85-fe3a2bcb393b",
-          "5f7de151-f828-46f8-abb3-07711ff8872e"
+          "607c3970-00af-4f2c-ae85-fe3a2bcb393b"
         ],
         "settings": {
           "show_image": true,
