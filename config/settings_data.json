@@ -2741,6 +2741,16 @@
               "article_description": "In the absence of red carpets, celebrities and influencers have been dressing down—way down. Over the last several months of quarantines and canceled...",
               "article_url": "https:\/\/www.vogue.com\/article\/eterne-chloe-bartoli-kaia-gerber-emily-ratajkowski"
             }
+          },
+          "6454ef17-89e9-4be3-b66c-b57528cc6b03": {
+            "type": "article",
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/who-what-wear-vector-logo.png",
+              "article_date": "1\/18\/23",
+              "article_title": "Sorry to the Basics in My Closet — These 2023 Updates Might Replace You",
+              "article_description": "Do you ever start shopping and realize that you don’t just want one or two items but suddenly crave an entire wardrobe overhaul?",
+              "article_url": ""
+            }
           }
         },
         "block_order": [
@@ -2764,7 +2774,8 @@
           "e7cee9cc-ddd5-486b-9408-cc7460f501b9",
           "f135cb76-bf2a-4980-8dc8-e7b98ee34f64",
           "66217d67-659d-4d69-93be-f4c7782987bd",
-          "7fd3dd36-8087-42b3-8554-3ef2cade3a93"
+          "7fd3dd36-8087-42b3-8554-3ef2cade3a93",
+          "6454ef17-89e9-4be3-b66c-b57528cc6b03"
         ],
         "settings": {
           "press_page_title": "Press",
