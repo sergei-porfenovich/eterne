@@ -2791,6 +2791,16 @@
               "article_description": "If you haven’t already, now’s the time to add the Eterne clothing brand to your sartorial lexicon. The quiet new label has quickly become the backbone of several of our most-liked celebrity outfits since its launch in 2020.",
               "article_url": "https:\/\/www.vogue.com\/article\/eterne-clothing Image:"
             }
+          },
+          "71169fd9-41c4-4566-9fc5-57f6fdbf90e3": {
+            "type": "article",
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/logo_harpersbazaar_3x_66c1bda3-7467-4562-b508-0667252236dc.png",
+              "article_date": "12\/14\/22",
+              "article_title": "The 24 Coziest Winter Sweaters for Women, from Cashmere to Cable Knits",
+              "article_description": "Welcome to hygge season. While you may not be ready to accept the earlier sunsets, the arrival of cold weather does bring about an instinctual desire to cuddle up and relax.",
+              "article_url": "https:\/\/www.harpersbazaar.com\/fashion\/trends\/g2409\/winter-sweaters-women\/"
+            }
           }
         },
         "block_order": [
@@ -2819,7 +2829,8 @@
           "4a1b7adf-5e95-4fc0-ad58-e2a75cf987b0",
           "530e4fc1-9191-451b-94ca-f2bc2c94fc2a",
           "5e12d8a7-68e8-4154-b9af-a214c4f78047",
-          "5d94e6e6-e95e-48a3-b41f-14897f814169"
+          "5d94e6e6-e95e-48a3-b41f-14897f814169",
+          "71169fd9-41c4-4566-9fc5-57f6fdbf90e3"
         ],
         "settings": {
           "press_page_title": "Press",
