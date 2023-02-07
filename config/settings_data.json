@@ -607,6 +607,17 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "4b1f28d4-e6a5-4398-a7e5-4c76f1def008": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "tank-dress-maxi-sand",
+              "shop_product22": "tank-dress-maxi-earth"
+            }
+          },
           "5f7de151-f828-46f8-abb3-07711ff8872e": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1472,6 +1483,7 @@
           }
         },
         "block_order": [
+          "4b1f28d4-e6a5-4398-a7e5-4c76f1def008",
           "5f7de151-f828-46f8-abb3-07711ff8872e",
           "7e8051f8-3352-4988-a577-06425292f429",
           "ce9cd2cc-3770-4adf-b617-694343b6a6bb",
