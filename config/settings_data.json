@@ -588,6 +588,12 @@
             "settings": {
               "collection": "accessories"
             }
+          },
+          "ff77605a-8e15-48d5-929c-d3477b37a883": {
+            "type": "collection",
+            "settings": {
+              "collection": "t-shirts-1"
+            }
           }
         },
         "block_order": [
@@ -596,7 +602,8 @@
           "9451669c-fb05-4162-af51-fff47dc3e499",
           "0db59921-6014-446a-b866-612f5450ec5c",
           "35f5e50d-7088-47ce-ba40-448a891543ba",
-          "52105414-21f3-4b6d-86ed-586af5bf4e9a"
+          "52105414-21f3-4b6d-86ed-586af5bf4e9a",
+          "ff77605a-8e15-48d5-929c-d3477b37a883"
         ],
         "settings": {
           "display_type": "selected",
