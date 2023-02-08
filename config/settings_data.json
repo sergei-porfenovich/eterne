@@ -588,12 +588,6 @@
             "settings": {
               "collection": "accessories"
             }
-          },
-          "3487bdb8-bc95-492b-9496-091983676b00": {
-            "type": "collection",
-            "settings": {
-              "collection": "t-shirts-tanks"
-            }
           }
         },
         "block_order": [
@@ -602,8 +596,7 @@
           "9451669c-fb05-4162-af51-fff47dc3e499",
           "0db59921-6014-446a-b866-612f5450ec5c",
           "35f5e50d-7088-47ce-ba40-448a891543ba",
-          "52105414-21f3-4b6d-86ed-586af5bf4e9a",
-          "3487bdb8-bc95-492b-9496-091983676b00"
+          "52105414-21f3-4b6d-86ed-586af5bf4e9a"
         ],
         "settings": {
           "display_type": "selected",
