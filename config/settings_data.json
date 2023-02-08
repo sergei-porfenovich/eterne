@@ -559,6 +559,18 @@
               "collection": "t-shirts-tanks"
             }
           },
+          "ff77605a-8e15-48d5-929c-d3477b37a883": {
+            "type": "collection",
+            "settings": {
+              "collection": "t-shirts-1"
+            }
+          },
+          "f6b925df-d630-4a3d-89d4-9b3b3ff0fefd": {
+            "type": "collection",
+            "settings": {
+              "collection": "tanks"
+            }
+          },
           "a2c6ff6a-4aa8-403b-8050-db77e0e9b6d8": {
             "type": "collection",
             "settings": {
@@ -588,29 +600,17 @@
             "settings": {
               "collection": "accessories"
             }
-          },
-          "ff77605a-8e15-48d5-929c-d3477b37a883": {
-            "type": "collection",
-            "settings": {
-              "collection": "t-shirts-1"
-            }
-          },
-          "f6b925df-d630-4a3d-89d4-9b3b3ff0fefd": {
-            "type": "collection",
-            "settings": {
-              "collection": "tanks"
-            }
           }
         },
         "block_order": [
           "5a1c5077-c053-4057-ac8b-584c5e512138",
+          "ff77605a-8e15-48d5-929c-d3477b37a883",
+          "f6b925df-d630-4a3d-89d4-9b3b3ff0fefd",
           "a2c6ff6a-4aa8-403b-8050-db77e0e9b6d8",
           "9451669c-fb05-4162-af51-fff47dc3e499",
           "0db59921-6014-446a-b866-612f5450ec5c",
           "35f5e50d-7088-47ce-ba40-448a891543ba",
-          "52105414-21f3-4b6d-86ed-586af5bf4e9a",
-          "ff77605a-8e15-48d5-929c-d3477b37a883",
-          "f6b925df-d630-4a3d-89d4-9b3b3ff0fefd"
+          "52105414-21f3-4b6d-86ed-586af5bf4e9a"
         ],
         "settings": {
           "display_type": "selected",
