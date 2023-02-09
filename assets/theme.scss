@@ -9083,3 +9083,9 @@ span {
   max-width: 400px;
   width: 100%;
 }
+
+@media (max-width: 300px) {
+  .mobile-wrapper .logo-wrapper img {
+    max-height: 34px;
+  }
+}
