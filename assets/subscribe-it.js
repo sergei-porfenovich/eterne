@@ -66,6 +66,16 @@ function deferBisProductPageButton (callback) {
   }
 }
 
+function getRandomSubscribeAPIPath() {
+  const apiGatewayPaths=[]
+  //apiGatewayPaths.push('xsy6rdr4zb') //Commented because too many messages pending in this SQS queue
+  apiGatewayPaths.push('pw4ndd3ije')
+  apiGatewayPaths.push('056wq1p6oa')
+  apiGatewayPaths.push('obx6oifedg')
+  apiGatewayPaths.push('seknvpr88e')
+
+  return apiGatewayPaths[Math.floor(Math.random()*apiGatewayPaths.length)]
+}
 
 (function () {
     var popupFormTemplate = `<!doctype html><!--[if lt IE 7]>
@@ -191,6 +201,14 @@ function deferBisProductPageButton (callback) {
                               </div>
                             {{/only_sms_enabled}}
                           {{/show_phone_number_field}}
+
+                          {{#customer_name_enabled}}
+                            <div id="customer-name" class="form-group">
+                              <div class="col-xs-12">
+                                <input id="appikon-bis-popup-form-name" type="text" placeholder="Name" class="form-control input-lg" value="{{customer.name}}">
+                              </div>
+                            </div>
+                          {{/customer_name_enabled}}
 
                           {{#show_phone_number_field}}
                             <div id="phone-number" class="form-group {{^only_sms_enabled}}{{^show_sms_first}}popup-form-hidden-tab{{/show_sms_first}}{{/only_sms_enabled}}">
@@ -1132,6 +1150,10 @@ function deferBisProductPageButton (callback) {
                 customer_utc_offset: 60 * (new Date).getTimezoneOffset()
               };
 
+              if (stockNotificationRequestDetails.customer_name) {
+                requestObj.customer_name = stockNotificationRequestDetails.customer_name;
+              }
+
               var variant_title = undefined;
               var variant_sku = undefined;
               if (this.product !== undefined) {
@@ -1627,6 +1649,7 @@ function deferBisProductPageButton (callback) {
                 content_for_body: this.popover.settings.content_for_body,
                 shop_myshopify_domain: this.popover.settings.shop,
                 show_phone_number_field: this.popover.settings.show_phone_number_field,
+                customer_name_enabled: this.popover.settings.customer_name_enabled,
                 only_sms_enabled: this.popover.settings.only_sms_enabled,
                 show_sms_first: this.popover.settings.show_sms_first,
                 show_fb: this.popover.settings.show_fb,
@@ -1692,8 +1715,13 @@ function deferBisProductPageButton (callback) {
                   quantity_required: (null != s ? s.value : void 0) || 1,
                   accepts_marketing: !0 === (null != e ? e.checked : void 0),
                   recaptcha_response: null != a ? a.value : void 0,
-                  pushSubscriptionToken: this.pushSubscriptionToken
+                  pushSubscriptionToken: this.pushSubscriptionToken,
                 };
+
+                if(this.popover.settings.customer_name_enabled){
+                  name = SI.$("#appikon-bis-popup-form-name", this.frameDoc())?.value;
+                  stockNotificationRequestDetails.customer_name=name
+                }
 
                 email = this.emailField();
                 emailFinal = (null != email ? email.value : void 0) || null;
@@ -2095,7 +2123,7 @@ function deferBisProductPageButton (callback) {
         .call(this);
 
     SI.Config = {
-      "app_hostname": "xsy6rdr4zb.execute-api.us-west-1.amazonaws.com",
+      "app_hostname": getRandomSubscribeAPIPath()+".execute-api.us-west-1.amazonaws.com",
       "conversions_hostname": "ifouxf840g.execute-api.us-west-1.amazonaws.com",
       "instock_qty_level": 1,
       "preorder_enabled": false,
@@ -2132,6 +2160,7 @@ function deferBisProductPageButton (callback) {
         "content_for_body": "",
         "show_phone_number_field": true,
         "only_sms_enabled": false,
+        "customer_name_enabled": false,
         "show_notify_me_button_on_collection_page": false,
         "show_sms_first": false,
         "push_owl_enabled" : false,
@@ -2181,7 +2210,7 @@ function deferBisProductPageButton (callback) {
                 "border_radius": 3,
                 "image": "//static.back-in-stock.appikon.com/assets/widget/notify-btn-vertical-f46bd7ac1b51e7d3c6a766d843fe60b46f8628e13e717124d83ffe65be466f4d.png",
                 "visible": false,
-                "always_show_widget": false,
+                "always_show_widget": true,
                 "widget_button_enabled": true,
                 "countdown_timer_enabled": false,
                 "countdown_timer_reset_enabled": false,
@@ -2189,18 +2218,18 @@ function deferBisProductPageButton (callback) {
                 "countdown_timer_products": "[]"
       },
       "main_button": {
-            "main_caption": "JOIN THE WAITLIST",
-            "main_css_classes": "",
+            "main_caption": "Notify me when out of stock items are available",
+            "main_css_classes": "btn notify-me",
             "main_button_width": "",
             "main_button_height": "",
-            "main_caption_size": "",
+            "main_caption_size": "15",
             "main_margin_top": "",
             "main_margin_bottom": "",
             "main_margin_left": "",
             "main_margin_right": "",
             "main_text_color": "",
             "main_hover_text_color": "",
-            "main_text_style": "",
+            "main_text_style": "NORMAL",
             "main_background_color": "",
             "main_hover_background_color": "",
             "main_border_color": "",
@@ -2408,6 +2437,14 @@ var appikonBisInlineFormTemplate = `<div id="appikon-bis-inline-form-wrapper" cl
                             {{/only_sms_enabled}}
                           {{/show_phone_number_field}}
                     
+                        {{#customer_name_enabled}}
+                            <div id="customer-name" class="form-group">
+                              <div class="col-xs-12">
+                                <input id="appikon-bis-inline-form-name" type="text" placeholder="{{customer_name_label}}" class="form-control input-lg" value="{{customer.name}}">
+                              </div>
+                            </div>
+                          {{/customer_name_enabled}}
+
                       {{#show_phone_number_field}}
                             <div id="phone-number" class="form-group {{^only_sms_enabled}}{{^show_sms_first}}inline-form-hidden-tab{{/show_sms_first}}{{/only_sms_enabled}}">
                               <div class="appikon-bis-inline-input-section">
