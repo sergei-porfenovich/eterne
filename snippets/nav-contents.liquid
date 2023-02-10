@@ -20,7 +20,7 @@
                             {% capture image_size %}x{{ section.settings.logo_max_limit }}{% endcapture %}
                             <img src="{{ section.settings.logo | img_url: image_size }}"
                                  class="mobile--only"
-                                 srcset="{{ section.settings.logo | img_url: image_size }}, {{ section.settings.logo | img_url: image_size }}"
+                                 srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
                                  alt="{{ section.settings.logo.alt | default: shop.name }}"/>
                         {% endif %}
 
@@ -28,7 +28,7 @@
                             {% capture image_size %}x{{ section.settings.logo_max_limit }}{% endcapture %}
                             <img src="{{ section.settings.logo | img_url: image_size }}"
                                  class="logo--color desktop--only"
-                                 srcset="{{ section.settings.logo | img_url: image_size }}, {{ section.settings.logo | img_url: image_size }}"
+                                 srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
                                  alt="{{ section.settings.logo.alt | default: shop.name }}"/>
                         {% endif %}
 
