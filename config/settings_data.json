@@ -2947,6 +2947,29 @@
       "custom-collection-2": {
         "type": "custom-collection-2",
         "blocks": {
+          "6507ff11-6b41-4b8f-9212-a5d061262be0": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "rib-tank-earth",
+              "shop_product22": "rib-tank-sand"
+            }
+          },
+          "b38119ab-da8d-4e69-844d-58f8f810b96f": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "the-rib-tank-black",
+              "shop_product32": "rib-tank-ivory",
+              "shop_product33": "the-rib-tank-heather-grey"
+            }
+          },
           "8149a8e3-14b5-4508-9778-c4817884d9b3": {
             "type": "shop_imgproducts4",
             "settings": {
@@ -3287,18 +3310,6 @@
               "shop_product22": "cropped-boyfriend-tank-black"
             }
           },
-          "b38119ab-da8d-4e69-844d-58f8f810b96f": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "the-rib-tank-black",
-              "shop_product32": "rib-tank-ivory",
-              "shop_product33": "the-rib-tank-heather-grey"
-            }
-          },
           "99b4e84b-8196-4577-ad4a-d17f13dead5c": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -3321,20 +3332,11 @@
               "shop_product32": "cropped-rib-tank-ivory",
               "shop_product33": "cropped-rib-tank-heather-grey"
             }
-          },
-          "6507ff11-6b41-4b8f-9212-a5d061262be0": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "rib-tank-earth",
-              "shop_product22": "rib-tank-sand"
-            }
           }
         },
         "block_order": [
+          "6507ff11-6b41-4b8f-9212-a5d061262be0",
+          "b38119ab-da8d-4e69-844d-58f8f810b96f",
           "8149a8e3-14b5-4508-9778-c4817884d9b3",
           "c4a9d298-d4fd-4d7a-b20f-0916b837aea8",
           "f500e0f6-a158-4e1a-8ca9-fe13a3300023",
@@ -3363,10 +3365,8 @@
           "39cc7f81-e30a-41e9-90d7-1652b45df7d4",
           "de8dc6aa-abba-4f27-8092-10f13ba611a0",
           "022f8dcf-db9b-4c20-9fa0-1b71a959fbbb",
-          "b38119ab-da8d-4e69-844d-58f8f810b96f",
           "99b4e84b-8196-4577-ad4a-d17f13dead5c",
-          "4830f1fd-4c5b-48a1-8303-f4cd0311f1f3",
-          "6507ff11-6b41-4b8f-9212-a5d061262be0"
+          "4830f1fd-4c5b-48a1-8303-f4cd0311f1f3"
         ],
         "settings": {
           "show_image": false,
