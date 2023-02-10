@@ -1480,6 +1480,17 @@
               "shop_product_padding": 0,
               "shop_product1p": "rise-ai-giftcard"
             }
+          },
+          "e27d9b2e-24fd-41ba-874d-4915b0a06b90": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "rib-tank-earth",
+              "shop_product22": "rib-tank-sand"
+            }
           }
         },
         "block_order": [
@@ -1555,7 +1566,8 @@
           "b9cfce59-2f8f-4314-809b-2ecba06d5956",
           "e0e66881-beda-4d26-9d00-b41983ea144a",
           "fe546ba6-e052-4bc2-bcd5-e4f5dbd1aabe",
-          "607c3970-00af-4f2c-ae85-fe3a2bcb393b"
+          "607c3970-00af-4f2c-ae85-fe3a2bcb393b",
+          "e27d9b2e-24fd-41ba-874d-4915b0a06b90"
         ],
         "settings": {
           "show_image": true,
