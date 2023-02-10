@@ -3321,6 +3321,17 @@
               "shop_product32": "cropped-rib-tank-ivory",
               "shop_product33": "cropped-rib-tank-heather-grey"
             }
+          },
+          "6507ff11-6b41-4b8f-9212-a5d061262be0": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "rib-tank-earth",
+              "shop_product22": "rib-tank-sand"
+            }
           }
         },
         "block_order": [
@@ -3354,7 +3365,8 @@
           "022f8dcf-db9b-4c20-9fa0-1b71a959fbbb",
           "b38119ab-da8d-4e69-844d-58f8f810b96f",
           "99b4e84b-8196-4577-ad4a-d17f13dead5c",
-          "4830f1fd-4c5b-48a1-8303-f4cd0311f1f3"
+          "4830f1fd-4c5b-48a1-8303-f4cd0311f1f3",
+          "6507ff11-6b41-4b8f-9212-a5d061262be0"
         ],
         "settings": {
           "show_image": false,
