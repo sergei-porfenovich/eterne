@@ -2218,8 +2218,8 @@ function getRandomSubscribeAPIPath() {
                 "countdown_timer_products": "[]"
       },
       "main_button": {
-            "main_caption": "Placeholder",
-            "main_css_classes": "placeholder",
+            "main_caption": "Notify me when out of stock items are available",
+            "main_css_classes": "btn notify-me",
             "main_button_width": "",
             "main_button_height": "",
             "main_caption_size": "15",
