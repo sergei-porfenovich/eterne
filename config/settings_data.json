@@ -610,7 +610,7 @@
           "e27d9b2e-24fd-41ba-874d-4915b0a06b90": {
             "type": "shop_imgproducts2",
             "settings": {
-              "full_size_pictures": false,
+              "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
