@@ -2774,10 +2774,10 @@ if(SI.Config.isInlineFormEnabled) {
 }
 
       if (SI.urlIsProductPage() === true) {
-    SI.popup.ready.then(function () {
+    SI.popup.ready.then(function() {
         if (SI.popup.variants.length < 1 || !SI.Config.button.widget_button_enabled) {
-        console.log("A")
-            return;
+            console.log("A") 
+          	return;
         }
         var KT_TOTAL = 0;
         if (SI.Config.button.countdown_timer_enabled) {
@@ -3161,9 +3161,8 @@ if(SI.Config.isInlineFormEnabled) {
     }
 
         }
-
         var link = jQuery('<button>', {
-            text: SI.Config.button.caption ,
+            text: SI.Config.button.caption,
             css: {
                 width: '100%'
             },
@@ -3171,16 +3170,13 @@ if(SI.Config.isInlineFormEnabled) {
             href: '#',
             id: 'SI_trigger'
         }).hide();
-        
-        if(SI.Config.isInlineFormEnabled) {
-         link = appikonBisInlineForm;
+      	var sidebar = jQuery(".SI_trigger").hide();
+        if (SI.Config.isInlineFormEnabled) {
+            link = appikonBisInlineForm;
         }
-        // var customSelector = "div.container-wrapper > div#product-main-wrapper > div#product-info > header#product-header > div.sold-out > p.lead";
-
         var customSelector = SI.Config.button.selected_selector;
         var placement = SI.Config.button.placement;
-
-        if(jQuery('#SI_trigger').length == 0  && jQuery('#appikon-bis-inline-form-wrapper').length == 0){
+        if (jQuery('#SI_trigger').length == 0 && jQuery('#appikon-bis-inline-form-wrapper').length == 0) {
             if (placement === "BEFORE") {
                 jQuery(link).insertBefore(customSelector);
             } else if (placement === "AFTER") {
@@ -3191,28 +3187,22 @@ if(SI.Config.isInlineFormEnabled) {
                 jQuery(customSelector).append(link);
             }
         }
-
-        //          jQuery('form[action="/cart/add"]').eq(0).append(link);
-
         var countdownTimer = jQuery('<div class="countdown-KT-full-width hide-KT"id="countdownultimate-KT"><div class="countdown-KT"><div class="message-KT">Product Becoming Available in</div><br style="height: 0px;"><div class="countdown-section-KT day"><div class="digit-KT days0"><div class="card-KT"><div class="card-text-KT"></div></div><div class="card-back-KT"><div class="card-back-text-KT"></div></div><div class="card-bottom-KT"><div class="card-bottom-text-KT"></div></div><div class="card-bottom-back-KT"><div class="card-bottom-back-text-KT"></div></div></div><div class="digit-KT days1"><div class="card-KT"><div class="card-text-KT"></div></div><div class="card-back-KT"><div class="card-back-text-KT"></div></div><div class="card-bottom-KT"><div class="card-bottom-text-KT"></div></div><div class="card-bottom-back-KT"><div class="card-bottom-back-text-KT"></div></div></div><div class="title-KT">DAYS</div></div><div class="separator-KT sday">:</div><div class="countdown-section-KT hour"><div class="digit-KT hrs0"><div class="card-KT"><div class="card-text-KT"></div></div><div class="card-back-KT"><div class="card-back-text-KT"></div></div><div class="card-bottom-KT"><div class="card-bottom-text-KT"></div></div><div class="card-bottom-back-KT"><div class="card-bottom-back-text-KT"></div></div></div><div class="digit-KT hrs1"><div class="card-KT"><div class="card-text-KT"></div></div><div class="card-back-KT"><div class="card-back-text-KT"></div></div><div class="card-bottom-KT"><div class="card-bottom-text-KT"></div></div><div class="card-bottom-back-KT"><div class="card-bottom-back-text-KT"></div></div></div><div class="title-KT">HRS</div></div><div class="separator-KT shour">:</div><div class="countdown-section-KT minute"><div class="digit-KT mins0"><div class="card-KT"><div class="card-text-KT"></div></div><div class="card-back-KT"><div class="card-back-text-KT"></div></div><div class="card-bottom-KT"><div class="card-bottom-text-KT"></div></div><div class="card-bottom-back-KT"><div class="card-bottom-back-text-KT"></div></div></div><div class="digit-KT mins1"><div class="card-KT"><div class="card-text-KT"></div></div><div class="card-back-KT"><div class="card-back-text-KT"></div></div><div class="card-bottom-KT"><div class="card-bottom-text-KT"></div></div><div class="card-bottom-back-KT"><div class="card-bottom-back-text-KT"></div></div></div><div class="title-KT">MINS</div></div><div class="separator-KT sminute">:</div><div class="countdown-section-KT second"><div class="digit-KT secs0"><div class="card-KT"><div class="card-text-KT"></div></div><div class="card-back-KT"><div class="card-back-text-KT"></div></div><div class="card-bottom-KT"><div class="card-bottom-text-KT"></div></div><div class="card-bottom-back-KT"><div class="card-bottom-back-text-KT"></div></div></div><div class="digit-KT secs1"><div class="card-KT"><div class="card-text-KT"></div></div><div class="card-back-KT"><div class="card-back-text-KT"></div></div><div class="card-bottom-KT"><div class="card-bottom-text-KT"></div></div><div class="card-bottom-back-KT"><div class="card-bottom-back-text-KT"></div></div></div><div class="title-KT">SECS</div></div><div style="text-align: right;display: block !important;width: 100% !important; max-width: 100% !important; height: 100% !important; max-height: 100% !important;"></div></div></div>');
         if (SI.Config.button.countdown_timer_enabled && KT_TOTAL >= 0) {
-          if(jQuery('form[action="/cart/add"]').length == 0){
-          jQuery(countdownTimer).insertAfter(link)
-          
-          }else{
-          jQuery('form[action="/cart/add"]').append(countdownTimer);
-          }
-            
-        
+            if (jQuery('form[action="/cart/add"]').length == 0) {
+                jQuery(countdownTimer).insertAfter(link)
+            } else {
+                jQuery('form[action="/cart/add"]').append(countdownTimer);
+            }
         }
-
         var variant_id;
-        var reload = function () {
-            setTimeout(function () {
+        var reload = function() {
+            setTimeout(function() {
                 try {
                     if (SI.Config.button.always_show_widget) {
                         variant_id = SI.popup.variants[0].id;
-                       link.show();
+                        link.show();
+                        sidebar.show();
                         if (SI.Config.button.countdown_timer_enabled && KT_TOTAL >= 0) {
                             countdownTimer.show();
                         }
@@ -3220,17 +3210,17 @@ if(SI.Config.isInlineFormEnabled) {
                         var variant = SI.detectVariant(SI.popup);
                         if (variant && SI.popup.variantIsUnavailable(variant)) {
                             variant_id = variant.id;
-                          link.show();
-                        
+                            link.show();
+                            sidebar.show();
                             if (SI.Config.button.countdown_timer_enabled && KT_TOTAL >= 0) {
                                 countdownTimer.show();
                             }
                         } else {
                             link.hide();
+                            sidebar.hide();
                             if (SI.Config.button.countdown_timer_enabled && KT_TOTAL >= 0) {
                                 countdownTimer.hide();
                             }
-
                         }
                     }
                 } catch (e) {
@@ -3238,11 +3228,9 @@ if(SI.Config.isInlineFormEnabled) {
                 }
             }, 13);
         };
-
-        link.click(function () {
+        link.click(function() {
             SI.popup.form.selectVariant(variant_id)
         });
-
         setTimeout(reload, 13);
         jQuery(document).on('change', reload);
         jQuery('[class*="swatch" i]').on('click tap touchstart', reload);
@@ -3250,9 +3238,8 @@ if(SI.Config.isInlineFormEnabled) {
         jQuery('[id*="SingleOptionSelector" i]').on('click tap touchstart', '*', reload);
         jQuery('a').on('click tap touchstart', reload);
         jQuery('.product-form__chip').on('click tap touchstart', reload);
- });
+    });
 }
-
 
       deferBisProductPageButton(setBisProductPageButtonStyles);
     }
