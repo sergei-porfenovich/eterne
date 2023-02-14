@@ -2154,7 +2154,7 @@ function getRandomSubscribeAPIPath() {
       },
         "form_display_type": "POPUP",
         "madeby_link_visible": false,
-        "hide_for_product_tag": "notify-it-hidden",
+        "hide_for_product_tag": "",
         "hide_for_collections": "",
         "recaptcha_enabled": null,
         "content_for_body": "",
