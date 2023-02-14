@@ -2222,7 +2222,7 @@ function getRandomSubscribeAPIPath() {
             "main_css_classes": "btn notify-me",
             "main_button_width": "",
             "main_button_height": "",
-            "main_caption_size": "15",
+            "main_caption_size": "14",
             "main_margin_top": "",
             "main_margin_bottom": "",
             "main_margin_left": "",
