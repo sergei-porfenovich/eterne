@@ -2219,7 +2219,7 @@ function getRandomSubscribeAPIPath() {
       },
       "main_button": {
             "main_caption": "Notify me when out of stock items are available",
-            "main_css_classes": "btn",
+            "main_css_classes": "btn notify-me",
             "main_button_width": "",
             "main_button_height": "",
             "main_caption_size": "15",
