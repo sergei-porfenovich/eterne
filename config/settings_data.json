@@ -1494,6 +1494,18 @@
               "shop_product_padding": 0,
               "shop_product1p": "rise-ai-giftcard"
             }
+          },
+          "9896135e-30dd-4d48-af86-ba63ef5889e4": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-thermal-ivory",
+              "shop_product32": "long-sleeve-thermal-grey",
+              "shop_product33": "long-sleeve-thermal-black"
+            }
           }
         },
         "block_order": [
@@ -1569,7 +1581,8 @@
           "b9cfce59-2f8f-4314-809b-2ecba06d5956",
           "e0e66881-beda-4d26-9d00-b41983ea144a",
           "fe546ba6-e052-4bc2-bcd5-e4f5dbd1aabe",
-          "607c3970-00af-4f2c-ae85-fe3a2bcb393b"
+          "607c3970-00af-4f2c-ae85-fe3a2bcb393b",
+          "9896135e-30dd-4d48-af86-ba63ef5889e4"
         ],
         "settings": {
           "show_image": true,
