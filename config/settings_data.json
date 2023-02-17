@@ -2973,6 +2973,29 @@
       "custom-collection-2": {
         "type": "custom-collection-2",
         "blocks": {
+          "ccb667b5-5439-4cf6-a189-96518e79c387": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "short-sleeve-baby-tee-sand",
+              "shop_product22": "short-sleeve-baby-tee-earth"
+            }
+          },
+          "86a27648-77b0-4191-8270-872f6bba6345": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "short-sleeve-baby-tee-black",
+              "shop_product32": "short-sleeve-baby-tee-heather-grey",
+              "shop_product33": "short-sleeve-baby-ivory"
+            }
+          },
           "6507ff11-6b41-4b8f-9212-a5d061262be0": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -2994,20 +3017,6 @@
               "shop_product31": "the-rib-tank-black",
               "shop_product32": "rib-tank-ivory",
               "shop_product33": "the-rib-tank-heather-grey"
-            }
-          },
-          "8149a8e3-14b5-4508-9778-c4817884d9b3": {
-            "type": "shop_imgproducts4",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product41": "short-sleeve-baby-tee-black",
-              "shop_img42": "shopify:\/\/shop_images\/Untitled_design.png",
-              "shop_product42": "short-sleeve-baby-tee-earth",
-              "shop_product43": "short-sleeve-baby-tee-heather-grey",
-              "shop_product44": "short-sleeve-baby-ivory"
             }
           },
           "c4a9d298-d4fd-4d7a-b20f-0916b837aea8": {
@@ -3361,9 +3370,10 @@
           }
         },
         "block_order": [
+          "ccb667b5-5439-4cf6-a189-96518e79c387",
+          "86a27648-77b0-4191-8270-872f6bba6345",
           "6507ff11-6b41-4b8f-9212-a5d061262be0",
           "b38119ab-da8d-4e69-844d-58f8f810b96f",
-          "8149a8e3-14b5-4508-9778-c4817884d9b3",
           "c4a9d298-d4fd-4d7a-b20f-0916b837aea8",
           "f500e0f6-a158-4e1a-8ca9-fe13a3300023",
           "18eb4f99-997d-48ae-ab66-8116c6ce3e0b",
