@@ -1411,17 +1411,6 @@
               "shop_product33": "long-sleeve-boyfriend-tee-black"
             }
           },
-          "3d15c4f0-fae5-460e-9992-cbafc48fd459": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "long-sleeve-thermal-ivory",
-              "shop_product22": "long-sleeve-thermal-black"
-            }
-          },
           "489d769e-d952-4903-beca-8de7fffe6b22": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -1574,7 +1563,6 @@
           "9e2e5236-ef7f-49c6-b8b8-8ac0e43acf0a",
           "c7454c81-ba75-4fc0-b89d-fdd75969c0fa",
           "842fce42-4978-43b9-a18a-603176435483",
-          "3d15c4f0-fae5-460e-9992-cbafc48fd459",
           "489d769e-d952-4903-beca-8de7fffe6b22",
           "beeaa1f4-b816-42fb-a711-c2803341f0b8",
           "1789180c-658d-436d-9ba6-50cfc745d041",
