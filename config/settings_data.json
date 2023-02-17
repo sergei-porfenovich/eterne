@@ -621,6 +621,17 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "dd542319-2098-429e-861b-1d78c4b7b445": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "short-sleeve-baby-tee-sand",
+              "shop_product22": "lounge-pant-sand"
+            }
+          },
           "e27d9b2e-24fd-41ba-874d-4915b0a06b90": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1508,6 +1519,7 @@
           }
         },
         "block_order": [
+          "dd542319-2098-429e-861b-1d78c4b7b445",
           "e27d9b2e-24fd-41ba-874d-4915b0a06b90",
           "4b1f28d4-e6a5-4398-a7e5-4c76f1def008",
           "5f7de151-f828-46f8-abb3-07711ff8872e",
