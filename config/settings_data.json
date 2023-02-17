@@ -3347,6 +3347,18 @@
               "shop_product32": "cropped-rib-tank-ivory",
               "shop_product33": "cropped-rib-tank-heather-grey"
             }
+          },
+          "378bd86a-a8f8-49cc-a83d-84c7341425f8": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-thermal-ivory",
+              "shop_product32": "long-sleeve-thermal-grey",
+              "shop_product33": "long-sleeve-thermal-black"
+            }
           }
         },
         "block_order": [
@@ -3381,7 +3393,8 @@
           "de8dc6aa-abba-4f27-8092-10f13ba611a0",
           "022f8dcf-db9b-4c20-9fa0-1b71a959fbbb",
           "99b4e84b-8196-4577-ad4a-d17f13dead5c",
-          "4830f1fd-4c5b-48a1-8303-f4cd0311f1f3"
+          "4830f1fd-4c5b-48a1-8303-f4cd0311f1f3",
+          "378bd86a-a8f8-49cc-a83d-84c7341425f8"
         ],
         "settings": {
           "show_image": false,
