@@ -3993,18 +3993,27 @@
       "bottoms-collection": {
         "type": "bottoms-collection",
         "blocks": {
-          "bccf4862-83ae-4522-80bb-963ee134b7fd": {
-            "type": "shop_imgproducts4",
+          "e24ddfa6-0ae9-43af-a0e0-2f4a76c5dfe5": {
+            "type": "shop_imgproducts2",
             "settings": {
-              "full_size_pictures": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product41": "lounge-pant-heather-grey",
-              "shop_img42": "shopify:\/\/shop_images\/Untitled_design_1_4c6f4954-765b-44ba-885f-e43866f3e308.png",
-              "shop_product42": "lounge-pant-earth",
-              "shop_product43": "lounge-pant-ivory",
-              "shop_product44": "lounge-pant-black"
+              "shop_product21": "lounge-pant-sand",
+              "shop_product22": "lounge-pant-earth"
+            }
+          },
+          "509b7e28-df87-4371-91a5-8f3dc43d7031": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "lounge-pant-heather-grey",
+              "shop_product32": "lounge-pant-ivory",
+              "shop_product33": "lounge-pant-black"
             }
           },
           "0b54894c-d0a2-47ca-a2ed-3c795afc0fec": {
@@ -4111,7 +4120,8 @@
           }
         },
         "block_order": [
-          "bccf4862-83ae-4522-80bb-963ee134b7fd",
+          "e24ddfa6-0ae9-43af-a0e0-2f4a76c5dfe5",
+          "509b7e28-df87-4371-91a5-8f3dc43d7031",
           "0b54894c-d0a2-47ca-a2ed-3c795afc0fec",
           "8a3ceb85-fab9-4f2c-b7e7-c2cda0cfe305",
           "c2239c23-553c-4161-a3d8-1ddfa67adf65",
