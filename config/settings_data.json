@@ -621,6 +621,18 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "9896135e-30dd-4d48-af86-ba63ef5889e4": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-thermal-ivory",
+              "shop_product32": "long-sleeve-thermal-grey",
+              "shop_product33": "long-sleeve-thermal-black"
+            }
+          },
           "e27d9b2e-24fd-41ba-874d-4915b0a06b90": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1411,17 +1423,6 @@
               "shop_product33": "long-sleeve-boyfriend-tee-black"
             }
           },
-          "3d15c4f0-fae5-460e-9992-cbafc48fd459": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "long-sleeve-thermal-ivory",
-              "shop_product22": "long-sleeve-thermal-black"
-            }
-          },
           "489d769e-d952-4903-beca-8de7fffe6b22": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -1508,6 +1509,7 @@
           }
         },
         "block_order": [
+          "9896135e-30dd-4d48-af86-ba63ef5889e4",
           "e27d9b2e-24fd-41ba-874d-4915b0a06b90",
           "4b1f28d4-e6a5-4398-a7e5-4c76f1def008",
           "5f7de151-f828-46f8-abb3-07711ff8872e",
@@ -1574,7 +1576,6 @@
           "9e2e5236-ef7f-49c6-b8b8-8ac0e43acf0a",
           "c7454c81-ba75-4fc0-b89d-fdd75969c0fa",
           "842fce42-4978-43b9-a18a-603176435483",
-          "3d15c4f0-fae5-460e-9992-cbafc48fd459",
           "489d769e-d952-4903-beca-8de7fffe6b22",
           "beeaa1f4-b816-42fb-a711-c2803341f0b8",
           "1789180c-658d-436d-9ba6-50cfc745d041",
@@ -2961,6 +2962,18 @@
       "custom-collection-2": {
         "type": "custom-collection-2",
         "blocks": {
+          "378bd86a-a8f8-49cc-a83d-84c7341425f8": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-thermal-ivory",
+              "shop_product32": "long-sleeve-thermal-grey",
+              "shop_product33": "long-sleeve-thermal-black"
+            }
+          },
           "6507ff11-6b41-4b8f-9212-a5d061262be0": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -3349,6 +3362,7 @@
           }
         },
         "block_order": [
+          "378bd86a-a8f8-49cc-a83d-84c7341425f8",
           "6507ff11-6b41-4b8f-9212-a5d061262be0",
           "b38119ab-da8d-4e69-844d-58f8f810b96f",
           "8149a8e3-14b5-4508-9778-c4817884d9b3",
@@ -3398,9 +3412,22 @@
       "custom-collection-thermals": {
         "type": "custom-collection-thermals",
         "blocks": {
+          "173ac8e8-4ae3-40ef-a8c0-466562d2acbc": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-thermal-ivory",
+              "shop_product32": "long-sleeve-thermal-grey",
+              "shop_product33": "long-sleeve-thermal-black"
+            }
+          },
           "9451b0ad-9091-42aa-991b-7a54ae8b34d0": {
             "type": "shop_imgproducts2",
             "settings": {
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -3411,6 +3438,7 @@
           "af4df970-1750-4f41-97b3-40a9d5b527b7": {
             "type": "shop_porproducts1",
             "settings": {
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -3420,6 +3448,7 @@
           "4e5db8ca-d79a-48dc-9c4f-f2453781275b": {
             "type": "shop_imgproducts2",
             "settings": {
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -3430,6 +3459,7 @@
           "b9f0c06c-cabb-43ea-b2e7-39e6335e02be": {
             "type": "shop_imgproducts2",
             "settings": {
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -3440,6 +3470,7 @@
           "2b0c7fea-d330-4d60-aa2d-80a400fa0473": {
             "type": "shop_imgproducts2",
             "settings": {
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -3450,6 +3481,7 @@
           "91414002-d351-4173-83d1-a248a0dc6743": {
             "type": "shop_imgproducts1",
             "settings": {
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -3460,6 +3492,7 @@
           "4775cd95-5b2a-4c77-805b-1eeccc632bd4": {
             "type": "shop_imgproducts2",
             "settings": {
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -3470,6 +3503,7 @@
           "8e93cf31-abcb-48a9-b464-a41dbadc4b59": {
             "type": "shop_imgproducts3",
             "settings": {
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -3481,6 +3515,7 @@
           "06a281f4-05dc-4c9e-ae57-3aebf1fb0e17": {
             "type": "shop_imgproducts2",
             "settings": {
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -3491,6 +3526,7 @@
           "41808390-6b63-45a7-abdf-a221520909aa": {
             "type": "shop_porproducts1",
             "settings": {
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -3501,6 +3537,7 @@
           "e272acf0-6ea1-4239-b39b-6ec68005cf96": {
             "type": "shop_imgproducts3",
             "settings": {
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -3508,19 +3545,10 @@
               "shop_product32": "cropped-oversized-thermal-ivory",
               "shop_product33": "cropped-oversized-thermal-black"
             }
-          },
-          "3a2712c8-6840-48a9-a5a5-e0d4974dd022": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "long-sleeve-thermal-ivory",
-              "shop_product22": "long-sleeve-thermal-black"
-            }
           }
         },
         "block_order": [
+          "173ac8e8-4ae3-40ef-a8c0-466562d2acbc",
           "9451b0ad-9091-42aa-991b-7a54ae8b34d0",
           "af4df970-1750-4f41-97b3-40a9d5b527b7",
           "4e5db8ca-d79a-48dc-9c4f-f2453781275b",
@@ -3531,8 +3559,7 @@
           "8e93cf31-abcb-48a9-b464-a41dbadc4b59",
           "06a281f4-05dc-4c9e-ae57-3aebf1fb0e17",
           "41808390-6b63-45a7-abdf-a221520909aa",
-          "e272acf0-6ea1-4239-b39b-6ec68005cf96",
-          "3a2712c8-6840-48a9-a5a5-e0d4974dd022"
+          "e272acf0-6ea1-4239-b39b-6ec68005cf96"
         ],
         "settings": {
           "show_image": false,
