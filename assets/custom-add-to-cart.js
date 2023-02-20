@@ -80,7 +80,7 @@ var popdown = function() {
   clearTimeout(globalTimer);
   globalTimer = setTimeout(function(){
     $drawer.removeClass( 'is-visible' ).removeClass( 'has-errors' );
-  }, 5000);
+  }, 3000);
 }
 
 $drawer.on( 'click', '.close', function() {

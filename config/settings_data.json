@@ -74,10 +74,8 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/logo_transparent.png",
-          "logo_max_limit": 40,
-          "banner": "shopify:\/\/shop_images\/eterne_transparent.png",
-          "banner_max_limit": 70,
+          "logo": "shopify:\/\/shop_images\/Eterne_Logos_-_Side_by_Side-01_425a3718-ff61-496c-8b85-4e8c20822a5b.png",
+          "logo_max_limit": 65,
           "main_menu_linklist": "main-menu",
           "meganav_link": "",
           "header_sticky": "static",
@@ -561,6 +559,18 @@
               "collection": "t-shirts-tanks"
             }
           },
+          "ff77605a-8e15-48d5-929c-d3477b37a883": {
+            "type": "collection",
+            "settings": {
+              "collection": "t-shirts-1"
+            }
+          },
+          "f6b925df-d630-4a3d-89d4-9b3b3ff0fefd": {
+            "type": "collection",
+            "settings": {
+              "collection": "tanks"
+            }
+          },
           "a2c6ff6a-4aa8-403b-8050-db77e0e9b6d8": {
             "type": "collection",
             "settings": {
@@ -594,6 +604,8 @@
         },
         "block_order": [
           "5a1c5077-c053-4057-ac8b-584c5e512138",
+          "ff77605a-8e15-48d5-929c-d3477b37a883",
+          "f6b925df-d630-4a3d-89d4-9b3b3ff0fefd",
           "a2c6ff6a-4aa8-403b-8050-db77e0e9b6d8",
           "9451669c-fb05-4162-af51-fff47dc3e499",
           "0db59921-6014-446a-b866-612f5450ec5c",
@@ -609,6 +621,73 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "e27d9b2e-24fd-41ba-874d-4915b0a06b90": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "rib-tank-earth",
+              "shop_product22": "rib-tank-sand"
+            }
+          },
+          "4b1f28d4-e6a5-4398-a7e5-4c76f1def008": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "tank-dress-maxi-sand",
+              "shop_product22": "tank-dress-maxi-earth"
+            }
+          },
+          "5f7de151-f828-46f8-abb3-07711ff8872e": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "short-sleeve-baby-tee-earth",
+              "shop_product22": "lounge-pant-earth"
+            }
+          },
+          "7e8051f8-3352-4988-a577-06425292f429": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-crewneck-dress-mini-cream",
+              "shop_product32": "long-sleeve-crewneck-dress-mini-earth",
+              "shop_product33": "long-sleeve-crewneck-dress-mini-black"
+            }
+          },
+          "ce9cd2cc-3770-4adf-b617-694343b6a6bb": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-crewneck-dress-maxi-black",
+              "shop_product32": "long-sleeve-crewneck-dress-maxi-sand",
+              "shop_product33": "long-sleeve-crewneck-dress-maxi-cream"
+            }
+          },
+          "a575d070-e903-4223-8cbe-76c6b4023b25": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product1": "long-sleeve-crewneck-dress-maxi-heather-grey"
+            }
+          },
           "86730e6f-200e-460f-9f7c-2eec5b9abb34": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -824,27 +903,6 @@
               "shop_product33": "long-sleeve-fitted-top-heather-grey"
             }
           },
-          "a575d070-e903-4223-8cbe-76c6b4023b25": {
-            "type": "shop_imgproducts1",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product1": "long-sleeve-crewneck-dress-maxi-heather-grey"
-            }
-          },
-          "5b364fed-5cc5-4bcf-b905-b16f56737b7c": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "long-sleeve-crewneck-dress-maxi-black",
-              "shop_product22": "long-sleeve-crewneck-dress-maxi-cream"
-            }
-          },
           "ce421b0d-7bfc-4d13-9833-241934813b92": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -905,16 +963,15 @@
               "shop_product33": "tank-dress-maxi-black"
             }
           },
-          "38c334a8-3c5d-4314-8392-581857f81346": {
-            "type": "shop_imgproducts3",
+          "9bcac4bf-3ec7-442f-a802-74fcd54d1f0d": {
+            "type": "shop_imgproducts2",
             "settings": {
               "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product31": "long-sleeve-crewneck-dress-mini-black",
-              "shop_product32": "tank-dress-mini-black",
-              "shop_product33": "long-sleeve-turtleneck-dress-mini-black-black"
+              "shop_product21": "tank-dress-mini-black",
+              "shop_product22": "long-sleeve-turtleneck-dress-mini-black-black"
             }
           },
           "d0760d23-e80b-4ead-b53a-c3622ec3d285": {
@@ -929,16 +986,15 @@
               "shop_product33": "super-cropped-rib-tank-ivory"
             }
           },
-          "dec54a19-cff5-4c27-b88a-9fc0f4db4561": {
-            "type": "shop_imgproducts3",
+          "7476254f-f864-4f30-97aa-1f58c15d05e3": {
+            "type": "shop_imgproducts2",
             "settings": {
               "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product31": "long-sleeve-crewneck-dress-mini-cream",
-              "shop_product32": "tank-dress-mini-cream",
-              "shop_product33": "long-sleeve-turtleneck-dress-mini-cream"
+              "shop_product21": "long-sleeve-turtleneck-dress-mini-cream",
+              "shop_product22": "tank-dress-mini-cream"
             }
           },
           "73f7e148-b3a8-4bd0-bfb0-a2bf1d80bf71": {
@@ -1452,6 +1508,12 @@
           }
         },
         "block_order": [
+          "e27d9b2e-24fd-41ba-874d-4915b0a06b90",
+          "4b1f28d4-e6a5-4398-a7e5-4c76f1def008",
+          "5f7de151-f828-46f8-abb3-07711ff8872e",
+          "7e8051f8-3352-4988-a577-06425292f429",
+          "ce9cd2cc-3770-4adf-b617-694343b6a6bb",
+          "a575d070-e903-4223-8cbe-76c6b4023b25",
           "86730e6f-200e-460f-9f7c-2eec5b9abb34",
           "b09b5205-7171-419b-bdfa-730f3457d626",
           "49eab2da-3347-406d-83a5-da7f24af6ef9",
@@ -1471,16 +1533,14 @@
           "c80836fe-e2f5-4814-9b33-a354ed0e11d6",
           "8f3e2068-5d6b-49bc-a574-cdf024ace162",
           "a81a3e00-07c4-417c-ae35-265df7895799",
-          "a575d070-e903-4223-8cbe-76c6b4023b25",
-          "5b364fed-5cc5-4bcf-b905-b16f56737b7c",
           "ce421b0d-7bfc-4d13-9833-241934813b92",
           "a627fd29-37bf-4991-8a06-9dc1c2a304b0",
           "401a0de1-9886-452a-be6a-283e0db89b50",
           "d53de153-12ce-404f-ae18-257021fea4aa",
           "206d0db3-9255-4009-9804-2a77d20634f8",
-          "38c334a8-3c5d-4314-8392-581857f81346",
+          "9bcac4bf-3ec7-442f-a802-74fcd54d1f0d",
           "d0760d23-e80b-4ead-b53a-c3622ec3d285",
-          "dec54a19-cff5-4c27-b88a-9fc0f4db4561",
+          "7476254f-f864-4f30-97aa-1f58c15d05e3",
           "73f7e148-b3a8-4bd0-bfb0-a2bf1d80bf71",
           "b4da56c3-1fce-45ca-a078-d21a2f587b6e",
           "dd244cfd-ef7e-46ad-8055-cd0a57c662a8",
@@ -2476,7 +2536,7 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "settings": {
-          "message": true,
+          "message": false,
           "message_text": "ORDER BY 12\/13 FOR DELIVERY ON OR BEFORE 12\/24",
           "announcement_two": "",
           "color_bg": "#000000",
@@ -2487,6 +2547,72 @@
       "press-page": {
         "type": "press-page",
         "blocks": {
+          "6454ef17-89e9-4be3-b66c-b57528cc6b03": {
+            "type": "article",
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/logo_whowhatwear_3x_c57c1e05-1434-4825-b50a-48dcabf8cc5d.png",
+              "article_image": "shopify:\/\/shop_images\/1_fd6b0e93-3f67-45bb-9909-701e69150765.png",
+              "article_date": "1\/18\/23",
+              "article_title": "Sorry to the Basics in My Closet — These 2023 Updates Might Replace You",
+              "article_description": "Do you ever start shopping and realize that you don’t just want one or two items but suddenly crave an entire wardrobe overhaul?",
+              "article_url": "https:\/\/www.whowhatwear.com\/new-wardrobe-basics-2023"
+            }
+          },
+          "4a1b7adf-5e95-4fc0-ad58-e2a75cf987b0": {
+            "type": "article",
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/Screen_Shot_2023-01-31_at_5.06.27_PM.png",
+              "article_image": "shopify:\/\/shop_images\/2_858d2ced-5962-4638-acb3-2eec08051207.png",
+              "article_date": "1\/3\/23",
+              "article_title": "New California Cotton-Centric Staples Brand Éterne Fills American Apparel Market Gap",
+              "article_description": "When LA-based stylist Chloé Bartoli couldn’t find the perfect tank top for a shoot, she decided to make one.",
+              "article_url": "https:\/\/uk.fashionnetwork.com\/news\/New-california-cotton-centric-staples-brand-eterne-fills-american-apparel-market-gap,1472421.html"
+            }
+          },
+          "530e4fc1-9191-451b-94ca-f2bc2c94fc2a": {
+            "type": "article",
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/logo_vogue_3x_ccf026f4-96cf-44a5-a446-44f5e78e54aa.png",
+              "article_image": "shopify:\/\/shop_images\/3_ad2ee274-6521-4038-803a-ecc9af085d3a.png",
+              "article_date": "12\/28\/22",
+              "article_title": "Unpacking 9 Top Editors’ Fashion Capsule Wardrobes",
+              "article_description": "If we had to sartorially summarize 2022, we would describe it as the year where wardrobe essentials reigned supreme. Thanks to a solid roster of brands--The Frankie Shop, The Row, COS, and Totême...",
+              "article_url": "https:\/\/www.vogue.com\/article\/vogue-editors-capsule-wardrobe"
+            }
+          },
+          "5d94e6e6-e95e-48a3-b41f-14897f814169": {
+            "type": "article",
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/logo_vogue_3x_ccf026f4-96cf-44a5-a446-44f5e78e54aa.png",
+              "article_image": "shopify:\/\/shop_images\/5_4f59bb22-16b1-43e3-b36e-6cc3e3d8aa03.png",
+              "article_date": "12\/14\/22",
+              "article_title": "The Secret Sweater Brand Celebs Can’t Stop Wearing",
+              "article_description": "If you haven’t already, now’s the time to add the Éterne clothing brand to your sartorial lexicon. The quiet new label has quickly become the backbone of several of our most-liked celebrity outfits since its launch...",
+              "article_url": "https:\/\/www.vogue.com\/article\/eterne-clothing Image:"
+            }
+          },
+          "5e12d8a7-68e8-4154-b9af-a214c4f78047": {
+            "type": "article",
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/logo_whowhatwear_3x_f7774b44-f876-4ab0-bc70-14fe78e0fe5b.png",
+              "article_image": "shopify:\/\/shop_images\/4.png",
+              "article_date": "12\/19\/22",
+              "article_title": "The Underrated Yet Extremely Essential Basic I’m Buying on the Cheap",
+              "article_description": "There are some fashion items that are so rudimentary that I can never remember to buy them, and when I really need them and tell myself...",
+              "article_url": "https:\/\/www.whowhatwear.com\/best-long-sleeve-t-shirts\/slide2"
+            }
+          },
+          "71169fd9-41c4-4566-9fc5-57f6fdbf90e3": {
+            "type": "article",
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/logo_harpersbazaar_3x_66c1bda3-7467-4562-b508-0667252236dc.png",
+              "article_image": "shopify:\/\/shop_images\/7_b07557d6-45b2-46b2-9230-b85255c003ad.png",
+              "article_date": "12\/14\/22",
+              "article_title": "The 24 Coziest Winter Sweaters for Women, from Cashmere to Cable Knits",
+              "article_description": "Welcome to hygge season. While you may not be ready to accept the earlier sunsets, the arrival of cold weather does bring about...",
+              "article_url": "https:\/\/www.harpersbazaar.com\/fashion\/trends\/g2409\/winter-sweaters-women\/"
+            }
+          },
           "379e5ecf-4ba0-4b61-9f7f-fd0fa86c4332": {
             "type": "article",
             "settings": {
@@ -2593,7 +2719,7 @@
               "article_image": "shopify:\/\/shop_images\/PRESS_PAGE_-_2-06_Harpers.png",
               "article_date": "11\/11\/21",
               "article_title": "Éterne Makes Elevated Essentials You'll Want to Live In",
-              "article_description": "Chloe Bartoli launched the brand to create basics she could never find for styling clients. One year after Éterne's launch, it's a destination for quality essentials.",
+              "article_description": "Chloé Bartoli launched the brand to create basics she could never find for styling clients. One year after Éterne's launch, it's a destination for quality essentials.",
               "article_url": "https:\/\/www.harpersbazaar.com\/fashion\/trends\/a38213248\/eterne-clothing-chloe-bartoli\/"
             }
           },
@@ -2720,6 +2846,12 @@
           }
         },
         "block_order": [
+          "6454ef17-89e9-4be3-b66c-b57528cc6b03",
+          "4a1b7adf-5e95-4fc0-ad58-e2a75cf987b0",
+          "530e4fc1-9191-451b-94ca-f2bc2c94fc2a",
+          "5d94e6e6-e95e-48a3-b41f-14897f814169",
+          "5e12d8a7-68e8-4154-b9af-a214c4f78047",
+          "71169fd9-41c4-4566-9fc5-57f6fdbf90e3",
           "379e5ecf-4ba0-4b61-9f7f-fd0fa86c4332",
           "34597a59-e66f-4e4f-b99a-dd4428a8fd22",
           "a3e63c3c-b116-4abb-8561-c02217be0c95",
@@ -2829,6 +2961,43 @@
       "custom-collection-2": {
         "type": "custom-collection-2",
         "blocks": {
+          "6507ff11-6b41-4b8f-9212-a5d061262be0": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "rib-tank-earth",
+              "shop_product22": "rib-tank-sand"
+            }
+          },
+          "b38119ab-da8d-4e69-844d-58f8f810b96f": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "the-rib-tank-black",
+              "shop_product32": "rib-tank-ivory",
+              "shop_product33": "the-rib-tank-heather-grey"
+            }
+          },
+          "8149a8e3-14b5-4508-9778-c4817884d9b3": {
+            "type": "shop_imgproducts4",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product41": "short-sleeve-baby-tee-black",
+              "shop_img42": "shopify:\/\/shop_images\/Untitled_design.png",
+              "shop_product42": "short-sleeve-baby-tee-earth",
+              "shop_product43": "short-sleeve-baby-tee-heather-grey",
+              "shop_product44": "short-sleeve-baby-ivory"
+            }
+          },
           "c4a9d298-d4fd-4d7a-b20f-0916b837aea8": {
             "type": "shop_imgproducts4",
             "settings": {
@@ -2981,18 +3150,6 @@
               "shop_product31": "cropped-v-neck-t-shirt-black",
               "shop_product32": "cropped-v-neck-t-shirt-heather-grey",
               "shop_product33": "cropped-v-neck-t-shirt-ivory"
-            }
-          },
-          "36578b14-ecdc-476a-b234-6a63466099b2": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "short-sleeve-baby-tee-black",
-              "shop_product32": "short-sleeve-baby-tee-heather-grey",
-              "shop_product33": "short-sleeve-baby-ivory"
             }
           },
           "f40aae42-d724-45c2-b1ed-b1287e180310": {
@@ -3167,18 +3324,6 @@
               "shop_product22": "cropped-boyfriend-tank-black"
             }
           },
-          "b38119ab-da8d-4e69-844d-58f8f810b96f": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "the-rib-tank-black",
-              "shop_product32": "rib-tank-ivory",
-              "shop_product33": "the-rib-tank-heather-grey"
-            }
-          },
           "99b4e84b-8196-4577-ad4a-d17f13dead5c": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -3204,6 +3349,9 @@
           }
         },
         "block_order": [
+          "6507ff11-6b41-4b8f-9212-a5d061262be0",
+          "b38119ab-da8d-4e69-844d-58f8f810b96f",
+          "8149a8e3-14b5-4508-9778-c4817884d9b3",
           "c4a9d298-d4fd-4d7a-b20f-0916b837aea8",
           "f500e0f6-a158-4e1a-8ca9-fe13a3300023",
           "18eb4f99-997d-48ae-ab66-8116c6ce3e0b",
@@ -3217,7 +3365,6 @@
           "bb957549-9d81-4b04-a111-840f9197359d",
           "10cce77e-a8d0-4831-9ac2-ac8c93dacddb",
           "e6a9a437-c035-4b91-bc8b-37a1622b894d",
-          "36578b14-ecdc-476a-b234-6a63466099b2",
           "f40aae42-d724-45c2-b1ed-b1287e180310",
           "141e7144-57f3-44fc-acde-c934375aec49",
           "b0f829dd-1228-4237-96ae-41d5d15deefe",
@@ -3232,7 +3379,6 @@
           "39cc7f81-e30a-41e9-90d7-1652b45df7d4",
           "de8dc6aa-abba-4f27-8092-10f13ba611a0",
           "022f8dcf-db9b-4c20-9fa0-1b71a959fbbb",
-          "b38119ab-da8d-4e69-844d-58f8f810b96f",
           "99b4e84b-8196-4577-ad4a-d17f13dead5c",
           "4830f1fd-4c5b-48a1-8303-f4cd0311f1f3"
         ],
@@ -3825,6 +3971,20 @@
       "bottoms-collection": {
         "type": "bottoms-collection",
         "blocks": {
+          "bccf4862-83ae-4522-80bb-963ee134b7fd": {
+            "type": "shop_imgproducts4",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product41": "lounge-pant-heather-grey",
+              "shop_img42": "shopify:\/\/shop_images\/Untitled_design_1_4c6f4954-765b-44ba-885f-e43866f3e308.png",
+              "shop_product42": "lounge-pant-earth",
+              "shop_product43": "lounge-pant-ivory",
+              "shop_product44": "lounge-pant-black"
+            }
+          },
           "0b54894c-d0a2-47ca-a2ed-3c795afc0fec": {
             "type": "shop_imgproducts4",
             "settings": {
@@ -3893,18 +4053,6 @@
               "shop_product22": "thermal-lounge-pant-heather-grey"
             }
           },
-          "a3b74bb9-662d-4701-92ed-14a445d871f2": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "lounge-pant-heather-grey",
-              "shop_product32": "lounge-pant-ivory",
-              "shop_product33": "lounge-pant-black"
-            }
-          },
           "5f759bf6-aa22-4b9e-9ebe-2116c79919f6": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -3941,13 +4089,13 @@
           }
         },
         "block_order": [
+          "bccf4862-83ae-4522-80bb-963ee134b7fd",
           "0b54894c-d0a2-47ca-a2ed-3c795afc0fec",
           "8a3ceb85-fab9-4f2c-b7e7-c2cda0cfe305",
           "c2239c23-553c-4161-a3d8-1ddfa67adf65",
           "bb753a89-fb2b-4fd8-aa4f-9a377c1fdb60",
           "2e5edc69-9d7e-4d6c-913f-da95d4c7f185",
           "a0963a42-4208-4e92-8c69-2ff7c2400383",
-          "a3b74bb9-662d-4701-92ed-14a445d871f2",
           "5f759bf6-aa22-4b9e-9ebe-2116c79919f6",
           "40d9656d-7f43-49c1-812e-bf98fa0330af",
           "b3c9bf05-f492-4cfc-8c6b-668de9eafb03"
@@ -4296,7 +4444,7 @@
               "shop_product_margin": 18,
               "shop_product_padding": 17,
               "shop_img11": "shopify:\/\/shop_images\/3.jpg",
-              "shop_product11": ""
+              "shop_product11": "georgia"
             }
           },
           "042e2607-ac92-412e-9373-847c6cffd4e5": {
@@ -4698,16 +4846,28 @@
       "dresses-collection": {
         "type": "dresses-collection",
         "blocks": {
-          "d12ce08a-6c1c-4f0e-89b0-6d48648fa407": {
+          "16dbdcdb-3a7e-491a-ae70-e63ad0df36e9": {
             "type": "shop_imgproducts3",
             "settings": {
               "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product31": "long-sleeve-turtleneck-dress-maxi-black",
-              "shop_product32": "long-sleeve-turtleneck-dress-maxi-heather-grey",
-              "shop_product33": "long-sleeve-turtleneck-dress-maxi-cream"
+              "shop_product31": "long-sleeve-crewneck-dress-mini-cream",
+              "shop_product32": "long-sleeve-crewneck-dress-mini-earth",
+              "shop_product33": "long-sleeve-crewneck-dress-mini-black"
+            }
+          },
+          "ee642edb-8665-43e3-8f49-961fce4f142a": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-crewneck-dress-maxi-black",
+              "shop_product32": "long-sleeve-crewneck-dress-maxi-sand",
+              "shop_product33": "long-sleeve-crewneck-dress-maxi-cream"
             }
           },
           "dc0f704b-81c7-4ec2-90f9-d40f90f5fa4b": {
@@ -4720,15 +4880,16 @@
               "shop_product1": "long-sleeve-crewneck-dress-maxi-heather-grey"
             }
           },
-          "a03d7168-e41b-4907-83f3-d35ab1925272": {
-            "type": "shop_imgproducts2",
+          "d12ce08a-6c1c-4f0e-89b0-6d48648fa407": {
+            "type": "shop_imgproducts3",
             "settings": {
-              "full_size_pictures": false,
+              "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product21": "long-sleeve-crewneck-dress-maxi-black",
-              "shop_product22": "long-sleeve-crewneck-dress-maxi-cream"
+              "shop_product31": "long-sleeve-turtleneck-dress-maxi-black",
+              "shop_product32": "long-sleeve-turtleneck-dress-maxi-heather-grey",
+              "shop_product33": "long-sleeve-turtleneck-dress-maxi-cream"
             }
           },
           "2b749d83-5d56-4dd0-a302-0dbb4ec96ba6": {
@@ -4755,39 +4916,38 @@
               "shop_product33": "tank-dress-maxi-cream"
             }
           },
-          "7b682a77-7490-44da-a2e5-e22613647691": {
-            "type": "shop_imgproducts3",
+          "98282f03-4a2b-48f5-9dc3-ceb9ff6a2950": {
+            "type": "shop_imgproducts2",
             "settings": {
-              "full_size_pictures": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product31": "long-sleeve-turtleneck-dress-mini-black-black",
-              "shop_product32": "tank-dress-mini-black",
-              "shop_product33": "long-sleeve-crewneck-dress-mini-black"
+              "shop_product21": "long-sleeve-turtleneck-dress-mini-black-black",
+              "shop_product22": "tank-dress-mini-black"
             }
           },
-          "6c59fee2-b434-485a-968d-47dcb70d1862": {
-            "type": "shop_imgproducts3",
+          "c5c5f693-37d3-4d56-8748-6800ee3143a5": {
+            "type": "shop_imgproducts2",
             "settings": {
               "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product31": "long-sleeve-crewneck-dress-mini-cream",
-              "shop_product32": "tank-dress-mini-cream",
-              "shop_product33": "long-sleeve-turtleneck-dress-mini-cream"
+              "shop_product21": "tank-dress-mini-cream",
+              "shop_product22": "long-sleeve-turtleneck-dress-mini-cream"
             }
           }
         },
         "block_order": [
-          "d12ce08a-6c1c-4f0e-89b0-6d48648fa407",
+          "16dbdcdb-3a7e-491a-ae70-e63ad0df36e9",
+          "ee642edb-8665-43e3-8f49-961fce4f142a",
           "dc0f704b-81c7-4ec2-90f9-d40f90f5fa4b",
-          "a03d7168-e41b-4907-83f3-d35ab1925272",
+          "d12ce08a-6c1c-4f0e-89b0-6d48648fa407",
           "2b749d83-5d56-4dd0-a302-0dbb4ec96ba6",
           "6dcd3443-7f7a-4a70-bb58-36d89babd733",
-          "7b682a77-7490-44da-a2e5-e22613647691",
-          "6c59fee2-b434-485a-968d-47dcb70d1862"
+          "98282f03-4a2b-48f5-9dc3-ceb9ff6a2950",
+          "c5c5f693-37d3-4d56-8748-6800ee3143a5"
         ],
         "settings": {
           "show_image": true,
@@ -5047,6 +5207,221 @@
         ],
         "settings": {
           "title": "Campaign Videos"
+        }
+      },
+      "kenya-campaign-shop": {
+        "type": "kenya-campaign-shop",
+        "blocks": {
+          "f9e371bd-0922-4c87-9adf-9393e4b65f09": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img21": "shopify:\/\/shop_images\/1_edited_8c787e25-4e84-49b5-a00e-feccbbd5052f.jpg",
+              "shop_product21": "",
+              "shop_img22": "shopify:\/\/shop_images\/2_edited.jpg",
+              "shop_product22": ""
+            }
+          },
+          "c7d86560-3a53-4e09-8f6a-9792f76b2386": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": false,
+              "product_grid_aspect_ratio": "1.33",
+              "shop_product_margin": 12,
+              "shop_product_padding": 4,
+              "shop_img11": "shopify:\/\/shop_images\/3_edited.jpg",
+              "shop_product11": "turtleneck-bodysuit"
+            }
+          },
+          "328b3b66-6137-4572-80bc-214187d44211": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 6,
+              "shop_product_padding": 4,
+              "shop_img21": "shopify:\/\/shop_images\/4_SP.jpg",
+              "shop_product21": "francis",
+              "shop_img22": "shopify:\/\/shop_images\/5_edited.jpg",
+              "shop_product22": "francis-2"
+            }
+          },
+          "17a93528-70d5-4d37-85ea-bae9b88377c8": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img11": "shopify:\/\/shop_images\/6z_edited.jpg",
+              "shop_product11": "theodore-3"
+            }
+          },
+          "f1d74f6d-0a5f-4105-8721-3fe69b21fbba": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img11": "shopify:\/\/shop_images\/7_edited.jpg",
+              "shop_product11": ""
+            }
+          },
+          "d671e8f6-1e48-4b67-b9b4-2159b84213f9": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img21": "shopify:\/\/shop_images\/8_edited.jpg",
+              "shop_product21": "",
+              "shop_img22": "shopify:\/\/shop_images\/9_edited.jpg",
+              "shop_product22": ""
+            }
+          },
+          "210d99fe-c2a6-4e61-93da-08c47c2da591": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img11": "shopify:\/\/shop_images\/10z_edited.jpg",
+              "shop_product11": ""
+            }
+          },
+          "57843957-e218-4e16-9948-9e231d32eb5c": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img11": "shopify:\/\/shop_images\/11z_edited_93587e42-7ebe-4e39-9982-e4c5f1f6a72a.jpg",
+              "shop_product11": "james"
+            }
+          },
+          "f051f246-f270-4c39-9f5d-de6174af4d0e": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img21": "shopify:\/\/shop_images\/12z_edited.jpg",
+              "shop_product21": "theodore-3",
+              "shop_img22": "shopify:\/\/shop_images\/13z_edited.jpg",
+              "shop_product22": "theodore-3"
+            }
+          },
+          "41a56513-f17d-4349-aa07-bc4715f1a68f": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img11": "shopify:\/\/shop_images\/14z_edited.jpg",
+              "shop_product11": ""
+            }
+          },
+          "a9bd9d73-2ed2-4677-b8d9-ceac3d1cabc6": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img21": "shopify:\/\/shop_images\/15z_edited.jpg",
+              "shop_product21": "",
+              "shop_img22": "shopify:\/\/shop_images\/16z_edited.jpg",
+              "shop_product22": ""
+            }
+          },
+          "7b94d178-8f50-4072-b1d2-e2f2f627a3b6": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img11": "shopify:\/\/shop_images\/17z_edited_76c77069-b332-41c6-9a7c-e37b4347e9a0.jpg",
+              "shop_product11": ""
+            }
+          },
+          "711141fe-1c1e-48cb-b987-a55ffa005bb3": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img11": "shopify:\/\/shop_images\/18z_edited_123e9e66-24f1-4760-918f-c894b4221029.jpg",
+              "shop_product11": "francis-1"
+            }
+          },
+          "6ceec5bd-7503-480e-9a53-127697d5097f": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img11": "shopify:\/\/shop_images\/19_Screen_Shot_2022-12-29_at_10.11.50_AM.png",
+              "shop_product11": "james"
+            }
+          },
+          "22a42326-bfa5-4fd8-80ce-e3aba4143084": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "image_autoheight_enable": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img21": "shopify:\/\/shop_images\/20z_edited.jpg",
+              "shop_product21": "james-2",
+              "shop_img22": "shopify:\/\/shop_images\/21z_edited.jpg",
+              "shop_product22": "francis-1"
+            }
+          },
+          "95c41e15-6b21-4a13-8d7a-6bc4fd7bb691": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "image_autoheight_enable": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img11": "shopify:\/\/shop_images\/22z_edited.jpg",
+              "shop_product11": ""
+            }
+          }
+        },
+        "block_order": [
+          "f9e371bd-0922-4c87-9adf-9393e4b65f09",
+          "c7d86560-3a53-4e09-8f6a-9792f76b2386",
+          "328b3b66-6137-4572-80bc-214187d44211",
+          "17a93528-70d5-4d37-85ea-bae9b88377c8",
+          "f1d74f6d-0a5f-4105-8721-3fe69b21fbba",
+          "d671e8f6-1e48-4b67-b9b4-2159b84213f9",
+          "210d99fe-c2a6-4e61-93da-08c47c2da591",
+          "57843957-e218-4e16-9948-9e231d32eb5c",
+          "f051f246-f270-4c39-9f5d-de6174af4d0e",
+          "41a56513-f17d-4349-aa07-bc4715f1a68f",
+          "a9bd9d73-2ed2-4677-b8d9-ceac3d1cabc6",
+          "7b94d178-8f50-4072-b1d2-e2f2f627a3b6",
+          "711141fe-1c1e-48cb-b987-a55ffa005bb3",
+          "6ceec5bd-7503-480e-9a53-127697d5097f",
+          "22a42326-bfa5-4fd8-80ce-e3aba4143084",
+          "95c41e15-6b21-4a13-8d7a-6bc4fd7bb691"
+        ],
+        "settings": {
+          "shop_margin_top": 0,
+          "shop_margin_bottom": 25
         }
       }
     },

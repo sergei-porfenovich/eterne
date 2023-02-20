@@ -2070,10 +2070,27 @@ theme.Product = (function() {
         });
       }
       var addError = function(object, status) {
+        var topPosition =  $('.site-header').outerHeight() + $('.info-bar').outerHeight();
         var errors = '<div class="errors">' + object.responseJSON.description + '</div>';
+
+        $drawer.attr('style','');
         $drawer.empty();
         $drawer.append( errors );
-        $drawer.addClass('has-errors is-visible');
+        $drawer.addClass('has-errors');
+
+        if ( $('.header__wrapper').hasClass('header--sticky') ) {
+          var topPosition =  $('.site-header ').outerHeight();
+          $drawer.css( 'top', topPosition );
+        } else if ( $(window).scrollTop() > topPosition ){
+          $drawer.css( 'top', 0 );
+          $drawer.css( 'z-index', '2000' );
+        }
+        else {
+          topPosition = Math.max( $(window).scrollTop() , topPosition);
+          $drawer.css( 'position', 'absolute' );
+          $drawer.css( 'top', topPosition );
+        }
+
         popdown();
       }
       var addSuccess = function(product){
@@ -2115,7 +2132,7 @@ theme.Product = (function() {
         clearTimeout(globalTimer);
         globalTimer = setTimeout(function(){
           $drawer.removeClass( 'is-visible' ).removeClass( 'has-errors' );
-        }, 5000);
+        }, 3000);
       }
       $drawer.on( 'click', '.close', function() {
         $drawer.removeClass( 'is-visible' ).removeClass( 'has-errors' );
@@ -2862,5 +2879,17 @@ $( document ).ready(function() {
         $('.single-option-selector option').filter(function() { return $(this).text() === item; }).attr('disabled', true);
       });
     }
+  }
+});
+
+// Open header search
+$( document ).ready(function() {
+  let btnOpenSearch = $( '.header-search-link' ),
+      inputSearch = $( '.info-bar-search');
+
+  if (btnOpenSearch && inputSearch) {
+    btnOpenSearch.click(function() {
+      inputSearch.toggleClass( "open" );
+    });
   }
 });

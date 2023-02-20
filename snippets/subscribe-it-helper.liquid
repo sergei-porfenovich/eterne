@@ -8,10 +8,20 @@ This snippet is auto generated and will be overwritten.
 </style>
 
 <script id="subscribe-it-helper">
+    function getRandomSubscribeAPIPath() {
+        const apiGatewayPaths=[]
+        //apiGatewayPaths.push('xsy6rdr4zb') //Commented because too many messages pending in this SQS queue
+        apiGatewayPaths.push('pw4ndd3ije')
+        apiGatewayPaths.push('056wq1p6oa')
+        apiGatewayPaths.push('obx6oifedg')
+        apiGatewayPaths.push('seknvpr88e')
+
+        return apiGatewayPaths[Math.floor(Math.random()*apiGatewayPaths.length)]
+    }
     var _SIConfig = _SIConfig || {};
 
     _SIConfig = {
-        "app_hostname": "xsy6rdr4zb.execute-api.us-west-1.amazonaws.com",
+        "app_hostname": getRandomSubscribeAPIPath()+".execute-api.us-west-1.amazonaws.com",
         "conversions_hostname": "ifouxf840g.execute-api.us-west-1.amazonaws.com",
         "instock_qty_level": 1,
         "preorder_enabled": false,
@@ -47,6 +57,7 @@ This snippet is auto generated and will be overwritten.
         "recaptcha_enabled": null,
         "content_for_body": "",
         "show_phone_number_field": true,
+        "customer_name_enabled": false,
         "only_sms_enabled": false,
         "show_notify_me_button_on_collection_page": false,
         "show_sms_first": false,
@@ -87,8 +98,8 @@ This snippet is auto generated and will be overwritten.
             "bold": true,
             "position": "right-top",
             "corner_offset": 100,
-            "selected_selector": "#productInfo-product div.product-description",
-            "placement": "BEFORE",
+            "selected_selector": ".cart-drawer",
+            "placement": "AFTER",
             "background_color": "#000000",
             "text_color": "#ffffff",
             "border_color": "#000000",
@@ -96,7 +107,7 @@ This snippet is auto generated and will be overwritten.
             "border_radius": 3,
             "image": "//static.back-in-stock.appikon.com/assets/widget/notify-btn-vertical-f46bd7ac1b51e7d3c6a766d843fe60b46f8628e13e717124d83ffe65be466f4d.png",
             "visible": false,
-            "always_show_widget": false,
+            "always_show_widget": true,
             "widget_button_enabled": true,
             "countdown_timer_enabled": false,
             "countdown_timer_reset_enabled": false,
@@ -104,18 +115,18 @@ This snippet is auto generated and will be overwritten.
             "countdown_timer_products": "[]"
         },
         "main_button": {
-            "main_caption": "JOIN THE WAITLIST",
-            "main_css_classes": "",
+            "main_caption": "Notify me when out of stock items are available",
+            "main_css_classes": "btn notify-me",
             "main_button_width": "",
             "main_button_height": "",
-            "main_caption_size": "",
+            "main_caption_size": "15",
             "main_margin_top": "",
             "main_margin_bottom": "",
             "main_margin_left": "",
             "main_margin_right": "",
             "main_text_color": "",
             "main_hover_text_color": "",
-            "main_text_style": "",
+            "main_text_style": "NORMAL",
             "main_background_color": "",
             "main_hover_background_color": "",
             "main_border_color": "",
@@ -148,7 +159,7 @@ This snippet is auto generated and will be overwritten.
     {% endif %}
 
     {% if customer %}
-    _SIConfig.customer = { email: {{ customer.email | json }}, phone: {{ customer.phone | json }} };
+        _SIConfig.customer = { email: {{ customer.email | json }}, phone: {{ customer.phone | json }}, name: {{ customer.name | json }} };
     {% endif %}
 </script>
 

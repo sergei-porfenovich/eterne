@@ -1,4 +1,3 @@
-
 {%- assign transparent_header = false -%}
 {%- if template contains 'collection' and collection.image and section.settings.transparent_collection -%}
   {%- assign transparent_header = true -%}
@@ -9,85 +8,87 @@
 {%- elsif template contains 'page' and section.settings.transparent_page -%}
   {%- assign transparent_header = true -%}
 {%- elsif template == 'index' and section.settings.transparent_home -%}
-    {%- assign transparent_header = true -%}
+  {%- assign transparent_header = true -%}
 {%- endif -%}
 
 <style>
-  .header--transparent:not(.header--sticky):not(.header--stuck) .nav--desktop .main-menu>li>a{
+  .header--transparent:not(.header--sticky):not(.header--stuck) .nav--desktop .main-menu > li > a {
     color: {{ section.settings.transparent_text_color }};
   }
-  .header--transparent:not(.header--sticky):not(.header--stuck) .icon{
-    fill:  {{ section.settings.transparent_text_color }};
+
+  .header--transparent:not(.header--sticky):not(.header--stuck) .icon {
+    fill: {{ section.settings.transparent_text_color }};
   }
-  .header--transparent:not(.header--sticky):not(.header--stuck) .header-cart__bubble{
+
+  .header--transparent:not(.header--sticky):not(.header--stuck) .header-cart__bubble {
     background-color: {{ section.settings.transparent_text_color | color_modify: 'alpha', 0.5 }};
   }
 </style>
 
-
 <div class="header__wrapper{% if transparent_header %} header--transparent{% endif %}"
-  data-header-transparent="{{ transparent_header }}"
-  data-header-sticky="{{ section.settings.header_sticky }}"
-  data-section-id="{{ section.id }}"
-  data-section-type="header">
+     data-header-transparent="{{ transparent_header }}"
+     data-header-sticky="{{ section.settings.header_sticky }}"
+     data-section-id="{{ section.id }}"
+     data-section-type="header">
 
   {% if section.settings.header_enable_account or section.settings.header_enable_search or section.settings.header_message != '' %}
-  <div class="info-bar showMobile">
-    <div class="wrapper text-center">
-
-
-      {% if section.settings.header_message != '' %}
-      <div class="header-message uppercase{% if section.settings.header_enable_account or section.settings.header_enable_search %} header-message--crowded{% endif %}">
-        {% if section.settings.header_message_url != blank %}
-          <a href="{{ section.settings.header_message_url }}">{{ section.settings.header_message | escape }}</a>
-        {% else %}
-          {{ section.settings.header_message | escape }}
-        {% endif %}
-      </div>
-      {% endif %}
-	  <div id="header-flex-wrapper">
-      {% if shop.customer_accounts_enabled and section.settings.header_enable_account %}
-      <div class="header-account-link">
-          <a href="/account"><img src="{{ 'account.svg' | asset_url }}" style="vertical-align:baseline;"></a>
-      </div>
-      {% endif %}
-      <div class="header-wishlist-wrapper" id="desktop-header-wishlist-wrapper">
-	      <a id="header-wishlist" href="/a/wishlist"><img src="{{ 'eterne_wish_list.svg' | asset_url }}" style="height:15px; vertical-align:baseline;"></a>  
-      </div>
-      {% if section.settings.header_enable_search %}
-        <div class="header-search__wrapper">
-          <div class="header-search">
-            <form action="/search" method="get" class="input-group search" role="search">
-              {% if section.settings.search_only_products %}<input type="hidden" name="type" value="product">{% endif %}
-              <input class="search-bar" type="search" name="q">
-              <button type="submit" class="btn search-btn"></button>
-            </form>
+    <div class="info-bar showMobile">
+      <div class="wrapper text-center">
+        {% if section.settings.header_message != '' %}
+          <div class="header-message uppercase{% if section.settings.header_enable_account or section.settings.header_enable_search %} header-message--crowded{% endif %}">
+            {% if section.settings.header_message_url != blank %}
+              <a href="{{ section.settings.header_message_url }}">{{ section.settings.header_message | escape }}</a>
+            {% else %}
+              {{ section.settings.header_message | escape }}
+            {% endif %}
           </div>
+        {% endif %}
+        <div id="header-flex-wrapper">
+          <div class="header-cart-link">
+            <a href="/cart" class="CartToggle">
+              <img src="{{ 'noun-bag.svg' | asset_url }}">
+              <span class="counter-cart cartCnt {% if cart.item_count <= 0 %}hidden-count{% endif %}">{{ cart.item_count }}</span>
+            </a>
+          </div>
+          {% if section.settings.header_enable_account %}
+            <div class="header-account-link">
+              <a href="/account">
+                <img src="{{ 'account.svg' | asset_url }}">
+              </a>
+            </div>
+          {% endif %}
+          <div class="header-wishlist-wrapper" id="desktop-header-wishlist-wrapper">
+            <a id="header-wishlist" href="/a/wishlist">
+              <img src="{{ 'eterne_wish_list.svg' | asset_url }}">
+            </a>
+          </div>
+          {% if section.settings.header_enable_search %}
+            <div class="header-search-link">
+              <img src="{{ 'search.svg' | asset_url }}">
+            </div>
+          {% endif %}
         </div>
-      {% endif %}
-	  </div>
+      </div>
     </div>
-  </div>
+  {% endif %}
+
+  {% if section.settings.header_enable_search %}
+    <div class="info-bar-search">
+      <form action="/search" method="get" class="input-group search" role="search">
+        {% if section.settings.search_only_products %}<input type="hidden" name="type" value="product">{% endif %}
+        <button type="submit" class="btn search-btn">SEARCH</button>
+        <input class="search-bar" type="search" name="q" placeholder="search term">
+      </form>
+    </div>
   {% endif %}
 
   <header class="site-header {{ section.settings.height }}" role="banner">
     <div class="wrapper">
-      {% if section.settings.banner != blank %}
-      {% capture banner_size %}x{{ section.settings.banner_max_limit }}{% endcapture %}          
-      <div class="logo--centered-wrapper">
-        <a href="/"><img src="{{ section.settings.banner | img_url: banner_size }}"
-             class="logo--centered desktop--only"
-             srcset="{{ section.settings.banner | img_url: banner_size }} 1x, {{ section.settings.banner | img_url: banner_size, scale: 2 }} 2x"
-                        alt="{{ shop.name }}" /></a>
-      </div>
-      {% endif %}             
-      
       <div class="nav--desktop">
         {% include 'nav-contents' with 'desktop' %}
       </div>
       <div class="nav--mobile">
         {% include 'nav-contents' with 'mobile' %}
-        
       </div>
     </div>
   </header>
@@ -153,21 +154,6 @@
       "unit":    "px",
       "label":   "logo width",
       "default": 120
-    },
-    {
-      "type": "image_picker",
-      "id": "banner",
-      "label": "banner image"
-    },
-    {
-      "type":    "range",
-      "id":      "banner_max_limit",
-      "min":     10,
-      "max":     120,
-      "step":    10,
-      "unit":    "px",
-      "label":   "banner max height",
-      "default": 80
     },
     {
       "type": "link_list",
