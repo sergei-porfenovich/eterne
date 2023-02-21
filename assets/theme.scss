@@ -6417,18 +6417,27 @@ li.cbb-frequently-bought-product:first-of-type div.cbb-frequently-bought-product
 /* Add to Wishlist (SmartWishlist smartwishlist) buttons */
 
 #smartwishlist div#bookmarkit {
-  background: #fff url("../assets/noun-heart-831660.svg") !important;
-  background-repeat: no-repeat !important;
-  background-size: 18px 18px !important;
-  background-position: 17px 12px !important;
-  display: block;
+  background-color: #fff;
   border: 1px #000 solid;
   width: 200px !important;
   color: #000 !important;
-  padding: 7px 0px 16px 0px;
-  text-align: center;
+  padding: 12px 0;
   height: 46px;
   border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#smartwishlist div#bookmarkit:before {
+  content: '';
+  background-image: url("../assets/noun-heart-831660.svg");
+  background-size: 18px;
+  background-position: center;
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
 }
 
 #smartwishlist div#bookmarkit.bookmarked {
@@ -6436,7 +6445,7 @@ li.cbb-frequently-bought-product:first-of-type div.cbb-frequently-bought-product
 }
 
 #smartwishlist div#bookmarkit.unbookmarked .fa-heart-o::before{
-  content: "\a0 \a0  \a0 \a0 \a0 ADD TO WISHLIST";
+  content: "Add to Wishlist";
   font-family: miller-display, "PT Serif", serif;
   font-size: 14.4px;
 }
