@@ -3434,6 +3434,18 @@
       "custom-collection-thermals": {
         "type": "custom-collection-thermals",
         "blocks": {
+          "d33bf4fd-d53f-44a5-a9d5-31c47b8d9656": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-thermal-ivory",
+              "shop_product32": "long-sleeve-thermal-grey",
+              "shop_product33": "long-sleeve-thermal-black"
+            }
+          },
           "9451b0ad-9091-42aa-991b-7a54ae8b34d0": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -3555,32 +3567,10 @@
               "shop_product32": "cropped-oversized-thermal-ivory",
               "shop_product33": "cropped-oversized-thermal-black"
             }
-          },
-          "3a2712c8-6840-48a9-a5a5-e0d4974dd022": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "long-sleeve-thermal-ivory",
-              "shop_product22": "long-sleeve-thermal-black"
-            }
-          },
-          "d33bf4fd-d53f-44a5-a9d5-31c47b8d9656": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "long-sleeve-thermal-ivory",
-              "shop_product32": "long-sleeve-thermal-grey",
-              "shop_product33": "long-sleeve-thermal-black"
-            }
           }
         },
         "block_order": [
+          "d33bf4fd-d53f-44a5-a9d5-31c47b8d9656",
           "9451b0ad-9091-42aa-991b-7a54ae8b34d0",
           "af4df970-1750-4f41-97b3-40a9d5b527b7",
           "4e5db8ca-d79a-48dc-9c4f-f2453781275b",
@@ -3591,9 +3581,7 @@
           "8e93cf31-abcb-48a9-b464-a41dbadc4b59",
           "06a281f4-05dc-4c9e-ae57-3aebf1fb0e17",
           "41808390-6b63-45a7-abdf-a221520909aa",
-          "e272acf0-6ea1-4239-b39b-6ec68005cf96",
-          "3a2712c8-6840-48a9-a5a5-e0d4974dd022",
-          "d33bf4fd-d53f-44a5-a9d5-31c47b8d9656"
+          "e272acf0-6ea1-4239-b39b-6ec68005cf96"
         ],
         "settings": {
           "show_image": false,
