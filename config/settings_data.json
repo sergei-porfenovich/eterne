@@ -632,6 +632,18 @@
               "shop_product22": "lounge-pant-sand"
             }
           },
+          "01c6144a-4425-4b04-af46-70d34c3fde3b": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-thermal-ivory",
+              "shop_product32": "long-sleeve-thermal-grey",
+              "shop_product33": "long-sleeve-thermal-black"
+            }
+          },
           "e27d9b2e-24fd-41ba-874d-4915b0a06b90": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1422,17 +1434,6 @@
               "shop_product33": "long-sleeve-boyfriend-tee-black"
             }
           },
-          "3d15c4f0-fae5-460e-9992-cbafc48fd459": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "long-sleeve-thermal-ivory",
-              "shop_product22": "long-sleeve-thermal-black"
-            }
-          },
           "489d769e-d952-4903-beca-8de7fffe6b22": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -1516,22 +1517,11 @@
               "shop_product_padding": 0,
               "shop_product1p": "rise-ai-giftcard"
             }
-          },
-          "01c6144a-4425-4b04-af46-70d34c3fde3b": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "long-sleeve-thermal-ivory",
-              "shop_product32": "long-sleeve-thermal-grey",
-              "shop_product33": "long-sleeve-thermal-black"
-            }
           }
         },
         "block_order": [
           "dd542319-2098-429e-861b-1d78c4b7b445",
+          "01c6144a-4425-4b04-af46-70d34c3fde3b",
           "e27d9b2e-24fd-41ba-874d-4915b0a06b90",
           "4b1f28d4-e6a5-4398-a7e5-4c76f1def008",
           "5f7de151-f828-46f8-abb3-07711ff8872e",
@@ -1598,15 +1588,13 @@
           "9e2e5236-ef7f-49c6-b8b8-8ac0e43acf0a",
           "c7454c81-ba75-4fc0-b89d-fdd75969c0fa",
           "842fce42-4978-43b9-a18a-603176435483",
-          "3d15c4f0-fae5-460e-9992-cbafc48fd459",
           "489d769e-d952-4903-beca-8de7fffe6b22",
           "beeaa1f4-b816-42fb-a711-c2803341f0b8",
           "1789180c-658d-436d-9ba6-50cfc745d041",
           "b9cfce59-2f8f-4314-809b-2ecba06d5956",
           "e0e66881-beda-4d26-9d00-b41983ea144a",
           "fe546ba6-e052-4bc2-bcd5-e4f5dbd1aabe",
-          "607c3970-00af-4f2c-ae85-fe3a2bcb393b",
-          "01c6144a-4425-4b04-af46-70d34c3fde3b"
+          "607c3970-00af-4f2c-ae85-fe3a2bcb393b"
         ],
         "settings": {
           "show_image": true,
