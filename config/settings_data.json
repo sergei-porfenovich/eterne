@@ -2985,6 +2985,18 @@
               "shop_product22": "short-sleeve-baby-tee-earth"
             }
           },
+          "c0779034-c3c0-4445-b8fb-390de6eafdc9": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-thermal-ivory",
+              "shop_product32": "long-sleeve-thermal-grey",
+              "shop_product33": "long-sleeve-thermal-black"
+            }
+          },
           "86a27648-77b0-4191-8270-872f6bba6345": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -3368,22 +3380,11 @@
               "shop_product32": "cropped-rib-tank-ivory",
               "shop_product33": "cropped-rib-tank-heather-grey"
             }
-          },
-          "c0779034-c3c0-4445-b8fb-390de6eafdc9": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "long-sleeve-thermal-ivory",
-              "shop_product32": "long-sleeve-thermal-grey",
-              "shop_product33": "long-sleeve-thermal-black"
-            }
           }
         },
         "block_order": [
           "ccb667b5-5439-4cf6-a189-96518e79c387",
+          "c0779034-c3c0-4445-b8fb-390de6eafdc9",
           "86a27648-77b0-4191-8270-872f6bba6345",
           "6507ff11-6b41-4b8f-9212-a5d061262be0",
           "b38119ab-da8d-4e69-844d-58f8f810b96f",
@@ -3415,8 +3416,7 @@
           "de8dc6aa-abba-4f27-8092-10f13ba611a0",
           "022f8dcf-db9b-4c20-9fa0-1b71a959fbbb",
           "99b4e84b-8196-4577-ad4a-d17f13dead5c",
-          "4830f1fd-4c5b-48a1-8303-f4cd0311f1f3",
-          "c0779034-c3c0-4445-b8fb-390de6eafdc9"
+          "4830f1fd-4c5b-48a1-8303-f4cd0311f1f3"
         ],
         "settings": {
           "show_image": false,
