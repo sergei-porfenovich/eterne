@@ -621,6 +621,29 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "dd542319-2098-429e-861b-1d78c4b7b445": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "short-sleeve-baby-tee-sand",
+              "shop_product22": "lounge-pant-sand"
+            }
+          },
+          "01c6144a-4425-4b04-af46-70d34c3fde3b": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-thermal-ivory",
+              "shop_product32": "long-sleeve-thermal-grey",
+              "shop_product33": "long-sleeve-thermal-black"
+            }
+          },
           "9896135e-30dd-4d48-af86-ba63ef5889e4": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -1509,7 +1532,8 @@
           }
         },
         "block_order": [
-          "9896135e-30dd-4d48-af86-ba63ef5889e4",
+          "dd542319-2098-429e-861b-1d78c4b7b445",
+          "01c6144a-4425-4b04-af46-70d34c3fde3b",
           "e27d9b2e-24fd-41ba-874d-4915b0a06b90",
           "4b1f28d4-e6a5-4398-a7e5-4c76f1def008",
           "5f7de151-f828-46f8-abb3-07711ff8872e",
@@ -2962,6 +2986,41 @@
       "custom-collection-2": {
         "type": "custom-collection-2",
         "blocks": {
+          "ccb667b5-5439-4cf6-a189-96518e79c387": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "short-sleeve-baby-tee-sand",
+              "shop_product22": "short-sleeve-baby-tee-earth"
+            }
+          },
+          "c0779034-c3c0-4445-b8fb-390de6eafdc9": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-thermal-ivory",
+              "shop_product32": "long-sleeve-thermal-grey",
+              "shop_product33": "long-sleeve-thermal-black"
+            }
+          },
+          "86a27648-77b0-4191-8270-872f6bba6345": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "short-sleeve-baby-tee-black",
+              "shop_product32": "short-sleeve-baby-tee-heather-grey",
+              "shop_product33": "short-sleeve-baby-ivory"
+            }
+          },
           "378bd86a-a8f8-49cc-a83d-84c7341425f8": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -2995,20 +3054,6 @@
               "shop_product31": "the-rib-tank-black",
               "shop_product32": "rib-tank-ivory",
               "shop_product33": "the-rib-tank-heather-grey"
-            }
-          },
-          "8149a8e3-14b5-4508-9778-c4817884d9b3": {
-            "type": "shop_imgproducts4",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product41": "short-sleeve-baby-tee-black",
-              "shop_img42": "shopify:\/\/shop_images\/Untitled_design.png",
-              "shop_product42": "short-sleeve-baby-tee-earth",
-              "shop_product43": "short-sleeve-baby-tee-heather-grey",
-              "shop_product44": "short-sleeve-baby-ivory"
             }
           },
           "c4a9d298-d4fd-4d7a-b20f-0916b837aea8": {
@@ -3362,10 +3407,12 @@
           }
         },
         "block_order": [
+          "ccb667b5-5439-4cf6-a189-96518e79c387",
+          "c0779034-c3c0-4445-b8fb-390de6eafdc9",
+          "86a27648-77b0-4191-8270-872f6bba6345",
           "378bd86a-a8f8-49cc-a83d-84c7341425f8",
           "6507ff11-6b41-4b8f-9212-a5d061262be0",
           "b38119ab-da8d-4e69-844d-58f8f810b96f",
-          "8149a8e3-14b5-4508-9778-c4817884d9b3",
           "c4a9d298-d4fd-4d7a-b20f-0916b837aea8",
           "f500e0f6-a158-4e1a-8ca9-fe13a3300023",
           "18eb4f99-997d-48ae-ab66-8116c6ce3e0b",
@@ -3412,7 +3459,7 @@
       "custom-collection-thermals": {
         "type": "custom-collection-thermals",
         "blocks": {
-          "173ac8e8-4ae3-40ef-a8c0-466562d2acbc": {
+          "d33bf4fd-d53f-44a5-a9d5-31c47b8d9656": {
             "type": "shop_imgproducts3",
             "settings": {
               "full_size_pictures": false,
@@ -3548,7 +3595,7 @@
           }
         },
         "block_order": [
-          "173ac8e8-4ae3-40ef-a8c0-466562d2acbc",
+          "d33bf4fd-d53f-44a5-a9d5-31c47b8d9656",
           "9451b0ad-9091-42aa-991b-7a54ae8b34d0",
           "af4df970-1750-4f41-97b3-40a9d5b527b7",
           "4e5db8ca-d79a-48dc-9c4f-f2453781275b",
@@ -3771,7 +3818,7 @@
               "shop_product_margin": 0,
               "shop_product_padding": 0,
               "shop_img21": "shopify:\/\/shop_images\/DAY_02_SHOT_09_0121_color.jpg",
-              "shop_product21": "the-short-sleeve-boyfriend-tee-ivory",
+              "shop_product21": "boyfriend-pocket-t-shirt-ivory",
               "shop_img22": "shopify:\/\/shop_images\/DAY_02_SHOT_17_0127_copy_cropped.jpg",
               "shop_product22": "long-sleeve-cropped-hoodie-t-shirt-ivory"
             }
@@ -3908,7 +3955,7 @@
               "shop_img21": "shopify:\/\/shop_images\/DAY_02_SHOT_08_0169_copy_cropped.jpg",
               "shop_product21": "cropped-long-sleeve-thermal-black",
               "shop_img22": "shopify:\/\/shop_images\/DAY_01_SHOT_05_0041_copy_f4dc36cc-90be-4e50-a708-de919b16ae3c.jpg",
-              "shop_product22": "cropped-rib-tank-heather-grey"
+              "shop_product22": "cropped-ribbed-racerback-tank-heather-grey"
             }
           },
           "e35b1826-b0dc-4d26-a9de-7d536d687f27": {
@@ -3998,18 +4045,27 @@
       "bottoms-collection": {
         "type": "bottoms-collection",
         "blocks": {
-          "bccf4862-83ae-4522-80bb-963ee134b7fd": {
-            "type": "shop_imgproducts4",
+          "e24ddfa6-0ae9-43af-a0e0-2f4a76c5dfe5": {
+            "type": "shop_imgproducts2",
             "settings": {
               "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product41": "lounge-pant-heather-grey",
-              "shop_img42": "shopify:\/\/shop_images\/Untitled_design_1_4c6f4954-765b-44ba-885f-e43866f3e308.png",
-              "shop_product42": "lounge-pant-earth",
-              "shop_product43": "lounge-pant-ivory",
-              "shop_product44": "lounge-pant-black"
+              "shop_product21": "lounge-pant-sand",
+              "shop_product22": "lounge-pant-earth"
+            }
+          },
+          "509b7e28-df87-4371-91a5-8f3dc43d7031": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "lounge-pant-heather-grey",
+              "shop_product32": "lounge-pant-ivory",
+              "shop_product33": "lounge-pant-black"
             }
           },
           "0b54894c-d0a2-47ca-a2ed-3c795afc0fec": {
@@ -4116,7 +4172,8 @@
           }
         },
         "block_order": [
-          "bccf4862-83ae-4522-80bb-963ee134b7fd",
+          "e24ddfa6-0ae9-43af-a0e0-2f4a76c5dfe5",
+          "509b7e28-df87-4371-91a5-8f3dc43d7031",
           "0b54894c-d0a2-47ca-a2ed-3c795afc0fec",
           "8a3ceb85-fab9-4f2c-b7e7-c2cda0cfe305",
           "c2239c23-553c-4161-a3d8-1ddfa67adf65",
@@ -4257,7 +4314,7 @@
               "shop_product_margin": 12,
               "shop_product_padding": 6,
               "shop_img11": "shopify:\/\/shop_images\/8_-_S99_0023_cropped.jpg",
-              "shop_product11": ""
+              "shop_product11": "theodore-3"
             }
           },
           "0db40989-61d5-49f7-b4b4-fa5df848c61f": {
@@ -4270,7 +4327,7 @@
               "shop_img21": "shopify:\/\/shop_images\/9.jpg",
               "shop_product21": "tank-dress-mini-black",
               "shop_img22": "shopify:\/\/shop_images\/10_-_S88_0017.jpg",
-              "shop_product22": ""
+              "shop_product22": "james-2"
             }
           },
           "531dc637-ec6c-4b69-8126-1ddc0890cceb": {
@@ -4320,7 +4377,7 @@
               "shop_img21": "shopify:\/\/shop_images\/16.jpg",
               "shop_product21": "shrunken-raglan-sweatshirt-heather-grey",
               "shop_img22": "shopify:\/\/shop_images\/17_-_S54_0029_1.jpg",
-              "shop_product22": ""
+              "shop_product22": "theodore-2"
             }
           },
           "7f94eaf2-bf44-4e1c-9ca5-d4ecf27312ad": {
@@ -4331,7 +4388,7 @@
               "shop_product_margin": 0,
               "shop_product_padding": 0,
               "shop_img11": "shopify:\/\/shop_images\/18_-_S84_0025.jpg",
-              "shop_product11": "cropped-long-sleeve-thermal-ivory"
+              "shop_product11": "cropped-long-sleeve-fitted-top-cream"
             }
           },
           "db65a751-a131-409f-9ec7-9446b67de999": {
@@ -4357,7 +4414,7 @@
               "shop_img21": "shopify:\/\/shop_images\/21.jpg",
               "shop_product21": "cropped-scoop-neck-tank-ivory",
               "shop_img22": "shopify:\/\/shop_images\/22.jpg",
-              "shop_product22": ""
+              "shop_product22": "amina"
             }
           },
           "03dfc8ff-1fc4-40ff-bd81-1c8350bb6a61": {
@@ -4368,7 +4425,7 @@
               "shop_product_margin": 9,
               "shop_product_padding": 6,
               "shop_img11": "shopify:\/\/shop_images\/23_-_S15_0026.jpg",
-              "shop_product11": ""
+              "shop_product11": "georgia"
             }
           },
           "c064c894-115f-4877-896d-8bac0be62efd": {
@@ -4405,7 +4462,7 @@
               "shop_product_margin": 0,
               "shop_product_padding": 0,
               "shop_img11": "shopify:\/\/shop_images\/28_-_S63_0021_1.jpg",
-              "shop_product11": ""
+              "shop_product11": "francis-3"
             }
           },
           "202f7e71-f0f7-4baa-bc0c-2e5c32a71ea6": {
@@ -4418,7 +4475,7 @@
               "shop_img21": "shopify:\/\/shop_images\/29.jpg",
               "shop_product21": "lounge-pant-heather-grey",
               "shop_img22": "shopify:\/\/shop_images\/30_-_S96_0018.jpg",
-              "shop_product22": ""
+              "shop_product22": "amina"
             }
           }
         },
@@ -4460,7 +4517,7 @@
               "shop_img21": "shopify:\/\/shop_images\/1_5d3d10b8-5f53-48e0-8b77-f657a615ee6f.jpg",
               "shop_product21": "simone",
               "shop_img22": "shopify:\/\/shop_images\/2.jpg",
-              "shop_product22": ""
+              "shop_product22": "georgia"
             }
           },
           "44f9127d-4c58-4844-a1bd-0f880157e269": {
@@ -5247,9 +5304,9 @@
               "shop_product_margin": 0,
               "shop_product_padding": 0,
               "shop_img21": "shopify:\/\/shop_images\/1_edited_8c787e25-4e84-49b5-a00e-feccbbd5052f.jpg",
-              "shop_product21": "",
+              "shop_product21": "tank-dress-maxi-earth",
               "shop_img22": "shopify:\/\/shop_images\/2_edited.jpg",
-              "shop_product22": ""
+              "shop_product22": "tank-dress-maxi-earth"
             }
           },
           "c7d86560-3a53-4e09-8f6a-9792f76b2386": {
@@ -5306,9 +5363,9 @@
               "shop_product_margin": 0,
               "shop_product_padding": 0,
               "shop_img21": "shopify:\/\/shop_images\/8_edited.jpg",
-              "shop_product21": "",
+              "shop_product21": "tank-dress-maxi-earth",
               "shop_img22": "shopify:\/\/shop_images\/9_edited.jpg",
-              "shop_product22": ""
+              "shop_product22": "tank-dress-maxi-sand"
             }
           },
           "210d99fe-c2a6-4e61-93da-08c47c2da591": {
