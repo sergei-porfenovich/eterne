@@ -1417,6 +1417,12 @@ function getRandomSubscribeAPIPath() {
           , e = {}.hasOwnProperty;
         SI.Form = function () {
           function n(e, n) {
+            if(typeof jQuery !== 'undefined'){
+              var iframe=jQuery("#SI_frame")
+              if(iframe.length!==0){
+                iframe[0].remove();
+              }
+            }
             var i, r, o, s, a, u, l;
             this.popover = e,
               this.submitButton = t(this.submitButton, this),
@@ -2132,7 +2138,7 @@ function getRandomSubscribeAPIPath() {
       "generic_trigger_handler": true,
       "quantity_field_enabled": false,
       "labels": {
-                "headline": "JOIN THE WAITLIST",
+                "headline": "NOTIFY ME",
                 "email_address_label": "Email address",
                 "product_field_label": "Select product",
                 "button_label": "Notify Me",
