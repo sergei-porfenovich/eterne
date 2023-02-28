@@ -5516,6 +5516,28 @@
               "shop_product32": "cropped-scoop-neck-tank-black",
               "shop_product33": "cropped-scoop-neck-tank-heather-grey"
             }
+          },
+          "598b49e4-1e32-4f69-959b-4f141d1722b9": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "",
+              "shop_product32": "",
+              "shop_product33": ""
+            }
+          },
+          "5668a9c2-7708-4d0c-8490-e733ae551c04": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product1": "cropped-ribbed-racerback-tank-black"
+            }
           }
         },
         "block_order": [
@@ -5524,7 +5546,9 @@
           "3538522a-6555-47da-917f-596dbcbca7f8",
           "d725ce67-a291-4f83-b756-388a687e6c2c",
           "91834430-6742-406b-a9a8-44db17779d5e",
-          "42b0634e-6f71-4056-99c6-56c1c8c93a62"
+          "42b0634e-6f71-4056-99c6-56c1c8c93a62",
+          "598b49e4-1e32-4f69-959b-4f141d1722b9",
+          "5668a9c2-7708-4d0c-8490-e733ae551c04"
         ],
         "settings": {
           "show_image": true,
