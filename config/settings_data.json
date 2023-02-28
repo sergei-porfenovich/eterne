@@ -4799,6 +4799,16 @@
               "shop_product21": "tank-dress-mini-cream",
               "shop_product22": "long-sleeve-turtleneck-dress-mini-cream"
             }
+          },
+          "a6fc5c85-078d-4cb3-a4ac-13ce15265d5c": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product1": "tank-dress-maxi-olive"
+            }
           }
         },
         "block_order": [
@@ -4809,7 +4819,8 @@
           "2b749d83-5d56-4dd0-a302-0dbb4ec96ba6",
           "6dcd3443-7f7a-4a70-bb58-36d89babd733",
           "98282f03-4a2b-48f5-9dc3-ceb9ff6a2950",
-          "c5c5f693-37d3-4d56-8748-6800ee3143a5"
+          "c5c5f693-37d3-4d56-8748-6800ee3143a5",
+          "a6fc5c85-078d-4cb3-a4ac-13ce15265d5c"
         ],
         "settings": {
           "show_image": true,
