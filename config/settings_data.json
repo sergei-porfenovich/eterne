@@ -5442,6 +5442,37 @@
           "shop_margin_top": 0,
           "shop_margin_bottom": 25
         }
+      },
+      "tanks-collection": {
+        "type": "tanks-collection",
+        "blocks": {
+          "e5f4bc24-5993-4c6e-a8e9-1c774afb0cda": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "rib-tank-earth",
+              "shop_product22": "rib-tank-sand"
+            }
+          }
+        },
+        "block_order": [
+          "e5f4bc24-5993-4c6e-a8e9-1c774afb0cda"
+        ],
+        "settings": {
+          "show_image": true,
+          "image_height": "use_screen_one_third",
+          "overlay_opacity": 20,
+          "parallax": false,
+          "align_text": "text-center",
+          "show_title": true,
+          "show_description": true,
+          "description_font_size": "rte rte--large",
+          "shop_margin_top": 0,
+          "shop_margin_bottom": 25
+        }
       }
     },
     "content_for_index": [
