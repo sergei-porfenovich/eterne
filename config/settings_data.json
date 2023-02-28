@@ -5468,11 +5468,24 @@
               "shop_product32": "rib-tank-ivory",
               "shop_product33": "the-rib-tank-heather-grey"
             }
+          },
+          "3538522a-6555-47da-917f-596dbcbca7f8": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "thin-strap-fitted-tank-black",
+              "shop_product32": "thin-strap-fitted-tank-heather-grey",
+              "shop_product33": "thin-strap-fitted-tank-cream"
+            }
           }
         },
         "block_order": [
           "e5f4bc24-5993-4c6e-a8e9-1c774afb0cda",
-          "7576a5e7-5b97-4639-9006-fb2c2949d04c"
+          "7576a5e7-5b97-4639-9006-fb2c2949d04c",
+          "3538522a-6555-47da-917f-596dbcbca7f8"
         ],
         "settings": {
           "show_image": true,
