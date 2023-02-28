@@ -3009,6 +3009,29 @@
               "shop_product33": "long-sleeve-thermal-black"
             }
           },
+          "853c2a94-2f71-4590-b269-4b4ebecc655a": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "rib-tank-sand",
+              "shop_product22": "rib-tank-earth"
+            }
+          },
+          "ec152b75-e252-4f97-b8df-c3682002dea4": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "the-rib-tank-black",
+              "shop_product32": "rib-tank-ivory",
+              "shop_product33": "the-rib-tank-heather-grey"
+            }
+          },
           "18eb4f99-997d-48ae-ab66-8116c6ce3e0b": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -3326,6 +3349,8 @@
           "ccb667b5-5439-4cf6-a189-96518e79c387",
           "86a27648-77b0-4191-8270-872f6bba6345",
           "378bd86a-a8f8-49cc-a83d-84c7341425f8",
+          "853c2a94-2f71-4590-b269-4b4ebecc655a",
+          "ec152b75-e252-4f97-b8df-c3682002dea4",
           "18eb4f99-997d-48ae-ab66-8116c6ce3e0b",
           "b8837ec9-2baa-4e37-8dcb-135b1b2cc72c",
           "7deecb4e-47b2-4da6-bf4a-fb552d78d27a",
