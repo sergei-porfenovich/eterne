@@ -3210,19 +3210,6 @@
               "shop_product33": "long-sleeve-cropped-t-shirt-black"
             }
           },
-          "b0f829dd-1228-4237-96ae-41d5d15deefe": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_img21": "shopify:\/\/shop_images\/GGiPrpDQ_cropped.jpg",
-              "shop_product21": "cropped-v-neck-t-shirt-black",
-              "shop_img22": "shopify:\/\/shop_images\/zW4VXkTA-2_srgb.jpg",
-              "shop_product22": "cropped-v-neck-t-shirt-ivory"
-            }
-          },
           "db2c383f-13db-4ec8-ac95-8367673b0003": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -3403,7 +3390,6 @@
           "e6a9a437-c035-4b91-bc8b-37a1622b894d",
           "f40aae42-d724-45c2-b1ed-b1287e180310",
           "141e7144-57f3-44fc-acde-c934375aec49",
-          "b0f829dd-1228-4237-96ae-41d5d15deefe",
           "db2c383f-13db-4ec8-ac95-8367673b0003",
           "2f2b6ac9-c834-4da3-b02f-b4315c396a0e",
           "36f69d1b-b9c1-4b6f-bef5-375a60b562d3",
