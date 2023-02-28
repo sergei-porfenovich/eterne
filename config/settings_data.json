@@ -1517,6 +1517,16 @@
               "shop_product_padding": 0,
               "shop_product1p": "rise-ai-giftcard"
             }
+          },
+          "5095e017-2b5b-4684-a9e6-e64d18f0967c": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product1": "tank-dress-maxi-olive"
+            }
           }
         },
         "block_order": [
@@ -1594,7 +1604,8 @@
           "b9cfce59-2f8f-4314-809b-2ecba06d5956",
           "e0e66881-beda-4d26-9d00-b41983ea144a",
           "fe546ba6-e052-4bc2-bcd5-e4f5dbd1aabe",
-          "607c3970-00af-4f2c-ae85-fe3a2bcb393b"
+          "607c3970-00af-4f2c-ae85-fe3a2bcb393b",
+          "5095e017-2b5b-4684-a9e6-e64d18f0967c"
         ],
         "settings": {
           "show_image": true,
