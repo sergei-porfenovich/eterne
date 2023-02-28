@@ -5504,6 +5504,18 @@
               "shop_product32": "super-cropped-rib-tank-heather-grey",
               "shop_product33": "super-cropped-rib-tank-ivory"
             }
+          },
+          "42b0634e-6f71-4056-99c6-56c1c8c93a62": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "cropped-scoop-neck-tank-ivory",
+              "shop_product32": "cropped-scoop-neck-tank-black",
+              "shop_product33": "cropped-scoop-neck-tank-heather-grey"
+            }
           }
         },
         "block_order": [
@@ -5511,7 +5523,8 @@
           "7576a5e7-5b97-4639-9006-fb2c2949d04c",
           "3538522a-6555-47da-917f-596dbcbca7f8",
           "d725ce67-a291-4f83-b756-388a687e6c2c",
-          "91834430-6742-406b-a9a8-44db17779d5e"
+          "91834430-6742-406b-a9a8-44db17779d5e",
+          "42b0634e-6f71-4056-99c6-56c1c8c93a62"
         ],
         "settings": {
           "show_image": true,
