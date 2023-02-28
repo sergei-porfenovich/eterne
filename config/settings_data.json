@@ -621,6 +621,39 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "5095e017-2b5b-4684-a9e6-e64d18f0967c": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product1": "tank-dress-maxi-olive"
+            }
+          },
+          "4b1f28d4-e6a5-4398-a7e5-4c76f1def008": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "tank-dress-maxi-sand",
+              "shop_product22": "tank-dress-maxi-earth"
+            }
+          },
+          "206d0db3-9255-4009-9804-2a77d20634f8": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "tank-dress-maxi-cream",
+              "shop_product32": "tank-dress-maxi-heather-grey",
+              "shop_product33": "tank-dress-maxi-black"
+            }
+          },
           "dd542319-2098-429e-861b-1d78c4b7b445": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -653,17 +686,6 @@
               "shop_product_padding": 0,
               "shop_product21": "rib-tank-earth",
               "shop_product22": "rib-tank-sand"
-            }
-          },
-          "4b1f28d4-e6a5-4398-a7e5-4c76f1def008": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "tank-dress-maxi-sand",
-              "shop_product22": "tank-dress-maxi-earth"
             }
           },
           "5f7de151-f828-46f8-abb3-07711ff8872e": {
@@ -972,18 +994,6 @@
               "shop_product31": "cropped-thin-strap-fitted-tank-heather-grey",
               "shop_product32": "cropped-thin-strap-fitted-tank-black",
               "shop_product33": "cropped-thin-strap-fitted-tank-cream"
-            }
-          },
-          "206d0db3-9255-4009-9804-2a77d20634f8": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "tank-dress-maxi-cream",
-              "shop_product32": "tank-dress-maxi-heather-grey",
-              "shop_product33": "tank-dress-maxi-black"
             }
           },
           "9bcac4bf-3ec7-442f-a802-74fcd54d1f0d": {
@@ -1517,23 +1527,15 @@
               "shop_product_padding": 0,
               "shop_product1p": "rise-ai-giftcard"
             }
-          },
-          "5095e017-2b5b-4684-a9e6-e64d18f0967c": {
-            "type": "shop_imgproducts1",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product1": "tank-dress-maxi-olive"
-            }
           }
         },
         "block_order": [
+          "5095e017-2b5b-4684-a9e6-e64d18f0967c",
+          "4b1f28d4-e6a5-4398-a7e5-4c76f1def008",
+          "206d0db3-9255-4009-9804-2a77d20634f8",
           "dd542319-2098-429e-861b-1d78c4b7b445",
           "01c6144a-4425-4b04-af46-70d34c3fde3b",
           "e27d9b2e-24fd-41ba-874d-4915b0a06b90",
-          "4b1f28d4-e6a5-4398-a7e5-4c76f1def008",
           "5f7de151-f828-46f8-abb3-07711ff8872e",
           "7e8051f8-3352-4988-a577-06425292f429",
           "ce9cd2cc-3770-4adf-b617-694343b6a6bb",
@@ -1561,7 +1563,6 @@
           "a627fd29-37bf-4991-8a06-9dc1c2a304b0",
           "401a0de1-9886-452a-be6a-283e0db89b50",
           "d53de153-12ce-404f-ae18-257021fea4aa",
-          "206d0db3-9255-4009-9804-2a77d20634f8",
           "9bcac4bf-3ec7-442f-a802-74fcd54d1f0d",
           "d0760d23-e80b-4ead-b53a-c3622ec3d285",
           "7476254f-f864-4f30-97aa-1f58c15d05e3",
@@ -1604,8 +1605,7 @@
           "b9cfce59-2f8f-4314-809b-2ecba06d5956",
           "e0e66881-beda-4d26-9d00-b41983ea144a",
           "fe546ba6-e052-4bc2-bcd5-e4f5dbd1aabe",
-          "607c3970-00af-4f2c-ae85-fe3a2bcb393b",
-          "5095e017-2b5b-4684-a9e6-e64d18f0967c"
+          "607c3970-00af-4f2c-ae85-fe3a2bcb393b"
         ],
         "settings": {
           "show_image": true,
