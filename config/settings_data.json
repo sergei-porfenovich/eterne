@@ -4709,14 +4709,15 @@
       "dresses-collection": {
         "type": "dresses-collection",
         "blocks": {
-          "a6fc5c85-078d-4cb3-a4ac-13ce15265d5c": {
-            "type": "shop_imgproducts1",
+          "ec28c2f9-dd2d-428e-b85c-962d44e8e007": {
+            "type": "shop_imgproducts2",
             "settings": {
-              "full_size_pictures": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product1": "tank-dress-maxi-olive"
+              "shop_product21": "tank-dress-maxi-oat",
+              "shop_product22": "tank-dress-maxi-olive"
             }
           },
           "c55385f9-22a5-441e-bdd4-205caaa821d3": {
@@ -4836,7 +4837,7 @@
           }
         },
         "block_order": [
-          "a6fc5c85-078d-4cb3-a4ac-13ce15265d5c",
+          "ec28c2f9-dd2d-428e-b85c-962d44e8e007",
           "c55385f9-22a5-441e-bdd4-205caaa821d3",
           "485b8b23-9c54-4fa0-aac7-06890b4959b1",
           "16dbdcdb-3a7e-491a-ae70-e63ad0df36e9",
