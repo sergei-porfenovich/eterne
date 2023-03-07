@@ -1836,6 +1836,12 @@ input.btn--secondary {
 
 }
 
+.cart__footer input.continue__button {
+  @include at-query ($max, $small) {
+    width: 100%;
+  }
+}
+
 
 /*================ Force an input/button to look like a text link ================*/
 input.text-link,
@@ -9133,5 +9139,5 @@ select.single-option-selector option[disabled] {
 }
 
 #your-shopping-cart #gsAppContainer {
-  display: none; !important;
+  display: none !important;
 }
