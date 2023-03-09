@@ -1528,6 +1528,17 @@
               "shop_product_padding": 0,
               "shop_product1p": "rise-ai-giftcard"
             }
+          },
+          "a697678e-68d2-4018-9a0e-f7cb684a8991": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "short-sleeve-baby-tee-olive",
+              "shop_product22": "lounge-pant-olive"
+            }
           }
         },
         "block_order": [
@@ -1606,7 +1617,8 @@
           "b9cfce59-2f8f-4314-809b-2ecba06d5956",
           "e0e66881-beda-4d26-9d00-b41983ea144a",
           "fe546ba6-e052-4bc2-bcd5-e4f5dbd1aabe",
-          "607c3970-00af-4f2c-ae85-fe3a2bcb393b"
+          "607c3970-00af-4f2c-ae85-fe3a2bcb393b",
+          "a697678e-68d2-4018-9a0e-f7cb684a8991"
         ],
         "settings": {
           "show_image": true,
