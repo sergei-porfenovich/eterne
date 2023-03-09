@@ -3837,6 +3837,18 @@
       "bottoms-collection": {
         "type": "bottoms-collection",
         "blocks": {
+          "0b2bae2d-54dd-44ff-b10e-c10be8fedf83": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "lounge-pant-sand",
+              "shop_product32": "lounge-pant-olive",
+              "shop_product33": "lounge-pant-earth"
+            }
+          },
           "e24ddfa6-0ae9-43af-a0e0-2f4a76c5dfe5": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -3961,21 +3973,10 @@
               "shop_product21": "short-biker",
               "shop_product22": "long-biker"
             }
-          },
-          "0b2bae2d-54dd-44ff-b10e-c10be8fedf83": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "lounge-pant-sand",
-              "shop_product32": "lounge-pant-olive",
-              "shop_product33": "lounge-pant-earth"
-            }
           }
         },
         "block_order": [
+          "0b2bae2d-54dd-44ff-b10e-c10be8fedf83",
           "e24ddfa6-0ae9-43af-a0e0-2f4a76c5dfe5",
           "509b7e28-df87-4371-91a5-8f3dc43d7031",
           "0b54894c-d0a2-47ca-a2ed-3c795afc0fec",
@@ -3986,8 +3987,7 @@
           "a0963a42-4208-4e92-8c69-2ff7c2400383",
           "5f759bf6-aa22-4b9e-9ebe-2116c79919f6",
           "40d9656d-7f43-49c1-812e-bf98fa0330af",
-          "b3c9bf05-f492-4cfc-8c6b-668de9eafb03",
-          "0b2bae2d-54dd-44ff-b10e-c10be8fedf83"
+          "b3c9bf05-f492-4cfc-8c6b-668de9eafb03"
         ],
         "settings": {
           "show_image": false,
