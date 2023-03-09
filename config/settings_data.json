@@ -621,6 +621,39 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "a697678e-68d2-4018-9a0e-f7cb684a8991": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "short-sleeve-baby-tee-olive",
+              "shop_product22": "lounge-pant-olive"
+            }
+          },
+          "dd542319-2098-429e-861b-1d78c4b7b445": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "short-sleeve-baby-tee-sand",
+              "shop_product22": "lounge-pant-sand"
+            }
+          },
+          "5f7de151-f828-46f8-abb3-07711ff8872e": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "short-sleeve-baby-tee-earth",
+              "shop_product22": "lounge-pant-earth"
+            }
+          },
           "53d03262-495a-4ff1-94e8-32c311753950": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -655,17 +688,6 @@
               "shop_product33": "tank-dress-maxi-black"
             }
           },
-          "dd542319-2098-429e-861b-1d78c4b7b445": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "short-sleeve-baby-tee-sand",
-              "shop_product22": "lounge-pant-sand"
-            }
-          },
           "01c6144a-4425-4b04-af46-70d34c3fde3b": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -687,17 +709,6 @@
               "shop_product_padding": 0,
               "shop_product21": "rib-tank-earth",
               "shop_product22": "rib-tank-sand"
-            }
-          },
-          "5f7de151-f828-46f8-abb3-07711ff8872e": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "short-sleeve-baby-tee-earth",
-              "shop_product22": "lounge-pant-earth"
             }
           },
           "7e8051f8-3352-4988-a577-06425292f429": {
@@ -1528,27 +1539,17 @@
               "shop_product_padding": 0,
               "shop_product1p": "rise-ai-giftcard"
             }
-          },
-          "a697678e-68d2-4018-9a0e-f7cb684a8991": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "short-sleeve-baby-tee-olive",
-              "shop_product22": "lounge-pant-olive"
-            }
           }
         },
         "block_order": [
+          "a697678e-68d2-4018-9a0e-f7cb684a8991",
+          "dd542319-2098-429e-861b-1d78c4b7b445",
+          "5f7de151-f828-46f8-abb3-07711ff8872e",
           "53d03262-495a-4ff1-94e8-32c311753950",
           "4b1f28d4-e6a5-4398-a7e5-4c76f1def008",
           "206d0db3-9255-4009-9804-2a77d20634f8",
-          "dd542319-2098-429e-861b-1d78c4b7b445",
           "01c6144a-4425-4b04-af46-70d34c3fde3b",
           "e27d9b2e-24fd-41ba-874d-4915b0a06b90",
-          "5f7de151-f828-46f8-abb3-07711ff8872e",
           "7e8051f8-3352-4988-a577-06425292f429",
           "ce9cd2cc-3770-4adf-b617-694343b6a6bb",
           "a575d070-e903-4223-8cbe-76c6b4023b25",
@@ -1617,8 +1618,7 @@
           "b9cfce59-2f8f-4314-809b-2ecba06d5956",
           "e0e66881-beda-4d26-9d00-b41983ea144a",
           "fe546ba6-e052-4bc2-bcd5-e4f5dbd1aabe",
-          "607c3970-00af-4f2c-ae85-fe3a2bcb393b",
-          "a697678e-68d2-4018-9a0e-f7cb684a8991"
+          "607c3970-00af-4f2c-ae85-fe3a2bcb393b"
         ],
         "settings": {
           "show_image": true,
