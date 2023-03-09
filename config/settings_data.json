@@ -2998,15 +2998,16 @@
       "custom-collection-2": {
         "type": "custom-collection-2",
         "blocks": {
-          "ccb667b5-5439-4cf6-a189-96518e79c387": {
-            "type": "shop_imgproducts2",
+          "4258fd6c-d639-4441-aa4d-80cc98521478": {
+            "type": "shop_imgproducts3",
             "settings": {
               "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product21": "short-sleeve-baby-tee-sand",
-              "shop_product22": "short-sleeve-baby-tee-earth"
+              "shop_product31": "short-sleeve-baby-tee-olive",
+              "shop_product32": "short-sleeve-baby-tee-sand",
+              "shop_product33": "short-sleeve-baby-tee-earth"
             }
           },
           "86a27648-77b0-4191-8270-872f6bba6345": {
@@ -3215,7 +3216,7 @@
           }
         },
         "block_order": [
-          "ccb667b5-5439-4cf6-a189-96518e79c387",
+          "4258fd6c-d639-4441-aa4d-80cc98521478",
           "86a27648-77b0-4191-8270-872f6bba6345",
           "378bd86a-a8f8-49cc-a83d-84c7341425f8",
           "18eb4f99-997d-48ae-ab66-8116c6ce3e0b",
