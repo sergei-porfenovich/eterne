@@ -2,20 +2,16 @@
 
 {%- assign grid_offset = '' -%}
 {%- assign products_count = collection.products_count -%}
-{% assign grid_setting_height_class = '' %}
 {%- case section.settings.grid_setting_large -%}
   {%- when 1 -%}
     {%- assign grid_width_large = 'large--one-whole' -%}
-    {% assign grid_setting_height_class = 'grid-rows-one' %}
   {%- when 2 -%}
     {%- assign grid_width_large = 'large--one-half' -%}
-    {% assign grid_setting_height_class = 'grid-rows-two' %}
     {%- if products_count == 1 -%}
       {%- assign grid_offset = 'push--large--one-quarter' -%}
     {%- endif -%}
   {%- when 3 -%}
     {%- assign grid_width_large = 'large--one-third' -%}
-    {% assign grid_setting_height_class = 'grid-rows-three' %}
     {%- if products_count == 1 -%}
       {%- assign grid_offset = 'push--large--one-third' -%}
     {%- elsif products_count == 2 -%}
@@ -23,7 +19,6 @@
     {%- endif -%}
   {%- when 4 -%}
     {%- assign grid_width_large = 'large--one-quarter' -%}
-    {% assign grid_setting_height_class = 'grid-rows-four' %}
     {%- if products_count == 1 -%}
       {%- assign grid_offset = 'push--large--three-eighths' -%}
     {%- elsif products_count == 2 -%}
@@ -33,7 +28,6 @@
     {%- endif -%}
   {%- when 5 -%}
     {%- assign grid_width_large = 'large--one-fifth' -%}
-    {% assign grid_setting_height_class = 'grid-rows-five' %}
     {%- if products_count == 1 -%}
       {%- assign grid_offset = 'push--large--two-fifths' -%}
     {%- elsif products_count == 2 -%}
@@ -45,7 +39,6 @@
     {%- endif -%}
   {%- when 6 -%}
     {%- assign grid_width_large = 'large--one-sixth' -%}
-    {% assign grid_setting_height_class = 'grid-rows-six' %}
     {%- if products_count == 1 -%}
       {%- assign grid_offset = 'push--large--five-twelfths' -%}
     {%- elsif products_count == 2 -%}
@@ -61,27 +54,20 @@
 {%- case section.settings.grid_setting_medium -%}
   {%- when 1 -%}
     {%- assign grid_width_medium = 'medium--one-whole' -%}
-    {% assign grid_setting_height_class = 'grid-rows-one' %}
   {%- when 2 -%}
     {%- assign grid_width_medium = 'medium--one-half' -%}
-  {% assign grid_setting_height_class = 'grid-rows-two' %}
   {%- when 3 -%}
     {%- assign grid_width_medium = 'medium--one-third' -%}
-    {% assign grid_setting_height_class = 'grid-rows-three' %}
   {%- when 4 -%}
     {%- assign grid_width_medium = 'medium--one-quarter' -%}
-    {% assign grid_setting_height_class = 'grid-rows-four' %}
 {%- endcase -%}
 {%- case section.settings.grid_setting_small -%}
   {%- when 1 -%}
     {%- assign grid_width_small = 'small--one-whole' -%}
-    {% assign grid_setting_height_class = 'grid-rows-one' %}
   {%- when 2 -%}
     {%- assign grid_width_small = 'small--one-half' -%}
-    {% assign grid_setting_height_class = 'grid-rows-one' %}
   {%- when 3 -%}
     {%- assign grid_width_small = 'small--one-third' -%}
-    {% assign grid_setting_height_class = 'grid-rows-one' %}
 {%- endcase -%}
 
 {%- assign product_count = 48 -%}
@@ -199,7 +185,7 @@
         {% else  %}
           <div class="grid__item collection-content one-whole">
         {% endif %}
-          <div class="grid-uniform {{ grid_setting_height_class }}">
+          <div class="grid-uniform grid-image-fix">
             {% for product in collection.products %}
               {% include 'product-grid-item' %}
             {% else %}

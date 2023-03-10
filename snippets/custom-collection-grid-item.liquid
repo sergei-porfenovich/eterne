@@ -73,7 +73,7 @@
 <div class="grid__item {{handle}} {{ grid_offset }} {{ grid_width_small }} {{ grid_width_medium }} {{ grid_width_large }}{% if on_sale %} on-sale{% endif %}{% if tagged %} tagged{% endif %} product-grid-item">
 
   <div class="grid__item_frame {% if reduce_img %}auto-height{% endif %} {% if full_size_img %}auto-height{% endif %}" data-aspectratio="{{inverse_ratio}}">
-    <div {% if reduce_img %}style="max-width: 90%; width: 100%; margin: 0 auto" {% endif %}>
+    <div class="fix-image-wrapper" {% if reduce_img %}style="max-width: 90%; width: 100%; margin: 0 auto" {% endif %}>
       <a href="{{ product.url }}" class="{{ product.handle }} lazy-image{% if double_img %} double__image{% endif %}" style="padding-top:{{ 1 | divided_by: feature_image.aspect_ratio | times: 100}}%; background-image:  url('{{ feature_image | img_url: '1x1' }}');">
         <img class="lazyload lazypreload fade-in shop-grid-img"
           alt="{{ product.title  }}"
