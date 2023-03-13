@@ -145,7 +145,7 @@
               {% for block in section.blocks %}
             	{%- assign handle = "" -%}
             	<div class="grid grid--full aos-init aos-animate" data-aos="fade-up" style="margin-top:{{section.settings.shop_margin_top}}px;margin-bottom:{{section.settings.shop_margin_bottom}}px;">
-                  <div style="margin:{{block.settings.shop_product_margin}}px;padding:{{block.settings.shop_product_padding}}px;">
+                  <div style="margin:{{block.settings.shop_product_margin}}px;padding:{{block.settings.shop_product_padding}}px; display: flex; width: 100%">
                   {%- case block.type -%}
                     {%- when "shop_products2" -%}
                         {%- assign grid_width_large = 'large--one-half' -%}
