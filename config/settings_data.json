@@ -3849,17 +3849,6 @@
               "shop_product33": "lounge-pant-earth"
             }
           },
-          "e24ddfa6-0ae9-43af-a0e0-2f4a76c5dfe5": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "lounge-pant-sand",
-              "shop_product22": "lounge-pant-earth"
-            }
-          },
           "509b7e28-df87-4371-91a5-8f3dc43d7031": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -3977,7 +3966,6 @@
         },
         "block_order": [
           "0b2bae2d-54dd-44ff-b10e-c10be8fedf83",
-          "e24ddfa6-0ae9-43af-a0e0-2f4a76c5dfe5",
           "509b7e28-df87-4371-91a5-8f3dc43d7031",
           "0b54894c-d0a2-47ca-a2ed-3c795afc0fec",
           "8a3ceb85-fab9-4f2c-b7e7-c2cda0cfe305",
