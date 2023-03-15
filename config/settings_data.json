@@ -4522,6 +4522,30 @@
       "collection-loungewear": {
         "type": "collection-loungewear",
         "blocks": {
+          "26f72606-4f23-486f-b6db-abcf6a9ef0ba": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "short-sleeve-baby-tee-olive",
+              "shop_product32": "short-sleeve-baby-tee-sand",
+              "shop_product33": "short-sleeve-baby-tee-earth"
+            }
+          },
+          "cd4719d4-fe86-4b2d-b8cf-f2f408e8b896": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "lounge-pant-olive",
+              "shop_product32": "lounge-pant-sand",
+              "shop_product33": "lounge-pant-earth"
+            }
+          },
           "549887a8-bd4d-45e9-913d-4ccab9403df4": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -4702,6 +4726,8 @@
           }
         },
         "block_order": [
+          "26f72606-4f23-486f-b6db-abcf6a9ef0ba",
+          "cd4719d4-fe86-4b2d-b8cf-f2f408e8b896",
           "549887a8-bd4d-45e9-913d-4ccab9403df4",
           "4e98e1d1-eaf6-4a8e-8987-295fb311dec4",
           "bd67a400-b6fa-4e28-8d85-b0a458594117",
