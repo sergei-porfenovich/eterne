@@ -74,17 +74,17 @@
   },
   "cart": {
     "general": {
-      "title": "Your Cart",
+      "title": "Your shopping bag",
       "remove": "Remove",
       "note": "Special instructions",
       "subtotal": "Subtotal",
       "shipping_at_checkout": "Shipping & taxes calculated at checkout",
-      "update": "Update Cart",
+      "update": "Update Shopping bag",
       "checkout": "Check Out",
-      "empty": "Your shopping cart is empty",
-      "stockout": "All available stock is in cart",
+      "empty": "Your shopping bag is empty",
+      "stockout": "All available stock is in shopping bag",
       "continue_browsing_html": "Continue Shopping",
-      "view_cart": "View Cart",
+      "view_cart": "View Shopping bag",
       "savings": "You're saving",
       "with": "with",
       "close_cart": "Close"
@@ -271,7 +271,7 @@
   },
   "layout": {
     "cart": {
-      "title": "Cart",
+      "title": "Shopping bag",
       "items_count": {
         "one": "item",
         "other": "items"
@@ -305,13 +305,13 @@
       "unavailable": "Make a selection",
       "compare_at": "Compare at",
       "quantity": "Quantity",
-      "add_to_cart": "Add to Cart",
+      "add_to_cart": "Add to Shopping bag",
       "join_membership": "Join Now"
     },
     "cart_drawer": {
-      "item_added": "Item added to cart",
+      "item_added": "Item added to shopping bag",
       "checkout": "Checkout",
-      "view_cart": "View Cart"
+      "view_cart": "View Shopping bag"
     }
   },
   "gift_cards": {
@@ -438,7 +438,7 @@
     },
     "notices": {
       "cart": {
-        "all_items_in_cart": "{{ name }} is almost out of stock. We have only {{ count }} left, and all remaining inventory of this item is already in your cart."
+        "all_items_in_cart": "{{ name }} is almost out of stock. We have only {{ count }} left, and all remaining inventory of this item is already in your shopping bag."
       }
     }
   }
