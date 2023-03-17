@@ -621,6 +621,17 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "479c693e-346b-4dc0-bdae-5341fd46c0c1": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "long-sleeve-turtleneck-dress-maxi-earth",
+              "shop_product22": "long-sleeve-turtleneck-dress-maxi-sand"
+            }
+          },
           "a697678e-68d2-4018-9a0e-f7cb684a8991": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1542,6 +1553,7 @@
           }
         },
         "block_order": [
+          "479c693e-346b-4dc0-bdae-5341fd46c0c1",
           "a697678e-68d2-4018-9a0e-f7cb684a8991",
           "dd542319-2098-429e-861b-1d78c4b7b445",
           "5f7de151-f828-46f8-abb3-07711ff8872e",
