@@ -632,15 +632,16 @@
               "shop_product22": "long-sleeve-turtleneck-dress-maxi-sand"
             }
           },
-          "7476254f-f864-4f30-97aa-1f58c15d05e3": {
-            "type": "shop_imgproducts2",
+          "8f3e2068-5d6b-49bc-a574-cdf024ace162": {
+            "type": "shop_imgproducts3",
             "settings": {
               "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product21": "long-sleeve-turtleneck-dress-mini-cream",
-              "shop_product22": "tank-dress-mini-cream"
+              "shop_product31": "long-sleeve-turtleneck-dress-maxi-black",
+              "shop_product32": "long-sleeve-turtleneck-dress-maxi-heather-grey",
+              "shop_product33": "long-sleeve-turtleneck-dress-maxi-cream"
             }
           },
           "a697678e-68d2-4018-9a0e-f7cb684a8991": {
@@ -778,16 +779,6 @@
               "shop_product22": "classic-sweatpant-heather-grey"
             }
           },
-          "b09b5205-7171-419b-bdfa-730f3457d626": {
-            "type": "shop_porproducts1",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product1p": "georgia"
-            }
-          },
           "49eab2da-3347-406d-83a5-da7f24af6ef9": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -797,6 +788,16 @@
               "shop_product_padding": 0,
               "shop_product21": "oversized-crewneck-sweatshirt-heather-brown",
               "shop_product22": "classic-sweatpant-heather-brown"
+            }
+          },
+          "b09b5205-7171-419b-bdfa-730f3457d626": {
+            "type": "shop_porproducts1",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product1p": "georgia"
             }
           },
           "09820e19-67de-4aae-93c9-88364522ccf1": {
@@ -958,18 +959,6 @@
               "shop_product22": "straight-leg-sweatpant-black"
             }
           },
-          "8f3e2068-5d6b-49bc-a574-cdf024ace162": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "long-sleeve-turtleneck-dress-maxi-black",
-              "shop_product32": "long-sleeve-turtleneck-dress-maxi-heather-grey",
-              "shop_product33": "long-sleeve-turtleneck-dress-maxi-cream"
-            }
-          },
           "a81a3e00-07c4-417c-ae35-265df7895799": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -1006,18 +995,6 @@
               "shop_product33": "thin-strap-fitted-tank-cream"
             }
           },
-          "401a0de1-9886-452a-be6a-283e0db89b50": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "long-sleeve-turtleneck-dress-mini-heather-grey",
-              "shop_product32": "tank-dress-mini-heather-grey",
-              "shop_product33": "long-sleeve-crewneck-dress-mini-heather-grey"
-            }
-          },
           "d53de153-12ce-404f-ae18-257021fea4aa": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -1039,6 +1016,29 @@
               "shop_product_padding": 0,
               "shop_product21": "tank-dress-mini-black",
               "shop_product22": "long-sleeve-turtleneck-dress-mini-black-black"
+            }
+          },
+          "401a0de1-9886-452a-be6a-283e0db89b50": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-turtleneck-dress-mini-heather-grey",
+              "shop_product32": "tank-dress-mini-heather-grey",
+              "shop_product33": "long-sleeve-crewneck-dress-mini-heather-grey"
+            }
+          },
+          "7476254f-f864-4f30-97aa-1f58c15d05e3": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "long-sleeve-turtleneck-dress-mini-cream",
+              "shop_product22": "tank-dress-mini-cream"
             }
           },
           "d0760d23-e80b-4ead-b53a-c3622ec3d285": {
@@ -1554,7 +1554,7 @@
         },
         "block_order": [
           "479c693e-346b-4dc0-bdae-5341fd46c0c1",
-          "7476254f-f864-4f30-97aa-1f58c15d05e3",
+          "8f3e2068-5d6b-49bc-a574-cdf024ace162",
           "a697678e-68d2-4018-9a0e-f7cb684a8991",
           "dd542319-2098-429e-861b-1d78c4b7b445",
           "5f7de151-f828-46f8-abb3-07711ff8872e",
@@ -1567,8 +1567,8 @@
           "ce9cd2cc-3770-4adf-b617-694343b6a6bb",
           "a575d070-e903-4223-8cbe-76c6b4023b25",
           "86730e6f-200e-460f-9f7c-2eec5b9abb34",
-          "b09b5205-7171-419b-bdfa-730f3457d626",
           "49eab2da-3347-406d-83a5-da7f24af6ef9",
+          "b09b5205-7171-419b-bdfa-730f3457d626",
           "09820e19-67de-4aae-93c9-88364522ccf1",
           "fb960c61-bee8-4bc8-aa6f-34a4edb7ac92",
           "0d8f026a-ee1a-468d-9256-e2027e2c90de",
@@ -1583,13 +1583,13 @@
           "f31d4567-322c-422b-80f3-0a934eaba905",
           "2e852a0c-de81-467a-b8ed-289923530d4d",
           "c80836fe-e2f5-4814-9b33-a354ed0e11d6",
-          "8f3e2068-5d6b-49bc-a574-cdf024ace162",
           "a81a3e00-07c4-417c-ae35-265df7895799",
           "ce421b0d-7bfc-4d13-9833-241934813b92",
           "a627fd29-37bf-4991-8a06-9dc1c2a304b0",
-          "401a0de1-9886-452a-be6a-283e0db89b50",
           "d53de153-12ce-404f-ae18-257021fea4aa",
           "9bcac4bf-3ec7-442f-a802-74fcd54d1f0d",
+          "401a0de1-9886-452a-be6a-283e0db89b50",
+          "7476254f-f864-4f30-97aa-1f58c15d05e3",
           "d0760d23-e80b-4ead-b53a-c3622ec3d285",
           "73f7e148-b3a8-4bd0-bfb0-a2bf1d80bf71",
           "b4da56c3-1fce-45ca-a078-d21a2f587b6e",
