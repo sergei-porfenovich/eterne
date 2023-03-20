@@ -201,7 +201,9 @@
       </script>
     {% endcomment %}
 
-    <script type="searchspring/personalized-recommendations" profile="recently-viewed"></script>
+	<script type="searchspring/personalized-recommendations" profile="recently-viewed">
+      seed = "{{ product.variants[0].sku }}";
+	</script>
   </div>
 </div>
 
