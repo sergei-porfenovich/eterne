@@ -145,10 +145,11 @@
               {% for block in section.blocks %}
             	{%- assign handle = "" -%}
             	<div class="custom-shop-grid grid grid--full aos-init aos-animate" data-aos="fade-up" style="margin-top:{{section.settings.shop_margin_top}}px;">
-                  <div style="margin:{{block.settings.shop_product_margin}}px;padding:{{block.settings.shop_product_padding}}px;display: flex; width: 100%;">
+                  <div style="margin:{{block.settings.shop_product_margin}}px;padding:{{block.settings.shop_product_padding}}px;display: flex; width: 100%; justify-content: center;">
                   {%- case block.type -%}
                     {%- when "shop_imgproducts1" -%}
-                      <div class="single_row">
+                      {% if block.settings.product_grid_aspect_ratio == '0.75' %}
+                        <div class="single_row_portrait">
                           {%- assign grid_width_large = 'large--one-half' -%}
                           {%- assign grid_width_medium = 'medium--one-half' -%}
                           {%- assign grid_width_small = 'small--one-whole' -%}
@@ -161,17 +162,51 @@
                           {% endfor %}
                           {%- assign feature_image = block.settings.shop_img1 -%}
                           {% include 'custom-collection-grid-item' %}
-                      </div>
-                    {%- when "shop_porproducts1" -%}
-                      <div class="single_row_portrait">
-                          {%- assign grid_width_large = 'large--one-half' -%}
-                          {%- assign grid_width_medium = 'medium--one-half' -%}
+                        </div>
+                      {% endif %}
+
+                      {% if block.settings.product_grid_aspect_ratio == '1.33' %}
+                        <div class="single_row_landscape">
+                          {%- assign grid_width_large = 'large--one-whole' -%}
+                          {%- assign grid_width_medium = 'medium--one-whole' -%}
                           {%- assign grid_width_small = 'small--one-whole' -%}
 
-                          {%- assign handle = block.settings.shop_product1p -%}
-                          {%- assign feature_image = block.settings.shop_img1p -%}
+                          {%- assign handle = block.settings.shop_product1 -%}
+                          {% for product in collections.shop.products %}
+                            {% if product.handle == handle %}
+                              {% assign product = product %}
+                            {% endif %}
+                          {% endfor %}
+                          {%- assign feature_image = block.settings.shop_img1 -%}
                           {% include 'custom-collection-grid-item' %}
+                        </div>
+                      {% endif %}
+                    {%- when "shop_porproducts1" -%}
+                    {% if block.settings.product_grid_aspect_ratio == '0.75' %}
+                      <div class="single_row_portrait">
+                        {%- assign grid_width_large = 'large--one-half' -%}
+                        {%- assign grid_width_medium = 'medium--one-half' -%}
+                        {%- assign grid_width_small = 'small--one-whole' -%}
+
+                        {%- assign handle = block.settings.shop_product1p -%}
+                        {%- assign feature_image = block.settings.shop_img1p -%}
+                        {% include 'custom-collection-grid-item' %}
+
                       </div>
+                    {% endif %}
+
+                    {% if block.settings.product_grid_aspect_ratio == '1.33' %}
+                      <div class="single_row_landscape">
+                        {%- assign grid_width_large = 'large--one-whole' -%}
+                        {%- assign grid_width_medium = 'medium--one-whole' -%}
+                        {%- assign grid_width_small = 'small--one-whole' -%}
+
+                        {%- assign handle = block.settings.shop_product1p -%}
+                        {%- assign feature_image = block.settings.shop_img1p -%}
+                        {% include 'custom-collection-grid-item' %}
+
+                      </div>
+                    {% endif %}
                     {%- when "shop_products2" -%}
                         {%- assign grid_width_large = 'large--one-half' -%}
                         {%- assign grid_width_medium = 'medium--one-half' -%}
