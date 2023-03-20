@@ -9141,3 +9141,29 @@ select.single-option-selector option[disabled] {
 #your-shopping-cart #gsAppContainer {
   display: none !important;
 }
+
+.grid-image-fix {
+  align-items: unset !important;
+
+  .fix-image-wrapper {
+    height: calc(100% - 116px);
+    overflow: hidden;
+  }
+
+  .lazy-image {
+    height: 100%;
+  }
+
+  .lazy-image img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .single_row_portrait {
+    width: 50%;
+  }
+
+  .single_row_landscape {
+    width: 100%;
+  }
+}

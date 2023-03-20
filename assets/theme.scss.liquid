@@ -9494,6 +9494,7 @@ select.single-option-selector option[disabled] {
 
 .grid-image-fix {
   align-items: unset !important;
+
   .fix-image-wrapper {
     height: calc(100% - 116px);
     overflow: hidden;
@@ -9508,19 +9509,11 @@ select.single-option-selector option[disabled] {
     object-fit: cover;
   }
 
-  {% comment %}.single_row_portrait {
+  .single_row_portrait {
+    width: 50%;
+  }
+
+  .single_row_landscape {
     width: 100%;
-  }{% endcomment %}
-}
-{% comment %}
-.single_row_portrait {
-  width: 50%;
-}{% endcomment %}
-
-.single_row_portrait {
-   width: 50%;
- }
-
-.single_row_landscape {
-  width: 100%;
+  }
 }
