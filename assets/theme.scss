@@ -9141,3 +9141,12 @@ select.single-option-selector option[disabled] {
 #your-shopping-cart #gsAppContainer {
   display: none !important;
 }
+
+//footer fix
+.cbb-product-page main {
+  padding-bottom: 0;
+}
+
+.cbb-product-page .site-footer {
+  padding-top: 30px;
+}
