@@ -647,7 +647,7 @@
           "a697678e-68d2-4018-9a0e-f7cb684a8991": {
             "type": "shop_imgproducts2",
             "settings": {
-              "full_size_pictures": false,
+              "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -3861,17 +3861,6 @@
               "shop_product33": "lounge-pant-earth"
             }
           },
-          "e24ddfa6-0ae9-43af-a0e0-2f4a76c5dfe5": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "lounge-pant-sand",
-              "shop_product22": "lounge-pant-earth"
-            }
-          },
           "509b7e28-df87-4371-91a5-8f3dc43d7031": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -3989,7 +3978,6 @@
         },
         "block_order": [
           "0b2bae2d-54dd-44ff-b10e-c10be8fedf83",
-          "e24ddfa6-0ae9-43af-a0e0-2f4a76c5dfe5",
           "509b7e28-df87-4371-91a5-8f3dc43d7031",
           "0b54894c-d0a2-47ca-a2ed-3c795afc0fec",
           "8a3ceb85-fab9-4f2c-b7e7-c2cda0cfe305",
@@ -4534,6 +4522,30 @@
       "collection-loungewear": {
         "type": "collection-loungewear",
         "blocks": {
+          "26f72606-4f23-486f-b6db-abcf6a9ef0ba": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "short-sleeve-baby-tee-olive",
+              "shop_product32": "short-sleeve-baby-tee-sand",
+              "shop_product33": "short-sleeve-baby-tee-earth"
+            }
+          },
+          "cd4719d4-fe86-4b2d-b8cf-f2f408e8b896": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "lounge-pant-olive",
+              "shop_product32": "lounge-pant-sand",
+              "shop_product33": "lounge-pant-earth"
+            }
+          },
           "549887a8-bd4d-45e9-913d-4ccab9403df4": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -4714,6 +4726,8 @@
           }
         },
         "block_order": [
+          "26f72606-4f23-486f-b6db-abcf6a9ef0ba",
+          "cd4719d4-fe86-4b2d-b8cf-f2f408e8b896",
           "549887a8-bd4d-45e9-913d-4ccab9403df4",
           "4e98e1d1-eaf6-4a8e-8987-295fb311dec4",
           "bd67a400-b6fa-4e28-8d85-b0a458594117",
