@@ -74,7 +74,7 @@
 
 
 <div class="grid__item {{ grid_offset }} {{ grid_width_small }} {{ grid_width_medium }} {{ grid_width_large }}{% if on_sale %} on-sale{% endif %}{% if tagged %} tagged{% endif %} product-grid-item">
-  <div {{ auto_height }}>
+  <div class="fix-image-wrapper" {{ auto_height }}>
     <a href="{{ product.url | within: collection }}" class="lazy-image{% if double_img %} double__image{% endif %}" style="padding-top:{{ 1 | divided_by: product.featured_image.aspect_ratio | times: 100}}%; background-image:  url('{{ product.featured_image | img_url: '1x1' }}');">
       <img class="lazyload fade-in"
         alt="{{ product.featured_image.alt | default: product.title  }}"
