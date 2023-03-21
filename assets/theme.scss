@@ -6453,6 +6453,8 @@ li.cbb-frequently-bought-product:first-of-type div.cbb-frequently-bought-product
   justify-content: center;
   margin-right: 8px;
   font-size: 15px;
+  width: 18px;
+  height: 18px;
   font-family: 'FontAwesome', sans-serif;
 }
 
@@ -6460,7 +6462,7 @@ li.cbb-frequently-bought-product:first-of-type div.cbb-frequently-bought-product
   background: #fff !important;
 }
 
-#smartwishlist div#bookmarkit.bookmarked .fa-heart-o::before{
+#smartwishlist div#bookmarkit.bookmarked .fa-heart::before{
   content: "Remove from Wishlist";
   font-family: miller-display, "PT Serif", serif;
   font-size: 14px;
