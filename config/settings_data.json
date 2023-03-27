@@ -3022,6 +3022,16 @@
       "custom-collection-2": {
         "type": "custom-collection-2",
         "blocks": {
+          "ed5570a1-420e-48ec-9845-b1c856c2e942": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product1": "short-sleeve-baby-tee-oat"
+            }
+          },
           "4258fd6c-d639-4441-aa4d-80cc98521478": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -3237,19 +3247,10 @@
               "shop_product32": "the-short-sleeve-boyfriend-tee-g",
               "shop_product33": "the-short-sleeve-boyfriend-tee-ivory"
             }
-          },
-          "ed5570a1-420e-48ec-9845-b1c856c2e942": {
-            "type": "shop_imgproducts1",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product1": "short-sleeve-baby-tee-oat"
-            }
           }
         },
         "block_order": [
+          "ed5570a1-420e-48ec-9845-b1c856c2e942",
           "4258fd6c-d639-4441-aa4d-80cc98521478",
           "86a27648-77b0-4191-8270-872f6bba6345",
           "378bd86a-a8f8-49cc-a83d-84c7341425f8",
@@ -3267,8 +3268,7 @@
           "2921186a-37d1-4686-8872-62935653b93f",
           "37e60fd8-a14e-4d72-89de-fa285945043c",
           "39cc7f81-e30a-41e9-90d7-1652b45df7d4",
-          "de8dc6aa-abba-4f27-8092-10f13ba611a0",
-          "ed5570a1-420e-48ec-9845-b1c856c2e942"
+          "de8dc6aa-abba-4f27-8092-10f13ba611a0"
         ],
         "settings": {
           "show_image": false,
@@ -3872,6 +3872,16 @@
       "bottoms-collection": {
         "type": "bottoms-collection",
         "blocks": {
+          "3376ea24-2b77-4d3c-ba45-8dddeca04b4a": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product1": "lounge-pant-oat"
+            }
+          },
           "0b2bae2d-54dd-44ff-b10e-c10be8fedf83": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -4000,6 +4010,7 @@
           }
         },
         "block_order": [
+          "3376ea24-2b77-4d3c-ba45-8dddeca04b4a",
           "0b2bae2d-54dd-44ff-b10e-c10be8fedf83",
           "509b7e28-df87-4371-91a5-8f3dc43d7031",
           "0b54894c-d0a2-47ca-a2ed-3c795afc0fec",
