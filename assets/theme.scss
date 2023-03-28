@@ -7210,7 +7210,7 @@ html.no-js{
     visibility: visible;
     transition: opacity .5s ease;
     background: rgba(46, 52, 56, 0.85);
-    max-width: 360px;
+    max-width: 276px;
 
     @include at-query($max, $small) {
       max-width: 100%;
