@@ -6464,10 +6464,6 @@ li.cbb-frequently-bought-product:first-of-type div.cbb-frequently-bought-product
 
 #AddToCart-product {
   margin-bottom: 7px;
-
-  @media screen and (min-width: 770px) {
-    width: 60%;
-  }
 }
 
 .tooltipster-base {
@@ -8569,7 +8565,7 @@ header.site-header .logo--centered-wrapper > a {
     color: $colorHomeLight;
 
     @include at-query ($min, $large) {
-    	width: 65%;
+    	width: 60%; // Button add to cart size
     }
   }
 }
