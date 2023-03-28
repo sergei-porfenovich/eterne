@@ -621,6 +621,29 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "479c693e-346b-4dc0-bdae-5341fd46c0c1": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "long-sleeve-turtleneck-dress-maxi-earth",
+              "shop_product22": "long-sleeve-turtleneck-dress-maxi-sand"
+            }
+          },
+          "8f3e2068-5d6b-49bc-a574-cdf024ace162": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-turtleneck-dress-maxi-black",
+              "shop_product32": "long-sleeve-turtleneck-dress-maxi-heather-grey",
+              "shop_product33": "long-sleeve-turtleneck-dress-maxi-cream"
+            }
+          },
           "a697678e-68d2-4018-9a0e-f7cb684a8991": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -756,16 +779,6 @@
               "shop_product22": "classic-sweatpant-heather-grey"
             }
           },
-          "b09b5205-7171-419b-bdfa-730f3457d626": {
-            "type": "shop_porproducts1",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product1p": "georgia"
-            }
-          },
           "49eab2da-3347-406d-83a5-da7f24af6ef9": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -775,6 +788,16 @@
               "shop_product_padding": 0,
               "shop_product21": "oversized-crewneck-sweatshirt-heather-brown",
               "shop_product22": "classic-sweatpant-heather-brown"
+            }
+          },
+          "b09b5205-7171-419b-bdfa-730f3457d626": {
+            "type": "shop_porproducts1",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product1p": "georgia"
             }
           },
           "09820e19-67de-4aae-93c9-88364522ccf1": {
@@ -936,18 +959,6 @@
               "shop_product22": "straight-leg-sweatpant-black"
             }
           },
-          "8f3e2068-5d6b-49bc-a574-cdf024ace162": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "long-sleeve-turtleneck-dress-maxi-black",
-              "shop_product32": "long-sleeve-turtleneck-dress-maxi-heather-grey",
-              "shop_product33": "long-sleeve-turtleneck-dress-maxi-cream"
-            }
-          },
           "a81a3e00-07c4-417c-ae35-265df7895799": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -984,18 +995,6 @@
               "shop_product33": "thin-strap-fitted-tank-cream"
             }
           },
-          "401a0de1-9886-452a-be6a-283e0db89b50": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "long-sleeve-turtleneck-dress-mini-heather-grey",
-              "shop_product32": "tank-dress-mini-heather-grey",
-              "shop_product33": "long-sleeve-crewneck-dress-mini-heather-grey"
-            }
-          },
           "d53de153-12ce-404f-ae18-257021fea4aa": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -1019,16 +1018,16 @@
               "shop_product22": "long-sleeve-turtleneck-dress-mini-black-black"
             }
           },
-          "d0760d23-e80b-4ead-b53a-c3622ec3d285": {
+          "401a0de1-9886-452a-be6a-283e0db89b50": {
             "type": "shop_imgproducts3",
             "settings": {
-              "full_size_pictures": false,
+              "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product31": "super-cropped-rib-tank-black",
-              "shop_product32": "super-cropped-rib-tank-heather-grey",
-              "shop_product33": "super-cropped-rib-tank-ivory"
+              "shop_product31": "long-sleeve-turtleneck-dress-mini-heather-grey",
+              "shop_product32": "tank-dress-mini-heather-grey",
+              "shop_product33": "long-sleeve-crewneck-dress-mini-heather-grey"
             }
           },
           "7476254f-f864-4f30-97aa-1f58c15d05e3": {
@@ -1040,6 +1039,18 @@
               "shop_product_padding": 0,
               "shop_product21": "long-sleeve-turtleneck-dress-mini-cream",
               "shop_product22": "tank-dress-mini-cream"
+            }
+          },
+          "d0760d23-e80b-4ead-b53a-c3622ec3d285": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "super-cropped-rib-tank-black",
+              "shop_product32": "super-cropped-rib-tank-heather-grey",
+              "shop_product33": "super-cropped-rib-tank-ivory"
             }
           },
           "73f7e148-b3a8-4bd0-bfb0-a2bf1d80bf71": {
@@ -1542,6 +1553,8 @@
           }
         },
         "block_order": [
+          "479c693e-346b-4dc0-bdae-5341fd46c0c1",
+          "8f3e2068-5d6b-49bc-a574-cdf024ace162",
           "a697678e-68d2-4018-9a0e-f7cb684a8991",
           "dd542319-2098-429e-861b-1d78c4b7b445",
           "5f7de151-f828-46f8-abb3-07711ff8872e",
@@ -1554,8 +1567,8 @@
           "ce9cd2cc-3770-4adf-b617-694343b6a6bb",
           "a575d070-e903-4223-8cbe-76c6b4023b25",
           "86730e6f-200e-460f-9f7c-2eec5b9abb34",
-          "b09b5205-7171-419b-bdfa-730f3457d626",
           "49eab2da-3347-406d-83a5-da7f24af6ef9",
+          "b09b5205-7171-419b-bdfa-730f3457d626",
           "09820e19-67de-4aae-93c9-88364522ccf1",
           "fb960c61-bee8-4bc8-aa6f-34a4edb7ac92",
           "0d8f026a-ee1a-468d-9256-e2027e2c90de",
@@ -1570,15 +1583,14 @@
           "f31d4567-322c-422b-80f3-0a934eaba905",
           "2e852a0c-de81-467a-b8ed-289923530d4d",
           "c80836fe-e2f5-4814-9b33-a354ed0e11d6",
-          "8f3e2068-5d6b-49bc-a574-cdf024ace162",
           "a81a3e00-07c4-417c-ae35-265df7895799",
           "ce421b0d-7bfc-4d13-9833-241934813b92",
           "a627fd29-37bf-4991-8a06-9dc1c2a304b0",
-          "401a0de1-9886-452a-be6a-283e0db89b50",
           "d53de153-12ce-404f-ae18-257021fea4aa",
           "9bcac4bf-3ec7-442f-a802-74fcd54d1f0d",
-          "d0760d23-e80b-4ead-b53a-c3622ec3d285",
+          "401a0de1-9886-452a-be6a-283e0db89b50",
           "7476254f-f864-4f30-97aa-1f58c15d05e3",
+          "d0760d23-e80b-4ead-b53a-c3622ec3d285",
           "73f7e148-b3a8-4bd0-bfb0-a2bf1d80bf71",
           "b4da56c3-1fce-45ca-a078-d21a2f587b6e",
           "dd244cfd-ef7e-46ad-8055-cd0a57c662a8",
@@ -4749,6 +4761,29 @@
       "dresses-collection": {
         "type": "dresses-collection",
         "blocks": {
+          "22a22cfe-e366-4533-96f6-1bbbbecb4c87": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "long-sleeve-turtleneck-dress-maxi-earth",
+              "shop_product22": "long-sleeve-turtleneck-dress-maxi-sand"
+            }
+          },
+          "d12ce08a-6c1c-4f0e-89b0-6d48648fa407": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-turtleneck-dress-maxi-black",
+              "shop_product32": "long-sleeve-turtleneck-dress-maxi-heather-grey",
+              "shop_product33": "long-sleeve-turtleneck-dress-maxi-cream"
+            }
+          },
           "ec28c2f9-dd2d-428e-b85c-962d44e8e007": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -4817,18 +4852,6 @@
               "shop_product1": "long-sleeve-crewneck-dress-maxi-heather-grey"
             }
           },
-          "d12ce08a-6c1c-4f0e-89b0-6d48648fa407": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "long-sleeve-turtleneck-dress-maxi-black",
-              "shop_product32": "long-sleeve-turtleneck-dress-maxi-heather-grey",
-              "shop_product33": "long-sleeve-turtleneck-dress-maxi-cream"
-            }
-          },
           "2b749d83-5d56-4dd0-a302-0dbb4ec96ba6": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -4877,13 +4900,14 @@
           }
         },
         "block_order": [
+          "22a22cfe-e366-4533-96f6-1bbbbecb4c87",
+          "d12ce08a-6c1c-4f0e-89b0-6d48648fa407",
           "ec28c2f9-dd2d-428e-b85c-962d44e8e007",
           "c55385f9-22a5-441e-bdd4-205caaa821d3",
           "485b8b23-9c54-4fa0-aac7-06890b4959b1",
           "16dbdcdb-3a7e-491a-ae70-e63ad0df36e9",
           "ee642edb-8665-43e3-8f49-961fce4f142a",
           "dc0f704b-81c7-4ec2-90f9-d40f90f5fa4b",
-          "d12ce08a-6c1c-4f0e-89b0-6d48648fa407",
           "2b749d83-5d56-4dd0-a302-0dbb4ec96ba6",
           "6dcd3443-7f7a-4a70-bb58-36d89babd733",
           "98282f03-4a2b-48f5-9dc3-ceb9ff6a2950",
