@@ -9490,3 +9490,22 @@ select.single-option-selector option[disabled] {
 #your-shopping-cart #gsAppContainer {
   display: none !important;
 }
+
+.template-product {
+  .product-single {
+    .share {
+      padding: 0;
+      display: none;
+    }
+
+    .product-description {
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      > :last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
