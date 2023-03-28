@@ -3022,19 +3022,6 @@
       "custom-collection-2": {
         "type": "custom-collection-2",
         "blocks": {
-          "bc71c161-7887-4375-8f43-ca159f7b4c7f": {
-            "type": "shop_imgproducts4",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product41": "short-sleeve-baby-tee-olive",
-              "shop_product42": "short-sleeve-baby-tee-sand",
-              "shop_product43": "short-sleeve-baby-tee-earth",
-              "shop_product44": "short-sleeve-baby-tee-oat"
-            }
-          },
           "df5f10fa-8cfb-40d8-a1f7-373a3d50eb3c": {
             "type": "shop_porproducts1",
             "settings": {
@@ -3043,16 +3030,6 @@
               "shop_product_margin": 0,
               "shop_product_padding": 0,
               "shop_product1p": "short-sleeve-baby-tee-oat"
-            }
-          },
-          "ed5570a1-420e-48ec-9845-b1c856c2e942": {
-            "type": "shop_imgproducts1",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product1": "short-sleeve-baby-tee-oat"
             }
           },
           "4258fd6c-d639-4441-aa4d-80cc98521478": {
@@ -3273,9 +3250,7 @@
           }
         },
         "block_order": [
-          "bc71c161-7887-4375-8f43-ca159f7b4c7f",
           "df5f10fa-8cfb-40d8-a1f7-373a3d50eb3c",
-          "ed5570a1-420e-48ec-9845-b1c856c2e942",
           "4258fd6c-d639-4441-aa4d-80cc98521478",
           "86a27648-77b0-4191-8270-872f6bba6345",
           "378bd86a-a8f8-49cc-a83d-84c7341425f8",
