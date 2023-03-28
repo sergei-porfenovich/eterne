@@ -3022,6 +3022,19 @@
       "custom-collection-2": {
         "type": "custom-collection-2",
         "blocks": {
+          "bc71c161-7887-4375-8f43-ca159f7b4c7f": {
+            "type": "shop_imgproducts4",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product41": "short-sleeve-baby-tee-olive",
+              "shop_product42": "short-sleeve-baby-tee-sand",
+              "shop_product43": "short-sleeve-baby-tee-earth",
+              "shop_product44": "short-sleeve-baby-tee-oat"
+            }
+          },
           "ed5570a1-420e-48ec-9845-b1c856c2e942": {
             "type": "shop_imgproducts1",
             "settings": {
@@ -3247,22 +3260,10 @@
               "shop_product32": "the-short-sleeve-boyfriend-tee-g",
               "shop_product33": "the-short-sleeve-boyfriend-tee-ivory"
             }
-          },
-          "bc71c161-7887-4375-8f43-ca159f7b4c7f": {
-            "type": "shop_imgproducts4",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product41": "short-sleeve-baby-tee-olive",
-              "shop_product42": "short-sleeve-baby-tee-sand",
-              "shop_product43": "short-sleeve-baby-tee-earth",
-              "shop_product44": "short-sleeve-baby-tee-oat"
-            }
           }
         },
         "block_order": [
+          "bc71c161-7887-4375-8f43-ca159f7b4c7f",
           "ed5570a1-420e-48ec-9845-b1c856c2e942",
           "4258fd6c-d639-4441-aa4d-80cc98521478",
           "86a27648-77b0-4191-8270-872f6bba6345",
@@ -3281,8 +3282,7 @@
           "2921186a-37d1-4686-8872-62935653b93f",
           "37e60fd8-a14e-4d72-89de-fa285945043c",
           "39cc7f81-e30a-41e9-90d7-1652b45df7d4",
-          "de8dc6aa-abba-4f27-8092-10f13ba611a0",
-          "bc71c161-7887-4375-8f43-ca159f7b4c7f"
+          "de8dc6aa-abba-4f27-8092-10f13ba611a0"
         ],
         "settings": {
           "show_image": false,
