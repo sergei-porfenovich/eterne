@@ -6464,6 +6464,10 @@ li.cbb-frequently-bought-product:first-of-type div.cbb-frequently-bought-product
 
 #AddToCart-product {
   margin-bottom: 7px;
+
+  @media screen and (min-width: 770px) {
+    width: 60%;
+  }
 }
 
 .tooltipster-base {
@@ -6472,7 +6476,7 @@ li.cbb-frequently-bought-product:first-of-type div.cbb-frequently-bought-product
 
 @media screen and (min-width: 770px) {
   #smartwishlist div#bookmarkit {
-    width: 50% !important;
+    width: 60% !important;
   }
 }
 
