@@ -3038,7 +3038,7 @@
           "df5f10fa-8cfb-40d8-a1f7-373a3d50eb3c": {
             "type": "shop_porproducts1",
             "settings": {
-              "full_size_pictures": false,
+              "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
