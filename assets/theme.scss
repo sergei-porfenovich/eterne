@@ -6492,7 +6492,7 @@ li.cbb-frequently-bought-product:first-of-type div.cbb-frequently-bought-product
 
 @media screen and (min-width: 770px) {
   #smartwishlist div#bookmarkit {
-    width: 50% !important;
+    width: 60% !important;
   }
 }
 
@@ -8585,7 +8585,7 @@ header.site-header .logo--centered-wrapper > a {
     color: $colorHomeLight;
 
     @include at-query ($min, $large) {
-    	width: 50%;
+    	width: 60%; // Button add to cart size
     }
   }
 }
