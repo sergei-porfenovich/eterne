@@ -6372,7 +6372,7 @@ li.cbb-frequently-bought-product:first-of-type div.cbb-frequently-bought-product
   justify-content: center;
 }
 
-#smartwishlist div#bookmarkit:before {
+#smartwishlist div.unbookmarked:before {
   content: '';
   background-image: url("../assets/noun-heart-831660.svg");
   background-size: 18px;
@@ -6383,8 +6383,26 @@ li.cbb-frequently-bought-product:first-of-type div.cbb-frequently-bought-product
   margin-right: 8px;
 }
 
+#smartwishlist div.bookmarked:before {
+  content: "\f004";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  font-size: 15px;
+  width: 18px;
+  height: 18px;
+  font-family: 'FontAwesome', sans-serif;
+}
+
 #smartwishlist div#bookmarkit.bookmarked {
   background: #fff !important;
+}
+
+#smartwishlist div#bookmarkit.bookmarked .fa-heart::before{
+  content: "Remove from Wishlist";
+  font-family: miller-display, "PT Serif", serif;
+  font-size: 14px;
 }
 
 #smartwishlist div#bookmarkit.unbookmarked .fa-heart-o::before{
