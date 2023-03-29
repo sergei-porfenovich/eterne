@@ -621,6 +621,38 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "1edacc97-0852-4fc8-bbfc-8199dceeac2b": {
+            "type": "shop_porproducts1",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product1p": "long-sleeve-crewneck-dress-maxi-earth"
+            }
+          },
+          "ce9cd2cc-3770-4adf-b617-694343b6a6bb": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-crewneck-dress-maxi-black",
+              "shop_product32": "long-sleeve-crewneck-dress-maxi-sand",
+              "shop_product33": "long-sleeve-crewneck-dress-maxi-cream"
+            }
+          },
+          "a575d070-e903-4223-8cbe-76c6b4023b25": {
+            "type": "shop_imgproducts1",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product1": "long-sleeve-crewneck-dress-maxi-heather-grey"
+            }
+          },
           "479c693e-346b-4dc0-bdae-5341fd46c0c1": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -744,28 +776,6 @@
               "shop_product31": "long-sleeve-crewneck-dress-mini-cream",
               "shop_product32": "long-sleeve-crewneck-dress-mini-earth",
               "shop_product33": "long-sleeve-crewneck-dress-mini-black"
-            }
-          },
-          "ce9cd2cc-3770-4adf-b617-694343b6a6bb": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "long-sleeve-crewneck-dress-maxi-black",
-              "shop_product32": "long-sleeve-crewneck-dress-maxi-sand",
-              "shop_product33": "long-sleeve-crewneck-dress-maxi-cream"
-            }
-          },
-          "a575d070-e903-4223-8cbe-76c6b4023b25": {
-            "type": "shop_imgproducts1",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product1": "long-sleeve-crewneck-dress-maxi-heather-grey"
             }
           },
           "86730e6f-200e-460f-9f7c-2eec5b9abb34": {
@@ -1550,19 +1560,12 @@
               "shop_product_padding": 0,
               "shop_product1p": "rise-ai-giftcard"
             }
-          },
-          "1edacc97-0852-4fc8-bbfc-8199dceeac2b": {
-            "type": "shop_porproducts1",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product1p": "long-sleeve-crewneck-dress-maxi-earth"
-            }
           }
         },
         "block_order": [
+          "1edacc97-0852-4fc8-bbfc-8199dceeac2b",
+          "ce9cd2cc-3770-4adf-b617-694343b6a6bb",
+          "a575d070-e903-4223-8cbe-76c6b4023b25",
           "479c693e-346b-4dc0-bdae-5341fd46c0c1",
           "8f3e2068-5d6b-49bc-a574-cdf024ace162",
           "a697678e-68d2-4018-9a0e-f7cb684a8991",
@@ -1574,8 +1577,6 @@
           "01c6144a-4425-4b04-af46-70d34c3fde3b",
           "e27d9b2e-24fd-41ba-874d-4915b0a06b90",
           "7e8051f8-3352-4988-a577-06425292f429",
-          "ce9cd2cc-3770-4adf-b617-694343b6a6bb",
-          "a575d070-e903-4223-8cbe-76c6b4023b25",
           "86730e6f-200e-460f-9f7c-2eec5b9abb34",
           "49eab2da-3347-406d-83a5-da7f24af6ef9",
           "b09b5205-7171-419b-bdfa-730f3457d626",
@@ -1640,8 +1641,7 @@
           "b9cfce59-2f8f-4314-809b-2ecba06d5956",
           "e0e66881-beda-4d26-9d00-b41983ea144a",
           "fe546ba6-e052-4bc2-bcd5-e4f5dbd1aabe",
-          "607c3970-00af-4f2c-ae85-fe3a2bcb393b",
-          "1edacc97-0852-4fc8-bbfc-8199dceeac2b"
+          "607c3970-00af-4f2c-ae85-fe3a2bcb393b"
         ],
         "settings": {
           "show_image": true,
