@@ -3872,14 +3872,14 @@
       "bottoms-collection": {
         "type": "bottoms-collection",
         "blocks": {
-          "3376ea24-2b77-4d3c-ba45-8dddeca04b4a": {
-            "type": "shop_imgproducts1",
+          "efb7188a-2632-4d12-b742-bfb6376d6a98": {
+            "type": "shop_porproducts1",
             "settings": {
-              "full_size_pictures": false,
+              "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product1": "lounge-pant-oat"
+              "shop_product1p": "lounge-pant-oat"
             }
           },
           "0b2bae2d-54dd-44ff-b10e-c10be8fedf83": {
@@ -4010,7 +4010,7 @@
           }
         },
         "block_order": [
-          "3376ea24-2b77-4d3c-ba45-8dddeca04b4a",
+          "efb7188a-2632-4d12-b742-bfb6376d6a98",
           "0b2bae2d-54dd-44ff-b10e-c10be8fedf83",
           "509b7e28-df87-4371-91a5-8f3dc43d7031",
           "0b54894c-d0a2-47ca-a2ed-3c795afc0fec",
