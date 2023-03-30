@@ -12,7 +12,7 @@
                   var product_variants_removed = [
                       {%- for variant in product.variants -%}
                       {%- unless variant.available -%}
-                      '{{ variant.option2 }}',
+                      '{{ variant.option1 }}',
                       {%- endunless -%}
                       {%- endfor -%}
                   ];
@@ -24,24 +24,88 @@
           {% for option in product.options_with_values %}
             <div class="selector-wrapper js {% if option.name == "Size" %}size-guide{% endif %}">
 
-
               {% comment %}
               <label for="SingleOptionSelector-{{ section.id }}-{{ forloop.index0 }}" class="{% if option.name == "Color" or option.name == "Colour" %}hidden{% endif %}">
                 {{ option.name }}
-              </label>
-              {% endcomment %}
+              </label>{% endcomment %}
 
-              <select class="single-option-selector single-option-selector-{{ section.id }}" id="SingleOptionSelector-{{ section.id }}-{{ forloop.index0 }}" data-section="{{ section.id }}" data-index="option{{ forloop.index }}" style="{% if option.name == "Color" or option.name == "Colour" %}display: none;{% endif %}">
-                {% for value in option.values %}
-                  {% assign variant_avialable = true %}
-                  {% if product.options.size == 1 %}
-                    {% unless product.variants[forloop.index0].available  %}
-                      {% assign variant_avialable = false %}
-                    {% endunless %}
-                  {% endif %}
-                  <option value="{{ value | escape }}"{% if option.selected_value == value %} selected="selected"{% endif %}>{{ value }}</option>
-                {% endfor %}
-              </select>
+              <div class="select-wrapper-size">
+                    <div class="dropdown select-container" style="{% if option.name == "Color" or option.name == "Colour" %}display: none;{% endif %}">
+
+                    <input class="select-input single-option-selector single-option-selector-{{ section.id }}" id="SingleOptionSelector-{{ section.id }}-{{ forloop.index0 }}" data-index="option{{ forloop.index }}" data-section="{{ section.id }}" type="text" placeholder="choose size..." readonly>
+                    <ul class="options">
+
+                        {% for value in option.values %}
+
+                            {% assign variant_avialable = true %}
+                            {% if product.options.size == 1 %}
+                                {% unless product.variants[forloop.index0].available %}
+                                    {% assign variant_avialable = false %}
+                                {% endunless %}
+                            {% endif %}
+                            <li id="{{ value | escape }}" class="option {% unless variant_avialable %}out-of-stock{% endunless %}">
+                                <div class="size">{{ value }}</div>
+                                {% if product.variants[forloop.index0].inventory_quantity <= 3 and product.variants[forloop.index0].inventory_quantity > 0%}
+                                    <div class="x-left"> Only {{ product.variants[forloop.index0].inventory_quantity }} left </div>
+                                {% endif %}
+                                {% if product.variants[forloop.index0].inventory_quantity == 0 %}
+                                    <div class="notify-me-btn"> Notify me </div>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+
+
+
+
+                    </ul>
+
+                    <script>
+                        // Variables
+                        const dropdown = document.querySelector('.dropdown');
+                        const input = document.querySelector('.select-input');
+                        const listOfOptions = document.querySelectorAll('.option');
+                        const listSizeDivs = document.querySelectorAll('.size');
+                        const listOfXLeftDivs = document.querySelectorAll('.x-left');
+                        const listOfNotifyDivs = document.querySelectorAll('.notify-me-btn');
+                        const body = document.body;
+
+
+                        // Functions
+                        const toggleDropdown = (event) => {
+                            event.stopPropagation();
+                            dropdown.classList.toggle('opened');
+                        };
+
+                        const selectOption = (option) => {
+                            if (option.classList.contains('out-of-stock')) {
+                                document.querySelector('#SI_trigger').click();
+                            } else {
+                                input.value = option.id;
+                                input.dispatchEvent(new Event('change', { bubbles: true }))
+                            }
+                        };
+
+                        const closeDropdownFromOutside = () => {
+                            if (dropdown.classList.contains('opened')) {
+                                dropdown.classList.remove('opened');
+                            }
+                        };
+                        // Event Listeners
+
+                        body.addEventListener('click', closeDropdownFromOutside);
+                        listOfOptions.forEach((option) => {
+                            option.addEventListener('click', () => {
+                                selectOption(option);
+                            });
+                        });
+
+                        dropdown.addEventListener('click', toggleDropdown);
+
+                    </script>
+                </div>
+              </div>
+
+
 
               {% if option.name == "Size" %}
                   {% comment %}
@@ -86,7 +150,7 @@
           {% for variant in product.variants %}
             {% if variant.available %}
               <option {% if variant == product.selected_or_first_available_variant %} selected="selected" {% endif %} value="{{ variant.id }}">
-                {{ variant.title }}
+                  {{ variant.title }}
               </option>
             {% else %}
               <option disabled="disabled">{{ variant.title }} - {{ 'products.product.sold_out' | t }}</option>
