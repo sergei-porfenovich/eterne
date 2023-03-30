@@ -6372,7 +6372,7 @@ li.cbb-frequently-bought-product:first-of-type div.cbb-frequently-bought-product
   justify-content: center;
 }
 
-#smartwishlist div#bookmarkit:before {
+#smartwishlist div.unbookmarked:before {
   content: '';
   background-image: url("../assets/noun-heart-831660.svg");
   background-size: 18px;
@@ -6381,10 +6381,30 @@ li.cbb-frequently-bought-product:first-of-type div.cbb-frequently-bought-product
   width: 18px;
   height: 18px;
   margin-right: 8px;
+  margin-top: 3px;
+}
+
+#smartwishlist div.bookmarked:before {
+  content: "\f004";
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  margin-right: 8px;
+  font-size: 15px;
+  width: 18px;
+  height: 18px;
+  line-height: 15px;
+  font-family: 'FontAwesome', sans-serif;
 }
 
 #smartwishlist div#bookmarkit.bookmarked {
   background: #fff !important;
+}
+
+#smartwishlist div#bookmarkit.bookmarked .fa-heart::before{
+  content: "Remove from Wishlist";
+  font-family: miller-display, "PT Serif", serif;
+  font-size: 14px;
 }
 
 #smartwishlist div#bookmarkit.unbookmarked .fa-heart-o::before{
@@ -6409,7 +6429,7 @@ li.cbb-frequently-bought-product:first-of-type div.cbb-frequently-bought-product
 
 @media screen and (min-width: 770px) {
   #smartwishlist div#bookmarkit {
-    width: 50% !important;
+    width: 60% !important;
   }
 }
 
@@ -8501,7 +8521,7 @@ header.site-header .logo--centered-wrapper > a {
     color: $colorHomeLight;
 
     @include at-query ($min, $large) {
-    	width: 50%;
+    	width: 60%; // Button add to cart size
     }
   }
 }
@@ -8679,7 +8699,7 @@ nav.breadcrumb span {
 }
 /* product page gap between fits and tabs */
 .tabs-wrapper.productTabsWrapper{
-  padding-top: 0px;
+  padding-top: 16px;
 }
 /* -- continue to shop -- */
 .cart__footer input.continue__button {
@@ -9489,6 +9509,25 @@ select.single-option-selector option[disabled] {
 
 #your-shopping-cart #gsAppContainer {
   display: none !important;
+}
+
+.template-product {
+  .product-single {
+    .share {
+      padding: 0;
+      display: none;
+    }
+
+    .product-description {
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      > :last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
 }
 
 /*Product-form select size*/
