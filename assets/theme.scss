@@ -6444,17 +6444,19 @@ li.cbb-frequently-bought-product:first-of-type div.cbb-frequently-bought-product
   width: 18px;
   height: 18px;
   margin-right: 8px;
+  margin-top: 3px;
 }
 
 #smartwishlist div.bookmarked:before {
   content: "\f004";
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: center;
   margin-right: 8px;
   font-size: 15px;
   width: 18px;
   height: 18px;
+  line-height: 15px;
   font-family: 'FontAwesome', sans-serif;
 }
 
@@ -6490,7 +6492,7 @@ li.cbb-frequently-bought-product:first-of-type div.cbb-frequently-bought-product
 
 @media screen and (min-width: 770px) {
   #smartwishlist div#bookmarkit {
-    width: 50% !important;
+    width: 60% !important;
   }
 }
 
@@ -8583,7 +8585,7 @@ header.site-header .logo--centered-wrapper > a {
     color: $colorHomeLight;
 
     @include at-query ($min, $large) {
-    	width: 50%;
+    	width: 60%; // Button add to cart size
     }
   }
 }
