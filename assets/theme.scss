@@ -9181,10 +9181,8 @@ select.single-option-selector option[disabled] {
   }
 }
 
-/*Product-form select size*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap");
 
+/*Product-form select size*/
 
 ul {
   list-style: none;
@@ -9292,5 +9290,8 @@ ul {
 .x-left {
   color: #ed3939;
 }
-
 /*END Product-form select size*/
+
+button#SI_trigger {
+  display: none !important;
+}
