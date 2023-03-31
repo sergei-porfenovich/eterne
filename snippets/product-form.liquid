@@ -4,8 +4,6 @@
     <div id="AddToCartForm-{{ section.id }}" data-section="{{ section.id }}" class="product-form-{{section.id}} product-form">
 
 
-
-
       {% form 'product', product %}
           {% if product.options.size >= 1 %}
               <script>
@@ -30,9 +28,12 @@
               </label>{% endcomment %}
 
               <div class="select-wrapper-size">
-                    <div class="dropdown select-container" style="{% if option.name == "Color" or option.name == "Colour" %}display: none;{% endif %}">
+                    <div class="dropdown select-container option{{ forloop.index }}" style="{% if option.name == "Color" or option.name == "Colour" %}display: none;{% endif %}">
 
-                    <input class="select-input single-option-selector single-option-selector-{{ section.id }}" id="SingleOptionSelector-{{ section.id }}-{{ forloop.index0 }}" data-index="option{{ forloop.index }}" data-section="{{ section.id }}" type="text" placeholder="choose size..." readonly>
+                        {% if option.name == "Color" or option.name == "Colour" %}
+                            {% assign color_value = option.values[0] | escape %}
+                        {% endif %}
+                    <input {% if option.name == "Color" or option.name == "Colour" %}value="{{ color_value }}"{% endif %} class="select-input single-option-selector single-option-selector-{{ section.id }}" id="SingleOptionSelector-{{ section.id }}-{{ forloop.index0 }}" data-index="option{{ forloop.index }}" data-section="{{ section.id }}" type="text" placeholder="select size..." readonly>
                     <ul class="options">
 
                         {% for value in option.values %}
@@ -43,65 +44,21 @@
                                     {% assign variant_avialable = false %}
                                 {% endunless %}
                             {% endif %}
-                            <li id="{{ value | escape }}" class="option {% unless variant_avialable %}out-of-stock{% endunless %}">
+                            {% if product.variants[forloop.index0].inventory_quantity == 0 %}
+                                {% assign out_of_stock = true %}
+                                {% else %} {% assign out_of_stock = false %}
+                            {% endif %}
+                            <li data-id="{{ value | escape }}" class="option {% if out_of_stock %}out-of-stock{% endif %}">
                                 <div class="size">{{ value }}</div>
                                 {% if product.variants[forloop.index0].inventory_quantity <= 3 and product.variants[forloop.index0].inventory_quantity > 0%}
                                     <div class="x-left"> Only {{ product.variants[forloop.index0].inventory_quantity }} left </div>
                                 {% endif %}
-                                {% if product.variants[forloop.index0].inventory_quantity == 0 %}
+                                {% if out_of_stock %}
                                     <div class="notify-me-btn"> Notify me </div>
                                 {% endif %}
                             </li>
                         {% endfor %}
-
-
-
-
                     </ul>
-
-                    <script>
-                        // Variables
-                        const dropdown = document.querySelector('.dropdown');
-                        const input = document.querySelector('.select-input');
-                        const listOfOptions = document.querySelectorAll('.option');
-                        const listSizeDivs = document.querySelectorAll('.size');
-                        const listOfXLeftDivs = document.querySelectorAll('.x-left');
-                        const listOfNotifyDivs = document.querySelectorAll('.notify-me-btn');
-                        const body = document.body;
-
-
-                        // Functions
-                        const toggleDropdown = (event) => {
-                            event.stopPropagation();
-                            dropdown.classList.toggle('opened');
-                        };
-
-                        const selectOption = (option) => {
-                            if (option.classList.contains('out-of-stock')) {
-                                document.querySelector('#SI_trigger').click();
-                            } else {
-                                input.value = option.id;
-                                input.dispatchEvent(new Event('change', { bubbles: true }))
-                            }
-                        };
-
-                        const closeDropdownFromOutside = () => {
-                            if (dropdown.classList.contains('opened')) {
-                                dropdown.classList.remove('opened');
-                            }
-                        };
-                        // Event Listeners
-
-                        body.addEventListener('click', closeDropdownFromOutside);
-                        listOfOptions.forEach((option) => {
-                            option.addEventListener('click', () => {
-                                selectOption(option);
-                            });
-                        });
-
-                        dropdown.addEventListener('click', toggleDropdown);
-
-                    </script>
                 </div>
               </div>
 
@@ -193,6 +150,50 @@
         {% endif %}
 
       {% endform %}
+
+        <script>
+            // Variables
+            const dropdowns = document.querySelectorAll('.dropdown');
+
+            dropdowns.forEach( (dropdown, i) => {
+                const name = `.option${++i}`;
+                const input = document.querySelector(`${name} .select-input`);
+                const listOfOptions = document.querySelectorAll(`${name} .option`);
+                const body = document.body;
+
+                // Functions
+                const toggleDropdown = (event) => {
+                    event.stopPropagation();
+                    dropdown.classList.toggle('opened');
+                };
+
+                const selectOption = (option) => {
+                    if (option.classList.contains('out-of-stock')) {
+                        document.querySelector('#SI_trigger').click();
+                    } else {
+                        input.value = option.dataset.id;
+                        input.dispatchEvent(new Event('change', {bubbles: true}))
+                    }
+                };
+
+                const closeDropdownFromOutside = () => {
+                    if (dropdown.classList.contains('opened')) {
+                        dropdown.classList.remove('opened');
+                    }
+                };
+                // Event Listeners
+
+                body.addEventListener('click', closeDropdownFromOutside);
+
+                listOfOptions.forEach((option) => {
+                    option.addEventListener('click', () => {
+                        selectOption(option);
+                    });
+                });
+
+                dropdown.addEventListener('click', toggleDropdown);
+            })
+        </script>
     </div>
 
   {% else %}
