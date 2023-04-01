@@ -951,7 +951,6 @@ slate.Variants = (function() {
       var selectedValues = this._getCurrentOptions();
       var variants = this.product.variants;
       var found = false;
-
       variants.forEach(function(variant) {
         var satisfied = true;
 
