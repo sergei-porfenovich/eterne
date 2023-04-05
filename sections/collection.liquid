@@ -163,7 +163,7 @@
           {%- endif -%}
         </div>
 
-        {% if settings.ss_enable and collection.handle == settings.ss_collection_handle %}
+        {% if settings.ss_enable %}
           <div id="searchspring-content"></div>
 		{% else %}
         {% if section.settings.collection_sorting or collection_sidebar %}
