@@ -185,14 +185,14 @@
         {% else  %}
           <div class="grid__item collection-content one-whole">
         {% endif %}
-          <div class="grid-uniform">
+          <div class="grid-uniform grid-image-fix">
             {% for product in collection.products %}
               {% include 'product-grid-item' %}
             {% else %}
               {% if collection.handle == 'all' and collection.current_tags == '' %}
                 {% include 'onboarding-empty-collection' %}
               {% else %}
-              <div class="grid__item">
+              <div class="grid__item ">
                 <p>{{ 'collections.general.no_matches' | t }}</p>
               </div>
               {% endif %}

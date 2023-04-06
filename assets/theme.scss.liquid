@@ -15,6 +15,7 @@
 
 /*================ TOOLS ================*/
 /*================ Mixins ================*/
+
 @mixin clearfix() {
   &::after {
     content: '';
@@ -1137,7 +1138,7 @@ body:not(.template-index){
 }
 .main-content {
   display: block;
-  padding-bottom: $gutter * 4;
+  padding-bottom: 84px;
 }
 
 
@@ -5925,7 +5926,7 @@ label.quatity-selector{
 .collection{
   background: $colorBody;
   padding-top: $gutter*2;
-  padding-bottom: $gutter*4;
+  padding-bottom: 39px;
   .main-content{ padding-bottom: 0; }
 }
 .template-collection .main-content{
@@ -6381,17 +6382,19 @@ li.cbb-frequently-bought-product:first-of-type div.cbb-frequently-bought-product
   width: 18px;
   height: 18px;
   margin-right: 8px;
+  margin-top: 3px;
 }
 
 #smartwishlist div.bookmarked:before {
   content: "\f004";
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: center;
   margin-right: 8px;
   font-size: 15px;
   width: 18px;
   height: 18px;
+  line-height: 15px;
   font-family: 'FontAwesome', sans-serif;
 }
 
@@ -6501,7 +6504,7 @@ p.size-guide-link a:hover {
 ==============================================================================*/
 .blog{
   background-color: $colorBody;
-  padding-bottom: $gutter*4;
+  padding-bottom: 84px;
 }
 .template-blog .main-content{
   padding-bottom: 0;
@@ -8697,7 +8700,7 @@ nav.breadcrumb span {
 }
 /* product page gap between fits and tabs */
 .tabs-wrapper.productTabsWrapper{
-  padding-top: 0px;
+  padding-top: 16px;
 }
 /* -- continue to shop -- */
 .cart__footer input.continue__button {
@@ -9507,4 +9510,58 @@ select.single-option-selector option[disabled] {
 
 #your-shopping-cart #gsAppContainer {
   display: none !important;
+}
+
+.template-product {
+  .product-single {
+    .share {
+      padding: 0;
+      display: none;
+    }
+
+    .product-description {
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      > :last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.grid-image-fix {
+  align-items: unset !important;
+
+  .fix-image-wrapper {
+    height: calc(100% - 116px);
+    overflow: hidden;
+  }
+
+  .lazy-image {
+    height: 100%;
+  }
+
+  .lazy-image img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .single_row_portrait {
+    width: 50%;
+  }
+
+  .single_row_landscape {
+    width: 100%;
+  }
+}
+
+//footer fix
+.template-product main {
+  padding-bottom: 34px;
+}
+
+.site-footer {
+  padding-top: 45px;
 }

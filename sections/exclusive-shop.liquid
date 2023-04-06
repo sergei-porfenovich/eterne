@@ -6,7 +6,7 @@
             	{%- assign handle = "" -%}
           		{%- assign img_offset = 0 -%}
             	<div class="grid grid--full" data-aos="fade-up" style="margin-top:{{section.settings.shop_margin_top}}px;margin-bottom:{{section.settings.shop_margin_bottom}}px;">
-                  <div class="grid_item_wrapper" style="margin:{{block.settings.shop_product_margin}}px;padding:{{block.settings.shop_product_padding}}px;">
+                  <div class="grid_item_wrapper" style="margin:{{block.settings.shop_product_margin}}px;padding:{{block.settings.shop_product_padding}}px; display: flex; justify-content: center;">
                                         
                   {%- case block.type -%}
                     {%- when "shop_products2" -%}
@@ -20,14 +20,39 @@
                         {% include 'product-campaign-grid-item' %}
                     
                     {%- when "shop_imgproducts1" -%}
+                    {% if block.settings.product_grid_aspect_ratio == '0.75' %}
+                      <div class="single_row_portrait">
+                        {%- assign grid_width_large = 'large--one-half' -%}
+                        {%- assign grid_width_medium = 'medium--one-half' -%}
+                        {%- assign grid_width_small = 'small--one-whole' -%}
+
+                        {%- assign handle = block.settings.shop_product1 -%}
+                        {% for product in collections.shop.products %}
+                          {% if product.handle == handle %}
+                            {% assign product = product %}
+                          {% endif %}
+                        {% endfor %}
+                        {%- assign feature_image = block.settings.shop_img1 -%}
+                        {% include 'custom-collection-grid-item' %}
+                      </div>
+                    {% endif %}
+
+                    {% if block.settings.product_grid_aspect_ratio == '1.33' %}
+                      <div class="single_row_landscape">
                         {%- assign grid_width_large = 'large--one-whole' -%}
                         {%- assign grid_width_medium = 'medium--one-whole' -%}
-                        {%- assign grid_width_small = 'small--one-whole' -%}   
-                    
-                    	{%- assign handle = block.settings.shop_product11 -%}
-                    	{%- assign feature_image = block.settings.shop_img11 -%}
-                        {% include 'product-campaign-grid-item' %}                 	
-                    
+                        {%- assign grid_width_small = 'small--one-whole' -%}
+
+                        {%- assign handle = block.settings.shop_product1 -%}
+                        {% for product in collections.shop.products %}
+                          {% if product.handle == handle %}
+                            {% assign product = product %}
+                          {% endif %}
+                        {% endfor %}
+                        {%- assign feature_image = block.settings.shop_img1 -%}
+                        {% include 'custom-collection-grid-item' %}
+                      </div>
+                    {% endif %}
                     {%- when "shop_imgproducts2" -%}
                     	{%- assign img21_offset = 0 -%}
                     	{%- assign img22_offset = 0 -%}  
