@@ -9245,7 +9245,7 @@ ul {
   overflow: hidden;
   position: absolute;
   top: 35px;
-
+  z-index: 1;
   opacity: 0;
   transform: translateY(-50px);
   visibility: hidden;
@@ -9280,7 +9280,7 @@ ul {
 }
 
 .out-of-stock .size, .out-of-stock .notify-me-btn {
-  color: rgba(204, 204, 204, 0.85);
+  color: rgba(118, 118, 118, 0.85);
 }
 
 .select-input::placeholder {
