@@ -653,17 +653,6 @@
               "shop_product1": "long-sleeve-crewneck-dress-maxi-heather-grey"
             }
           },
-          "cfa2f9f5-5a49-459b-91aa-c111dc9ec4f0": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "short-sleeve-baby-tee-oat",
-              "shop_product22": "lounge-pant-oat"
-            }
-          },
           "479c693e-346b-4dc0-bdae-5341fd46c0c1": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -685,6 +674,17 @@
               "shop_product31": "long-sleeve-turtleneck-dress-maxi-black",
               "shop_product32": "long-sleeve-turtleneck-dress-maxi-heather-grey",
               "shop_product33": "long-sleeve-turtleneck-dress-maxi-cream"
+            }
+          },
+          "cfa2f9f5-5a49-459b-91aa-c111dc9ec4f0": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "short-sleeve-baby-tee-oat",
+              "shop_product22": "lounge-pant-oat"
             }
           },
           "a697678e-68d2-4018-9a0e-f7cb684a8991": {
@@ -1577,9 +1577,9 @@
           "1edacc97-0852-4fc8-bbfc-8199dceeac2b",
           "ce9cd2cc-3770-4adf-b617-694343b6a6bb",
           "a575d070-e903-4223-8cbe-76c6b4023b25",
-          "cfa2f9f5-5a49-459b-91aa-c111dc9ec4f0",
           "479c693e-346b-4dc0-bdae-5341fd46c0c1",
           "8f3e2068-5d6b-49bc-a574-cdf024ace162",
+          "cfa2f9f5-5a49-459b-91aa-c111dc9ec4f0",
           "a697678e-68d2-4018-9a0e-f7cb684a8991",
           "dd542319-2098-429e-861b-1d78c4b7b445",
           "5f7de151-f828-46f8-abb3-07711ff8872e",
