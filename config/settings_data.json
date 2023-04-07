@@ -654,15 +654,26 @@
             }
           },
           "479c693e-346b-4dc0-bdae-5341fd46c0c1": {
-          "ce14f2c5-6df5-4d26-b6a7-2d968c4f9cc8": {
             "type": "shop_imgproducts2",
             "settings": {
               "full_size_pictures": true,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product21": "short-sleeve-baby-tee-oat",
-              "shop_product22": "lounge-pant-oat"
+              "shop_product21": "long-sleeve-turtleneck-dress-maxi-earth",
+              "shop_product22": "long-sleeve-turtleneck-dress-maxi-sand"
+            }
+          },
+          "8f3e2068-5d6b-49bc-a574-cdf024ace162": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-turtleneck-dress-maxi-black",
+              "shop_product32": "long-sleeve-turtleneck-dress-maxi-heather-grey",
+              "shop_product33": "long-sleeve-turtleneck-dress-maxi-cream"
             }
           },
           "a697678e-68d2-4018-9a0e-f7cb684a8991": {
@@ -696,29 +707,6 @@
               "shop_product_padding": 0,
               "shop_product21": "short-sleeve-baby-tee-earth",
               "shop_product22": "lounge-pant-earth"
-            }
-          },
-          "479c693e-346b-4dc0-bdae-5341fd46c0c1": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "long-sleeve-turtleneck-dress-maxi-earth",
-              "shop_product22": "long-sleeve-turtleneck-dress-maxi-sand"
-            }
-          },
-          "8f3e2068-5d6b-49bc-a574-cdf024ace162": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "long-sleeve-turtleneck-dress-maxi-black",
-              "shop_product32": "long-sleeve-turtleneck-dress-maxi-heather-grey",
-              "shop_product33": "long-sleeve-turtleneck-dress-maxi-cream"
             }
           },
           "53d03262-495a-4ff1-94e8-32c311753950": {
@@ -1572,6 +1560,17 @@
               "shop_product_padding": 0,
               "shop_product1p": "rise-ai-giftcard"
             }
+          },
+          "cfa2f9f5-5a49-459b-91aa-c111dc9ec4f0": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": true,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "short-sleeve-baby-tee-oat",
+              "shop_product22": "lounge-pant-oat"
+            }
           }
         },
         "block_order": [
@@ -1580,12 +1579,9 @@
           "a575d070-e903-4223-8cbe-76c6b4023b25",
           "479c693e-346b-4dc0-bdae-5341fd46c0c1",
           "8f3e2068-5d6b-49bc-a574-cdf024ace162",
-          "ce14f2c5-6df5-4d26-b6a7-2d968c4f9cc8",
           "a697678e-68d2-4018-9a0e-f7cb684a8991",
           "dd542319-2098-429e-861b-1d78c4b7b445",
           "5f7de151-f828-46f8-abb3-07711ff8872e",
-          "479c693e-346b-4dc0-bdae-5341fd46c0c1",
-          "8f3e2068-5d6b-49bc-a574-cdf024ace162",
           "53d03262-495a-4ff1-94e8-32c311753950",
           "4b1f28d4-e6a5-4398-a7e5-4c76f1def008",
           "206d0db3-9255-4009-9804-2a77d20634f8",
@@ -1656,7 +1652,8 @@
           "b9cfce59-2f8f-4314-809b-2ecba06d5956",
           "e0e66881-beda-4d26-9d00-b41983ea144a",
           "fe546ba6-e052-4bc2-bcd5-e4f5dbd1aabe",
-          "607c3970-00af-4f2c-ae85-fe3a2bcb393b"
+          "607c3970-00af-4f2c-ae85-fe3a2bcb393b",
+          "cfa2f9f5-5a49-459b-91aa-c111dc9ec4f0"
         ],
         "settings": {
           "show_image": true,
@@ -3036,16 +3033,6 @@
       "custom-collection-2": {
         "type": "custom-collection-2",
         "blocks": {
-          "df5f10fa-8cfb-40d8-a1f7-373a3d50eb3c": {
-            "type": "shop_porproducts1",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product1p": "short-sleeve-baby-tee-oat"
-            }
-          },
           "4258fd6c-d639-4441-aa4d-80cc98521478": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -3264,7 +3251,6 @@
           }
         },
         "block_order": [
-          "df5f10fa-8cfb-40d8-a1f7-373a3d50eb3c",
           "4258fd6c-d639-4441-aa4d-80cc98521478",
           "86a27648-77b0-4191-8270-872f6bba6345",
           "378bd86a-a8f8-49cc-a83d-84c7341425f8",
@@ -3886,20 +3872,10 @@
       "bottoms-collection": {
         "type": "bottoms-collection",
         "blocks": {
-          "efb7188a-2632-4d12-b742-bfb6376d6a98": {
-            "type": "shop_porproducts1",
-            "settings": {
-              "full_size_pictures": true,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product1p": "lounge-pant-oat"
-            }
-          },
           "0b2bae2d-54dd-44ff-b10e-c10be8fedf83": {
             "type": "shop_imgproducts3",
             "settings": {
-              "full_size_pictures": true,
+              "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
@@ -4024,7 +4000,6 @@
           }
         },
         "block_order": [
-          "efb7188a-2632-4d12-b742-bfb6376d6a98",
           "0b2bae2d-54dd-44ff-b10e-c10be8fedf83",
           "509b7e28-df87-4371-91a5-8f3dc43d7031",
           "0b54894c-d0a2-47ca-a2ed-3c795afc0fec",
