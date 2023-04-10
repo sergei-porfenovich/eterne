@@ -621,6 +621,29 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "4868bdba-1db1-45f4-85f5-4f3e3a76a096": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "long-sleeve-cropped-t-shirt-earth",
+              "shop_product22": "long-sleeve-cropped-t-shirt-olive"
+            }
+          },
+          "384a22d4-dcfe-4e51-94fe-63ff490bf42a": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "long-sleeve-cropped-t-shirt-heather-grey",
+              "shop_product32": "long-sleeve-cropped-t-shirt-ivory",
+              "shop_product33": "long-sleeve-cropped-t-shirt-black"
+            }
+          },
           "1edacc97-0852-4fc8-bbfc-8199dceeac2b": {
             "type": "shop_porproducts1",
             "settings": {
@@ -1228,18 +1251,6 @@
               "shop_product33": "oversized-thermal-ivory"
             }
           },
-          "384a22d4-dcfe-4e51-94fe-63ff490bf42a": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "long-sleeve-cropped-t-shirt-heather-grey",
-              "shop_product32": "long-sleeve-cropped-t-shirt-ivory",
-              "shop_product33": "long-sleeve-cropped-t-shirt-black"
-            }
-          },
           "da07c521-ab88-41bc-8799-572646d0bee0": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1574,6 +1585,8 @@
           }
         },
         "block_order": [
+          "4868bdba-1db1-45f4-85f5-4f3e3a76a096",
+          "384a22d4-dcfe-4e51-94fe-63ff490bf42a",
           "1edacc97-0852-4fc8-bbfc-8199dceeac2b",
           "ce9cd2cc-3770-4adf-b617-694343b6a6bb",
           "a575d070-e903-4223-8cbe-76c6b4023b25",
@@ -1627,7 +1640,6 @@
           "fac919a1-1de3-410a-944b-b5fa5423fbec",
           "92f8f70d-dd86-48e5-83a3-f74f84eb4de7",
           "3e45bdb6-62d6-42af-a7df-3be0e4e5454f",
-          "384a22d4-dcfe-4e51-94fe-63ff490bf42a",
           "da07c521-ab88-41bc-8799-572646d0bee0",
           "4be3421e-56d8-49ec-bd6f-f71629e4fc73",
           "4b560b91-1a91-432d-95b1-a46a6a9707dd",
