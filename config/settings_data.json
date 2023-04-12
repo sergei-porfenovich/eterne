@@ -621,6 +621,17 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "5bf220b2-384d-4adf-8f72-58ddd73dab4b": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "cropped-rib-tank-sand",
+              "shop_product22": "lounge-boxer-short-sand"
+            }
+          },
           "4868bdba-1db1-45f4-85f5-4f3e3a76a096": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1582,20 +1593,10 @@
               "shop_product_padding": 0,
               "shop_product1p": "rise-ai-giftcard"
             }
-          },
-          "5bf220b2-384d-4adf-8f72-58ddd73dab4b": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "cropped-rib-tank-sand",
-              "shop_product22": "lounge-boxer-short-sand"
-            }
           }
         },
         "block_order": [
+          "5bf220b2-384d-4adf-8f72-58ddd73dab4b",
           "4868bdba-1db1-45f4-85f5-4f3e3a76a096",
           "384a22d4-dcfe-4e51-94fe-63ff490bf42a",
           "1edacc97-0852-4fc8-bbfc-8199dceeac2b",
@@ -1676,8 +1677,7 @@
           "b9cfce59-2f8f-4314-809b-2ecba06d5956",
           "e0e66881-beda-4d26-9d00-b41983ea144a",
           "fe546ba6-e052-4bc2-bcd5-e4f5dbd1aabe",
-          "607c3970-00af-4f2c-ae85-fe3a2bcb393b",
-          "5bf220b2-384d-4adf-8f72-58ddd73dab4b"
+          "607c3970-00af-4f2c-ae85-fe3a2bcb393b"
         ],
         "settings": {
           "show_image": true,
@@ -5610,6 +5610,16 @@
               "shop_product21": "boyfriend-tank-black",
               "shop_product22": "boyfriend-tank-ivory"
             }
+          },
+          "b283f143-4820-45c2-af03-0f2ce5b471c5": {
+            "type": "shop_porproducts1",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product1p": "cropped-rib-tank-sand"
+            }
           }
         },
         "block_order": [
@@ -5624,7 +5634,8 @@
           "86bfdcad-d5ae-425c-97d0-f0c06dbbb41a",
           "598b49e4-1e32-4f69-959b-4f141d1722b9",
           "d469583e-45ad-4fc8-bf41-91efcc5bc612",
-          "74bca33b-c677-4ff3-9507-d56d4d58e2f3"
+          "74bca33b-c677-4ff3-9507-d56d4d58e2f3",
+          "b283f143-4820-45c2-af03-0f2ce5b471c5"
         ],
         "settings": {
           "show_image": true,
