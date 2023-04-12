@@ -9190,28 +9190,42 @@ select.single-option-selector option[disabled] {
   padding-top: 45px;
 }
 
-.grid-image-fix {
-  align-items: unset !important;
+.collection {
+  .grid-image-fix {
+    align-items: unset !important;
 
-  .fix-image-wrapper {
-    height: calc(100% - 116px);
-    overflow: hidden;
-  }
+    .fix-image-wrapper {
+      height: calc(100% - 116px);
+      overflow: hidden;
+    }
 
-  .lazy-image {
-    height: 100%;
-  }
+    .custom-shop-grid {
+      > div {
+        @media (max-width: 574px) {
+          flex-flow: wrap;
+        }
+      }
+    }
 
-  .lazy-image img {
-    height: 100%;
-    object-fit: cover;
-  }
+    .lazy-image {
+      height: 100%;
+    }
 
-  .single_row_portrait {
-    width: 50%;
-  }
+    .lazy-image img {
+      height: 100%;
+      object-fit: cover;
+    }
 
-  .single_row_landscape {
-    width: 100%;
+    .single_row_portrait {
+      width: 100%;
+
+      @media (min-width: 575px) {
+        width: 50%;
+      }
+    }
+
+    .single_row_landscape {
+      width: 100%;
+    }
   }
 }
