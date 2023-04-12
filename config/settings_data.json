@@ -5473,6 +5473,28 @@
       "tanks-collection": {
         "type": "tanks-collection",
         "blocks": {
+          "b283f143-4820-45c2-af03-0f2ce5b471c5": {
+            "type": "shop_porproducts1",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product1p": "cropped-rib-tank-sand"
+            }
+          },
+          "4f886cf5-5ab1-4b25-b2bb-3975268013d7": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "cropped-rib-tank-black",
+              "shop_product32": "cropped-rib-tank-ivory",
+              "shop_product33": "cropped-rib-tank-heather-grey"
+            }
+          },
           "e5f4bc24-5993-4c6e-a8e9-1c774afb0cda": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -5494,18 +5516,6 @@
               "shop_product31": "the-rib-tank-black",
               "shop_product32": "rib-tank-ivory",
               "shop_product33": "the-rib-tank-heather-grey"
-            }
-          },
-          "4f886cf5-5ab1-4b25-b2bb-3975268013d7": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "cropped-rib-tank-black",
-              "shop_product32": "cropped-rib-tank-ivory",
-              "shop_product33": "cropped-rib-tank-heather-grey"
             }
           },
           "3538522a-6555-47da-917f-596dbcbca7f8": {
@@ -5610,22 +5620,13 @@
               "shop_product21": "boyfriend-tank-black",
               "shop_product22": "boyfriend-tank-ivory"
             }
-          },
-          "b283f143-4820-45c2-af03-0f2ce5b471c5": {
-            "type": "shop_porproducts1",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product1p": "cropped-rib-tank-sand"
-            }
           }
         },
         "block_order": [
+          "b283f143-4820-45c2-af03-0f2ce5b471c5",
+          "4f886cf5-5ab1-4b25-b2bb-3975268013d7",
           "e5f4bc24-5993-4c6e-a8e9-1c774afb0cda",
           "7576a5e7-5b97-4639-9006-fb2c2949d04c",
-          "4f886cf5-5ab1-4b25-b2bb-3975268013d7",
           "3538522a-6555-47da-917f-596dbcbca7f8",
           "d725ce67-a291-4f83-b756-388a687e6c2c",
           "91834430-6742-406b-a9a8-44db17779d5e",
@@ -5634,8 +5635,7 @@
           "86bfdcad-d5ae-425c-97d0-f0c06dbbb41a",
           "598b49e4-1e32-4f69-959b-4f141d1722b9",
           "d469583e-45ad-4fc8-bf41-91efcc5bc612",
-          "74bca33b-c677-4ff3-9507-d56d4d58e2f3",
-          "b283f143-4820-45c2-af03-0f2ce5b471c5"
+          "74bca33b-c677-4ff3-9507-d56d4d58e2f3"
         ],
         "settings": {
           "show_image": true,
