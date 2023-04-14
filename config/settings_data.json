@@ -632,6 +632,34 @@
               "shop_product22": "lounge-boxer-short-sand"
             }
           },
+          "beeaa1f4-b816-42fb-a711-c2803341f0b8": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "cropped-rib-tank-heather-grey",
+              "shop_img32": "shopify:\/\/shop_images\/the-cropped-rib-tank-black-shirts-eterne-300621-cropped.jpg",
+              "shop_product32": "cropped-rib-tank-black",
+              "shop_img33": "shopify:\/\/shop_images\/the-cropped-rib-tank-white-shirts-eterne-791857-cropped.jpg",
+              "shop_product33": "cropped-rib-tank-ivory"
+            }
+          },
+          "7084317c-c90a-4a18-a568-80a96024fdbd": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_img31": "shopify:\/\/shop_images\/DAY_01_SHOT_06_0015_copy_cropped.jpg",
+              "shop_product31": "lounge-boxer-short-black",
+              "shop_product32": "lounge-boxer-short-ivory",
+              "shop_img33": "shopify:\/\/shop_images\/DAY_01_SHOT_04_0010_copy.jpg",
+              "shop_product33": "lounge-boxer-short-heather-grey"
+            }
+          },
           "4868bdba-1db1-45f4-85f5-4f3e3a76a096": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1390,20 +1418,6 @@
               "shop_product33": "long-sleeve-hoodie-t-shirt-heather-grey"
             }
           },
-          "7084317c-c90a-4a18-a568-80a96024fdbd": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_img31": "shopify:\/\/shop_images\/DAY_01_SHOT_06_0015_copy_cropped.jpg",
-              "shop_product31": "lounge-boxer-short-black",
-              "shop_product32": "lounge-boxer-short-ivory",
-              "shop_img33": "shopify:\/\/shop_images\/DAY_01_SHOT_04_0010_copy.jpg",
-              "shop_product33": "lounge-boxer-short-heather-grey"
-            }
-          },
           "ec7198e3-8377-444a-806d-ca9f75872926": {
             "type": "shop_imgproducts3",
             "settings": {
@@ -1522,20 +1536,6 @@
               "shop_product33": "the-short-sleeve-boyfriend-tee-ivory"
             }
           },
-          "beeaa1f4-b816-42fb-a711-c2803341f0b8": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "cropped-rib-tank-heather-grey",
-              "shop_img32": "shopify:\/\/shop_images\/the-cropped-rib-tank-black-shirts-eterne-300621-cropped.jpg",
-              "shop_product32": "cropped-rib-tank-black",
-              "shop_img33": "shopify:\/\/shop_images\/the-cropped-rib-tank-white-shirts-eterne-791857-cropped.jpg",
-              "shop_product33": "cropped-rib-tank-ivory"
-            }
-          },
           "1789180c-658d-436d-9ba6-50cfc745d041": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1597,6 +1597,8 @@
         },
         "block_order": [
           "5bf220b2-384d-4adf-8f72-58ddd73dab4b",
+          "beeaa1f4-b816-42fb-a711-c2803341f0b8",
+          "7084317c-c90a-4a18-a568-80a96024fdbd",
           "4868bdba-1db1-45f4-85f5-4f3e3a76a096",
           "384a22d4-dcfe-4e51-94fe-63ff490bf42a",
           "1edacc97-0852-4fc8-bbfc-8199dceeac2b",
@@ -1662,7 +1664,6 @@
           "c5c965ac-f57b-42be-a432-303eb0d11100",
           "8bd691a8-3d5a-437e-9402-a0a1c78b6956",
           "efcec147-dd25-4b75-ad3f-ceeb9e5ab1d0",
-          "7084317c-c90a-4a18-a568-80a96024fdbd",
           "ec7198e3-8377-444a-806d-ca9f75872926",
           "1c59c6a4-c27d-435a-9959-fadb976dc792",
           "b03a1a18-7089-4f2e-bc70-dbe7a4cf0a0c",
@@ -1672,7 +1673,6 @@
           "c7454c81-ba75-4fc0-b89d-fdd75969c0fa",
           "842fce42-4978-43b9-a18a-603176435483",
           "489d769e-d952-4903-beca-8de7fffe6b22",
-          "beeaa1f4-b816-42fb-a711-c2803341f0b8",
           "1789180c-658d-436d-9ba6-50cfc745d041",
           "b9cfce59-2f8f-4314-809b-2ecba06d5956",
           "e0e66881-beda-4d26-9d00-b41983ea144a",
