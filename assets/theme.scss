@@ -9276,11 +9276,12 @@ ul {
 .option {
   display: flex;
   justify-content: space-between;
-  padding: 0px 17px;
+  padding: 5px 17px;
 }
 
 .out-of-stock .size, .out-of-stock .notify-me-btn {
   color: rgba(118, 118, 118, 0.85);
+  padding-right: 2px;
 }
 
 .select-input::placeholder {
