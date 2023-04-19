@@ -2898,6 +2898,28 @@ $infoBarPadding: 11px;
     }
   }
 
+  &.desktop {
+    position: absolute;
+    bottom: -34px;
+    height: auto;
+    background: transparent;
+    width: 0;
+    right: 100px;
+    pointer-events: auto;
+    z-index: 700;
+    transition: .25s;
+
+    .search .search-btn {
+      font-size: 0.8em;
+      line-height: 1.4;
+      width: 73px;
+    }
+
+    &.open {
+      width: 245px;
+    }
+  }
+
   .search {
     width: 100%;
     display: flex;
