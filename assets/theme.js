@@ -2890,6 +2890,7 @@ $( document ).ready(function() {
   if (btnOpenSearch && inputSearch) {
     btnOpenSearch.click(function() {
       inputSearch.toggleClass( "open" );
+      $('.search-bar').focus();
     });
   }
 });

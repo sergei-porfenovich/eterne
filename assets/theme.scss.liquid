@@ -2761,7 +2761,7 @@ $infoBarPadding: 11px;
 }
 .site-header {
   position: relative;
-  z-index: 700;
+  z-index: 699;
   background-color: $colorNav;
   border-bottom: 1px solid $colorNavBorder;
 }
@@ -2818,6 +2818,7 @@ $infoBarPadding: 11px;
 
 .info-bar-search {
   display: none;
+  position: relative;
 
   @media (min-width: 1161px) {
     background: #E8E8E8;
@@ -2837,6 +2838,28 @@ $infoBarPadding: 11px;
     @media (min-width: 1161px) {
       height: 78px;
       pointer-events: auto;
+    }
+  }
+
+  &.desktop {
+    position: absolute;
+    bottom: -34px;
+    height: auto;
+    background: transparent;
+    width: 0;
+    right: 100px;
+    pointer-events: auto;
+    z-index: 700;
+    transition: .25s;
+
+    .search .search-btn {
+      font-size: 0.8em;
+      line-height: 1.4;
+      width: 73px;
+    }
+
+    &.open {
+      width: 245px;
     }
   }
 
