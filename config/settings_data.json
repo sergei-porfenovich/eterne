@@ -633,6 +633,18 @@
               "shop_product33": "amelia-halter-one-piece-2"
             }
           },
+          "dc5b1b0b-49e3-427f-a04b-0853bd1fe800": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "esme-mini-sarong-1",
+              "shop_product32": "esme-mini-sarong",
+              "shop_product33": "esme-mini-sarong-2"
+            }
+          },
           "5bf220b2-384d-4adf-8f72-58ddd73dab4b": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1606,21 +1618,22 @@
               "shop_product1p": "rise-ai-giftcard"
             }
           },
-          "dc5b1b0b-49e3-427f-a04b-0853bd1fe800": {
+          "8dcc47f2-fb6b-4d31-937f-588405ba593b": {
             "type": "shop_imgproducts3",
             "settings": {
               "full_size_pictures": false,
               "product_grid_aspect_ratio": "0.75",
               "shop_product_margin": 0,
               "shop_product_padding": 0,
-              "shop_product31": "esme-mini-sarong-1",
-              "shop_product32": "esme-mini-sarong",
-              "shop_product33": "esme-mini-sarong-2"
+              "shop_product31": "",
+              "shop_product32": "",
+              "shop_product33": ""
             }
           }
         },
         "block_order": [
           "830570da-36ec-4fb7-9b84-135478fd02f3",
+          "dc5b1b0b-49e3-427f-a04b-0853bd1fe800",
           "5bf220b2-384d-4adf-8f72-58ddd73dab4b",
           "beeaa1f4-b816-42fb-a711-c2803341f0b8",
           "7084317c-c90a-4a18-a568-80a96024fdbd",
@@ -1703,7 +1716,7 @@
           "e0e66881-beda-4d26-9d00-b41983ea144a",
           "fe546ba6-e052-4bc2-bcd5-e4f5dbd1aabe",
           "607c3970-00af-4f2c-ae85-fe3a2bcb393b",
-          "dc5b1b0b-49e3-427f-a04b-0853bd1fe800"
+          "8dcc47f2-fb6b-4d31-937f-588405ba593b"
         ],
         "settings": {
           "show_image": true,
