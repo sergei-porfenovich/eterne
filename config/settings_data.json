@@ -1605,6 +1605,18 @@
               "shop_product_padding": 0,
               "shop_product1p": "rise-ai-giftcard"
             }
+          },
+          "b3d5ae58-fc8a-481a-89b1-83a5ececcd9d": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "",
+              "shop_product32": "",
+              "shop_product33": ""
+            }
           }
         },
         "block_order": [
@@ -1690,7 +1702,8 @@
           "b9cfce59-2f8f-4314-809b-2ecba06d5956",
           "e0e66881-beda-4d26-9d00-b41983ea144a",
           "fe546ba6-e052-4bc2-bcd5-e4f5dbd1aabe",
-          "607c3970-00af-4f2c-ae85-fe3a2bcb393b"
+          "607c3970-00af-4f2c-ae85-fe3a2bcb393b",
+          "b3d5ae58-fc8a-481a-89b1-83a5ececcd9d"
         ],
         "settings": {
           "show_image": true,
