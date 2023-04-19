@@ -1593,6 +1593,18 @@
               "shop_product_padding": 0,
               "shop_product1p": "rise-ai-giftcard"
             }
+          },
+          "2de2bb25-8117-457b-aa70-e64a3a2a9d62": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "amelia-black",
+              "shop_product32": "amelia-cream",
+              "shop_product33": "amelia-chocolate"
+            }
           }
         },
         "block_order": [
@@ -1677,7 +1689,8 @@
           "b9cfce59-2f8f-4314-809b-2ecba06d5956",
           "e0e66881-beda-4d26-9d00-b41983ea144a",
           "fe546ba6-e052-4bc2-bcd5-e4f5dbd1aabe",
-          "607c3970-00af-4f2c-ae85-fe3a2bcb393b"
+          "607c3970-00af-4f2c-ae85-fe3a2bcb393b",
+          "2de2bb25-8117-457b-aa70-e64a3a2a9d62"
         ],
         "settings": {
           "show_image": true,
