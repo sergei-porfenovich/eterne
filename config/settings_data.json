@@ -1605,6 +1605,18 @@
               "shop_product_padding": 0,
               "shop_product1p": "rise-ai-giftcard"
             }
+          },
+          "dc5b1b0b-49e3-427f-a04b-0853bd1fe800": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "esme-mini-sarong-1",
+              "shop_product32": "esme-mini-sarong",
+              "shop_product33": "esme-mini-sarong-2"
+            }
           }
         },
         "block_order": [
@@ -1690,7 +1702,8 @@
           "b9cfce59-2f8f-4314-809b-2ecba06d5956",
           "e0e66881-beda-4d26-9d00-b41983ea144a",
           "fe546ba6-e052-4bc2-bcd5-e4f5dbd1aabe",
-          "607c3970-00af-4f2c-ae85-fe3a2bcb393b"
+          "607c3970-00af-4f2c-ae85-fe3a2bcb393b",
+          "dc5b1b0b-49e3-427f-a04b-0853bd1fe800"
         ],
         "settings": {
           "show_image": true,
