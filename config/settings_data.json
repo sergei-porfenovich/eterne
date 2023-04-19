@@ -621,6 +621,18 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "830570da-36ec-4fb7-9b84-135478fd02f3": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "amelia-halter-one-piece",
+              "shop_product32": "amelia-halter-one-piece-1",
+              "shop_product33": "amelia-halter-one-piece-2"
+            }
+          },
           "5bf220b2-384d-4adf-8f72-58ddd73dab4b": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1593,21 +1605,10 @@
               "shop_product_padding": 0,
               "shop_product1p": "rise-ai-giftcard"
             }
-          },
-          "830570da-36ec-4fb7-9b84-135478fd02f3": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "amelia-halter-one-piece",
-              "shop_product32": "amelia-halter-one-piece-1",
-              "shop_product33": "amelia-halter-one-piece-2"
-            }
           }
         },
         "block_order": [
+          "830570da-36ec-4fb7-9b84-135478fd02f3",
           "5bf220b2-384d-4adf-8f72-58ddd73dab4b",
           "beeaa1f4-b816-42fb-a711-c2803341f0b8",
           "7084317c-c90a-4a18-a568-80a96024fdbd",
@@ -1689,8 +1690,7 @@
           "b9cfce59-2f8f-4314-809b-2ecba06d5956",
           "e0e66881-beda-4d26-9d00-b41983ea144a",
           "fe546ba6-e052-4bc2-bcd5-e4f5dbd1aabe",
-          "607c3970-00af-4f2c-ae85-fe3a2bcb393b",
-          "830570da-36ec-4fb7-9b84-135478fd02f3"
+          "607c3970-00af-4f2c-ae85-fe3a2bcb393b"
         ],
         "settings": {
           "show_image": true,
