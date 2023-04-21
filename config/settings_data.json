@@ -621,54 +621,6 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
-          "830570da-36ec-4fb7-9b84-135478fd02f3": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "amelia-halter-one-piece",
-              "shop_product32": "amelia-halter-one-piece-1",
-              "shop_product33": "amelia-halter-one-piece-2"
-            }
-          },
-          "801ec65e-0b14-4f1b-ab7f-f87d4e507e92": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "isla-string-bikini-top",
-              "shop_product32": "isla-string-bikini-top-1",
-              "shop_product33": "isla-string-bikini-top-2"
-            }
-          },
-          "8dcc47f2-fb6b-4d31-937f-588405ba593b": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "isla-string-bikini-brief",
-              "shop_product32": "isla-string-bikini-brief-1",
-              "shop_product33": "isla-string-bikini-brief-2"
-            }
-          },
-          "dc5b1b0b-49e3-427f-a04b-0853bd1fe800": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "esme-mini-sarong",
-              "shop_product32": "esme-mini-sarong-2",
-              "shop_product33": "esme-mini-sarong-1"
-            }
-          },
           "5bf220b2-384d-4adf-8f72-58ddd73dab4b": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1644,10 +1596,6 @@
           }
         },
         "block_order": [
-          "830570da-36ec-4fb7-9b84-135478fd02f3",
-          "801ec65e-0b14-4f1b-ab7f-f87d4e507e92",
-          "8dcc47f2-fb6b-4d31-937f-588405ba593b",
-          "dc5b1b0b-49e3-427f-a04b-0853bd1fe800",
           "5bf220b2-384d-4adf-8f72-58ddd73dab4b",
           "beeaa1f4-b816-42fb-a711-c2803341f0b8",
           "7084317c-c90a-4a18-a568-80a96024fdbd",
