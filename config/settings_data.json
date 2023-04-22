@@ -643,6 +643,17 @@
               "shop_product22": "isla-string-bikini-top-1"
             }
           },
+          "441417fa-3d02-4b0e-ae80-ee63996bd877": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "isla-string-bikini-brief",
+              "shop_product22": "isla-string-bikini-top-1"
+            }
+          },
           "f97ba4e7-765c-4572-a9eb-8f50cb7c3186": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1631,6 +1642,7 @@
         "block_order": [
           "a0956a9d-b6ae-4c64-b590-e5e36e1eb34d",
           "9336b731-4b60-4b66-8ef8-6902e1b20752",
+          "441417fa-3d02-4b0e-ae80-ee63996bd877",
           "f97ba4e7-765c-4572-a9eb-8f50cb7c3186",
           "5bf220b2-384d-4adf-8f72-58ddd73dab4b",
           "beeaa1f4-b816-42fb-a711-c2803341f0b8",
