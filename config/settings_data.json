@@ -621,6 +621,39 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "a0956a9d-b6ae-4c64-b590-e5e36e1eb34d": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "amelia-halter-one-piece",
+              "shop_product22": "amelia-halter-one-piece-1"
+            }
+          },
+          "9336b731-4b60-4b66-8ef8-6902e1b20752": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "isla-string-bikini-top",
+              "shop_product22": "isla-string-bikini-top-1"
+            }
+          },
+          "f97ba4e7-765c-4572-a9eb-8f50cb7c3186": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "esme-mini-sarong",
+              "shop_product22": "esme-mini-sarong-2"
+            }
+          },
           "5bf220b2-384d-4adf-8f72-58ddd73dab4b": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1593,42 +1626,12 @@
               "shop_product_padding": 0,
               "shop_product1p": "rise-ai-giftcard"
             }
-          },
-          "a0956a9d-b6ae-4c64-b590-e5e36e1eb34d": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "amelia-halter-one-piece",
-              "shop_product22": "amelia-halter-one-piece-1"
-            }
-          },
-          "9336b731-4b60-4b66-8ef8-6902e1b20752": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "isla-string-bikini-top",
-              "shop_product22": "isla-string-bikini-top-1"
-            }
-          },
-          "f97ba4e7-765c-4572-a9eb-8f50cb7c3186": {
-            "type": "shop_imgproducts2",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product21": "esme-mini-sarong",
-              "shop_product22": "esme-mini-sarong-2"
-            }
           }
         },
         "block_order": [
+          "a0956a9d-b6ae-4c64-b590-e5e36e1eb34d",
+          "9336b731-4b60-4b66-8ef8-6902e1b20752",
+          "f97ba4e7-765c-4572-a9eb-8f50cb7c3186",
           "5bf220b2-384d-4adf-8f72-58ddd73dab4b",
           "beeaa1f4-b816-42fb-a711-c2803341f0b8",
           "7084317c-c90a-4a18-a568-80a96024fdbd",
@@ -1710,10 +1713,7 @@
           "b9cfce59-2f8f-4314-809b-2ecba06d5956",
           "e0e66881-beda-4d26-9d00-b41983ea144a",
           "fe546ba6-e052-4bc2-bcd5-e4f5dbd1aabe",
-          "607c3970-00af-4f2c-ae85-fe3a2bcb393b",
-          "a0956a9d-b6ae-4c64-b590-e5e36e1eb34d",
-          "9336b731-4b60-4b66-8ef8-6902e1b20752",
-          "f97ba4e7-765c-4572-a9eb-8f50cb7c3186"
+          "607c3970-00af-4f2c-ae85-fe3a2bcb393b"
         ],
         "settings": {
           "show_image": true,
