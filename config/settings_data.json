@@ -1637,6 +1637,18 @@
               "shop_product_padding": 0,
               "shop_product1p": "rise-ai-giftcard"
             }
+          },
+          "6c647871-5853-4bd4-8133-68dc41769003": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "cropped-scoop-neck-tank-olive",
+              "shop_product32": "cropped-scoop-neck-tank-earth",
+              "shop_product33": "cropped-scoop-neck-tank-sand"
+            }
           }
         },
         "block_order": [
@@ -1725,7 +1737,8 @@
           "b9cfce59-2f8f-4314-809b-2ecba06d5956",
           "e0e66881-beda-4d26-9d00-b41983ea144a",
           "fe546ba6-e052-4bc2-bcd5-e4f5dbd1aabe",
-          "607c3970-00af-4f2c-ae85-fe3a2bcb393b"
+          "607c3970-00af-4f2c-ae85-fe3a2bcb393b",
+          "6c647871-5853-4bd4-8133-68dc41769003"
         ],
         "settings": {
           "show_image": true,
