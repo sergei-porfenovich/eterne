@@ -621,6 +621,28 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "6d2225e5-2cb0-4d93-97b1-aa036ea4de9c": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "jolene-button-down-top-1",
+              "shop_product22": "jolene-button-down-top"
+            }
+          },
+          "a422bc2d-b2f9-4e6c-b0a5-dfec3e83addd": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "dylan-boxer-short-1",
+              "shop_product22": "dylan-boxer-short"
+            }
+          },
           "a0956a9d-b6ae-4c64-b590-e5e36e1eb34d": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1652,6 +1674,8 @@
           }
         },
         "block_order": [
+          "6d2225e5-2cb0-4d93-97b1-aa036ea4de9c",
+          "a422bc2d-b2f9-4e6c-b0a5-dfec3e83addd",
           "a0956a9d-b6ae-4c64-b590-e5e36e1eb34d",
           "9336b731-4b60-4b66-8ef8-6902e1b20752",
           "441417fa-3d02-4b0e-ae80-ee63996bd877",
