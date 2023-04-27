@@ -5758,6 +5758,49 @@
           "shop_margin_top": 0,
           "shop_margin_bottom": 25
         }
+      },
+      "soleil-collection": {
+        "type": "soleil-collection",
+        "blocks": {
+          "4a6dc895-5045-407c-a8a7-43081d0ad9c0": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "amelia-halter-one-piece",
+              "shop_product22": "amelia-halter-one-piece-1"
+            }
+          },
+          "eaa21cfd-c129-4edd-a9a6-097bb7016a76": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "isla-string-bikini-top",
+              "shop_product22": "isla-string-bikini-top-1"
+            }
+          }
+        },
+        "block_order": [
+          "4a6dc895-5045-407c-a8a7-43081d0ad9c0",
+          "eaa21cfd-c129-4edd-a9a6-097bb7016a76"
+        ],
+        "settings": {
+          "show_image": true,
+          "image_height": "use_screen_one_third",
+          "overlay_opacity": 20,
+          "parallax": false,
+          "align_text": "text-center",
+          "show_title": true,
+          "show_description": true,
+          "description_font_size": "rte rte--large",
+          "shop_margin_top": 0,
+          "shop_margin_bottom": 25
+        }
       }
     },
     "content_for_index": [
