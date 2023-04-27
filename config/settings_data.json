@@ -5762,6 +5762,28 @@
       "soleil-collection": {
         "type": "soleil-collection",
         "blocks": {
+          "b463d82d-4250-4012-9da6-a5f9d94b5ed0": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "jolene-button-down-top-1",
+              "shop_product22": "jolene-button-down-top"
+            }
+          },
+          "0498ac2b-c53c-4d4a-b87e-fc6fb2e5073a": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "dylan-boxer-short-1",
+              "shop_product22": "dylan-boxer-short"
+            }
+          },
           "4a6dc895-5045-407c-a8a7-43081d0ad9c0": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -5808,6 +5830,8 @@
           }
         },
         "block_order": [
+          "b463d82d-4250-4012-9da6-a5f9d94b5ed0",
+          "0498ac2b-c53c-4d4a-b87e-fc6fb2e5073a",
           "4a6dc895-5045-407c-a8a7-43081d0ad9c0",
           "eaa21cfd-c129-4edd-a9a6-097bb7016a76",
           "3597c6b6-2770-45bb-afb9-482c7da0cc73",
