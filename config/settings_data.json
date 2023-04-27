@@ -665,6 +665,30 @@
               "shop_product22": "esme-mini-sarong-2"
             }
           },
+          "6c647871-5853-4bd4-8133-68dc41769003": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "cropped-scoop-neck-tank-olive",
+              "shop_product32": "cropped-scoop-neck-tank-earth",
+              "shop_product33": "cropped-scoop-neck-tank-sand"
+            }
+          },
+          "1c0d98da-f3fd-40e8-890f-ffed914f99b2": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "cropped-scoop-neck-tank-ivory",
+              "shop_product32": "cropped-scoop-neck-tank-black",
+              "shop_product33": "cropped-scoop-neck-tank-heather-grey"
+            }
+          },
           "5bf220b2-384d-4adf-8f72-58ddd73dab4b": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1212,18 +1236,6 @@
               "shop_product22": "cropped-long-sleeve-thermal-ivory"
             }
           },
-          "1c0d98da-f3fd-40e8-890f-ffed914f99b2": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "cropped-scoop-neck-tank-ivory",
-              "shop_product32": "cropped-scoop-neck-tank-black",
-              "shop_product33": "cropped-scoop-neck-tank-heather-grey"
-            }
-          },
           "0410459a-f174-442b-86ea-324bf0d3ad62": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1644,6 +1656,8 @@
           "9336b731-4b60-4b66-8ef8-6902e1b20752",
           "441417fa-3d02-4b0e-ae80-ee63996bd877",
           "f97ba4e7-765c-4572-a9eb-8f50cb7c3186",
+          "6c647871-5853-4bd4-8133-68dc41769003",
+          "1c0d98da-f3fd-40e8-890f-ffed914f99b2",
           "5bf220b2-384d-4adf-8f72-58ddd73dab4b",
           "beeaa1f4-b816-42fb-a711-c2803341f0b8",
           "7084317c-c90a-4a18-a568-80a96024fdbd",
@@ -1692,7 +1706,6 @@
           "73f7e148-b3a8-4bd0-bfb0-a2bf1d80bf71",
           "b4da56c3-1fce-45ca-a078-d21a2f587b6e",
           "dd244cfd-ef7e-46ad-8055-cd0a57c662a8",
-          "1c0d98da-f3fd-40e8-890f-ffed914f99b2",
           "0410459a-f174-442b-86ea-324bf0d3ad62",
           "6855b3a3-2a8b-4cc1-998b-d3773de2e931",
           "b32c468a-41ee-42bb-8684-5f06a22894c2",
@@ -5532,6 +5545,30 @@
       "tanks-collection": {
         "type": "tanks-collection",
         "blocks": {
+          "846caaa4-cbca-4af7-8667-c6044e949167": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "cropped-scoop-neck-tank-olive",
+              "shop_product32": "cropped-scoop-neck-tank-earth",
+              "shop_product33": "cropped-scoop-neck-tank-sand"
+            }
+          },
+          "42b0634e-6f71-4056-99c6-56c1c8c93a62": {
+            "type": "shop_imgproducts3",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product31": "cropped-scoop-neck-tank-ivory",
+              "shop_product32": "cropped-scoop-neck-tank-black",
+              "shop_product33": "cropped-scoop-neck-tank-heather-grey"
+            }
+          },
           "b283f143-4820-45c2-af03-0f2ce5b471c5": {
             "type": "shop_porproducts1",
             "settings": {
@@ -5613,18 +5650,6 @@
               "shop_product33": "super-cropped-rib-tank-ivory"
             }
           },
-          "42b0634e-6f71-4056-99c6-56c1c8c93a62": {
-            "type": "shop_imgproducts3",
-            "settings": {
-              "full_size_pictures": false,
-              "product_grid_aspect_ratio": "0.75",
-              "shop_product_margin": 0,
-              "shop_product_padding": 0,
-              "shop_product31": "cropped-scoop-neck-tank-ivory",
-              "shop_product32": "cropped-scoop-neck-tank-black",
-              "shop_product33": "cropped-scoop-neck-tank-heather-grey"
-            }
-          },
           "5668a9c2-7708-4d0c-8490-e733ae551c04": {
             "type": "shop_imgproducts1",
             "settings": {
@@ -5682,6 +5707,8 @@
           }
         },
         "block_order": [
+          "846caaa4-cbca-4af7-8667-c6044e949167",
+          "42b0634e-6f71-4056-99c6-56c1c8c93a62",
           "b283f143-4820-45c2-af03-0f2ce5b471c5",
           "4f886cf5-5ab1-4b25-b2bb-3975268013d7",
           "e5f4bc24-5993-4c6e-a8e9-1c774afb0cda",
@@ -5689,7 +5716,6 @@
           "3538522a-6555-47da-917f-596dbcbca7f8",
           "d725ce67-a291-4f83-b756-388a687e6c2c",
           "91834430-6742-406b-a9a8-44db17779d5e",
-          "42b0634e-6f71-4056-99c6-56c1c8c93a62",
           "5668a9c2-7708-4d0c-8490-e733ae551c04",
           "86bfdcad-d5ae-425c-97d0-f0c06dbbb41a",
           "598b49e4-1e32-4f69-959b-4f141d1722b9",
