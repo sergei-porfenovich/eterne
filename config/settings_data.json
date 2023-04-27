@@ -5794,12 +5794,24 @@
               "shop_product21": "isla-string-bikini-brief",
               "shop_product22": "isla-string-bikini-brief-1"
             }
+          },
+          "77b12fcd-e7cb-4d18-b695-5f362ef8451e": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "esme-mini-sarong",
+              "shop_product22": "esme-mini-sarong-2"
+            }
           }
         },
         "block_order": [
           "4a6dc895-5045-407c-a8a7-43081d0ad9c0",
           "eaa21cfd-c129-4edd-a9a6-097bb7016a76",
-          "3597c6b6-2770-45bb-afb9-482c7da0cc73"
+          "3597c6b6-2770-45bb-afb9-482c7da0cc73",
+          "77b12fcd-e7cb-4d18-b695-5f362ef8451e"
         ],
         "settings": {
           "show_image": true,
