@@ -9579,3 +9579,24 @@ select.single-option-selector option[disabled] {
 .site-footer {
   padding-top: 45px;
 }
+
+// Fix tracker of the img recommendation results
+.ss__theme {
+  .ss__results {
+    .ss__result {
+      .ss__result__image {
+        .ss__result__image__link {
+          .ss__result__image__wrapper {
+            padding-bottom: 150%;
+
+            img {
+              height: 100% !important;
+              object-fit: cover;
+              object-position: top;
+            }
+          }
+        }
+      }
+    }
+  }
+}
