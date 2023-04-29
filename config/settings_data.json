@@ -147,7 +147,7 @@
             "type": "view_size_page",
             "settings": {
               "handle": "soleil",
-              "page_view": "size-guide-soleil"
+              "page_view": "copy-of-view-size-guide-soleil"
             }
           }
         },
