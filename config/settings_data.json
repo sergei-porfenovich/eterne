@@ -142,12 +142,20 @@
               "handle": "all",
               "page_view": "product-measurements"
             }
+          },
+          "7128f201-32b1-4bbb-9cf6-f2404b9c378e": {
+            "type": "view_size_page",
+            "settings": {
+              "handle": "soleil",
+              "page_view": "copy-of-view-size-guide-soleil"
+            }
           }
         },
         "block_order": [
           "1581296068367",
           "28366cb8-cf07-495b-a6ff-450c767097b3",
-          "c86baab4-b696-4f05-b104-cd76039f4f7e"
+          "c86baab4-b696-4f05-b104-cd76039f4f7e",
+          "7128f201-32b1-4bbb-9cf6-f2404b9c378e"
         ],
         "settings": {
           "product_breadcrumbs": true,

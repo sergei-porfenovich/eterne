@@ -72,7 +72,8 @@
                       {% assign is_handle = false %}
                       {% for block in section.blocks %}
                           {% if block.type == 'view_size_page' %}
-                              {% for c in product.collections %}
+                              {%- assign original_col = product.collections | where: 'handle', block.settings.handle -%}
+                              {% for c in original_col %}
                                   {% if block.settings.handle == c.handle and block.settings.handle != 'all' and block.settings.page_view != blank %}
                                       {% include 'sizing_popup' %}
                                       {% assign is_handle = true %}
