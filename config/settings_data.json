@@ -629,6 +629,50 @@
       "collection-shop": {
         "type": "collection-shop",
         "blocks": {
+          "e48db1df-b286-44a0-ba63-ad9a1dcf7c1e": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "bella-tank-one-piece",
+              "shop_product22": "bella-tank-one-piece-1"
+            }
+          },
+          "ace141c6-881c-4e48-b705-843839a2e0f0": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "thea-90s-bikini-top",
+              "shop_product22": "thea-90s-bikini-top-1"
+            }
+          },
+          "7ae795a0-9555-4eae-a4e4-c18a31055c02": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "thea-90s-bikini-bottom",
+              "shop_product22": "thea-90s-bikini-bottom-1"
+            }
+          },
+          "782fe012-0235-4359-b294-c8799429f311": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "esme-maxi-sarong",
+              "shop_product22": "esme-maxi-sarong-2"
+            }
+          },
           "6d2225e5-2cb0-4d93-97b1-aa036ea4de9c": {
             "type": "shop_imgproducts2",
             "settings": {
@@ -1682,6 +1726,10 @@
           }
         },
         "block_order": [
+          "e48db1df-b286-44a0-ba63-ad9a1dcf7c1e",
+          "ace141c6-881c-4e48-b705-843839a2e0f0",
+          "7ae795a0-9555-4eae-a4e4-c18a31055c02",
+          "782fe012-0235-4359-b294-c8799429f311",
           "6d2225e5-2cb0-4d93-97b1-aa036ea4de9c",
           "a422bc2d-b2f9-4e6c-b0a5-dfec3e83addd",
           "a0956a9d-b6ae-4c64-b590-e5e36e1eb34d",
