@@ -142,12 +142,20 @@
               "handle": "all",
               "page_view": "product-measurements"
             }
+          },
+          "7128f201-32b1-4bbb-9cf6-f2404b9c378e": {
+            "type": "view_size_page",
+            "settings": {
+              "handle": "soleil",
+              "page_view": "copy-of-view-size-guide-soleil"
+            }
           }
         },
         "block_order": [
           "1581296068367",
           "28366cb8-cf07-495b-a6ff-450c767097b3",
-          "c86baab4-b696-4f05-b104-cd76039f4f7e"
+          "c86baab4-b696-4f05-b104-cd76039f4f7e",
+          "7128f201-32b1-4bbb-9cf6-f2404b9c378e"
         ],
         "settings": {
           "product_breadcrumbs": true,
@@ -663,6 +671,28 @@
               "shop_product_padding": 0,
               "shop_product21": "esme-maxi-sarong",
               "shop_product22": "esme-maxi-sarong-2"
+            }
+          },
+          "6d2225e5-2cb0-4d93-97b1-aa036ea4de9c": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "jolene-button-down-top-1",
+              "shop_product22": "jolene-button-down-top"
+            }
+          },
+          "a422bc2d-b2f9-4e6c-b0a5-dfec3e83addd": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "dylan-boxer-short-1",
+              "shop_product22": "dylan-boxer-short"
             }
           },
           "a0956a9d-b6ae-4c64-b590-e5e36e1eb34d": {
@@ -1700,6 +1730,8 @@
           "ace141c6-881c-4e48-b705-843839a2e0f0",
           "7ae795a0-9555-4eae-a4e4-c18a31055c02",
           "782fe012-0235-4359-b294-c8799429f311",
+          "6d2225e5-2cb0-4d93-97b1-aa036ea4de9c",
+          "a422bc2d-b2f9-4e6c-b0a5-dfec3e83addd",
           "a0956a9d-b6ae-4c64-b590-e5e36e1eb34d",
           "9336b731-4b60-4b66-8ef8-6902e1b20752",
           "441417fa-3d02-4b0e-ae80-ee63996bd877",
@@ -5769,6 +5801,97 @@
           "598b49e4-1e32-4f69-959b-4f141d1722b9",
           "d469583e-45ad-4fc8-bf41-91efcc5bc612",
           "74bca33b-c677-4ff3-9507-d56d4d58e2f3"
+        ],
+        "settings": {
+          "show_image": true,
+          "image_height": "use_screen_one_third",
+          "overlay_opacity": 20,
+          "parallax": false,
+          "align_text": "text-center",
+          "show_title": true,
+          "show_description": true,
+          "description_font_size": "rte rte--large",
+          "shop_margin_top": 0,
+          "shop_margin_bottom": 25
+        }
+      },
+      "soleil-collection": {
+        "type": "soleil-collection",
+        "blocks": {
+          "b463d82d-4250-4012-9da6-a5f9d94b5ed0": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "jolene-button-down-top-1",
+              "shop_product22": "jolene-button-down-top"
+            }
+          },
+          "0498ac2b-c53c-4d4a-b87e-fc6fb2e5073a": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "dylan-boxer-short-1",
+              "shop_product22": "dylan-boxer-short"
+            }
+          },
+          "4a6dc895-5045-407c-a8a7-43081d0ad9c0": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "amelia-halter-one-piece",
+              "shop_product22": "amelia-halter-one-piece-1"
+            }
+          },
+          "eaa21cfd-c129-4edd-a9a6-097bb7016a76": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "isla-string-bikini-top",
+              "shop_product22": "isla-string-bikini-top-1"
+            }
+          },
+          "3597c6b6-2770-45bb-afb9-482c7da0cc73": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "isla-string-bikini-brief",
+              "shop_product22": "isla-string-bikini-brief-1"
+            }
+          },
+          "77b12fcd-e7cb-4d18-b695-5f362ef8451e": {
+            "type": "shop_imgproducts2",
+            "settings": {
+              "full_size_pictures": false,
+              "product_grid_aspect_ratio": "0.75",
+              "shop_product_margin": 0,
+              "shop_product_padding": 0,
+              "shop_product21": "esme-mini-sarong",
+              "shop_product22": "esme-mini-sarong-2"
+            }
+          }
+        },
+        "block_order": [
+          "b463d82d-4250-4012-9da6-a5f9d94b5ed0",
+          "0498ac2b-c53c-4d4a-b87e-fc6fb2e5073a",
+          "4a6dc895-5045-407c-a8a7-43081d0ad9c0",
+          "eaa21cfd-c129-4edd-a9a6-097bb7016a76",
+          "3597c6b6-2770-45bb-afb9-482c7da0cc73",
+          "77b12fcd-e7cb-4d18-b695-5f362ef8451e"
         ],
         "settings": {
           "show_image": true,
