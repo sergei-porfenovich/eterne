@@ -3026,17 +3026,6 @@
               "article_url": "https:\/\/fashionista.com\/2022\/03\/quiet-fashion-brands-marketing-business"
             }
           },
-          "8cdea4d3-981c-40c4-924a-a4be3cb2db26": {
-            "type": "article",
-            "settings": {
-              "article_logo": "shopify:\/\/shop_images\/logo_vogue_3x_ccf026f4-96cf-44a5-a446-44f5e78e54aa.png",
-              "article_image": "shopify:\/\/shop_images\/10.png",
-              "article_date": "1\/4\/22",
-              "article_title": "Hailey, Rosie & Kendall Are Mapping Out The New 'Countryfile' Trend",
-              "article_description": "While some rang in 2022 in super slinky party dresses that would have made Paris Hilton blush, other stars retreated to the countryside...",
-              "article_url": "https:\/\/www.vogue.co.uk\/news\/article\/country-chic-trend"
-            }
-          },
           "70e6059a-3d05-4e50-8bd7-fa762b9b1224": {
             "type": "article",
             "settings": {
@@ -3046,6 +3035,17 @@
               "article_title": "The Best Stuff Glamour Editors Bought in 2022 ",
               "article_description": "23 things that made us happy, from Prada to portable dryers. When thinking about what to buy, there's no better feeling than",
               "article_url": "https:\/\/www.glamour.com\/story\/the-best-stuff-glamour-editors-bought-in-2022"
+            }
+          },
+          "8cdea4d3-981c-40c4-924a-a4be3cb2db26": {
+            "type": "article",
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/logo_vogue_3x_ccf026f4-96cf-44a5-a446-44f5e78e54aa.png",
+              "article_image": "shopify:\/\/shop_images\/10.png",
+              "article_date": "1\/4\/22",
+              "article_title": "Hailey, Rosie & Kendall Are Mapping Out The New 'Countryfile' Trend",
+              "article_description": "While some rang in 2022 in super slinky party dresses that would have made Paris Hilton blush, other stars retreated to the countryside...",
+              "article_url": "https:\/\/www.vogue.co.uk\/news\/article\/country-chic-trend"
             }
           },
           "7d563390-7985-47c4-a133-c4648c050977": {
@@ -3204,8 +3204,8 @@
           "80f86170-d39d-4b08-be08-e23aaa00af7b",
           "376eef84-1728-4b20-808e-e72b6daaed9a",
           "78abca1e-4b73-44c2-959d-e090c386f2de",
-          "8cdea4d3-981c-40c4-924a-a4be3cb2db26",
           "70e6059a-3d05-4e50-8bd7-fa762b9b1224",
+          "8cdea4d3-981c-40c4-924a-a4be3cb2db26",
           "7d563390-7985-47c4-a133-c4648c050977",
           "da79079e-7987-4ac1-b89e-e70fa3d9b8a5",
           "f40e948f-e681-4c3c-9555-be8b262d5783",
