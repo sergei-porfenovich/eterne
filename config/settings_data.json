@@ -3015,6 +3015,17 @@
               "article_url": "https:\/\/www.vogue.co.uk\/news\/article\/country-chic-trend"
             }
           },
+          "70e6059a-3d05-4e50-8bd7-fa762b9b1224": {
+            "type": "article",
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/glamour.jpg",
+              "article_image": "shopify:\/\/shop_images\/4_6a83fd9b-4349-4da1-8bfa-e726e6fc51f1.png",
+              "article_date": "1\/4\/23",
+              "article_title": "The Best Stuff Glamour Editors Bought in 2022 ",
+              "article_description": "23 things that made us happy, from Prada to portable dryers. When thinking about what to buy, there's no better feeling than",
+              "article_url": "https:\/\/www.glamour.com\/story\/the-best-stuff-glamour-editors-bought-in-2022"
+            }
+          },
           "7d563390-7985-47c4-a133-c4648c050977": {
             "type": "article",
             "settings": {
@@ -3146,6 +3157,28 @@
               "article_description": "In the absence of red carpets, celebrities and influencers have been dressing down—way down. Over the last several months of quarantines and canceled...",
               "article_url": "https:\/\/www.vogue.com\/article\/eterne-chloe-bartoli-kaia-gerber-emily-ratajkowski"
             }
+          },
+          "376eef84-1728-4b20-808e-e72b6daaed9a": {
+            "type": "article",
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/1200px-Grazia-Logo_svg.png",
+              "article_image": "shopify:\/\/shop_images\/3_329fd269-d247-43f4-b787-9d7b0d56b891.png",
+              "article_date": "",
+              "article_title": "Ladies of London Fashion Week Brought Understated Style to the Streets",
+              "article_description": "A great case for the capsule wardrobe. Now that Fashion Month jetted across the pond, we couldn’t help but notice a change in some street style trends.",
+              "article_url": "https:\/\/graziamagazine.com\/us\/articles\/london-fashion-week-best-street-style-outfits\/"
+            }
+          },
+          "cc7e014d-c2bb-4bbd-8e04-4b7dbf566e32": {
+            "type": "article",
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/Vogue_France_logo.png",
+              "article_image": "shopify:\/\/shop_images\/5_4f59bb22-16b1-43e3-b36e-6cc3e3d8aa03.png",
+              "article_date": "2\/10\/23",
+              "article_title": "Voici la marque secrète de pulls que les stars ne peuvent s'empêcher de porter",
+              "article_description": "Les filles en vogue ne jurent plus que par Éterne, et cela n’a rien de surprenant : la styliste Chloe Bartoli, fondatrice de la marque, a travaillé avec Kendall Jenner, Hailey Bieber, Kaia Gerber et plus encore.",
+              "article_url": "https:\/\/www.whowhatwear.com\/best-wide-leg-sweatpants"
+            }
           }
         },
         "block_order": [
@@ -3170,6 +3203,7 @@
           "80f86170-d39d-4b08-be08-e23aaa00af7b",
           "78abca1e-4b73-44c2-959d-e090c386f2de",
           "8cdea4d3-981c-40c4-924a-a4be3cb2db26",
+          "70e6059a-3d05-4e50-8bd7-fa762b9b1224",
           "7d563390-7985-47c4-a133-c4648c050977",
           "da79079e-7987-4ac1-b89e-e70fa3d9b8a5",
           "f40e948f-e681-4c3c-9555-be8b262d5783",
@@ -3181,7 +3215,9 @@
           "e7cee9cc-ddd5-486b-9408-cc7460f501b9",
           "f135cb76-bf2a-4980-8dc8-e7b98ee34f64",
           "66217d67-659d-4d69-93be-f4c7782987bd",
-          "7fd3dd36-8087-42b3-8554-3ef2cade3a93"
+          "7fd3dd36-8087-42b3-8554-3ef2cade3a93",
+          "376eef84-1728-4b20-808e-e72b6daaed9a",
+          "cc7e014d-c2bb-4bbd-8e04-4b7dbf566e32"
         ],
         "settings": {
           "press_page_title": "Press",
