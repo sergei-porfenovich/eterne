@@ -2784,6 +2784,17 @@
       "press-page": {
         "type": "press-page",
         "blocks": {
+          "376eef84-1728-4b20-808e-e72b6daaed9a": {
+            "type": "article",
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/grazia.jpg",
+              "article_image": "shopify:\/\/shop_images\/3_329fd269-d247-43f4-b787-9d7b0d56b891.png",
+              "article_date": "3\/3\/23",
+              "article_title": "Ladies of London Fashion Week Brought Understated Style to the Streets",
+              "article_description": "A great case for the capsule wardrobe. Now that Fashion Month jetted across the pond, we couldn’t help but notice a change in some street style trends.",
+              "article_url": "https:\/\/graziamagazine.com\/us\/articles\/london-fashion-week-best-street-style-outfits\/"
+            }
+          },
           "3d66bd67-cf31-499f-9c5a-1ccae18ac69e": {
             "type": "article",
             "settings": {
@@ -2870,6 +2881,17 @@
               "article_title": "Voici la marque secrète de pulls que les stars ne peuvent s'empêcher de porter",
               "article_description": "Les filles en vogue ne jurent plus que par Éterne, et cela n’a rien de surprenant : la styliste Chloe Bartoli, fondatrice de la marque, a travaillé avec Kendall Jenner, Hailey Bieber, Kaia Gerber et plus encore.",
               "article_url": "https:\/\/www.whowhatwear.com\/best-wide-leg-sweatpants"
+            }
+          },
+          "70e6059a-3d05-4e50-8bd7-fa762b9b1224": {
+            "type": "article",
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/glamour.jpg",
+              "article_image": "shopify:\/\/shop_images\/4_6a83fd9b-4349-4da1-8bfa-e726e6fc51f1.png",
+              "article_date": "1\/4\/23",
+              "article_title": "The Best Stuff Glamour Editors Bought in 2022 ",
+              "article_description": "23 things that made us happy, from Prada to portable dryers. When thinking about what to buy, there's no better feeling than",
+              "article_url": "https:\/\/www.glamour.com\/story\/the-best-stuff-glamour-editors-bought-in-2022"
             }
           },
           "4a1b7adf-5e95-4fc0-ad58-e2a75cf987b0": {
@@ -3004,17 +3026,6 @@
               "article_url": "https:\/\/www.thezoereport.com\/fashion\/best-white-tshirts"
             }
           },
-          "376eef84-1728-4b20-808e-e72b6daaed9a": {
-            "type": "article",
-            "settings": {
-              "article_logo": "shopify:\/\/shop_images\/1200px-Grazia-Logo_svg.png",
-              "article_image": "shopify:\/\/shop_images\/3_329fd269-d247-43f4-b787-9d7b0d56b891.png",
-              "article_date": "",
-              "article_title": "Ladies of London Fashion Week Brought Understated Style to the Streets",
-              "article_description": "A great case for the capsule wardrobe. Now that Fashion Month jetted across the pond, we couldn’t help but notice a change in some street style trends.",
-              "article_url": "https:\/\/graziamagazine.com\/us\/articles\/london-fashion-week-best-street-style-outfits\/"
-            }
-          },
           "78abca1e-4b73-44c2-959d-e090c386f2de": {
             "type": "article",
             "settings": {
@@ -3024,17 +3035,6 @@
               "article_title": "In An Era of Viral Excess, How Do Quiet Brands Make Noise?",
               "article_description": "In some cases, their success lies in the fact that they don’t. Like it or not, we’re living in the age of going viral, even when it comes to success in fashion.",
               "article_url": "https:\/\/fashionista.com\/2022\/03\/quiet-fashion-brands-marketing-business"
-            }
-          },
-          "70e6059a-3d05-4e50-8bd7-fa762b9b1224": {
-            "type": "article",
-            "settings": {
-              "article_logo": "shopify:\/\/shop_images\/glamour.jpg",
-              "article_image": "shopify:\/\/shop_images\/4_6a83fd9b-4349-4da1-8bfa-e726e6fc51f1.png",
-              "article_date": "1\/4\/23",
-              "article_title": "The Best Stuff Glamour Editors Bought in 2022 ",
-              "article_description": "23 things that made us happy, from Prada to portable dryers. When thinking about what to buy, there's no better feeling than",
-              "article_url": "https:\/\/www.glamour.com\/story\/the-best-stuff-glamour-editors-bought-in-2022"
             }
           },
           "8cdea4d3-981c-40c4-924a-a4be3cb2db26": {
@@ -3182,6 +3182,7 @@
           }
         },
         "block_order": [
+          "376eef84-1728-4b20-808e-e72b6daaed9a",
           "3d66bd67-cf31-499f-9c5a-1ccae18ac69e",
           "faf47d9b-e63b-4460-ae8e-2c2a19f30f99",
           "750906ce-931d-4759-aa4a-7d44c47535f2",
@@ -3190,6 +3191,7 @@
           "9a085597-f151-4fe2-88b9-e4a1d0f06c1c",
           "6454ef17-89e9-4be3-b66c-b57528cc6b03",
           "cc7e014d-c2bb-4bbd-8e04-4b7dbf566e32",
+          "70e6059a-3d05-4e50-8bd7-fa762b9b1224",
           "4a1b7adf-5e95-4fc0-ad58-e2a75cf987b0",
           "530e4fc1-9191-451b-94ca-f2bc2c94fc2a",
           "5d94e6e6-e95e-48a3-b41f-14897f814169",
@@ -3202,9 +3204,7 @@
           "b567f8b4-6841-4ca1-beb9-f68daae6f7c9",
           "86a7bbaf-e59f-4098-96bd-d40bff0e6822",
           "80f86170-d39d-4b08-be08-e23aaa00af7b",
-          "376eef84-1728-4b20-808e-e72b6daaed9a",
           "78abca1e-4b73-44c2-959d-e090c386f2de",
-          "70e6059a-3d05-4e50-8bd7-fa762b9b1224",
           "8cdea4d3-981c-40c4-924a-a4be3cb2db26",
           "7d563390-7985-47c4-a133-c4648c050977",
           "da79079e-7987-4ac1-b89e-e70fa3d9b8a5",
