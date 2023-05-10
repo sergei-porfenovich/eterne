@@ -68,7 +68,7 @@
                   {% comment %}
                     Optional size chart - controlled by Magnific Popup
                   {% endcomment %}
-                  {% if product.variants.size > 1 and product.options contains "Size" %}
+                  {% if product.variants.size >= 1 and product.options contains "Size" %}
                       {% assign is_handle = false %}
                       {% for block in section.blocks %}
                           {% if block.type == 'view_size_page' %}
