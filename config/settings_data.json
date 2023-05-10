@@ -2861,6 +2861,17 @@
               "article_url": "https:\/\/www.whowhatwear.com\/new-wardrobe-basics-2023"
             }
           },
+          "cc7e014d-c2bb-4bbd-8e04-4b7dbf566e32": {
+            "type": "article",
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/Vogue_France_logo.png",
+              "article_image": "shopify:\/\/shop_images\/5_4f59bb22-16b1-43e3-b36e-6cc3e3d8aa03.png",
+              "article_date": "2\/10\/23",
+              "article_title": "Voici la marque secrète de pulls que les stars ne peuvent s'empêcher de porter",
+              "article_description": "Les filles en vogue ne jurent plus que par Éterne, et cela n’a rien de surprenant : la styliste Chloe Bartoli, fondatrice de la marque, a travaillé avec Kendall Jenner, Hailey Bieber, Kaia Gerber et plus encore.",
+              "article_url": "https:\/\/www.whowhatwear.com\/best-wide-leg-sweatpants"
+            }
+          },
           "4a1b7adf-5e95-4fc0-ad58-e2a75cf987b0": {
             "type": "article",
             "settings": {
@@ -2991,6 +3002,17 @@
               "article_title": "The 5 Types of White T-shirts Every Woman Should Own",
               "article_description": "Do you start each morning staring at a closet of clothes, but are still usually clueless on what to wear?  You might be in need of a little wardrobe TLC.",
               "article_url": "https:\/\/www.thezoereport.com\/fashion\/best-white-tshirts"
+            }
+          },
+          "376eef84-1728-4b20-808e-e72b6daaed9a": {
+            "type": "article",
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/1200px-Grazia-Logo_svg.png",
+              "article_image": "shopify:\/\/shop_images\/3_329fd269-d247-43f4-b787-9d7b0d56b891.png",
+              "article_date": "",
+              "article_title": "Ladies of London Fashion Week Brought Understated Style to the Streets",
+              "article_description": "A great case for the capsule wardrobe. Now that Fashion Month jetted across the pond, we couldn’t help but notice a change in some street style trends.",
+              "article_url": "https:\/\/graziamagazine.com\/us\/articles\/london-fashion-week-best-street-style-outfits\/"
             }
           },
           "78abca1e-4b73-44c2-959d-e090c386f2de": {
@@ -3157,28 +3179,6 @@
               "article_description": "In the absence of red carpets, celebrities and influencers have been dressing down—way down. Over the last several months of quarantines and canceled...",
               "article_url": "https:\/\/www.vogue.com\/article\/eterne-chloe-bartoli-kaia-gerber-emily-ratajkowski"
             }
-          },
-          "376eef84-1728-4b20-808e-e72b6daaed9a": {
-            "type": "article",
-            "settings": {
-              "article_logo": "shopify:\/\/shop_images\/1200px-Grazia-Logo_svg.png",
-              "article_image": "shopify:\/\/shop_images\/3_329fd269-d247-43f4-b787-9d7b0d56b891.png",
-              "article_date": "",
-              "article_title": "Ladies of London Fashion Week Brought Understated Style to the Streets",
-              "article_description": "A great case for the capsule wardrobe. Now that Fashion Month jetted across the pond, we couldn’t help but notice a change in some street style trends.",
-              "article_url": "https:\/\/graziamagazine.com\/us\/articles\/london-fashion-week-best-street-style-outfits\/"
-            }
-          },
-          "cc7e014d-c2bb-4bbd-8e04-4b7dbf566e32": {
-            "type": "article",
-            "settings": {
-              "article_logo": "shopify:\/\/shop_images\/Vogue_France_logo.png",
-              "article_image": "shopify:\/\/shop_images\/5_4f59bb22-16b1-43e3-b36e-6cc3e3d8aa03.png",
-              "article_date": "2\/10\/23",
-              "article_title": "Voici la marque secrète de pulls que les stars ne peuvent s'empêcher de porter",
-              "article_description": "Les filles en vogue ne jurent plus que par Éterne, et cela n’a rien de surprenant : la styliste Chloe Bartoli, fondatrice de la marque, a travaillé avec Kendall Jenner, Hailey Bieber, Kaia Gerber et plus encore.",
-              "article_url": "https:\/\/www.whowhatwear.com\/best-wide-leg-sweatpants"
-            }
           }
         },
         "block_order": [
@@ -3189,6 +3189,7 @@
           "7bfce5f0-404d-4921-af17-5e30aec7cb78",
           "9a085597-f151-4fe2-88b9-e4a1d0f06c1c",
           "6454ef17-89e9-4be3-b66c-b57528cc6b03",
+          "cc7e014d-c2bb-4bbd-8e04-4b7dbf566e32",
           "4a1b7adf-5e95-4fc0-ad58-e2a75cf987b0",
           "530e4fc1-9191-451b-94ca-f2bc2c94fc2a",
           "5d94e6e6-e95e-48a3-b41f-14897f814169",
@@ -3201,6 +3202,7 @@
           "b567f8b4-6841-4ca1-beb9-f68daae6f7c9",
           "86a7bbaf-e59f-4098-96bd-d40bff0e6822",
           "80f86170-d39d-4b08-be08-e23aaa00af7b",
+          "376eef84-1728-4b20-808e-e72b6daaed9a",
           "78abca1e-4b73-44c2-959d-e090c386f2de",
           "8cdea4d3-981c-40c4-924a-a4be3cb2db26",
           "70e6059a-3d05-4e50-8bd7-fa762b9b1224",
@@ -3215,9 +3217,7 @@
           "e7cee9cc-ddd5-486b-9408-cc7460f501b9",
           "f135cb76-bf2a-4980-8dc8-e7b98ee34f64",
           "66217d67-659d-4d69-93be-f4c7782987bd",
-          "7fd3dd36-8087-42b3-8554-3ef2cade3a93",
-          "376eef84-1728-4b20-808e-e72b6daaed9a",
-          "cc7e014d-c2bb-4bbd-8e04-4b7dbf566e32"
+          "7fd3dd36-8087-42b3-8554-3ef2cade3a93"
         ],
         "settings": {
           "press_page_title": "Press",
