@@ -2784,6 +2784,39 @@
       "press-page": {
         "type": "press-page",
         "blocks": {
+          "750906ce-931d-4759-aa4a-7d44c47535f2": {
+            "type": "article",
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/ELLE-logo-768x432.png",
+              "article_image": "shopify:\/\/shop_images\/1_216e9f9b-680b-4851-9dfe-26792fa528b8.png",
+              "article_date": "4\/14\/23",
+              "article_title": "What Our Fashion Editors Will Be Wearing for Festival Season",
+              "article_description": "Welcome to Same Same But Different. As Gen Z and millennial fashion editors, respectively, we know a thing or two about shopping—for all ages, and especially our demographics.",
+              "article_url": "https:\/\/www.elle.com\/fashion\/shopping\/a43509322\/gen-z-v-millennial-festival-style-outfits\/"
+            }
+          },
+          "3748dd68-b261-4649-9e46-f9c2841893fc": {
+            "type": "article",
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/logo_whowhatwear_2x_496184e0-c82a-4ea5-9139-5bae03fa7e94.png",
+              "article_image": "shopify:\/\/shop_images\/2_35e5dd42-47ad-46e3-a470-d0e50ad80819.png",
+              "article_date": "4\/13\/23",
+              "article_title": "Hailey Bieber and EmRata Shop These Basics in Bulk—6 to Know for 2023",
+              "article_description": "We consider basics to be those wardrobe essentials you really couldn't live without. You know, classic white tops, timeless denim silhouettes, and the like.",
+              "article_url": "https:\/\/www.whowhatwear.com\/celebrity-wardrobe-basics\/slide2"
+            }
+          },
+          "3d66bd67-cf31-499f-9c5a-1ccae18ac69e": {
+            "type": "article",
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/hello_-magazine-logo.png",
+              "article_image": "shopify:\/\/shop_images\/3_694027ee-02d4-42ea-8cc8-49d55ccf6ae4.png",
+              "article_date": "4\/19\/23",
+              "article_title": "Nicolas Peltz, Hailey Bieber and Emily Ratajkowski can’t stop wearing this ‘Quiet Luxury’ brand",
+              "article_description": "Eterne is the label you need to add your It-girl approved clothing arsenal.",
+              "article_url": "https:\/\/www.hellomagazine.com\/hfm\/490477\/nicola-peltz-hailey-bieber-and-emily-ratajkowski-wearing-eterne\/"
+            }
+          },
           "6454ef17-89e9-4be3-b66c-b57528cc6b03": {
             "type": "article",
             "settings": {
@@ -3083,6 +3116,9 @@
           }
         },
         "block_order": [
+          "750906ce-931d-4759-aa4a-7d44c47535f2",
+          "3748dd68-b261-4649-9e46-f9c2841893fc",
+          "3d66bd67-cf31-499f-9c5a-1ccae18ac69e",
           "6454ef17-89e9-4be3-b66c-b57528cc6b03",
           "4a1b7adf-5e95-4fc0-ad58-e2a75cf987b0",
           "530e4fc1-9191-451b-94ca-f2bc2c94fc2a",
