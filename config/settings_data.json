@@ -2784,17 +2784,6 @@
       "press-page": {
         "type": "press-page",
         "blocks": {
-          "376eef84-1728-4b20-808e-e72b6daaed9a": {
-            "type": "article",
-            "settings": {
-              "article_logo": "shopify:\/\/shop_images\/grazia.jpg",
-              "article_image": "shopify:\/\/shop_images\/3_329fd269-d247-43f4-b787-9d7b0d56b891.png",
-              "article_date": "3\/3\/23",
-              "article_title": "Ladies of London Fashion Week Brought Understated Style to the Streets",
-              "article_description": "A great case for the capsule wardrobe. Now that Fashion Month jetted across the pond, we couldn’t help but notice a change in some street style trends.",
-              "article_url": "https:\/\/graziamagazine.com\/us\/articles\/london-fashion-week-best-street-style-outfits\/"
-            }
-          },
           "3d66bd67-cf31-499f-9c5a-1ccae18ac69e": {
             "type": "article",
             "settings": {
@@ -2861,15 +2850,15 @@
               "article_url": "https:\/\/www.vogue.com\/article\/what-vogue-editors-purchased"
             }
           },
-          "6454ef17-89e9-4be3-b66c-b57528cc6b03": {
+          "376eef84-1728-4b20-808e-e72b6daaed9a": {
             "type": "article",
             "settings": {
-              "article_logo": "shopify:\/\/shop_images\/logo_whowhatwear_3x_c57c1e05-1434-4825-b50a-48dcabf8cc5d.png",
-              "article_image": "shopify:\/\/shop_images\/1_fd6b0e93-3f67-45bb-9909-701e69150765.png",
-              "article_date": "1\/18\/23",
-              "article_title": "Sorry to the Basics in My Closet — These 2023 Updates Might Replace You",
-              "article_description": "Do you ever start shopping and realize that you don’t just want one or two items but suddenly crave an entire wardrobe overhaul?",
-              "article_url": "https:\/\/www.whowhatwear.com\/new-wardrobe-basics-2023"
+              "article_logo": "shopify:\/\/shop_images\/grazia.jpg",
+              "article_image": "shopify:\/\/shop_images\/3_329fd269-d247-43f4-b787-9d7b0d56b891.png",
+              "article_date": "3\/3\/23",
+              "article_title": "Ladies of London Fashion Week Brought Understated Style to the Streets",
+              "article_description": "A great case for the capsule wardrobe. Now that Fashion Month jetted across the pond, we couldn’t help but notice a change in some street style trends.",
+              "article_url": "https:\/\/graziamagazine.com\/us\/articles\/london-fashion-week-best-street-style-outfits\/"
             }
           },
           "cc7e014d-c2bb-4bbd-8e04-4b7dbf566e32": {
@@ -2881,6 +2870,17 @@
               "article_title": "Voici la marque secrète de pulls que les stars ne peuvent s'empêcher de porter",
               "article_description": "Les filles en vogue ne jurent plus que par Éterne, et cela n’a rien de surprenant : la styliste Chloe Bartoli, fondatrice de la marque, a travaillé avec Kendall Jenner, Hailey Bieber, Kaia Gerber et plus encore.",
               "article_url": "https:\/\/www.whowhatwear.com\/best-wide-leg-sweatpants"
+            }
+          },
+          "6454ef17-89e9-4be3-b66c-b57528cc6b03": {
+            "type": "article",
+            "settings": {
+              "article_logo": "shopify:\/\/shop_images\/logo_whowhatwear_3x_c57c1e05-1434-4825-b50a-48dcabf8cc5d.png",
+              "article_image": "shopify:\/\/shop_images\/1_fd6b0e93-3f67-45bb-9909-701e69150765.png",
+              "article_date": "1\/18\/23",
+              "article_title": "Sorry to the Basics in My Closet — These 2023 Updates Might Replace You",
+              "article_description": "Do you ever start shopping and realize that you don’t just want one or two items but suddenly crave an entire wardrobe overhaul?",
+              "article_url": "https:\/\/www.whowhatwear.com\/new-wardrobe-basics-2023"
             }
           },
           "70e6059a-3d05-4e50-8bd7-fa762b9b1224": {
@@ -3182,15 +3182,15 @@
           }
         },
         "block_order": [
-          "376eef84-1728-4b20-808e-e72b6daaed9a",
           "3d66bd67-cf31-499f-9c5a-1ccae18ac69e",
           "faf47d9b-e63b-4460-ae8e-2c2a19f30f99",
           "750906ce-931d-4759-aa4a-7d44c47535f2",
           "3748dd68-b261-4649-9e46-f9c2841893fc",
           "7bfce5f0-404d-4921-af17-5e30aec7cb78",
           "9a085597-f151-4fe2-88b9-e4a1d0f06c1c",
-          "6454ef17-89e9-4be3-b66c-b57528cc6b03",
+          "376eef84-1728-4b20-808e-e72b6daaed9a",
           "cc7e014d-c2bb-4bbd-8e04-4b7dbf566e32",
+          "6454ef17-89e9-4be3-b66c-b57528cc6b03",
           "70e6059a-3d05-4e50-8bd7-fa762b9b1224",
           "4a1b7adf-5e95-4fc0-ad58-e2a75cf987b0",
           "530e4fc1-9191-451b-94ca-f2bc2c94fc2a",
