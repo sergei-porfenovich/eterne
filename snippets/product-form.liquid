@@ -166,6 +166,7 @@
                 const name = `.option${++i}`;
                 const input = document.querySelector(`${name} .select-input`);
                 const listOfOptions = document.querySelectorAll(`${name} .option`);
+                const listOfAvailableOptions = document.querySelectorAll(`${name} .option:not(.out-of-stock)`);
                 const body = document.body;
                 const isDisabled = (dropdown.classList.contains('disabled-select')) ? true : false;
 
@@ -193,8 +194,11 @@
                 };
 
                 const selectFirstOption = () => {
-                    input.value = listOfOptions[0].dataset.id;
+                    if (listOfAvailableOptions.length > 0) {
+                        input.value = listOfAvailableOptions[0].dataset.id;
+                    } else input.value = listOfOptions[0].dataset.id;
                 };
+
                 // Event Listeners
 
                 body.addEventListener('click', closeDropdownFromOutside);
