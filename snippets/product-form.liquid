@@ -27,8 +27,15 @@
                 {{ option.name }}
               </label>{% endcomment %}
 
+                {% assign all_out_of_stock = true %}
+                {% for value in option.values %}
+                    {% unless product.variants[forloop.index0].inventory_quantity == 0 %}
+                        {% assign all_out_of_stock = false %}
+                    {%endunless%}
+                {% endfor %}
+
               <div class="select-wrapper-size">
-                    <div class="dropdown select-container option{{ forloop.index }}" style="{% if option.name == "Color" or option.name == "Colour" %}display: none;{% endif %}">
+                    <div class="dropdown {% if all_out_of_stock %}disabled-select{% endif %} select-container option{{ forloop.index }}" style="{% if option.name == "Color" or option.name == "Colour" %}display: none;{% endif %}">
 
                         {% if option.name == "Color" or option.name == "Colour" %}
                             {% assign color_value = option.values[0] | escape %}
@@ -160,11 +167,14 @@
                 const input = document.querySelector(`${name} .select-input`);
                 const listOfOptions = document.querySelectorAll(`${name} .option`);
                 const body = document.body;
+                const isDisabled = (dropdown.classList.contains('disabled-select')) ? true : false;
 
                 // Functions
                 const toggleDropdown = (event) => {
-                    event.stopPropagation();
-                    dropdown.classList.toggle('opened');
+                    if(!isDisabled){
+                        event.stopPropagation();
+                        dropdown.classList.toggle('opened');
+                    }
                 };
 
                 const selectOption = (option) => {
@@ -181,6 +191,10 @@
                         dropdown.classList.remove('opened');
                     }
                 };
+
+                const selectFirstOption = () => {
+                    input.value = listOfOptions[0].dataset.id;
+                };
                 // Event Listeners
 
                 body.addEventListener('click', closeDropdownFromOutside);
@@ -192,6 +206,7 @@
                 });
 
                 dropdown.addEventListener('click', toggleDropdown);
+                selectFirstOption();
             })
         </script>
     </div>
