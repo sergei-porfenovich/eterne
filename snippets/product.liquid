@@ -193,6 +193,18 @@
       </div>
     {%- endif -%}
   </div>
+
+  <div class="wrapper">
+    {% comment %}
+      <script type="searchspring/personalized-recommendations" profile="similar">
+          seed = "{{ product.variants[0].sku }}";
+      </script>
+    {% endcomment %}
+
+	<script type="searchspring/personalized-recommendations" profile="recently-viewed">
+      seed = "{{ product.variants[0].sku }}";
+	</script>
+  </div>
 </div>
 
 {% if description_position == 'both' %}
