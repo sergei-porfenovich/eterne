@@ -2875,7 +2875,7 @@ $( document ).ready(function() {
     if (window.MutationObserver && $addToCartForm.length) {
       var config = { childList: true, subtree: true };
       product_variants_removed.forEach(function(item){
-        $('.single-option-selector option').filter(function() { return $(this).text() === item; }).attr('disabled', true);
+        $('.single-option-selector option').filter(function() { return $(this).text() === item; }).attr('sold-out', true);
       });
     }
   }
