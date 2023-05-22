@@ -52,11 +52,20 @@
             <img src="{{ 'search.svg' | asset_url }}" alt="Search" onclick="searchToggle()"/>
         </div>
         <div class="mobile-search__wrapper">
-            <form action="/search" method="get" class="input-group search" role="search">
-                {% if section.settings.search_only_products %}<input type="hidden" name="type" value="product">{% endif %}
-                <button type="submit" class="btn search-btn">SEARCH</button>
-                <input class="search-bar" type="search" name="q" placeholder="SEARCH">
-            </form>
+            {% if settings.ss_enable %}
+                <form action="{{ collections[settings.ss_collection_handle].url }}" method="get" class="input-group search" role="search">
+                    <button type="submit" class="btn search-btn">SEARCH</button>
+                    <input class="search-bar ss__autocomplete__input" type="search" name="q" placeholder="SEARCH">
+                </form>
+            {% else %}
+                <form action="/search" method="get" class="input-group search" role="search">
+                    {% if section.settings.search_only_products %}
+                        <input type="hidden" name="type" value="product">
+                    {% endif %}
+                    <button type="submit" class="btn search-btn">SEARCH</button>
+                    <input class="search-bar" type="search" name="q" placeholder="SEARCH">
+                </form>
+            {% endif %}
         </div>
 
         <script type="text/javascript">
