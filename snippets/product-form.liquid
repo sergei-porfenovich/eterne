@@ -172,10 +172,8 @@
 
                 // Functions
                 const toggleDropdown = (event) => {
-                    if(!isDisabled){
-                        event.stopPropagation();
-                        dropdown.classList.toggle('opened');
-                    }
+                    event.stopPropagation();
+                    dropdown.classList.toggle('opened');
                 };
 
                 const selectOption = (option) => {
