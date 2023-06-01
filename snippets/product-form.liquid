@@ -61,7 +61,7 @@
                                     <div class="x-left"> Only {{ product.variants[forloop.index0].inventory_quantity }} left </div>
                                 {% endif %}
                                 {% if out_of_stock %}
-                                    <div class="notify-me-btn"> Notify me </div>
+                                    <div class="notify-me-btn" data-variantid="{{ product.variants[forloop.index0].id }}" > Notify me </div>
                                 {% endif %}
                             </li>
                         {% endfor %}
@@ -146,7 +146,7 @@
 
         <div class="add-to-cart__wrapper">
           <button type="submit" name="add" data-add-to-cart id="AddToCart-{{ section.id }}" class="btn btn--large btn--full btn--clear uppercase addToCart{% if sold_out %} disabled{% endif %}" {% if sold_out %}disabled="true"{% endif %}>
-            <span id="AddToCartText-{{ section.id }}">{% if sold_out %}{{ 'products.product.sold_out' | t }}{% else %}{{ 'products.product.add_to_cart' | t }}{% endif %}</span>
+            <span id="AddToCartText-{{ section.id }}">{% if sold_out %}{{ 'products.product.add_to_cart' | t }}{% else %}{{ 'products.product.add_to_cart' | t }}{% endif %}</span>
           </button>
           <div id="smartwishlist" data-product="{{ product.id }}" data-variant="{{ product.variants.first.id }}"></div>
         </div>

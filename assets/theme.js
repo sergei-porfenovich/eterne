@@ -2167,7 +2167,7 @@ theme.Product = (function() {
         } else {
           // Sold out, disable the submit button, change text, hide quantity elements
           $(this.selectors.addToCart).addClass('disabled').prop('disabled', true);
-          $(this.selectors.addToCartText).html(theme.strings.soldOut);
+          $(this.selectors.addToCartText).html(theme.strings.addToCart);
           this.$container.removeClass( "variant--unavailabe" ).addClass( "variant--soldout" );
         }
         // Regardless of stock, update the product price
